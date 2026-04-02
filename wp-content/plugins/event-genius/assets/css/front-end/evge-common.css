@@ -1,0 +1,1437 @@
+/**
+Global
+**/
+.evge {
+    width: 100%;
+}
+
+.evge-show-link-wrap a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.evge .evge-content h1,
+.evge .evge-content h2,
+.evge .evge-content h3,
+.evge .evge-content h4 {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.evge .evge-content p {
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+.evge .evge-meta p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+.evge .evge-content svg {
+    display: inline-block;
+}
+
+.evge-hidden {
+    display: none;
+}
+
+.evge-relative {
+    position: relative;
+}
+
+.evge-cols {
+    display: flex;
+    gap: 40px;
+}
+
+.evge-cols .evge-event-single-col-left,
+.evge-cols .evge-event-single-col-right {
+    min-width: 0;
+}
+
+.evge-modal-padding {
+    padding: 30px;
+}
+/* Box Shadow */
+.evge-shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .05), 0 4px 5px rgba(0, 0, 0, .05);
+}
+
+/** Icons and Icon Text **/
+.evge-alert-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+
+}
+
+.evge-cancel-form-wrap .evge-alert-icon.evge-success,
+.evge-alert-icon.evge-success {
+    background: #BEE7D1;
+    color: #399664;
+}
+.evge-cancel-form-wrap .evge-alert-icon.evge-success svg {
+    fill: currentColor;
+}
+.evge-alert-icon.evge-unknown {
+    background: #FFEAD2;
+    color: #D29853;
+}
+.evge-warning-message {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-size: 13px;
+    color: #856404;
+    display: inline-block;
+}
+
+.evge-alert-icon svg {
+    fill: currentColor;
+}
+
+.evge-alert-icon svg {
+    max-width: 50px;
+    width: 100%;
+}
+.evge-icon-link {
+    display: flex;
+    padding: 6px 0;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+}
+.evge-icon-link svg,
+.evge-tooltip-link svg,
+.evge-icon-text svg {
+    height: 1em;
+}
+.evge-icon-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    line-height: 1
+}
+
+/*******
+ * Buttons & Links
+ ******/
+.evge a.evge-button {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 3px;
+    background: #399664;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.evge a.evge-button:hover,
+.evge a.evge-button:active {
+    background: #0C6937;
+    color: #fff;
+}
+
+.evge-button {
+    color: #ffffff;
+    padding: 14px 28px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.evge-green-button {
+    background: #4AB674;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.evge-green-button:hover,
+.evge-green-button:active,
+.evge-green-button:focus {
+    background: #32A35E;
+    color: #fff;
+    border: 0;
+}
+
+/** Modal Submit Button Styling **/
+.evge-modal-submit-wrapper .evge-modal-submit-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 18px;
+}
+.evge-modal-submit-wrapper {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.evge-modal-submit-button {
+    width: 100%;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.evge-modal-submit-button:hover,
+.evge-modal-submit-button:focus {
+    opacity: 0.9;
+}
+
+.evge-modal-submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.evge-secondary {
+    border: 2px solid #f1edee;
+    color: #3C0F1B;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1em;
+    margin-top: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.evge-pill-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 14px;
+    margin: 0 14px 14px 0;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+/** Event List Summary */
+
+.evge-event-list-compact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 20px 0;
+}
+
+/* Two-column layout when there's enough width - uses container width, not viewport */
+.evge-my-registrations-list .evge-event-list-compact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+/** Series CTA Styles */
+
+.evge-series-registration-note {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.evge-no-events-message,
+.evge-closed-message,
+.evge-filled-message {
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #6c757d;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.evge-closed-message,
+.evge-filled-message {
+    background-color: #fff3cd;
+    border-color: #ffeaa7;
+    color: #856404;
+    margin-bottom: 10px;
+}
+.evge .evge-content .evge-event-list-compact  h4{
+    margin: 0 0 4px;
+}
+
+.evge-event-item {
+    display: flex;
+    gap: 20px;
+}
+
+.evge-event-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    min-width: 85px;
+    height: 100%;
+    position: relative;
+}
+
+.evge-event-list .evge-event-date {
+    max-height: 100px;
+}
+
+.evge-event-date .evge-registration-status-icon {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: #FFE198;
+    color: #94701A;
+}
+
+.evge-event-date .evge-registration-status-icon svg {
+    height: 12px;
+    width: 12px;
+}
+
+.evge-event-month {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+
+.evge-event-day {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1;
+}
+.evge-event-details{
+    padding: 5px;
+}
+
+.evge-registration-status-notice {
+    margin-top: 5px;
+}
+.evge-manage-registration-wrap {
+    margin-top: 15px;
+}
+.evge-manage-registration-wrap .evge-cta {
+    margin: 0;
+    font-size: 13px;
+    background: #f9f9f9;
+    padding: 7px 11px;
+    color: #333;
+    border: 1px solid #AAA;
+}
+
+.evge-manage-registration-wrap .evge-cta.evge-complete-registration {
+    background: #FFF7E1;
+    color: #856008;
+    border: 1px solid #E7CE82;
+}
+
+.evge-manage-registration-wrap .evge-cta:hover,
+.evge-manage-registration-wrap .evge-cta:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+.evge-manage-registration-wrap .evge-cta.evge-complete-registration:hover,
+.evge-manage-registration-wrap .evge-cta.evge-complete-registration:active {
+    background: #FFF1D3;
+    color: #856008;
+    border: 1px solid #E7CE82;
+}
+.evge .evge-event-details p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.evge-event-list h4.evge-event-title {
+    margin: 0 0 10px;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.evge-event-meta {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.evge-event-excerpt {
+    padding-top: 10px;
+}
+
+.evge-event-excerpt p {
+    margin: 0 0 10px;
+    font-size: 0.9em;
+}
+
+.evge-cost{
+    border-left: 1px solid #333;
+    padding-left: 8px;
+}
+
+/** Common Profile Layout */
+.evge-profile-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.evge-left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.evge-right-column {
+    flex: 1;
+}
+
+.evge-right-column .evge-title {
+    margin: 0 0 20px;
+}
+
+.evge-hero {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.evge-hero img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.evge-featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.evge-featured-image img{
+    max-width: 100%;
+    height: auto !important;
+    display: block;
+}
+
+.evge-title {
+    margin: 0 0 1.5rem;
+    padding: 0;
+}
+
+.evge .evge-info > p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+}
+
+.evge-icon {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.evge-follow-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.evge-follow-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.evge-follow-row a:hover,
+.evge-follow-row a:focus{
+    background: rgba(0,0,0,0.05);
+}
+
+.evge-follow-row img {
+    height: 20px;
+    width: 20px;
+}
+
+.evge-map {
+    margin-top: 2rem;
+    min-height: 300px;
+}
+
+/** Small Screen Profile Layout */
+.evge-is-small .evge-profile-content {
+    grid-template-columns: 1fr;
+    padding: 0;
+}
+
+.evge-is-small .evge-left-column {
+    max-width: 400px;
+}
+
+.evge-is-small .evge-featured-image {
+    margin-bottom: 0;
+}
+
+.evge-featured-placeholder-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.05);
+}
+/*******
+ * Modal Styles
+ ******/
+.evge-narrow-max-width-modal {
+    max-width: 600px;
+}
+
+.evge-medium-max-width-modal {
+    max-width: 1200px;
+}
+
+.evge-modal-is-open {
+    overflow: hidden;
+}
+
+.evge-modal {
+    box-sizing: border-box;
+    position: fixed;
+    width: calc(100vw - 50px);
+    top: 25px;
+    left: 25px;
+    right: auto;
+    padding: 30px;
+    max-height: calc(100vh - 50px);
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    background: #fff;
+    color: #334155;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.evge-modal .evge-button-link.evge-action-modal-close,
+#evge-modal .evge-button-link.evge-action-modal-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    left: auto;
+    bottom: 0;
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    z-index: 1000;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    transition-property: border, background;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+}
+
+.evge-modal .evge-button-link.evge-action-modal-close path {
+    stroke: #aaa;
+}
+
+.evge-modal .evge-button-link.evge-action-modal-close:hover path,
+.evge-modal .evge-button-link.evge-action-modal-close:active path {
+    stroke: #333;
+}
+
+.evge-media-modal-icon {
+    display: block;
+}
+
+.evge-modal .evge-button-link {
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.evge-modal .evge-modal-inner-pad {
+    margin: 40px 30px;
+}
+
+.evge-modal-is-open .evge-modal {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 999999;
+}
+
+.evge-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-out;
+    z-index: 999998;
+}
+
+.evge-modal-is-open .evge-modal-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.evge-modal-placeholder {
+    width: 100%;
+    min-height: 200px;
+}
+
+.evge-modal-content .evge-cols {
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.evge-modal-event-details {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.evge-modal-featured-image {
+    margin-bottom: 10px;
+}
+
+.evge-modal-title {
+    margin-bottom: 8px;
+}
+.evge-modal-col {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.evge-modal-col-right {
+    width: 70%;
+}
+.evge-narrow-modal-inner {
+    padding: 20px;
+}
+
+.evge-modal-section {
+    padding: 20px 0;
+}
+
+.evge-modal-section-heading {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.evge-modal-cost-details,
+.evge-modal-quantity-summary,
+.evge-checkout-summary {
+    margin: 10px 0;
+    border: 1px solid #BFA4AB;
+    padding: 17px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.evge-modal-line-item {
+    display: flex;
+    gap: 10px;
+    margin: 10px 20px;
+}
+
+.evge-line-item-left {
+    display: flex;
+    gap: 3px;
+    width: 60%;
+}
+
+.evge-line-item-right {
+    width: 40%;
+    text-align: right;
+}
+
+.evge-line-item-left,
+.evge-line-item-right {
+    line-height: 1;
+}
+
+.evge-line-item-break {
+    margin: 22px 0;
+    color: #CECECE;
+    border-width: 1px;
+}
+
+.evge-modal-line-large {
+    font-size: 18px;
+    font-weight: bold;
+}
+.evge-cancel-request-message {
+    text-align: center;
+}
+/*******
+ * Modal Focus Styles
+ ******/
+.evge-modal button:focus,
+.evge-modal input:focus,
+.evge-modal select:focus,
+.evge-modal textarea:focus,
+.evge-modal [tabindex]:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 2px;
+}
+
+/*******
+ * Modal Media Queries
+ ******/
+@media all and (min-width: 1040px) {
+    .evge-modal {
+        width: 1040px;
+        left: 50%;
+        margin-left: -520px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .evge-modal {
+        width: 1200px;
+        left: 50%;
+        margin-left: -600px;
+    }
+}
+
+@media all and (min-width: 650px) {
+    .evge-modal.evge-narrow-max-width-modal {
+        width: 600px;
+        left: 50%;
+        margin-left: -300px;
+    }
+}
+
+@media all and (max-width: 725px) {
+    .evge-modal {
+        padding: 20px;
+        top: 15px;
+        left: 15px;
+        width: calc(100vw - 30px);
+        max-height: calc(100vh - 30px);
+    }
+
+    .evge-modal .evge-modal-inner-pad {
+        margin: 20px 15px;
+    }
+
+    .evge-narrow-modal-inner {
+        padding: 15px;
+    }
+
+    .evge-modal-section {
+        padding: 15px 0;
+    }
+
+    .evge-modal-cost-details,
+    .evge-modal-quantity-summary,
+    .evge-checkout-summary {
+        padding: 12px 10px;
+    }
+
+    .evge-modal-line-item {
+        margin: 10px 15px;
+    }
+
+    .evge-modal .evge-modal-content .evge-cols {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .evge-modal-col-right {
+        width: 100%;
+    }
+
+    .evge-modal .evge-registration-form-wrap {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .evge-modal {
+        padding: 35px 15px 15px;
+        top: 10px;
+        left: 10px;
+        width: calc(100vw - 20px);
+        max-height: calc(100vh - 20px);
+    }
+
+    .evge-modal .evge-modal-inner-pad {
+        margin: 15px 10px;
+    }
+
+    .evge-narrow-modal-inner {
+        padding: 10px;
+    }
+
+    .evge-modal-section {
+        padding: 12px 0;
+    }
+
+    .evge-modal-cost-details,
+    .evge-modal-quantity-summary,
+    .evge-checkout-summary {
+        padding: 10px 8px;
+    }
+
+    .evge-modal-line-item {
+        margin: 8px 10px;
+    }
+}
+
+/**
+Spinner
+ */
+@keyframes evgespin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.evge-modal-is-open .evge-modal.evge-is-processing .evge-modal-content,
+.evge-standalone-registration-form.evge-is-processing .evge-form-wrapper,
+.evge-single-event-cta.evge-is-processing .evge-dynamic-content-inner {
+    opacity: .6;
+}
+.evge-is-processing .evge-spinner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -19px 0 0 -19px;
+}
+.evge-is-processing .evge-spinner-circle {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 8px solid rgba(15, 84, 104, 0.2);
+    border-top-color: #1D6E85;
+    -webkit-animation: evgespin 1s infinite linear;
+    animation: evgespin 1s infinite linear;
+}
+
+/**
+ * Dynamic Content Refresh Loading States
+ * Uses existing evge-is-processing pattern for consistency
+ */
+.evge-dynamic-content {
+    position: relative;
+}
+
+/* CTA overlay spinner (already handled by .evge-is-processing .evge-spinner-container) */
+
+/* Inline elements (about items, etc.) - spinner appears inline */
+.evge-dynamic-content.evge-is-processing:not(.evge-single-event-cta) .evge-spinner-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.evge-dynamic-content.evge-is-processing:not(.evge-single-event-cta) .evge-spinner-circle {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 3px solid rgba(15, 84, 104, 0.2);
+    border-top-color: #1D6E85;
+    -webkit-animation: evgespin 1s infinite linear;
+    animation: evgespin 1s infinite linear;
+    display: block;
+}
+.evge-modal-reveal {
+    display: none;
+}
+
+/*******
+ * Utility Classes
+ ******/
+ .evge-multi-line-align {
+     margin-left: 28px;
+ }
+
+ .evge-single-about-details {
+     margin-top: 12px;
+ }
+.evge .evge-event-meta-item svg {
+    height: 18px;
+    position: relative;
+    top: 2px;
+}
+.evge .evge-grid-layout .evge-event-meta-item svg {
+    top: 0;
+}
+ .evge-single-about-details {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+
+ .evge-bold {
+     font-weight: bold;
+ }
+
+ .evge-about-detail {
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     padding: 12px 14px 12px 12px;
+     border-radius: 50px;
+     font-size: 0.8em;
+     line-height: 1.2;
+ }
+
+ .evge-about-detail svg {
+     fill: #0F425E;
+ }
+.evge-beige {
+    background: #F7F5F5;
+    color: #3C0F1B;
+    border: 1px solid #f1edee;
+}
+
+.evge-beige-background,
+#evge-export-options-dropdown .evge-beige {
+    background: #F7F5F5;
+    color: #3C0F1B;
+}
+
+.evge-blue-gray-background {
+    background: #F0F7FB;
+    color: #0F423E;
+}
+
+.evge-single-about-details .evge-about-detail {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.evge-single-about-details a .evge-about-detail-attendees {
+    box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.evge-events-single-main .evge-single-about-details a .evge-about-detail-attendees:hover,
+.evge-events-single-main .evge-single-about-details a .evge-about-detail-attendees:focus {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.evge-beige:hover {
+    color: #3C0F1B;
+    background: #f1edee;
+}
+
+.evge-beige.evge-secondary:hover {
+    color: #3C0F1B;
+    background: #f1edee;
+    border: 2px solid #f1edee;
+}
+
+.evge-map-wrap,
+.evge-map-wrap iframe {
+    margin: 10px 0;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.evge-show-link-wrap {
+    display: inline-block;
+}
+
+.evge-meta .evge-map-link {
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.evge-event-meta-item .evge-show-link-wrap svg {
+    width: 8px;
+}
+
+.evge-cancel-request-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.evge-message-center {
+    text-align: center;
+}
+.evge-left-dynamic .evge-message-center {
+    margin-top: 20%;
+}
+.evge-cancel-form-wrap .evge-message-center{
+    margin-top: 0;
+}
+.evge-standalone-dynamic {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evge-standalone-dynamic .evge-message-centered-content,
+.evge-standalone-dynamic .evge-message-center {
+    margin: 0;
+}
+
+.evge-screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+a.evge-more {
+    color: #1A79C1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.evge-more:hover,
+a.evge-more:focus {
+    text-decoration: underline;
+}
+
+/*******
+ * Dark Mode
+ ******/
+.evge-color-theme-dark .evge-follow-row a {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.evge-color-theme-dark .evge-follow-row a:hover,
+.evge-color-theme-dark .evge-follow-row a:focus {
+    background: rgba(255, 255, 255, 1);
+}
+
+.evge-color-theme-dark .evge-icon {
+    fill: rgba(255, 255, 255, 0.8);
+}
+
+.evge-color-theme-dark .evge-event-date {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.evge-color-theme-dark .evge-organizers-single-main .evge-info .evge-icon {
+    fill: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.5);
+    height: 22px;
+    width: 23px;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.evge-color-theme-dark .evge-single-about-details .evge-about-detail {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.evge-color-theme-dark .evge-single-about-details .evge-about-detail:hover,
+.evge-color-theme-dark .evge-single-about-details .evge-about-detail:active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.evge-color-theme-dark .evge-about-detail svg {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.evge-color-theme-dark .evge-single-about-details .evge-about-detail-attendees {
+    box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.evge-color-theme-dark .evge-export-list,
+.evge-color-theme-dark .evge-secondary.evge-export-list {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.evge-color-theme-dark .evge-export-list:hover,
+.evge-color-theme-dark .evge-secondary.evge-export-list:hover,
+.evge-color-theme-dark .evge-export-list:active,
+.evge-color-theme-dark .evge-export-list:focus,
+.evge-color-theme-dark .evge-secondary.evge-export-list:active,
+.evge-color-theme-dark .evge-secondary.evge-export-list:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.evge-color-theme-dark .evge-featured-placeholder-wrap {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.evge-color-theme-dark .evge-cta,
+.evge-color-theme-dark .evge-single-event-cta .evge-cta {
+    background: rgba(255, 255, 255, 1);
+    color: #333;
+}
+
+.evge-color-theme-dark .evge-cta:hover,
+.evge-color-theme-dark .evge-cta:active,
+.evge-color-theme-dark .evge-single-event-cta .evge-cta:hover,
+.evge-color-theme-dark .evge-single-event-cta .evge-cta:active {
+    background: rgba(255, 255, 255, 0.9);
+    color: #222;
+}
+
+.evge-color-theme-dark .evge-more {
+    color: #fff;
+}
+
+/* Dark theme modal links */
+.evge-modal.evge-modal-dark a {
+    color: #1A79C1;
+}
+
+.evge-modal.evge-modal-dark a:hover,
+.evge-modal.evge-modal-dark a:focus {
+    color: #085FA2;
+}
+
+.evge-modal.evge-modal-dark a:active {
+    color: #06497C;
+}
+
+/*******
+ * Utility Classes
+ ******/
+ .evge-flex {
+     display: flex;
+ }
+
+.evge-flex-center,
+.wp-core-ui .evge-flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.evge-tooltip-setting {
+    align-items: center;
+    gap: 8px;
+}
+
+/*******
+ * Notice Styles
+ ******/
+/* Notice Base Styles - Shared Layout */
+.evge-notice-base {
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.evge-notice-base p {
+    margin: 0 !important;
+}
+
+.evge-notice-base .evge-notice-icon {
+    margin: 4px 3px 0 0;
+}
+
+/* Exclamation Notice - Specific Colors */
+.evge-exclamation-notice {
+    color: #333;
+    background: #E6E6E6;
+}
+
+.evge-exclamation-notice svg {
+    fill: #aaa;
+}
+
+.evge-exclamation-notice .evge-notice-icon {
+    margin: 4px 3px 0 0;
+}
+
+/*******
+ * Status Styles
+ ******/
+/** statuses and color **/
+.evge-registration-column-status {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 5px;
+    word-wrap: normal;
+    font-size: 13px;
+}
+
+.evge-status-confirmed,
+.evge-status-complete {
+    background: #D0EEDA;
+    color: #298648;
+}
+
+.evge-status-pending,
+.evge-status-processing,
+.evge-status-offline {
+    background: #FFE198;
+    color: #94701A;
+}
+
+.evge-status-canceled,
+.evge-destructive,
+.evge-status-abandoned {
+    background: #F6D6D1;
+    color: #B35545;
+}
+
+.evge-status-processing {
+    background: #D5E9F8;
+    color: #3781BA;
+}
+
+button.evge-destructive {
+    border: 1px solid #DCB0A8;
+}
+
+.evge-destructive:hover,
+.evge-destructive:active,
+.evge-status-abandoned:hover,
+.evge-status-abandoned:active {
+    background: #f5d0ca;
+}
+
+/* Attendance status styles */
+.evge-status-attended {
+    background: #EAFCF1;
+    color: #4AB674;
+}
+
+.evge-status-noshow {
+    background: #FFF4F2;
+    color: #D37362;
+}
+
+.evge-status-excused {
+    background: #E8F4FD;
+    color: #3781BA;
+}
+
+.evge-status-unknown {
+    background: #e2e3e5;
+    color: #6c757d;
+}
+
+
+.evge-registration-status-display .evge-registration-column-status {
+    width: auto;
+    display: inline-block;
+}
+
+/** Summary Item Styles */
+.evge-your-registration-title {
+    margin-bottom: 20px;
+}
+.evge-summary-item {
+    margin-bottom: 12px;
+}
+
+.evge-your-registration-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.evge-management-wrap .evge-button.evge-edit-registration-button {
+    flex-shrink: 0;
+    background-color: #E4E4E4;
+    color: #666666;
+}
+
+.evge-management-wrap .evge-button.evge-edit-registration-button:hover,
+.evge-management-wrap .evge-button.evge-edit-registration-button:active,
+.evge-management-wrap .evge-button.evge-edit-registration-button:focus {
+    background-color: #D4D4D4;
+    color: #555555;
+}
+
+.evge-summary-item-label {
+    font-size: 14px;
+}
+
+/* Management Actions - Right Side Layout */
+.evge-management-actions-right {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.evge-management-actions-right .evge-button {
+    height: auto;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Two buttons: side by side */
+.evge-management-actions-right .evge-action-button-2 {
+    flex: 1;
+}
+
+.evge-management-actions-right:has(.evge-action-button-2) {
+    flex-direction: row;
+}
+
+/* Three buttons: first 100% width, others side by side below */
+.evge-management-actions-right .evge-action-button-3-first {
+    width: 100%;
+}
+
+.evge-management-actions-right .evge-action-button-3-others {
+    width: calc(50% - 5px);
+}
+
+/* For browsers that don't support :has, use a wrapper approach */
+.evge-management-actions-right.evge-actions-2-buttons {
+    flex-direction: row;
+}
+
+.evge-edit-back-button-wrap {
+    margin-bottom: 10px;
+}
+
+.evge-management-actions-right.evge-actions-2-buttons .evge-action-button-2 {
+    flex: 1;
+}
+
+.evge-management-actions-right.evge-actions-3-buttons {
+    flex-wrap: wrap;
+}
+
+.evge-management-actions-right.evge-actions-3-buttons .evge-action-button-3-first {
+    width: 100%;
+}
+
+.evge-actions-row-2-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.evge-management-actions-right.evge-actions-3-buttons .evge-action-button-3-others {
+    width: calc(50% - 5px);
+}
+
+/* Ensure Cancel Registration is always secondary (override primary if first) */
+.evge-management-actions-right .evge-button-danger.evge-button-primary {
+    background-color: #F6D6D1;
+    color: #B35545;
+}
+
+.evge-management-actions-right .evge-button-danger.evge-button-primary:hover,
+.evge-management-actions-right .evge-button-danger.evge-button-primary:active,
+.evge-management-actions-right .evge-button-danger.evge-button-primary:focus {
+    background-color: #f5d0ca;
+}
+.evge-management-actions-right .evge-button-primary {
+    background: #4AB674;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.evge-management-actions-right .evge-button-primary:hover:not(:disabled),
+.evge-management-actions-right .evge-button-primary:active,
+.evge-management-actions-right .evge-button-primary:focus {
+    background: #32A35E;
+    color: #fff;
+    border: 0;
+}
+
+.evge-secondary.evge-export-list,
+.evge .evge-secondary.evge-export-list,
+.evge-secondary.evge-gray-button,
+.evge .evge-secondary.evge-gray-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #333;
+}
+
+.evge-secondary.evge-export-list:hover,
+.evge .evge-secondary.evge-export-list:hover,
+.evge-secondary.evge-gray-button:hover,
+.evge .evge-secondary.evge-gray-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #333;
+}
+/* Edit Registration Back Button */
+
+.evge-back-button {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Misc Edit Registration Styles */
+.evge-button.evge-file-upload-change {
+    border: 1px solid #B8B8B8;
+}
+

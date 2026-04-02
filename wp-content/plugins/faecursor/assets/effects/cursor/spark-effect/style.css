@@ -1,0 +1,30 @@
+.faespark {
+  animation: faeSparkMove 0.8s ease-out forwards;
+}
+
+@keyframes faeSparkMove {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--x), var(--y)) scale(0);
+    opacity: 0;
+  }
+}
+
+.faespark-particle {
+  animation: faeSparkBurst 0.5s ease-out forwards;
+}
+
+@keyframes faeSparkBurst {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--x), var(--y)) scale(0);
+    opacity: 0;
+  }
+}
+

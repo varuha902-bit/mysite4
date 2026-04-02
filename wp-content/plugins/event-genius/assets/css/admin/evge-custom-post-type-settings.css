@@ -1,0 +1,667 @@
+
+
+
+
+.evge-standout-box {
+    border: 1px solid #eaeaea;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/** icons **/
+.evge-detail-row svg,
+#evge-show-canceled .evge-icon-text svg{
+    height: 1em;
+}
+
+.evge-single-setting-wrap .evge-add-button{
+    display: flex;
+}
+.evge-add-button .evge-icon-text svg{
+    width: 8px;
+    height: 8px;
+}
+.evge-icon-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    line-height: 1
+}
+.evge-single-setting-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 2px;
+}
+.evge-single-wrap textarea,
+#evge-event-metabox,
+#evge-registration-metabox {
+    width: 100%;
+}
+.evge-single-section {
+    margin-bottom: 15px;
+}
+.evge-extra-setting {
+    margin-top: 10px;
+    padding: 0 1px;
+}
+#evge-single-recurrence-schedule{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+#evge-single-recurrence-schedule .evge-single-wrap{
+    margin-bottom: 0;
+}
+.evge-single-section h4,
+#evge-single-setting-summary label{
+    margin: 10px 0;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 600;
+}
+#evge-single-setting-summary label{
+    margin-bottom: 8px;
+}
+#evge-single-setting-allow_registration label{
+    margin-bottom: 5px;
+}
+
+/* Venue and Organizer single page settings */
+#evge-venue-metabox .evge-single-section,
+#evge-name-metabox .evge-single-section {
+    max-width: 600px;
+}
+
+#evge-venue-metabox .evge-setting-field,
+#evge-name-metabox .evge-setting-field {
+    width: 100%;
+}
+
+#evge-venue-metabox .evge-settings-grid--3-columns .evge-setting-field,
+#evge-name-metabox .evge-settings-grid--3-columns .evge-setting-field {
+    width: 32.3%;
+}
+
+#evge-venue-metabox .evge-settings-grid--3-columns,
+#evge-venue-metabox .evge-settings-grid--2-columns,
+#evge-name-metabox .evge-settings-grid--3-columns,
+#evge-name-metabox .evge-settings-grid--2-columns {
+    gap: 1.5%;
+}
+
+#evge-venue-metabox .evge-settings-grid--2-columns .evge-setting-field,
+#evge-name-metabox .evge-settings-grid--2-columns .evge-setting-field {
+    width: 49.2%;
+}
+#evge-name-metabox .evge-settings-grid--2-columns .evge-setting-field {
+    margin-bottom: 10px;
+}
+
+#evge-venue-metabox input,
+#evge-name-metabox input {
+    width: 100%;
+}
+
+#evge-venue-metabox .evge-settings-grid,
+#evge-name-metabox .evge-settings-grid {
+    margin-bottom: 10px;
+}
+
+#evge-venue-metabox .evge-single-setting-label,
+#evge-name-metabox .evge-single-setting-label {
+    margin-bottom: 0;
+}
+
+#evge-venue-metabox .evge-tooltip-wrap,
+#evge-name-metabox .evge-tooltip-wrap {
+    top: -1px;
+}
+
+#evge-venue-metabox textarea,
+#evge-name-metabox textarea {
+    height: 75px;
+}
+
+/* Remove old organizer-specific styles */
+#evge-name-metabox .evge-settings-list-item,
+#evge-name-metabox .evge-settings-list-item label {
+    display: block;
+}
+
+#evge-name-metabox .evge-settings-list {
+    margin-left: 0;
+}
+
+.evge-main-setting-label{
+    display: block;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+.evge-multi-select-list {
+    display: flex;
+    gap: 7px;
+}
+.evge-settings-group-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.evge-single-setting-wrap {
+    margin-bottom: 6px;
+}
+.evge-single-wrap {
+    margin-bottom: 8px;
+}
+.evge-sub-section-wrap {
+    margin-bottom: 18px;
+}
+.evge-single-wrap input[type=text]{
+    width: 100%;
+    max-width: 350px;
+}
+.evge-single-wrap textarea {
+    max-width: 700px;
+    padding: 7px 10px;
+}
+#evge-single-setting-cost_settings{
+    max-width: 700px;
+}
+#evge-single-setting-cost_settings .evge-setting-field:last-child{
+    flex: 1;
+}
+.evge-single-wrap select{
+    min-width: 200px;
+}
+.evge-venue-quick-create,
+.evge-organizer-quick-create{
+    margin-top: 10px;
+}
+.evge-venue-quick-create,
+.evge-venue-quick-create input[type=text],
+.evge-organizer-quick-create,
+.evge-organizer-quick-create input[type=text] {
+    max-width: 500px;
+}
+.evge-section-explanation,
+.evge-registration-default-setting {
+    background: #DFE9F1;
+    color: #00355D;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.evge-section-explanation{
+    margin-bottom: 12px;
+}
+.evge-section-explanation svg{
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+.evge-settings-list {
+    margin-left: 16px;
+}
+.evge-settings-list .evge-settings-list-item,
+.evge-settings-list .evge-setting-field {
+    display: flex;
+    margin-bottom: 8px;
+}
+.evge-restriction-date-wrap{
+    margin-bottom: 12px;
+}
+.evge-restriction-date-wrap input[type=number] {
+    max-width: 64px;
+}
+.evge-item-list {
+    box-sizing: border-box;
+}
+.evge-registration-type {
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+}
+.evge-registration-type-settings-wrap {
+    width: calc(100% - 30px);
+    padding: 14px;
+    margin: 10px 0;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+.evge-registration-type-settings-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.evge-cost-settings input[type=text],
+.evge-single-section input[type=number]{
+    width: 100px;
+    max-width: 100px;
+}
+.evge-cost-settings .evge-single-setting-wrap:last-child,
+.evge-cost-settings .evge-single-setting-wrap:last-child input{
+    width: 100%;
+    max-width: 480px;
+}
+.evge-organizer-quick-create .evge-settings-list-item{
+    flex-direction: unset;
+}
+.evge-organizer-quick-create .evge-settings-list,
+.evge-venue-quick-create .evge-settings-list{
+    margin: 5px 0 0;
+}
+.evge-organizer-quick-create .evge-settings-list label,
+.evge-venue-quick-create .evge-settings-list label{
+    padding: 5px 5px 0 0;
+}
+.evge-flex-wrap{
+    display: flex;
+    gap: 8px;
+}
+.evge-unlimited-capacity{
+    margin-top: 5px;
+}
+.evge-unlimited-capacity input{
+    position: relative;
+    top: 1px;
+}
+
+/* Quick create form */
+.evge-quick-create-form input{
+    width: 100%;
+}
+.evge-quick-create-form .evge-settings-grid{
+    display: block;
+    margin-top: 6px;
+}
+.evge-quick-create-form .evge-2-cols .evge-settings-grid{
+    display: inline-block;
+    width: 48.9%;
+}
+.evge-quick-create-form .evge-2-cols .evge-settings-grid:nth-child(odd){
+    margin-right: 1%;
+}
+
+
+/* Box Shadow - Admin Context
+ * Source of truth: assets/css/front-end/evge-common.css
+ * Kept here for admin-only contexts where evge-common.css may not be loaded
+ */
+.evge-shadow {
+    box-shadow: 0 2px 2px rgba(0,0,0,.05), 0 4px 5px rgba(0,0,0,.05);
+}
+
+/** Tooltips **/
+.evge-tooltip-wrap .evge-tooltip-link{
+    display: flex;
+    align-items: center;
+}
+.evge-tooltip-wrap .evge-tooltip {
+    display: none;
+    position: absolute;
+    width: 320px;
+    background: #1A79C1;
+    color: #fff;
+    bottom: 24px;
+    left: -25px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    z-index: 100;
+}
+.evge-tooltip-wrap {
+    position: relative;
+}
+.evge-tooltip-wrap:hover .evge-tooltip{
+    display: block;
+}
+.evge-tooltip p {
+    padding: 0;
+    margin: 0;
+}
+.evge-tooltip-wrap .evge-tooltip::after {
+    left: 33px;
+}
+
+/** Buttons **/
+.evge-item-trash {
+    display: flex;
+    align-content: center;
+}
+.evge-item-trash svg {
+    height: 16px;
+    color: #666;
+}
+.evge-item-trash:hover svg{
+    cursor: pointer;
+    color: #333;
+}
+
+.evge-tiny-button {
+    display: inline-block;
+    padding: 0;
+    font-size: .9em;
+}
+.evge-tiny-button:hover {
+    color: #0a4b78;
+    cursor: pointer;
+}
+
+.evge-datetime-settings-grid {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.evge-datetime-settings-grid .evge-datetime-field:last-child{
+    margin-left: 15px;
+}
+#evge-single-setting-all-day .evge-toggle-setting{
+    gap: 8px;
+}
+
+.evge-datetime-separator {
+    font-size: 1.2em;
+    padding: 0 8px 8px 8px;
+    flex: 0 0 auto;
+}
+
+.evge-datetime-field input[type="datetime-local"],
+.evge-datetime-field select {
+    width: 100%;
+}
+
+.evge-multi-select-list select {
+    /* flex: 1; */
+    max-width: 350px;
+}
+
+.evge-item-remove {
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.evge-item-remove:hover {
+    color: #d63638;
+}
+
+.evge-item-remove svg {
+    height: 8px;
+    width: 8px;
+}
+
+.evge-add-item-link {
+    color: #2271b1;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.evge-add-item-link:hover {
+    color: #135e96;
+}
+
+.evge-primary-item {
+    margin-bottom: 12px;
+}
+.evge-multi-select-list .evge-primary-item {
+    margin-bottom: 6px;
+}
+
+.evge-primary-item .evge-tiny-button {
+    margin-left: 4px;
+}
+
+/* Hide the add button when no option is selected */
+.evge-single-wrap:only-child .evge-item-remove {
+    display: none;
+}
+
+.evge-quick-create-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.evge-quick-create-header h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.evge-settings-grid {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.evge-setting-field input[type="text"] {
+    width: 100%;
+}
+
+.evge-setting-field input.evge-small-text {
+    width: 60px;
+}
+
+.evge-setting-field input.evge-medium-text {
+    width: 120px;
+}
+
+/* Preserve existing styles for labels */
+.evge-setting-field .evge-single-setting-label {
+    margin-bottom: 4px;
+}
+
+/* Update existing styles to better handle number inputs */
+.evge-setting-field input[type="text"],
+.evge-setting-field input[type="number"] {
+    min-width: 100px;
+}
+
+.evge-registration-enabled-wrap .evge-flex {
+    gap: 32px;
+}
+
+.evge-registration-default-setting input[type=checkbox] {
+    margin: 0 3px 2px 0;
+}
+
+.evge-single-section input[type="number"] {
+    width: 100px;
+}
+
+/* Style disabled state */
+.evge-capacity-input input[type="number"]:disabled {
+    background-color: #f0f0f1;
+    color: #999;
+}
+
+.evge-timeline-grid {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.evge-timeline-field select,
+.evge-timeline-field input[type="datetime-local"] {
+    width: 100%;
+}
+.evge-timeline-field input[type="datetime-local"]{
+    margin-top: 8px;
+}
+.evge-open-type-sub select,
+.evge-close-type-sub select{
+    width: auto;
+}
+
+.evge-timeline-offset {
+    margin-top: 8px;
+    gap: 8px;
+}
+.evge-timeline-offset input[type="number"] {
+    width: 80px;
+}
+.evge-radio-group {
+    display: flex;
+    gap: 20px;
+    margin: 5px 0;
+}
+.evge-radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.evge-radio-group input[type="radio"] {
+    margin: 0;
+}
+.evge-multi-select-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 8px;
+}
+.evge-multi-select-actions .evge-add-item-link {
+    margin-top: 0;
+}
+.evge-image-upload-wrap {
+    margin-bottom: 16px;
+}
+.evge-image-preview img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.evge-remove-image {
+    margin-left: 8px;
+}
+
+.evge-capacity-settings-wrap .evge-toggle-setting {
+    gap: 8px;
+}
+#evge-single-setting-who_can_see_attendee_list{
+    margin-top: 16px;
+}
+
+/* Media queries */
+@media all and (max-width: 800px){
+    .evge-datetime-settings-grid .evge-datetime-field:last-child,
+    .evge-datetime-settings-grid .evge-datetime-field  {
+        margin: 0 0 8px 0;
+    }
+}
+@media all and (max-width: 600px){
+    .evge-timeline-grid {
+        display: block;
+    }
+    .evge-timeline-field{
+        margin-bottom: 10px;
+    }
+}
+
+.evge-hidden {
+    display: none;
+}
+
+/* Progress bar styles */
+.evge-progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.evge-progress-bar {
+    height: 100%;
+    background-color: #2271b1;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.evge-progress-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Blocks and Shortcodes Section */
+
+.evge-blocks-shortcodes-intro {
+    margin-bottom: 15px;
+}
+
+.evge-blocks-shortcodes-intro p {
+    margin-bottom: 15px;
+    color: #646970;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.evge-blocks-shortcodes-wrap .evge-collapsible-toggle {
+    margin-top: 10px;
+}
+
+.evge-blocks-shortcodes-content-wrapper {
+    margin-top: 15px;
+}
+
+.evge-blocks-shortcodes-content {
+    padding: 15px 0;
+}
+
+.evge-blocks-shortcodes-item {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.evge-blocks-shortcodes-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.evge-blocks-shortcodes-item h4 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.evge-blocks-shortcodes-item p {
+    margin: 0 0 15px 0;
+    font-size: 13px;
+    color: #646970;
+    line-height: 1.5;
+}
+
+.evge-blocks-shortcodes-item .evge-shortcode-example,
+.evge-blocks-shortcodes-item .evge-block-example {
+    margin-top: 15px;
+}
+
+.evge-blocks-shortcodes-item .evge-shortcode-example strong,
+.evge-blocks-shortcodes-item .evge-block-example strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #1d2327;
+}
+
+.evge-blocks-shortcodes-item .evge-block-example p {
+    margin-bottom: 8px;
+}
+
+.evge-blocks-shortcodes-item .evge-block-name {
+    font-family: monospace;
+    font-size: 13px;
+    color: #1d2327;
+    background: #f0f0f1;
+    padding: 4px 8px;
+    border-radius: 3px;
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+.faeleaf {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  will-change: transform;
+  transform-origin: center center;
+  z-index: 9999;
+  contain: layout style paint;
+  backface-visibility: hidden;
+}

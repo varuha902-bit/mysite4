@@ -1,0 +1,308 @@
+# Translation of Plugins - Simple Social Icons - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Simple Social Icons - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-11 18:34:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Simple Social Icons - Stable (latest release)\n"
+
+#. Author URI of the plugin
+#: simple-social-icons.php
+msgid "https://www.osompress.com/"
+msgstr "https://www.osompress.com/"
+
+#. Author of the plugin
+#: simple-social-icons.php
+msgid "OsomPress"
+msgstr "OsomPress"
+
+#: simple-social-icons.php:153
+msgid "Amazon"
+msgstr "Amazon"
+
+#: simple-social-icons.php:152
+msgid "Amazon URI"
+msgstr "Amazon URI"
+
+#: simple-social-icons.php:197
+msgid "Goodreads"
+msgstr "GoodReads"
+
+#: simple-social-icons.php:196
+msgid "Goodreads URI"
+msgstr "GoodReads URI"
+
+#: simple-social-icons.php:217
+msgid "Meetup"
+msgstr "Meetup"
+
+#: simple-social-icons.php:216
+msgid "Meetup URI"
+msgstr "Meetup URI"
+
+#: simple-social-icons.php:233
+msgid "Reddit"
+msgstr "Reddit"
+
+#: simple-social-icons.php:232
+msgid "Reddit URI"
+msgstr "Reddit URI"
+
+#: simple-social-icons.php:257
+msgid "TikTok"
+msgstr "TikTok"
+
+#: simple-social-icons.php:256
+msgid "TikTok URI"
+msgstr "TikTok URI"
+
+#: simple-social-icons.php:261
+msgid "Tripadvisor"
+msgstr "TripAdvisor"
+
+#: simple-social-icons.php:260
+msgid "Tripadvisor URI"
+msgstr "TripAdvisor URI"
+
+#: simple-social-icons.php:277
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: simple-social-icons.php:276
+msgid "WhatsApp URI"
+msgstr "WhatsApp URI"
+
+#: simple-social-icons.php:281
+msgid "xing"
+msgstr "XING"
+
+#: simple-social-icons.php:273
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: simple-social-icons.php:265
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: simple-social-icons.php:205
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: simple-social-icons.php:201
+msgid "Instagram"
+msgstr "Instagram"
+
+#: simple-social-icons.php:189
+msgid "Flickr"
+msgstr "Flickr"
+
+#: simple-social-icons.php:173
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: simple-social-icons.php:229
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: simple-social-icons.php:185
+msgid "Facebook"
+msgstr "Facebook"
+
+#: simple-social-icons.php:193
+msgid "GitHub"
+msgstr "GitHub"
+
+#: simple-social-icons.php:237
+msgid "RSS"
+msgstr "RSS"
+
+#: simple-social-icons.php:269
+msgid "Twitter"
+msgstr "Twitter"
+
+#: simple-social-icons.php:285
+msgid "YouTube"
+msgstr "YouTube"
+
+#: simple-social-icons.php:157
+msgid "Behance"
+msgstr "Behance"
+
+#: simple-social-icons.php:161
+msgid "Bloglovin"
+msgstr "Bloglovin'"
+
+#: simple-social-icons.php:156
+msgid "Behance URI"
+msgstr "URL-адрес Behance"
+
+#: simple-social-icons.php:213
+msgid "Medium"
+msgstr "Medium"
+
+#: simple-social-icons.php:212
+msgid "Medium URI"
+msgstr "URL-адрес Medium"
+
+#: simple-social-icons.php:221
+msgid "Periscope"
+msgstr "Periscope"
+
+#: simple-social-icons.php:220
+msgid "Periscope URI"
+msgstr "URL-адрес Periscope"
+
+#: simple-social-icons.php:280
+msgid "Xing URI"
+msgstr "URL-адрес XING"
+
+#: simple-social-icons.php:177
+msgid "Email"
+msgstr "Email"
+
+#: simple-social-icons.php:423
+msgid "Icon Color:"
+msgstr "Цвет значка:"
+
+#: simple-social-icons.php:425
+msgid "Icon Hover Color:"
+msgstr "Цвет значка при наведении:"
+
+#: simple-social-icons.php:225
+msgid "Phone"
+msgstr "Phone"
+
+#: simple-social-icons.php:224
+msgid "Phone URI"
+msgstr "URL-адрес Phone"
+
+#: simple-social-icons.php:241
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: simple-social-icons.php:240
+msgid "Snapchat URI"
+msgstr "URL-адрес Snapchat"
+
+#: simple-social-icons.php:417
+msgid "Align Right"
+msgstr "По правому краю"
+
+#: simple-social-icons.php:427
+msgid "Background Color:"
+msgstr "Цвет фона:"
+
+#: simple-social-icons.php:429
+msgid "Background Hover Color:"
+msgstr "Цвет фона при наведении курсора:"
+
+#: simple-social-icons.php:431
+msgid "Border Color:"
+msgstr "Цвет границы:"
+
+#. Plugin URI of the plugin
+#: simple-social-icons.php
+msgid "https://wordpress.org/plugins/simple-social-icons/"
+msgstr "https://wordpress.org/plugins/simple-social-icons/"
+
+#: simple-social-icons.php:433
+msgid "Border Hover Color:"
+msgstr "Цвет границы при наведении курсора:"
+
+#: simple-social-icons.php:415
+msgid "Align Left"
+msgstr "По левому краю"
+
+#: simple-social-icons.php:416
+msgid "Align Center"
+msgstr "По центру"
+
+#: simple-social-icons.php:413
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: simple-social-icons.php:402
+msgid "Open links in new window?"
+msgstr "Открывать ссылки в новом окне?"
+
+#: simple-social-icons.php:410
+msgid "Border Width:"
+msgstr "Ширина границы:"
+
+#: simple-social-icons.php:408
+msgid "Icon Border Radius:"
+msgstr "Радиус границы значка:"
+
+#: simple-social-icons.php:406
+msgid "Icon Size"
+msgstr "Размер значка"
+
+#. Plugin Name of the plugin
+#: simple-social-icons.php simple-social-icons.php:320
+msgid "Simple Social Icons"
+msgstr "Simple Social Icons"
+
+#: simple-social-icons.php:228
+msgid "Pinterest URI"
+msgstr "URL-адрес Pinterest"
+
+#: simple-social-icons.php:236
+msgid "RSS URI"
+msgstr "URL-адрес RSS"
+
+#: simple-social-icons.php:160
+msgid "Bloglovin URI"
+msgstr "URL-адрес Bloglovin'"
+
+#: simple-social-icons.php:184
+msgid "Facebook URI"
+msgstr "URL-адрес Facebook"
+
+#: simple-social-icons.php:188
+msgid "Flickr URI"
+msgstr "URL-адрес Flickr"
+
+#: simple-social-icons.php:192
+msgid "GitHub URI"
+msgstr "URL-адрес GitHub"
+
+#: simple-social-icons.php:200
+msgid "Instagram URI"
+msgstr "URL-адрес Instagram"
+
+#: simple-social-icons.php:204
+msgid "Linkedin URI"
+msgstr "URL-адрес Linkedin"
+
+#: simple-social-icons.php:400
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: simple-social-icons.php:264
+msgid "Tumblr URI"
+msgstr "URL-адрес Tumblr"
+
+#: simple-social-icons.php:272
+msgid "Vimeo URI"
+msgstr "URI- адрес Vimeo"
+
+#: simple-social-icons.php:284
+msgid "YouTube URI"
+msgstr "URL-адрес YouTube"
+
+#: simple-social-icons.php:311
+msgid "Displays select social icons."
+msgstr "Отображает избранные значки социальных сетей."
+
+#: simple-social-icons.php:172
+msgid "Dribbble URI"
+msgstr "URL-адрес Dribbble"
+
+#: simple-social-icons.php:176
+msgid "Email URI"
+msgstr "URL-адрес Email"

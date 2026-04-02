@@ -1,0 +1,1626 @@
+# Translation of Plugins - Ultimate Product Catalog - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Ultimate Product Catalog - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-17 20:38:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Ultimate Product Catalog - Stable (latest release)\n"
+
+#: includes/Settings.class.php:788
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: includes/Settings.class.php:787
+msgid "Contact"
+msgstr "Свяжитесь"
+
+#: includes/Import.class.php:50
+msgid "Import Products"
+msgstr "Импортировать товары"
+
+#: includes/AdminCustomFields.class.php:202
+msgid "+ Add Field"
+msgstr "+ Добавить поле"
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.InfiniteTable.class.php:205
+msgid "Cancel"
+msgstr "Отмена"
+
+#. Description of the plugin
+#: ultimate-product-catalogue.php
+msgid "Add a product catalog to your site with blocks or shortcodes. Works with WooCommerce or standalone. Flexible and customizable, works with any theme."
+msgstr "Добавьте каталог товаров на свой сайт с помощью блоков или шорткодов. Работает с WooCommerce или отдельно. Гибкий и настраиваемый, работает с любой темой."
+
+#: includes/AboutUs.class.php:121
+msgid "Catalog sorting"
+msgstr "Сортировка каталога"
+
+#: includes/AboutUs.class.php:116
+msgid "Product search"
+msgstr "Поиск товаров"
+
+#: includes/AboutUs.class.php:111
+msgid "3 switchable catalog views"
+msgstr "3 переключаемых вида каталога"
+
+#: includes/AboutUs.class.php:59
+msgid "Getting Started"
+msgstr "Приступая к работе"
+
+#: includes/AboutUs.class.php:28 includes/AboutUs.class.php:29
+msgid "About Us"
+msgstr "О нас"
+
+#: includes/patterns/featured-products-two.php:7
+msgctxt "Block pattern description"
+msgid "Adds featured products, organized 2 per row. You can choose a specific category or specific products to show."
+msgstr "Добавляет представленные товары, по 2 в ряд. Вы можете выбрать конкретную категорию или конкретные товары для показа."
+
+#: includes/patterns/catalog.php:7
+msgctxt "Block pattern description"
+msgid "Adds a catalog."
+msgstr "Добавляет каталог."
+
+#: includes/CustomPostTypes.class.php:1383
+msgid "Category ID"
+msgstr "ID категории"
+
+#: includes/Settings.class.php:934
+msgid "Import/Export Products"
+msgstr "Импорт/экспорт товаров"
+
+#: views/View.SingleProduct.class.php:663
+#: views/View.SingleProduct.class.php:675
+#: views/View.SingleProduct.class.php:687
+#: views/View.SingleProduct.class.php:699
+msgid "Check out this product"
+msgstr "Ознакомьтесь с этим товаром"
+
+#: views/View.class.php:162
+msgid "??"
+msgstr "??"
+
+#: views/View.class.php:157
+msgid "%s items in cart"
+msgstr "%s в корзине"
+
+#: views/View.class.php:156
+msgid "or empty cart"
+msgstr "или пустую корзину"
+
+#: views/View.class.php:155
+msgid "Checkout!"
+msgstr "Оформление заказа!"
+
+#: views/View.class.php:154
+msgid "Send Inquiry!"
+msgstr "Отправить запрос!"
+
+#: views/View.class.php:153
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: views/View.class.php:152
+msgid "Inquire"
+msgstr "Опрос"
+
+#: views/View.class.php:150
+msgid "Sale"
+msgstr "Распродажа"
+
+#: views/View.class.php:148
+msgid " of "
+msgstr " из "
+
+#: views/View.class.php:147
+msgid "Page "
+msgstr "Страница "
+
+#: views/View.class.php:146
+msgid "Previous Product"
+msgstr "Предыдущий товар"
+
+#: views/View.class.php:145
+msgid "Next Product"
+msgstr "Следующий товар"
+
+#: includes/Settings.class.php:789 views/View.class.php:141
+msgid "FAQs"
+msgstr "Вопросы и ответы"
+
+#: views/View.class.php:136
+msgid " products"
+msgstr " товары"
+
+#: views/View.class.php:130
+msgid "Oldest"
+msgstr "Старые"
+
+#: views/View.class.php:129
+msgid "Newest"
+msgstr "Новые"
+
+#: views/View.class.php:128
+msgid "Rating (Descending)"
+msgstr "Рейтинг (по убыванию)"
+
+#: views/View.class.php:127
+msgid "Rating (Ascending)"
+msgstr "Рейтинг (по возрастанию)"
+
+#: views/View.class.php:126
+msgid "Name (Descending)"
+msgstr "Имя (по убыванию)"
+
+#: views/View.class.php:125
+msgid "Name (Ascending)"
+msgstr "Имя (по возрастанию)"
+
+#: views/View.class.php:124
+msgid "Price (Descending)"
+msgstr "Цена (по убыванию)"
+
+#: views/View.class.php:123
+msgid "Price (Ascending)"
+msgstr "Цена (по возрастанию)"
+
+#: views/View.class.php:122
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: views/View.class.php:120
+msgid "Clear All"
+msgstr "Очистить всё"
+
+#: views/View.CatalogProduct.class.php:387
+#: views/View.SingleProduct.class.php:791
+msgid "Tags:"
+msgstr "Метки:"
+
+#: views/View.CatalogProduct.class.php:387
+#: views/View.SingleProduct.class.php:791
+msgid "Tag:"
+msgstr "Метка:"
+
+#: views/View.CatalogProduct.class.php:376
+#: views/View.SingleProduct.class.php:780
+msgid "Sub-Categories:"
+msgstr "Подкатегории:"
+
+#: views/View.CatalogProduct.class.php:376
+#: views/View.SingleProduct.class.php:780
+msgid "Sub-Category:"
+msgstr "Подкатегория:"
+
+#: views/View.CatalogProduct.class.php:365
+#: views/View.SingleProduct.class.php:769
+msgid "Categories:"
+msgstr "Категории:"
+
+#: views/View.CatalogProduct.class.php:365
+#: views/View.SingleProduct.class.php:769
+msgid "Category:"
+msgstr "Раздел:"
+
+#: views/View.Catalog.class.php:1051
+msgid "No products selected"
+msgstr "Не выбрано товаров"
+
+#: includes/Import.class.php:39 ultimate-product-catalogue.php:619
+msgid "Import"
+msgstr "Импорт"
+
+#: ultimate-product-catalogue.php:618
+msgid "Export"
+msgstr "Экспорт"
+
+#: ultimate-product-catalogue.php:613
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: ultimate-product-catalogue.php:583
+msgid "Upgrade process is happening in the background. Please wait for this to complete before making changes to the plugin."
+msgstr "Процесс обновления происходит в фоновом режиме. Пожалуйста, дождитесь его завершения, прежде чем вносить изменения в плагин."
+
+#: ultimate-product-catalogue.php:439
+msgid "Head to the settings page for Ultimate Product Catalog"
+msgstr "Перейти на страницу настроек для Ultimate Product Catalog"
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:61
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:48
+msgid "Current image:"
+msgstr "Текущие изображения:"
+
+#: lib/simple-admin-pages/classes/AdminPage.class.php:189
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно полномочий для доступа к этой странице."
+
+#: includes/WooCommerce.class.php:107
+msgid "Ultimate Product Catalog WooCommerce sync is enabled, but WooCommerce is not activated. Please activate WooCommerce and then re-save the Product Catalog's WooCommerce options tab for the syncing feature to work correctly."
+msgstr "Ultimate Product Catalog WooCommerce синхронизация включена, но WooCommerce не активирована. Пожалуйста, активируйте WooCommerce, а затем пересохраните вкладку параметров WooCommerce каталога товаров, чтобы функция синхронизации работала правильно."
+
+#: includes/Widgets.class.php:373
+msgid "Search Placeholder"
+msgstr "Заполнитель поля поиска"
+
+#: includes/Widgets.class.php:372
+msgid "Search Label"
+msgstr "Этикетка поиска"
+
+#: includes/Widgets.class.php:342
+msgid "DEPRECATED: Please do not use this widget as it will be removed in the future."
+msgstr "УДАЛЕН: Пожалуйста, не используйте этот виджет, так как в будущем он будет удален."
+
+#: includes/Widgets.class.php:341
+msgid "UPCP Search Bar"
+msgstr "Панель поиска UPCP"
+
+#: includes/Widgets.class.php:269
+msgid "Inserts a number of popular products"
+msgstr "Вставляет ряд популярных товаров"
+
+#: includes/Widgets.class.php:268
+msgid "UPCP Popular Products"
+msgstr "Популярные продукты UPCP"
+
+#: includes/Widgets.class.php:196
+msgid "Inserts a number of recent products"
+msgstr "Вставьте несколько последних товаров"
+
+#: includes/Widgets.class.php:195
+msgid "UPCP Recent Products"
+msgstr "Последние обновления UPCP"
+
+#: includes/Widgets.class.php:158 includes/Widgets.class.php:231
+#: includes/Widgets.class.php:304
+msgid "Number of products to display:"
+msgstr "Количество товаров для отображения:"
+
+#: includes/Widgets.class.php:154 includes/Widgets.class.php:227
+#: includes/Widgets.class.php:300
+msgid "Catalog ID:"
+msgstr "ID каталога:"
+
+#: includes/Widgets.class.php:148 includes/Widgets.class.php:221
+#: includes/Widgets.class.php:294
+msgid "Product Count"
+msgstr "Количество товаров"
+
+#: includes/Widgets.class.php:123
+msgid "Inserts a number of random products"
+msgstr "Вставляет несколько случайных товаров"
+
+#: includes/Widgets.class.php:122
+msgid "UPCP Random Products"
+msgstr "Случайные продукты UPCP"
+
+#: includes/Widgets.class.php:89
+msgid "The number of products per row:"
+msgstr "Количество товаров в строке:"
+
+#: includes/Widgets.class.php:85 includes/Widgets.class.php:162
+#: includes/Widgets.class.php:235 includes/Widgets.class.php:308
+#: includes/Widgets.class.php:387
+msgid "The URL of your catalog:"
+msgstr "URL вашего каталога:"
+
+#: includes/Widgets.class.php:81
+msgid "Comma-separated product IDs:"
+msgstr "ID товаров, разделенные запятой:"
+
+#: includes/Widgets.class.php:76
+msgid "Product Per Row"
+msgstr "Товар на строку"
+
+#: includes/Widgets.class.php:75 includes/Widgets.class.php:149
+#: includes/Widgets.class.php:222 includes/Widgets.class.php:295
+#: includes/Widgets.class.php:374
+msgid "Catalog URL"
+msgstr "URL каталога"
+
+#: includes/Widgets.class.php:74
+msgid "Product IDs"
+msgstr "ID товара"
+
+#: includes/Widgets.class.php:50
+msgid "Insert a list of product(s)"
+msgstr "Вставьте список товара (ов)"
+
+#: includes/Widgets.class.php:49
+msgid "UPCP Product(s) List"
+msgstr "Список продуктов UPCP"
+
+#: includes/Settings.class.php:740 includes/Settings.class.php:1016
+msgid "Styling"
+msgstr "Стилизация"
+
+#: includes/Settings.class.php:719 includes/Settings.class.php:1000
+msgid "Labelling"
+msgstr "Этикетирование"
+
+#: includes/Settings.class.php:698 includes/Settings.class.php:985
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/Settings.class.php:677 includes/Settings.class.php:970
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/AboutUs.class.php:181
+msgid "Product reviews"
+msgstr "Отзывы о товарах"
+
+#: views/View.class.php:142
+msgid "Product Inquiry Form"
+msgstr "Форма запроса товара"
+
+#: includes/AboutUs.class.php:96
+msgid "Feature"
+msgstr "Возможности"
+
+#: includes/Settings.class.php:656 includes/Settings.class.php:954
+#: includes/Settings.class.php:970 includes/Settings.class.php:985
+#: includes/Settings.class.php:1000 includes/Settings.class.php:1016
+msgid "Premium"
+msgstr "Премиум"
+
+#: includes/Settings.class.php:644
+msgid "Should a product's price be hidden on the product pages?"
+msgstr "Должна ли цена товара быть скрыта на страницах товара?"
+
+#: includes/Settings.class.php:643
+msgid "Disable Product Page Price"
+msgstr "Отключить цену на странице товара"
+
+#: includes/Settings.class.php:632
+msgid "Videos"
+msgstr "Видеофайлы"
+
+#: includes/Settings.class.php:629
+msgid "Sub-Category Name(s)"
+msgstr "Название(я) подкатегории"
+
+#: includes/Settings.class.php:628
+msgid "Category Name(s)"
+msgstr "Название(я) категории"
+
+#: includes/Settings.class.php:626
+msgid "Select elements to be displayed on each product page."
+msgstr "Выберите элементы, которые будут отображаться на каждой странице товара."
+
+#: includes/Settings.class.php:625
+msgid "Extra Elements"
+msgstr "Дополнительные элементы"
+
+#: includes/Settings.class.php:610
+msgid "Which breadcrumbs, if any, should display on the product page?"
+msgstr "Какие панировочные сухари, если таковые имеются, должны отображаться на странице товара?"
+
+#: includes/Settings.class.php:609
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: includes/Settings.class.php:590
+msgid "Should filtering options that would no longer display any results be hidden?"
+msgstr "Должны ли скрываться параметры фильтрации, которые больше не отображают никаких результатов?"
+
+#: includes/Settings.class.php:589
+msgid "Hide Empty Filtering Options"
+msgstr "Скрыть пустые параметры фильтрации"
+
+#: includes/Settings.class.php:579
+msgid "Should an option be added to the top of sidebar to clear all filtering options?"
+msgstr "Следует ли добавить параметр в верхнюю часть области виджетов, чтобы очистить все параметры фильтрации?"
+
+#: includes/Settings.class.php:578
+msgid "'Clear All' Option"
+msgstr "Опция 'Очистить Всё'"
+
+#: includes/Settings.class.php:538
+msgid "Categories Only"
+msgstr "Только Категории"
+
+#: includes/Settings.class.php:537
+msgid "Categories and Sub-Categories"
+msgstr "Категории и подкатегории"
+
+#: includes/Settings.class.php:535
+msgid "Should visitors see an overview of the categories instead of all products when the page first loads?"
+msgstr "Должны ли посетители видеть обзор категорий вместо всех товаров, когда страница сначала загружается?"
+
+#: includes/Settings.class.php:534
+msgid "Catalog Overview Mode"
+msgstr "Режим обзора каталога"
+
+#: includes/Settings.class.php:513
+msgid "Should price filtering be hidden from the catalog sidebar?"
+msgstr "Следует ли скрывать фильтрацию цен из области виджетов каталога?"
+
+#: includes/Settings.class.php:512
+msgid "Disable Price Filtering"
+msgstr "Отключить фильтрацию по ценам"
+
+#: includes/Settings.class.php:500
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/Settings.class.php:499
+msgid "AND"
+msgstr "И"
+
+#: includes/Settings.class.php:497
+msgid "Gives users the option to use multiple tags at the same time in filtering ('OR' option)"
+msgstr "Предоставляет пользователям возможность одновременного использования нескольких тегов при фильтрации (опция «ИЛИ»)"
+
+#: includes/Settings.class.php:496
+msgid "Tag Logic"
+msgstr "Логика тегов"
+
+#: includes/Settings.class.php:474
+msgid "Catalog Page Functionality"
+msgstr "Функциональность страницы каталога"
+
+#: includes/Settings.class.php:465
+msgid "Display Tags in Thumbnails"
+msgstr "Показывать метки в миниатюрах"
+
+#: includes/Settings.class.php:454
+msgid "Display Categories in Thumbnails"
+msgstr "Показывать категории в миниатюрах"
+
+#: includes/Settings.class.php:444
+msgid "Should the sub-category image be displayed in the sidebar on the main catalog page?"
+msgstr "Должно ли изображение подкатегории отображаться в области виджетов главной страницы каталога?"
+
+#: includes/Settings.class.php:443
+msgid "Display Sub-Category Image"
+msgstr "Отображение изображения подкатегорий"
+
+#: includes/Settings.class.php:432
+msgid "Main"
+msgstr "Основное"
+
+#: includes/Settings.class.php:431
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: includes/Settings.class.php:429
+msgid "Should the category image be displayed on the main catalog page?"
+msgstr "Должно ли изображение категории отображаться на главной странице каталога?"
+
+#: includes/Settings.class.php:428
+msgid "Display Category Image"
+msgstr "Изображение категории изображения"
+
+#: includes/Settings.class.php:418
+msgid "Should the descriptions of product categories be shown below them?"
+msgstr "Должны ли отображаться описания категорий товаров под ними?"
+
+#: includes/Settings.class.php:417
+msgid "Show Category Descriptions"
+msgstr "Показать описание категории"
+
+#: includes/Settings.class.php:403
+msgid "Should the name or description of the catalog be shown above the catalog?"
+msgstr "Должно ли отображаться имя или описание каталога над каталогом?"
+
+#: includes/Settings.class.php:402
+msgid "Show Catalog Information"
+msgstr "Показать информацию о каталоге"
+
+#: includes/Settings.class.php:392
+msgid "Set maximum number of characters in product description in the 'Details' layout"
+msgstr "Установите максимальное количество символов в описании товара в макете «Подробности»"
+
+#: includes/Settings.class.php:391
+msgid "Characters in Details Description"
+msgstr "Символы в деталях Описание"
+
+#: includes/Settings.class.php:381
+msgid "In the 'Details' layout, should the product description be cutoff if it's long?"
+msgstr "В макете «Подробности» следует ли обрезать описание товара, если оно длинное?"
+
+#: includes/Settings.class.php:380 views/View.class.php:137
+msgid "Read More"
+msgstr "Читать далее"
+
+#: includes/Settings.class.php:368
+msgid "Hierarchical"
+msgstr "Иерархическая"
+
+#: includes/Settings.class.php:367
+msgid "Normal"
+msgstr "Нормальный"
+
+#: includes/Settings.class.php:365
+msgid "Should categories and sub-categories be arranged hierarchically or be grouped?"
+msgstr "Следует ли группировать категории и подкатегории иерархически или группироваться?"
+
+#: includes/Settings.class.php:364
+msgid "Sub-Category Style"
+msgstr "Стиль подкатегории"
+
+#: includes/Settings.class.php:354
+msgid "Should the auto-adjust of the product thumbnails heights to the height of the longest product be disabled? This prevents lines with odd numbers of products, products not starting on the left, etc."
+msgstr "Следует ли отключить автоподстройку высоты миниатюр товаров к высоте самого длинного товара? Это предотвратит появление строк с нечетным количеством товаров, товаров, начинающихся не слева, и т.д."
+
+#: includes/Settings.class.php:353
+msgid "Disable Auto-Adjust Thumbnail Heights"
+msgstr "Отключить авторегулировку высоты миниатюр"
+
+#: includes/Settings.class.php:337
+msgid "Set the color of the image and border elements"
+msgstr "Задайте цвет элементов изображения и границы"
+
+#: includes/Settings.class.php:325
+msgid "Catalog Page Display"
+msgstr "Отображение страницы каталога"
+
+#: includes/Settings.class.php:316
+msgid "Contributor"
+msgstr "Участник"
+
+#: includes/Settings.class.php:315
+msgid "Author"
+msgstr "Автор"
+
+#: includes/Settings.class.php:314
+msgid "Editor"
+msgstr "Редактор"
+
+#: includes/Settings.class.php:313
+msgid "Administrator"
+msgstr "Администратор"
+
+#: includes/Settings.class.php:309
+msgid "Set Access Role"
+msgstr "Установить роль доступа"
+
+#: includes/Settings.class.php:298
+msgid "Email"
+msgstr "Email"
+
+#: includes/Settings.class.php:297
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/Settings.class.php:296
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: includes/Settings.class.php:295
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/Settings.class.php:294
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/Settings.class.php:292
+msgid "Which social media links should be displayed on the product page?"
+msgstr "Какие ссылки в социальных сетях должны отображаться на странице товара?"
+
+#: includes/Settings.class.php:291
+msgid "Social Media Options"
+msgstr "Варианты социальных медиа"
+
+#: includes/Settings.class.php:280
+msgid "Maintain Filtering"
+msgstr "Поддерживать фильтрацию"
+
+#: includes/Settings.class.php:270
+msgid "If available, should thumbnail version of images be used on the main catalog pages?"
+msgstr "Если возможно, следует ли использовать миниатюрные версии изображений на основных страницах каталога?"
+
+#: includes/Settings.class.php:269
+msgid "Thumbnail Support"
+msgstr "Поддержка миниатюр"
+
+#: includes/Settings.class.php:257 includes/Settings.class.php:539
+msgid "None"
+msgstr "Нет"
+
+#: includes/Settings.class.php:256
+msgid "Individual"
+msgstr "Частное лицо"
+
+#: includes/Settings.class.php:253
+msgid "Should all products be put on sale ('All'), no products be on sale ('None'), or sale prices be shown only for selected products ('Individual')?"
+msgstr "Если все товары будут выставлены на продажу («Все»), товары не будут продаваться («Нет»), или цены продажи будут показаны только для отдельных товаров («Индивидуальный»)?"
+
+#: includes/Settings.class.php:252
+msgid "Sale Mode"
+msgstr "Режим распродажи"
+
+#: includes/Settings.class.php:240
+msgid "After"
+msgstr "После"
+
+#: includes/Settings.class.php:239
+msgid "Before"
+msgstr "До"
+
+#: includes/Settings.class.php:237
+msgid "Should the currency symbol, if selected, be displayed before or after the price?"
+msgstr "Должен ли отображаться символ валюты, если он выбран, до или после цены?"
+
+#: includes/Settings.class.php:236
+msgid "Currency Symbol Location"
+msgstr "Местоположение валюты"
+
+#: includes/Settings.class.php:214
+msgid "General"
+msgstr "Основные"
+
+#: includes/Settings.class.php:203
+msgid "Basic"
+msgstr "Основное"
+
+#: includes/Settings.class.php:190 includes/Settings.class.php:191
+#: ultimate-product-catalogue.php:439 ultimate-product-catalogue.php:622
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/Settings.class.php:91 views/View.class.php:151
+msgid "side by side"
+msgstr "боковая с 2-х сторон"
+
+#: includes/Settings.class.php:90 views/View.class.php:149
+msgid "Compare"
+msgstr "Сравнение"
+
+#: includes/Settings.class.php:89 views/View.class.php:135
+msgid "No Results Found"
+msgstr "Результатов не найдено"
+
+#: includes/Settings.class.php:88 views/View.class.php:134
+msgid "Updating Results..."
+msgstr "Обновление результатов..."
+
+#: includes/AboutUs.class.php:239 includes/ReviewAsk.class.php:57
+msgid "Email Address"
+msgstr "Адрес email"
+
+#: includes/AdminCustomFields.class.php:133
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/InstallationWalkthrough.class.php:506
+msgid "Skip Setup"
+msgstr "Пропустить установку"
+
+#: includes/InstallationWalkthrough.class.php:500
+msgid "Finish"
+msgstr "Завершить"
+
+#: includes/InstallationWalkthrough.class.php:485
+msgid "Created Products"
+msgstr "Созданные товары"
+
+#: includes/InstallationWalkthrough.class.php:479
+msgid "Add Product"
+msgstr "Добавить товар"
+
+#: includes/InstallationWalkthrough.class.php:460
+msgid "Product Price"
+msgstr "Цена товара"
+
+#: includes/InstallationWalkthrough.class.php:454
+msgid "Product Description"
+msgstr "Описание товара"
+
+#: includes/InstallationWalkthrough.class.php:444
+msgid "Product Image"
+msgstr "Изображение товара"
+
+#: includes/InstallationWalkthrough.class.php:435
+msgid "Create your first products. Don't worry, you can always add more later."
+msgstr "Создайте свои первые товары. Не волнуйтесь, вы всегда сможете добавить другие позже."
+
+#: includes/InstallationWalkthrough.class.php:433
+msgid "4. Create a Product"
+msgstr "4. Создать товар"
+
+#: includes/InstallationWalkthrough.class.php:423
+msgid "Save Options"
+msgstr "Сохранить параметры"
+
+#: includes/InstallationWalkthrough.class.php:417
+#: includes/Settings.class.php:552
+msgid "Select which portions of a product should be searched when using the text search box? Custom fields search can take significantly longer to return results."
+msgstr "Выберите, какие части товара следует искать при использовании текстового поля поиска? Поиск настраиваемых полей может занять значительно больше времени, чтобы вернуть результаты."
+
+#: includes/InstallationWalkthrough.class.php:411
+#: includes/Settings.class.php:551 views/View.class.php:131
+msgid "Product Search"
+msgstr "Поиск товара"
+
+#: includes/InstallationWalkthrough.class.php:406
+#: includes/Settings.class.php:486
+msgid "Should external product links open in a new window?"
+msgstr "Должны ли внешние ссылки товаров открываться в новом окне?"
+
+#: includes/InstallationWalkthrough.class.php:396
+#: includes/Settings.class.php:485
+msgid "Product Links"
+msgstr "Ссылки на товары"
+
+#: includes/InstallationWalkthrough.class.php:391
+msgid "Set the color of the image and border elements."
+msgstr "Установите цвет изображения и элементов рамки."
+
+#: includes/InstallationWalkthrough.class.php:390
+#: includes/Settings.class.php:341
+msgid "Grey"
+msgstr "Серый"
+
+#: includes/InstallationWalkthrough.class.php:389
+#: includes/Settings.class.php:340
+msgid "Black"
+msgstr "Черный"
+
+#: includes/InstallationWalkthrough.class.php:388
+#: includes/Settings.class.php:339
+msgid "Blue"
+msgstr "Синий"
+
+#: includes/InstallationWalkthrough.class.php:384
+#: includes/Settings.class.php:336
+msgid "Catalog Color"
+msgstr "Цвет каталога"
+
+#: includes/InstallationWalkthrough.class.php:379
+#: includes/Settings.class.php:226
+msgid "What currency symbol, if any, should be displayed before or after the price? Leave blank for none."
+msgstr "Какой символ валюты, если таковой имеется, должен отображаться до или после цены? Оставьте пустым."
+
+#: includes/InstallationWalkthrough.class.php:374
+#: includes/Settings.class.php:225
+msgid "Currency Symbol"
+msgstr "Символ валюты"
+
+#: includes/InstallationWalkthrough.class.php:371
+msgid "Options can always be changed later, but here are a few tha a lot of users want to set for themselves."
+msgstr "Параметры всегда можно изменить позже, но вот несколько из них, которые многие пользователи хотят установить для себя."
+
+#: includes/InstallationWalkthrough.class.php:369
+msgid "3. Set Key Options"
+msgstr "3. Установить ключевые параметры"
+
+#: includes/InstallationWalkthrough.class.php:363
+#: includes/InstallationWalkthrough.class.php:426
+#: includes/InstallationWalkthrough.class.php:499
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: includes/InstallationWalkthrough.class.php:356
+msgid "Create Page"
+msgstr "Создать страницу"
+
+#: includes/InstallationWalkthrough.class.php:348
+msgid "Page Title"
+msgstr "Заголовок страницы"
+
+#: includes/InstallationWalkthrough.class.php:345
+msgid "You can create a dedicated catalog page below, or skip this step and add your catalog to a page you've already created manually."
+msgstr "Вы можете создать специальную страницу каталога ниже или пропустить этот шаг и добавить каталог на уже созданную страницу вручную."
+
+#: includes/InstallationWalkthrough.class.php:343
+msgid "2. Add an Ultimate Product Catalog Page"
+msgstr "2. Добавьте страницу каталога товаров Ultimate"
+
+#: includes/InstallationWalkthrough.class.php:336
+#: includes/InstallationWalkthrough.class.php:362
+#: includes/InstallationWalkthrough.class.php:425
+msgid "Next"
+msgstr "Далее"
+
+#: includes/InstallationWalkthrough.class.php:323
+msgid "Created Categories"
+msgstr "Созданные категории"
+
+#: includes/InstallationWalkthrough.class.php:317
+msgid "Add Category"
+msgstr "Добавить категорию"
+
+#: includes/InstallationWalkthrough.class.php:309
+msgid "Category Description"
+msgstr "Описание категории"
+
+#: includes/InstallationWalkthrough.class.php:303
+msgid "Category Name"
+msgstr "Название категории"
+
+#: includes/InstallationWalkthrough.class.php:299
+msgid "Create categories, which can be used to organize your products within the catalog."
+msgstr "Создайте категории, которые можно использовать для организации товаров в каталоге."
+
+#: includes/InstallationWalkthrough.class.php:297
+msgid "1. Categories"
+msgstr "1. Категории"
+
+#: includes/InstallationWalkthrough.class.php:292
+msgid "Welcome to Ultimate Product Catalog"
+msgstr "Добро пожаловать в Ultimate Product Catalog"
+
+#: includes/InstallationWalkthrough.class.php:60
+#: includes/InstallationWalkthrough.class.php:61
+msgid "Ultimate Product Catalog - Welcome!"
+msgstr "Добро пожаловать в Ultimate Product Catalog!"
+
+#: includes/Import.class.php:431
+msgid "File must be .csv, .xls or .xlsx"
+msgstr "Файл должен иметь формат .csv, .xls или .xlsx"
+
+#: includes/Import.class.php:426
+msgid "No file was uploaded here.."
+msgstr "Здесь не было загружено файлов."
+
+#: includes/Import.class.php:421
+msgid "No error code avaiable"
+msgstr "Нет кода ошибки avaiable"
+
+#: includes/Import.class.php:417
+msgid "File upload stopped by extension"
+msgstr "Загрузка файла прекращена по расширению"
+
+#: includes/Import.class.php:414
+msgid "Failed to write file to disk"
+msgstr "Не удалось записать файл на диск"
+
+#: includes/Import.class.php:411
+msgid "Missing a temporary folder"
+msgstr "Отсутствует временная папка"
+
+#: includes/Import.class.php:407
+msgid "No file was uploaded."
+msgstr "Файл не загружен."
+
+#: includes/Import.class.php:404
+msgid "The uploaded file was only partially uploaded"
+msgstr "Загруженный файл был загружен только частично"
+
+#: includes/Import.class.php:401
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "Загруженный файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме"
+
+#: includes/Import.class.php:398
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Загруженный файл превышает директиву upload_max_filesize в php.ini"
+
+#: includes/Import.class.php:386
+msgid "Products added successfully."
+msgstr "Товары успешно добавлены."
+
+#: includes/Import.class.php:57 includes/Import.class.php:86
+msgid "Spreadsheet Containing Products"
+msgstr "Таблица, содержащая товары"
+
+#: includes/DeactivationSurvey.class.php:75
+msgid "Skip and Deactivate"
+msgstr "Пропустить и деактивировать"
+
+#: includes/DeactivationSurvey.class.php:74
+msgid "Submit and Deactivate"
+msgstr "Отправить и деактивировать"
+
+#: includes/DeactivationSurvey.class.php:59
+msgid "If you have a moment, please share why you are deactivating Ultimate Product Catalog:"
+msgstr "Если у вас есть минутка, пожалуйста, расскажите, почему вы деактивируете Ultimate Product Catalog:"
+
+#: includes/DeactivationSurvey.class.php:58
+msgid "Quick Feedback"
+msgstr "Быстрая обратная связь"
+
+#: includes/DeactivationSurvey.class.php:51
+msgid "Please share the reason"
+msgstr "Поделитесь причиной"
+
+#: includes/DeactivationSurvey.class.php:50
+msgid "Other"
+msgstr "Прочее"
+
+#: includes/DeactivationSurvey.class.php:47
+msgid "It's a temporary deactivation"
+msgstr "Это временное отключение"
+
+#: includes/DeactivationSurvey.class.php:44
+msgid "Please share what wasn't working"
+msgstr "Поделитесь что у вас не работало"
+
+#: includes/DeactivationSurvey.class.php:43
+msgid "I couldn't get the plugin to work"
+msgstr "Мне не удалось заставить плагин работать"
+
+#: includes/DeactivationSurvey.class.php:40
+msgid "Please share which plugin"
+msgstr "Поделитесь на какой плагин"
+
+#: includes/DeactivationSurvey.class.php:39
+msgid "I'm switching to a different plugin"
+msgstr "Перехожу на другой плагин"
+
+#: includes/DeactivationSurvey.class.php:36
+msgid "I no longer need the plugin"
+msgstr "Мне больше не нужен этот плагин"
+
+#: includes/Dashboard.class.php:72
+msgid "<a href=\"%s\" target=\"_blank\">Visit our website</a> to learn how to upgrade or get a free trial of the premium version."
+msgstr "<a href=\"%s\" target=\"_blank\">Посетите наш сайт</a>, чтобы узнать, как обновить версию или получить бесплатную пробную версию премиум-класса."
+
+#: includes/Dashboard.class.php:177
+msgid "What People Are Saying"
+msgstr "Что говорят люди"
+
+#: includes/Dashboard.class.php:125
+msgid "No catalogs to display yet. Create a catalog for it to be displayed here."
+msgstr "Пока нет каталогов для отображения. Создайте каталог, чтобы он отображался здесь."
+
+#: includes/Dashboard.class.php:92 includes/Helper.class.php:128
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/Dashboard.class.php:99
+msgid "Plugin FAQs"
+msgstr "Вопросы и ответы по плагину"
+
+#: includes/Dashboard.class.php:85 includes/Helper.class.php:133
+msgid "YouTube Tutorials"
+msgstr "Учебники на YouTube"
+
+#: includes/Dashboard.class.php:106
+msgid "Get Support"
+msgstr "Получить поддержку"
+
+#: includes/CustomPostTypes.class.php:1658
+msgid "Reset View Count"
+msgstr "Сбросить счетчик просмотров"
+
+#: includes/CustomPostTypes.class.php:1435
+msgid "Post ID"
+msgstr "ID записи"
+
+#: includes/CustomPostTypes.class.php:1434
+msgid "# of Views"
+msgstr "Количество просмотров"
+
+#: includes/CustomPostTypes.class.php:1433 includes/Settings.class.php:614
+#: views/View.class.php:117
+msgid "Sub-Categories"
+msgstr "Подкатегории"
+
+#: includes/CustomPostTypes.class.php:1355 includes/Dashboard.class.php:120
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/CustomPostTypes.class.php:1354 includes/Widgets.class.php:147
+#: includes/Widgets.class.php:220 includes/Widgets.class.php:293
+msgid "Catalog ID"
+msgstr "ID каталога"
+
+#: includes/CustomPostTypes.class.php:1246
+#: includes/CustomPostTypes.class.php:1266
+#: includes/InstallationWalkthrough.class.php:489
+msgid "Image"
+msgstr "Картинка"
+
+#: includes/CustomPostTypes.class.php:1004
+msgid "Sort Items Reverse Alphabetically (Z-A)"
+msgstr "Сортировка элементов в обратном алфавитном порядке (Я-А)"
+
+#: includes/CustomPostTypes.class.php:1000
+msgid "Sort Items Alphabetically (A-Z)"
+msgstr "Сортировка элементов в алфавитном порядке (A-Z)"
+
+#: includes/CustomPostTypes.class.php:947
+msgid "Item Type"
+msgstr "Тип элемента"
+
+#: includes/CustomPostTypes.class.php:945
+msgid "Item Name"
+msgstr "Название элемента"
+
+#: includes/CustomPostTypes.class.php:922
+msgid "Add Categories"
+msgstr "Все категории"
+
+#: includes/CustomPostTypes.class.php:907
+msgid "Add Products"
+msgstr "Добавить товары"
+
+#: includes/CustomPostTypes.class.php:887
+msgid "Add Items to the Catalog"
+msgstr "Добавить товары в каталог"
+
+#: includes/CustomPostTypes.class.php:795
+msgid "YouTube Video URL"
+msgstr "URL видео YouTube"
+
+#: includes/CustomPostTypes.class.php:787
+msgid "Product Videos:"
+msgstr "Видео о товарах:"
+
+#: includes/CustomPostTypes.class.php:748
+msgid "Image Description"
+msgstr "Описание изображения"
+
+#: includes/CustomPostTypes.class.php:730
+msgid "Product Images:"
+msgstr "Изображения товара:"
+
+#: includes/CustomPostTypes.class.php:699
+msgid "Next Product:"
+msgstr "Следующий товар:"
+
+#: includes/CustomPostTypes.class.php:681
+msgid "Previous Product:"
+msgstr "Предыдущий товар:"
+
+#: includes/CustomPostTypes.class.php:630
+msgid "Related Products:"
+msgstr "Похожие товары:"
+
+#: includes/CustomPostTypes.class.php:557
+msgid "Current file:"
+msgstr "Текущий файл:"
+
+#: includes/CustomPostTypes.class.php:461
+msgid "Product Displaying:"
+msgstr "Отображение товара:"
+
+#: includes/CustomPostTypes.class.php:450
+msgid "Product Link:"
+msgstr "Ссылка на товар:"
+
+#: includes/CustomPostTypes.class.php:433
+msgid "Sale Mode Enabled:"
+msgstr "Режим распродажи включен:"
+
+#: includes/CustomPostTypes.class.php:422
+msgid "Sale Price:"
+msgstr "Цена распродажи:"
+
+#: includes/CustomPostTypes.class.php:411
+msgid "Price:"
+msgstr "Цена:"
+
+#: includes/CustomPostTypes.class.php:276
+msgid "Catalog Details"
+msgstr "Детали каталога"
+
+#: includes/CustomPostTypes.class.php:266
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+#: includes/CustomPostTypes.class.php:209
+msgid "No Catalogs found in trash"
+msgstr "Каталоги не найдены в корзине"
+
+#: includes/CustomPostTypes.class.php:208
+msgid "No Catalogs found"
+msgstr "Каталоги не найдены"
+
+#: includes/CustomPostTypes.class.php:207
+msgid "Search Catalogs"
+msgstr "Поиск в каталогах"
+
+#: includes/CustomPostTypes.class.php:206
+msgid "View Catalog"
+msgstr "Посмотреть каталог"
+
+#: includes/CustomPostTypes.class.php:205
+msgid "New Catalog"
+msgstr "Новый каталог"
+
+#: includes/CustomPostTypes.class.php:204
+msgid "Edit Catalog"
+msgstr "Редактировать каталог"
+
+#: includes/CustomPostTypes.class.php:203
+msgid "Add New Catalog"
+msgstr "Добавить новый каталог"
+
+#: includes/CustomPostTypes.class.php:199 includes/patterns/catalog.php:6
+#: includes/Settings.class.php:612 views/View.class.php:133
+msgid "Catalog"
+msgstr "Каталог"
+
+#: includes/CustomPostTypes.class.php:198
+#: includes/CustomPostTypes.class.php:200
+#: includes/CustomPostTypes.class.php:201
+#: includes/CustomPostTypes.class.php:210 includes/Dashboard.class.php:115
+#: ultimate-product-catalogue.php:615
+msgid "Catalogs"
+msgstr "Каталоги"
+
+#: includes/CustomPostTypes.class.php:182
+msgid "New Product Tag Name"
+msgstr "Название новой метки товара"
+
+#: includes/CustomPostTypes.class.php:181
+msgid "Add New Product Tag"
+msgstr "Добавить новую метку товара"
+
+#: includes/CustomPostTypes.class.php:180
+msgid "Update Product Tag"
+msgstr "Обновить метку товара"
+
+#: includes/CustomPostTypes.class.php:179
+msgid "Edit Product Tag"
+msgstr "Изменить метку товара"
+
+#: includes/CustomPostTypes.class.php:178
+msgid "Parent Product Tag:"
+msgstr "Метка родительского товара:"
+
+#: includes/CustomPostTypes.class.php:177
+msgid "Parent Product Tag"
+msgstr "Метка родительского товара"
+
+#: includes/CustomPostTypes.class.php:176
+msgid "All Product Tags"
+msgstr "Показать метки товара"
+
+#: includes/CustomPostTypes.class.php:175
+msgid "Search Product Tags"
+msgstr "Поиск по меткам товара"
+
+#: includes/CustomPostTypes.class.php:174
+msgid "Product Tag"
+msgstr "Метка товара"
+
+#: includes/CustomPostTypes.class.php:173
+msgid "Product Tags"
+msgstr "Метки товаров"
+
+#: includes/CustomPostTypes.class.php:157
+#: includes/CustomPostTypes.class.php:893
+#: includes/CustomPostTypes.class.php:1432 includes/Settings.class.php:613
+#: ultimate-product-catalogue.php:616 views/View.class.php:116
+msgid "Categories"
+msgstr "Категории"
+
+#: includes/CustomPostTypes.class.php:156
+msgid "New Product Category Name"
+msgstr "Название новой категории товара"
+
+#: includes/CustomPostTypes.class.php:155
+msgid "Add New Product Category"
+msgstr "Добавить новую категорию товаров"
+
+#: includes/CustomPostTypes.class.php:154
+msgid "Update Product Category"
+msgstr "Обновить категорию товара"
+
+#: includes/CustomPostTypes.class.php:153
+msgid "Edit Product Category"
+msgstr "Изменить категорию товара"
+
+#: includes/CustomPostTypes.class.php:152
+msgid "Parent Product Category:"
+msgstr "Категория родительского товара:"
+
+#: includes/CustomPostTypes.class.php:151
+msgid "Parent Product Category"
+msgstr "Категория родительского товара"
+
+#: includes/CustomPostTypes.class.php:150
+msgid "All Product Categories"
+msgstr "Все категории товаров"
+
+#: includes/CustomPostTypes.class.php:149
+msgid "Search Product Categories"
+msgstr "Поиск по категориям товара"
+
+#: includes/CustomPostTypes.class.php:148
+#: includes/InstallationWalkthrough.class.php:466
+msgid "Product Category"
+msgstr "Категория товара"
+
+#: includes/CustomPostTypes.class.php:147
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: includes/CustomPostTypes.class.php:98
+msgid "No Products found in trash"
+msgstr "Товары не найдены в корзине"
+
+#: includes/CustomPostTypes.class.php:97
+msgid "No Products found"
+msgstr "Товары не найдены"
+
+#: includes/CustomPostTypes.class.php:96
+msgid "Search Products"
+msgstr "Поиск по товарам"
+
+#: includes/CustomPostTypes.class.php:95
+msgid "View Product"
+msgstr "Посмотреть товар"
+
+#: includes/CustomPostTypes.class.php:94
+msgid "New Product"
+msgstr "Новый товар"
+
+#: includes/CustomPostTypes.class.php:93
+#: includes/CustomPostTypes.class.php:1704
+msgid "Edit Product"
+msgstr "Изменить товар"
+
+#: includes/CustomPostTypes.class.php:92
+msgid "Add New Product"
+msgstr "Добавить новый товар"
+
+#: includes/CustomPostTypes.class.php:91 includes/CustomPostTypes.class.php:202
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: includes/CustomPostTypes.class.php:89
+msgid "Product Catalog"
+msgstr "Каталог товаров"
+
+#: includes/CustomPostTypes.class.php:88 includes/CustomPostTypes.class.php:975
+msgid "Product"
+msgstr "Товар"
+
+#: includes/CustomPostTypes.class.php:87 includes/CustomPostTypes.class.php:90
+#: includes/CustomPostTypes.class.php:99 includes/CustomPostTypes.class.php:891
+#: ultimate-product-catalogue.php:614
+msgid "Products"
+msgstr "Товары"
+
+#. Plugin Name of the plugin
+#: ultimate-product-catalogue.php includes/Blocks.class.php:206
+#: includes/Patterns.class.php:56
+msgid "Ultimate Product Catalog"
+msgstr "Ultimate Product Catalog"
+
+#: includes/AdminProductPage.class.php:319
+#: includes/AdminProductPage.class.php:420
+msgid "Save Layout"
+msgstr "Сохранить макет"
+
+#: includes/AdminProductPage.class.php:314
+#: includes/AdminProductPage.class.php:415
+msgid "Restore Default Layout"
+msgstr "Восстановление макета по умолчанию"
+
+#: includes/AdminProductPage.class.php:253
+#: includes/AdminProductPage.class.php:354
+msgid "Elements"
+msgstr "Элементы"
+
+#: includes/AdminProductPage.class.php:248
+#: includes/AdminProductPage.class.php:349
+msgid "Some users have reported problems using the admin area functions of this feature with FireFox and IE browsers. No issues reported yet with Chrome, or with any browser on the visitor's side."
+msgstr "Некоторые пользователи сообщили о проблемах с использованием функций области администрирования этой функции с браузерами FireFox и IE. О проблемах не сообщалось ни с Chrome, ни с любым браузером на стороне посетителя."
+
+#: includes/AdminProductPage.class.php:218
+msgid " Label"
+msgstr " Этикетка"
+
+#: includes/AdminProductPage.class.php:190
+msgid "Tags Label"
+msgstr "Этикетка метки"
+
+#: includes/AdminProductPage.class.php:183
+#: includes/CustomPostTypes.class.php:183 includes/Settings.class.php:630
+#: ultimate-product-catalogue.php:617 views/View.class.php:118
+#: views/View.class.php:160
+msgid "Tags"
+msgstr "Метки"
+
+#: includes/AdminProductPage.class.php:176
+msgid "Sub-Category Labels"
+msgstr "Этикетки подкатегорий"
+
+#: includes/AdminProductPage.class.php:169 views/View.class.php:159
+msgid "Sub-Category"
+msgstr "Подкатегория"
+
+#: includes/AdminProductPage.class.php:162 views/View.class.php:144
+msgid "Related Products"
+msgstr "Похожие товары"
+
+#: includes/AdminProductPage.class.php:155
+#: includes/InstallationWalkthrough.class.php:438
+msgid "Product Name"
+msgstr "Название товара"
+
+#: includes/AdminProductPage.class.php:148
+msgid "Product Link"
+msgstr "Ссылка на товар"
+
+#: includes/AdminProductPage.class.php:141
+msgid "Price Label"
+msgstr "Ценник"
+
+#: includes/AdminProductPage.class.php:127
+msgid "Next/Previous"
+msgstr "Следующий / предыдущий"
+
+#: includes/AdminProductPage.class.php:120
+msgid "Main Image"
+msgstr "Основное изображение"
+
+#: includes/AdminProductPage.class.php:113
+#: includes/CustomPostTypes.class.php:1430
+#: includes/InstallationWalkthrough.class.php:327
+#: includes/InstallationWalkthrough.class.php:415
+#: includes/InstallationWalkthrough.class.php:491
+#: includes/Settings.class.php:406 includes/Settings.class.php:555
+msgid "Description"
+msgstr "Описание"
+
+#: includes/AdminProductPage.class.php:106
+msgid "Category Label"
+msgstr "Этикетка категории"
+
+#: includes/AdminProductPage.class.php:99
+#: includes/CustomPostTypes.class.php:975 views/View.class.php:158
+msgid "Category"
+msgstr "Kатегория"
+
+#: includes/AdminProductPage.class.php:92
+msgid "Blank"
+msgstr "Пустой"
+
+#: includes/AdminProductPage.class.php:85
+msgid "Back"
+msgstr "Назад"
+
+#: includes/AdminProductPage.class.php:78
+msgid "Additional Images"
+msgstr "Дополнительные изображения"
+
+#: includes/CustomPostTypes.class.php:673
+#: includes/CustomPostTypes.class.php:764
+#: includes/CustomPostTypes.class.php:832
+#: includes/CustomPostTypes.class.php:987
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/AdminProductPage.class.php:69
+msgid "Custom Page - Mobile"
+msgstr "Пользовательская страница - мобильная"
+
+#: includes/AdminProductPage.class.php:68
+msgid "Custom Page - Large Screen"
+msgstr "Пользовательская страница - большой экран"
+
+#: includes/AdminProductPage.class.php:64 includes/Settings.class.php:598
+#: ultimate-product-catalogue.php:621
+msgid "Product Page"
+msgstr "Страница товара"
+
+#: includes/AboutUs.class.php:186
+msgid "Product FAQs"
+msgstr "Вопросы и ответы по товару"
+
+#: views/View.class.php:143
+msgid "Customer Reviews"
+msgstr "Отзывы покупателей"
+
+#: views/View.class.php:140
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: includes/Settings.class.php:784 views/View.class.php:139
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: includes/CustomPostTypes.class.php:256 views/View.class.php:138
+msgid "Product Details"
+msgstr "Подробности о товаре"
+
+#: includes/AdminProductPage.class.php:40
+msgctxt "Title of the product page editor admin menu item"
+msgid "Product Page"
+msgstr "Страница товара"
+
+#: includes/AdminProductPage.class.php:39
+msgctxt "Title of admin page that lets you edit your product page"
+msgid "Product Page"
+msgstr "Страница товара"
+
+#: includes/AdminCustomFields.class.php:208
+msgid "Update Fields"
+msgstr "Обновить поля"
+
+#: includes/AdminCustomFields.class.php:192
+#: includes/CustomPostTypes.class.php:562
+#: includes/CustomPostTypes.class.php:665
+#: includes/CustomPostTypes.class.php:755
+#: includes/CustomPostTypes.class.php:803
+#: includes/CustomPostTypes.class.php:823
+#: includes/CustomPostTypes.class.php:963
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/AdminCustomFields.class.php:169
+msgid "Product Comparison Display?"
+msgstr "Отображать сравнения товаров?"
+
+#: includes/AdminCustomFields.class.php:166
+msgid "Tabbed Product Page Display?"
+msgstr "Отображать страницы товара с вкладками?"
+
+#: includes/AdminCustomFields.class.php:184
+msgid "Slider (Number type only)"
+msgstr "Слайдер (только числовой тип)"
+
+#: includes/AdminCustomFields.class.php:177
+msgid "Filtering Control Type"
+msgstr "Тип управления фильтрацией"
+
+#: includes/AdminCustomFields.class.php:163
+msgid "Searchable"
+msgstr "Доступный для поиска"
+
+#: includes/AdminCustomFields.class.php:152
+msgid "Detail"
+msgstr "Сведения"
+
+#: includes/AdminCustomFields.class.php:151
+msgid "List"
+msgstr "Список"
+
+#: includes/AdminCustomFields.class.php:150
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/AdminCustomFields.class.php:132
+msgid "Datetime"
+msgstr "Дата и время"
+
+#: includes/AdminCustomFields.class.php:131
+msgid "Date"
+msgstr "Дата"
+
+#: includes/AdminCustomFields.class.php:130
+msgid "File"
+msgstr "Файл"
+
+#: includes/AdminCustomFields.class.php:129
+#: includes/AdminCustomFields.class.php:181
+msgid "Checkbox"
+msgstr "Флажок"
+
+#: includes/AdminCustomFields.class.php:128
+#: includes/AdminCustomFields.class.php:182
+msgid "Radio"
+msgstr "Переключатель"
+
+#: includes/AdminCustomFields.class.php:127
+#: includes/AdminCustomFields.class.php:183
+msgid "Dropdown"
+msgstr "Выпадающие"
+
+#: includes/AdminCustomFields.class.php:126
+msgid "Textarea"
+msgstr "Текстовое поле"
+
+#: includes/AdminCustomFields.class.php:125
+msgid "Number"
+msgstr "Число"
+
+#: includes/AdminCustomFields.class.php:124
+#: includes/AdminProductPage.class.php:197
+msgid "Text"
+msgstr "Текст"
+
+#: includes/AdminCustomFields.class.php:98
+#: includes/AdminCustomFields.class.php:159
+msgid "Options"
+msgstr "Параметры"
+
+#: includes/AdminCustomFields.class.php:97
+#: includes/AdminCustomFields.class.php:147
+msgid "Displays"
+msgstr "Displays"
+
+#: includes/AdminCustomFields.class.php:96
+#: includes/AdminCustomFields.class.php:141
+msgid "Input Values"
+msgstr "Входные значения"
+
+#: includes/AdminCustomFields.class.php:95
+#: includes/AdminCustomFields.class.php:120
+msgid "Type"
+msgstr "Тип"
+
+#: includes/AdminCustomFields.class.php:94
+#: includes/AdminCustomFields.class.php:114
+msgid "Slug"
+msgstr "Ярлык"
+
+#: includes/AdminCustomFields.class.php:93
+#: includes/AdminCustomFields.class.php:109 includes/Dashboard.class.php:119
+#: includes/InstallationWalkthrough.class.php:326
+#: includes/InstallationWalkthrough.class.php:414
+#: includes/InstallationWalkthrough.class.php:488
+#: includes/Settings.class.php:405 includes/Settings.class.php:554
+msgid "Name"
+msgstr "Имя"
+
+#: includes/AdminCustomFields.class.php:81
+#: includes/InstallationWalkthrough.class.php:416
+#: includes/Settings.class.php:556 includes/Settings.class.php:631
+#: includes/Settings.class.php:930 ultimate-product-catalogue.php:620
+#: views/View.class.php:119
+msgid "Custom Fields"
+msgstr "Пользовательские поля"
+
+#: includes/AdminCustomFields.class.php:28
+msgctxt "Title of the custom fields admin menu item"
+msgid "Custom Fields"
+msgstr "Произвольные поля"
+
+#: includes/AdminCustomFields.class.php:27
+msgctxt "Title of admin page that lets you view and edit all custom fields"
+msgid "Custom Fields"
+msgstr "Произвольные поля"
+
+#: ewd-upcp-templates/single-product-tab-reviews.php:8
+msgid "Leave a review"
+msgstr "Оставить отзыв"
+
+#: ewd-upcp-templates/single-product-custom-element-price-label.php:3
+#: includes/AdminProductPage.class.php:134
+#: includes/CustomPostTypes.class.php:1431
+#: includes/CustomPostTypes.class.php:1554
+#: includes/InstallationWalkthrough.class.php:490 views/View.class.php:161
+msgid "Price"
+msgstr "Цена"
+
+#: ewd-upcp-templates/catalog-sidebar-toggle.php:3
+msgid "Filter"
+msgstr "Фильтр"
+
+#: ewd-upcp-templates/catalog-sidebar-custom-field-dropdown.php:10
+#: includes/Settings.class.php:255 views/View.Catalog.class.php:670
+#: views/View.Catalog.class.php:727 views/View.Catalog.class.php:766
+msgid "All"
+msgstr "Все"
+
+#: ewd-upcp-templates/catalog-shortcode-attributes.php:8
+#: views/View.class.php:132
+msgid "Search..."
+msgstr "Поиск..."
+
+#: ewd-upcp-templates/catalog-product-rating.php:5
+msgid "Average Rating: "
+msgstr "Средняя оценка: "
+
+#: ewd-upcp-templates/catalog-lightbox.php:24
+#: ewd-upcp-templates/catalog-product-hover.php:6
+#: includes/Settings.class.php:783 views/View.class.php:121
+msgid "Details"
+msgstr "Детали"
+
+#: ewd-upcp-templates/catalog-inquiry-form.php:12
+#: includes/Settings.class.php:87
+msgid "Back to Catalog"
+msgstr "Вернуться в каталог"
+
+#. Author URI of the plugin
+#: ultimate-product-catalogue.php
+msgid "https://www.etoilewebdesign.com/"
+msgstr "https://www.etoilewebdesign.com/"
+
+#. Author of the plugin
+#: ultimate-product-catalogue.php
+msgid "Etoile Web Design"
+msgstr "Etoile Web Design"
+
+#. Plugin URI of the plugin
+#: ultimate-product-catalogue.php
+msgid "https://www.etoilewebdesign.com/plugins/ultimate-product-catalog/"
+msgstr "https://www.etoilewebdesign.com/plugins/ultimate-product-catalog/"

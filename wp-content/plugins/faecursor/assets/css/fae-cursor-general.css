@@ -1,0 +1,10 @@
+/* FaeCursor Admin Dashboard Styles */
+
+/* Admin Menu Icon */
+#toplevel_page_fae_cursor img {
+  width: 100%;
+  object-fit: contain;
+  opacity: 1 !important;
+  height: 30px;
+  padding: 0 !important;
+}

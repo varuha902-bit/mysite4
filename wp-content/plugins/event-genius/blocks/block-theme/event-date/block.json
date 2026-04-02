@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp-event-genius/event-date",
+	"title": "Event Date",
+	"category": "event-genius",
+	"description": "Displays event date information including recurrence and full date.",
+	"textdomain": "event-genius",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": [ "evge_common", "evge_single_post" ],
+	"style": [ "evge_common", "evge_single_post" ],
+	"render": "file:./render.php",
+	"attributes": {
+		"eventId": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}

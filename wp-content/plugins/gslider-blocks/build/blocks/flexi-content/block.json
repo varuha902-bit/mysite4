@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gslider-blocks/flexi-content",
+  "version": "1.0.0",
+  "title": "Flexi Content",
+  "category": "gslider-blocks",
+  "description": "Display any content seamlessly in slide or carousel modes.",
+  "example": {
+    "attributes": {
+      "preview": true
+    },
+    "viewportWidth": 410
+  },
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "customClassName": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gslider-blocks",
+  "editorScript": [
+    "file:./index.js",
+    "gslider-blocks-swiper-script"
+  ],
+  "editorStyle": [
+    "file:./index.css",
+    "gslider-blocks-swiper-style"
+  ],
+  "style": [
+    "file:./style-index.css",
+    "gslider-blocks-swiper-style"
+  ],
+  "viewScript": [
+    "file:./view.js",
+    "gslider-blocks-swiper-script"
+  ]
+}

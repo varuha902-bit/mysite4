@@ -1,0 +1,2748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sitemap by BestWebSoft\n"
+"POT-Creation-Date: 2024-11-08 15:39+0200\n"
+"PO-Revision-Date: 2024-11-08 15:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: google-sitemap-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+# automatic translation
+#: bws_menu/bws_functions.php:95 bws_menu/bws_functions.php:298
+msgid "requires"
+msgstr "requer"
+
+# automatic translation
+#: bws_menu/bws_functions.php:97
+msgid ""
+"or higher, that is why it has been deactivated! Please upgrade WordPress and "
+"try again."
+msgstr ""
+"ou superior, por isso foi desativado! Atualize o WordPress e tente novamente."
+
+# automatic translation
+#: bws_menu/bws_functions.php:98
+msgid "Back to the WordPress"
+msgstr "De volta ao WordPress"
+
+# automatic translation
+#: bws_menu/bws_functions.php:100
+msgid "Plugins page"
+msgstr "página de plug-ins"
+
+# automatic translation
+#: bws_menu/bws_functions.php:124
+msgid "Like the plugin?"
+msgstr "Gostou do plug-in?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:125
+#, php-format
+msgid "%s reviews"
+msgstr "%s comentários"
+
+# automatic translation
+#: bws_menu/bws_functions.php:126
+msgid "Rate it"
+msgstr "Avalie"
+
+# automatic translation
+#: bws_menu/bws_functions.php:135
+msgid "Need help?"
+msgstr "Preciso de ajuda?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:136 bws_menu/bws_functions.php:1409
+#: bws_menu/class-bws-settings.php:1207
+msgid "Visit Help Center"
+msgstr "Visite a Central de Ajuda"
+
+# automatic translation
+#: bws_menu/bws_functions.php:139
+msgid "Want to support the plugin?"
+msgstr "Quer apoiar o plugin?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:140 bws_menu/bws_menu.php:708
+msgid "Donate"
+msgstr "Doar"
+
+# automatic translation
+#: bws_menu/bws_functions.php:170
+msgid "WARNING: Illegal use notification"
+msgstr "AVISO: Notificação de uso ilegal"
+
+# automatic translation
+#: bws_menu/bws_functions.php:170
+msgid ""
+"You can use one license of the Pro plugin for one domain only. Please check "
+"and edit your license or domain if necessary using your personal Client "
+"Area. We strongly recommend you to solve the problem within 24 hours, "
+"otherwise the Pro plugin will be deactivated."
+msgstr ""
+"Você pode usar uma licença do plug-in Pro apenas para um domínio. Verifique "
+"e edite sua licença ou domínio, se necessário, usando sua Área de Cliente "
+"pessoal. Recomendamos fortemente que você resolva o problema em 24 horas, "
+"caso contrário, o plug-in Pro será desativado."
+
+# automatic translation
+#: bws_menu/bws_functions.php:170 bws_menu/bws_functions.php:262
+#: bws_menu/bws_menu.php:805 bws_menu/class-bws-settings.php:194
+#: google-sitemap-plugin.php:1717 google-sitemap-plugin.php:1735
+#: google-sitemap-plugin.php:1841 google-sitemap-plugin.php:1881
+#: google-sitemap-plugin.php:1911 google-sitemap-plugin.php:1953
+#: includes/class-gglstmp-settings.php:517 includes/pro_banners.php:71
+#: includes/pro_banners.php:141
+msgid "Learn More"
+msgstr "Saber mais"
+
+# automatic translation
+#: bws_menu/bws_functions.php:189
+msgid ""
+"Notice: Your Pro Trial license has expired. To continue using the plugin, "
+"you should buy a Pro license"
+msgstr ""
+"Aviso: sua licença Pro Trial expirou. Para continuar usando o plugin, você "
+"deve comprar uma licença Pro"
+
+# automatic translation
+#: bws_menu/bws_functions.php:191
+msgid ""
+"Your license has expired. To continue getting top-priority support and "
+"plugin updates, you should extend it."
+msgstr ""
+"Sua licença expirou. Para continuar recebendo suporte de alta prioridade e "
+"atualizações de plugins, você deve estendê-lo."
+
+# automatic translation
+#: bws_menu/bws_functions.php:191 bws_menu/bws_functions.php:282
+msgid "Learn more"
+msgstr "Saber mais"
+
+# automatic translation
+#: bws_menu/bws_functions.php:211
+#, php-format
+msgid "Notice: You are using the Pro Trial license of %s plugin."
+msgstr "Aviso: Você está usando a licença Pro Trial do plug-in %s."
+
+# automatic translation
+#: bws_menu/bws_functions.php:213
+msgid "Notice: You are using the Pro Trial license of plugin."
+msgstr "Aviso: Você está usando a licença Pro Trial do plug-in."
+
+# automatic translation
+#: bws_menu/bws_functions.php:216
+msgid "The Pro Trial license will expire on"
+msgstr "A licença Pro Trial irá expirar em"
+
+# automatic translation
+#: bws_menu/bws_functions.php:253 bws_menu/bws_functions.php:278
+#: bws_menu/bws_functions.php:328 bws_menu/bws_functions.php:338
+#: bws_menu/bws_functions.php:387 bws_menu/bws_functions.php:680
+#: bws_menu/bws_functions.php:777
+msgid "Close notice"
+msgstr "Fechar aviso"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "It’s time to upgrade your"
+msgstr "É hora de atualizar seu"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "to"
+msgstr "para"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "version!"
+msgstr "versão!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:259
+msgid "Extend standard plugin functionality with new great options."
+msgstr ""
+"Estenda a funcionalidade padrão do plug-in com novas opções excelentes."
+
+# automatic translation
+#: bws_menu/bws_functions.php:282
+#, php-format
+msgid ""
+"Your license key for %1$s expires on %2$s and you won't be granted TOP-"
+"PRIORITY SUPPORT or UPDATES."
+msgstr ""
+"Sua chave de licença para %1$s expira em %2$s e você não receberá SUPORTE DE "
+"ALTA PRIORIDADE ou ATUALIZAÇÕES."
+
+# automatic translation
+#: bws_menu/bws_functions.php:300
+msgid ""
+"or higher! We do not guarantee that our plugin will work correctly. Please "
+"upgrade to WordPress latest version."
+msgstr ""
+"ou mais alto! Não garantimos que nosso plugin funcionará corretamente. "
+"Atualize para a versão mais recente do WordPress."
+
+# automatic translation
+#: bws_menu/bws_functions.php:318
+#, php-format
+msgid "Thank you for installing %s plugin!"
+msgstr "Obrigado por instalar o plug-in %s!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:320
+msgid "Let's get started"
+msgstr "Vamos começar"
+
+# automatic translation
+#: bws_menu/bws_functions.php:321 bws_menu/bws_functions.php:354
+#: bws_menu/bws_menu.php:714 bws_menu/bws_menu.php:716
+#: google-sitemap-plugin.php:55 google-sitemap-plugin.php:1575
+#: google-sitemap-plugin.php:2150 google-sitemap-plugin.php:2171
+#: includes/class-gglstmp-settings.php:83
+msgid "Settings"
+msgstr "Configurações"
+
+# automatic translation
+#: bws_menu/bws_functions.php:323 bws_menu/bws_menu.php:417
+#: bws_menu/class-bws-settings.php:920 bws_menu/class-bws-settings.php:1210
+#: bws_menu/class-bws-settings.php:1223 bws_menu/deprecated.php:262
+msgid "or"
+msgstr "ou"
+
+# automatic translation
+#: bws_menu/bws_functions.php:324 bws_menu/bws_functions.php:356
+#: google-sitemap-plugin.php:1585
+msgid "Add New"
+msgstr "Adicionar novo"
+
+# automatic translation
+#: bws_menu/bws_functions.php:343
+msgid "Thank you for installing plugins by BestWebSoft!"
+msgstr "Obrigado por instalar os plugins da BestWebSoft!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:345
+msgid "More Details"
+msgstr "Mais detalhes"
+
+# automatic translation
+#: bws_menu/bws_functions.php:346
+msgid "Less Details"
+msgstr "menos detalhes"
+
+# automatic translation
+#: bws_menu/bws_functions.php:384
+msgid "Go to Settings"
+msgstr "Ir Para Configurações"
+
+# automatic translation
+#: bws_menu/bws_functions.php:404
+msgid "Deprecated function(-s) is used on the site here:"
+msgstr "A(s) função(ões) obsoleta(s) é(são) usada(s) no site aqui:"
+
+# automatic translation
+#: bws_menu/bws_functions.php:422
+msgid ""
+"This function(-s) will be removed over time. Please update the product(-s)."
+msgstr ""
+"Esta(s) função(ões) será(ão) removida(s) com o tempo. Atualize o(s) "
+"produto(s)."
+
+# automatic translation
+#: bws_menu/bws_functions.php:675
+#, php-format
+msgid "Thank you for choosing %s plugin!"
+msgstr "Obrigado por escolher o plug-in %s!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:676
+msgid ""
+"If you have a feature, suggestion or idea you'd like to see in the plugin, "
+"we'd love to hear about it!"
+msgstr ""
+"Se você tiver um recurso, sugestão ou ideia que gostaria de ver no plug-in, "
+"adoraríamos saber!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:677
+msgid "Suggest a Feature"
+msgstr "Sugira um recurso"
+
+# automatic translation
+#: bws_menu/bws_functions.php:733
+msgid "Upgrade to pro"
+msgstr "Atualização para pro"
+
+#: bws_menu/bws_functions.php:734
+msgid "30% OFF"
+msgstr "30% DE DESCONTO"
+
+#: bws_menu/bws_functions.php:737
+msgid "Get exclusive Pro features and premium support."
+msgstr "Obtenha recursos exclusivos do Pro e suporte premium."
+
+#: bws_menu/bws_functions.php:738
+msgid "Use"
+msgstr "Usar"
+
+#: bws_menu/bws_functions.php:738
+msgid "UPGRADE"
+msgstr "ATUALIZAR"
+
+#: bws_menu/bws_functions.php:738
+msgid "promo code for instant savings!"
+msgstr "código promocional para economia instantânea!"
+
+#: bws_menu/bws_functions.php:740
+msgid "Get PRO NOW"
+msgstr "Obtenha o PRO AGORA"
+
+# automatic translation
+#: bws_menu/bws_functions.php:782
+msgid "Affiliate Program"
+msgstr "Programa de Afiliados"
+
+# automatic translation
+#: bws_menu/bws_functions.php:783
+#, php-format
+msgid "Get %s"
+msgstr "Obter %s"
+
+# automatic translation
+#: bws_menu/bws_functions.php:784
+msgid "from each BestWebSoft plugin and theme sale you refer"
+msgstr "de cada plug-in BestWebSoft e venda de tema que você indicar"
+
+# automatic translation
+#: bws_menu/bws_functions.php:788
+msgid "Join affiliate program"
+msgstr "Junte-se ao programa de afiliados"
+
+# automatic translation
+#: bws_menu/bws_functions.php:792
+msgid "Promote and sell products"
+msgstr "Promover e vender produtos"
+
+# automatic translation
+#: bws_menu/bws_functions.php:796
+msgid "Get commission!"
+msgstr "Receba comissão!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:801
+msgid "Start Now"
+msgstr "Comece agora"
+
+# automatic translation
+#: bws_menu/bws_functions.php:818 bws_menu/class-bws-settings.php:649
+#: bws_menu/class-bws-settings.php:654 bws_menu/class-bws-settings.php:725
+#: bws_menu/class-bws-settings.php:730
+msgid "Notice"
+msgstr "Perceber"
+
+# automatic translation
+#: bws_menu/bws_functions.php:818
+msgid "The plugin's settings have been changed."
+msgstr "As configurações do plug-in foram alteradas."
+
+# automatic translation
+#: bws_menu/bws_functions.php:819 bws_menu/class-bws-settings.php:240
+#: bws_menu/class-bws-settings.php:268
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+# automatic translation
+#: bws_menu/bws_functions.php:841
+msgid ""
+"You can always look at premium options by checking the \"Pro Options\" in "
+"the \"Misc\" tab."
+msgstr ""
+"Você sempre pode ver as opções premium marcando as \"Opções Pro\" na guia "
+"\"Diversos\"."
+
+# automatic translation
+#: bws_menu/bws_functions.php:1040
+msgid "Add BWS Shortcode"
+msgstr "Adicionar código curto do BWS"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1041
+msgid "Add BWS Plugins Shortcode"
+msgstr "Adicionar código curto de plug-ins do BWS"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1063
+msgid "Add shortcode"
+msgstr "Adicionar código de acesso"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1063
+msgid "Add BestWebSoft plugins' shortcodes using this button."
+msgstr ""
+"Adicione os códigos de acesso dos plugins BestWebSoft usando este botão."
+
+# automatic translation
+#: bws_menu/bws_functions.php:1179 includes/class-gglstmp-settings.php:385
+#: includes/class-gglstmp-settings.php:468
+#: includes/class-gglstmp-settings.php:684 includes/pro_banners.php:26
+msgid "Close"
+msgstr "Fechar"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1272
+msgid "Are you sure you want to restore default settings?"
+msgstr "Tem certeza de que deseja restaurar as configurações padrão?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1275
+msgid "Yes, restore all settings"
+msgstr "Sim, restaurar todas as configurações"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1276
+msgid "No, go back to the settings page"
+msgstr "Não, volte para a página de configurações"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1340
+msgid "Plugin"
+msgstr "Plugar"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1349
+msgid "Shortcode settings"
+msgstr "Configurações de código curto"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1359
+msgid "The shortcode will be inserted"
+msgstr "O shortcode será inserido"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1414 google-sitemap-plugin.php:2173
+msgid "FAQ"
+msgstr "Perguntas frequentes"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1420
+msgid "For more information:"
+msgstr "Para maiores informações:"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1421 bws_menu/bws_menu.php:518
+#: bws_menu/class-bws-settings.php:881
+msgid "Documentation"
+msgstr "Documentação"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1422 bws_menu/bws_menu.php:520
+#: bws_menu/class-bws-settings.php:883
+msgid "Video Instructions"
+msgstr "Instruções de vídeo"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1423
+msgid "Submit a Request"
+msgstr "Envie uma solicitação"
+
+# automatic translation
+#: bws_menu/bws_menu.php:125 bws_menu/class-bws-settings.php:985
+msgid "Wrong license key"
+msgstr "Chave de licença errada"
+
+# automatic translation
+#: bws_menu/bws_menu.php:147 bws_menu/class-bws-settings.php:1011
+#: bws_menu/class-bws-settings.php:1088 bws_menu/class-bws-settings.php:1127
+msgid ""
+"Something went wrong. Please try again later. If the error appears again, "
+"please contact us"
+msgstr ""
+"Algo deu errado. Por favor, tente novamente mais tarde. Se o erro aparecer "
+"novamente, entre em contato conosco"
+
+# automatic translation
+#: bws_menu/bws_menu.php:147 bws_menu/class-bws-settings.php:1011
+#: bws_menu/class-bws-settings.php:1088 bws_menu/class-bws-settings.php:1127
+msgid "We are sorry for inconvenience."
+msgstr "Lamentamos o inconveniente."
+
+# automatic translation
+#: bws_menu/bws_menu.php:154 bws_menu/class-bws-settings.php:1017
+#: bws_menu/class-bws-settings.php:1133
+msgid "Wrong license key."
+msgstr "Chave de licença errada."
+
+# automatic translation
+#: bws_menu/bws_menu.php:156
+msgid ""
+"This license key is bound to another site. Change it via personal Client "
+"Area."
+msgstr ""
+"Esta chave de licença está vinculada a outro site. Altere-o através da Área "
+"de Cliente pessoal."
+
+# automatic translation
+#: bws_menu/bws_menu.php:156
+msgid "Log in"
+msgstr "Conecte-se"
+
+# automatic translation
+#: bws_menu/bws_menu.php:158 bws_menu/bws_menu.php:425
+#: bws_menu/deprecated.php:174
+msgid "Unfortunately, you have exceeded the number of available tries per day."
+msgstr "Infelizmente, você excedeu o número de tentativas disponíveis por dia."
+
+# automatic translation
+#: bws_menu/bws_menu.php:160
+#, php-format
+msgid ""
+"Unfortunately, Your license has expired. To continue getting top-priority "
+"support and plugin updates, you should extend it in your %s"
+msgstr ""
+"Infelizmente, sua licença expirou. Para continuar recebendo suporte de alta "
+"prioridade e atualizações de plugins, você deve estendê-lo em seu %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:162 bws_menu/class-bws-settings.php:1141
+msgid ""
+"Unfortunately, the Pro licence was already installed to this domain. The Pro "
+"Trial license can be installed only once."
+msgstr ""
+"Infelizmente, a licença Pro já foi instalada neste domínio. A licença Pro "
+"Trial pode ser instalada apenas uma vez."
+
+# automatic translation
+#: bws_menu/bws_menu.php:168 bws_menu/class-bws-settings.php:1032
+msgid "The license key is valid."
+msgstr "A chave de licença é válida."
+
+# automatic translation
+#: bws_menu/bws_menu.php:170 bws_menu/class-bws-settings.php:1036
+msgid "Your license will expire on"
+msgstr "Sua licença irá expirar em"
+
+# automatic translation
+#: bws_menu/bws_menu.php:173
+msgid "Congratulations! Pro Membership license is activated successfully."
+msgstr "Parabéns! A licença Pro Membership foi ativada com sucesso."
+
+# automatic translation
+#: bws_menu/bws_menu.php:180 bws_menu/class-bws-settings.php:1151
+msgid ""
+"Something went wrong. Try again later or upload the plugin manually. We are "
+"sorry for inconvenience."
+msgstr ""
+"Algo deu errado. Tente novamente mais tarde ou carregue o plug-in "
+"manualmente. Lamentamos o inconveniente."
+
+# automatic translation
+#: bws_menu/bws_menu.php:191
+msgid "Please enter your license key."
+msgstr "Insira sua chave de licença."
+
+# automatic translation
+#: bws_menu/bws_menu.php:203
+msgid "Not set"
+msgstr "Não configurado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:206
+msgid "On"
+msgstr "Sobre"
+
+# automatic translation
+#: bws_menu/bws_menu.php:206
+msgid "Off"
+msgstr "Desligado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:207 bws_menu/bws_menu.php:208
+#: bws_menu/bws_menu.php:209 bws_menu/bws_menu.php:210
+#: bws_menu/bws_menu.php:211 bws_menu/bws_menu.php:212
+#: bws_menu/bws_menu.php:221
+msgid "N/A"
+msgstr "N / D"
+
+# automatic translation
+#: bws_menu/bws_menu.php:212
+msgid "Mb"
+msgstr "Mb"
+
+# automatic translation
+#: bws_menu/bws_menu.php:213 bws_menu/bws_menu.php:214
+#: bws_menu/bws_menu.php:215 bws_menu/bws_menu.php:219
+#: includes/pro_banners.php:165
+msgid "Yes"
+msgstr "Sim"
+
+# automatic translation
+#: bws_menu/bws_menu.php:213 bws_menu/bws_menu.php:214
+#: bws_menu/bws_menu.php:215 bws_menu/bws_menu.php:219
+#: includes/pro_banners.php:173 includes/pro_banners.php:181
+#: includes/pro_banners.php:189 includes/pro_banners.php:197
+msgid "No"
+msgstr "Não"
+
+# automatic translation
+#: bws_menu/bws_menu.php:226
+msgid "WordPress Environment"
+msgstr "Ambiente WordPress"
+
+# automatic translation
+#: bws_menu/bws_menu.php:228
+msgid "Home URL"
+msgstr "URL inicial"
+
+# automatic translation
+#: bws_menu/bws_menu.php:229
+msgid "Website URL"
+msgstr "URL do site"
+
+# automatic translation
+#: bws_menu/bws_menu.php:230
+msgid "WP Version"
+msgstr "Versão WP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:231
+msgid "WP Multisite"
+msgstr "WP Multisite"
+
+# automatic translation
+#: bws_menu/bws_menu.php:232
+msgid "WP Memory Limit"
+msgstr "Limite de Memória WP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:233
+msgid "Active Theme"
+msgstr "Tema ativo"
+
+# automatic translation
+#: bws_menu/bws_menu.php:233 bws_menu/bws_menu.php:278
+#: bws_menu/bws_menu.php:281
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:237
+msgid "Server Environment"
+msgstr "Ambiente do Servidor"
+
+# automatic translation
+#: bws_menu/bws_menu.php:239
+msgid "Operating System"
+msgstr "Sistema operacional"
+
+# automatic translation
+#: bws_menu/bws_menu.php:240
+msgid "Server"
+msgstr "Servidor"
+
+# automatic translation
+#: bws_menu/bws_menu.php:241
+msgid "PHP Version"
+msgstr "Versão do PHP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:242
+msgid "PHP Allow URL fopen"
+msgstr "PHP Permitir URL fopen"
+
+# automatic translation
+#: bws_menu/bws_menu.php:243
+msgid "PHP Memory Limit"
+msgstr "Limite de memória do PHP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:244
+msgid "Memory Usage"
+msgstr "Uso de memória"
+
+# automatic translation
+#: bws_menu/bws_menu.php:245
+msgid "PHP Max Upload Size"
+msgstr "Tamanho Máximo de Carregamento do PHP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:246
+msgid "PHP Max Post Size"
+msgstr "PHP Max tamanho da postagem"
+
+# automatic translation
+#: bws_menu/bws_menu.php:247
+msgid "PHP Max Script Execute Time"
+msgstr "Tempo máximo de execução do script PHP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:248
+msgid "PHP Exif support"
+msgstr "Suporte PHP Exif"
+
+# automatic translation
+#: bws_menu/bws_menu.php:249
+msgid "PHP IPTC support"
+msgstr "PHP Suporte IPTC"
+
+# automatic translation
+#: bws_menu/bws_menu.php:250
+msgid "PHP XML support"
+msgstr "Suporte PHP XML"
+
+# automatic translation
+#: bws_menu/bws_menu.php:256
+msgid "Database"
+msgstr "Base de dados"
+
+# automatic translation
+#: bws_menu/bws_menu.php:258
+msgid "WP DB version"
+msgstr "Versão do banco de dados do WP"
+
+# automatic translation
+#: bws_menu/bws_menu.php:259
+msgid "MySQL version"
+msgstr "Versão do MySQL"
+
+# automatic translation
+#: bws_menu/bws_menu.php:260
+msgid "SQL Mode"
+msgstr "Modo SQL"
+
+# automatic translation
+#: bws_menu/bws_menu.php:264
+msgid "Active Plugins"
+msgstr "Plug-ins ativos"
+
+# automatic translation
+#: bws_menu/bws_menu.php:269
+msgid "Inactive Plugins"
+msgstr "Plug-ins inativos"
+
+# automatic translation
+#: bws_menu/bws_menu.php:290
+msgid "Please enter a valid email address."
+msgstr "Por favor insira um endereço de e-mail válido."
+
+# automatic translation
+#: bws_menu/bws_menu.php:292
+#, php-format
+msgid "Email with system info is sent to %s."
+msgstr "O e-mail com informações do sistema foi enviado para %s."
+
+# automatic translation
+#: bws_menu/bws_menu.php:296
+msgid "Thank you for contacting us."
+msgstr "Obrigado por nos contatar."
+
+# automatic translation
+#: bws_menu/bws_menu.php:320
+msgid "Sorry, email message could not be delivered."
+msgstr "Desculpe, a mensagem de e-mail não pôde ser entregue."
+
+# automatic translation
+#: bws_menu/bws_menu.php:345 bws_menu/bws_menu.php:376
+#: bws_menu/bws_menu.php:470 bws_menu/deprecated.php:29
+msgid "Plugins"
+msgstr "Plugins"
+
+# automatic translation
+#: bws_menu/bws_menu.php:355 bws_menu/bws_menu.php:387
+#: bws_menu/bws_menu.php:790 bws_menu/deprecated.php:30
+msgid "Themes"
+msgstr "Temas"
+
+# automatic translation
+#: bws_menu/bws_menu.php:364 bws_menu/bws_menu.php:398
+#: bws_menu/bws_menu.php:826
+msgid "System status"
+msgstr "Status do sistema"
+
+# automatic translation
+#: bws_menu/bws_menu.php:405 google-sitemap-plugin.php:2174
+msgid "Support"
+msgstr "Apoiar"
+
+# automatic translation
+#: bws_menu/bws_menu.php:406
+msgid "Manage purchased licenses & subscriptions"
+msgstr "Gerenciar licenças e assinaturas compradas"
+
+# automatic translation
+#: bws_menu/bws_menu.php:415
+#, php-format
+msgid "Get Access to %s+ Premium Plugins"
+msgstr "Obtenha acesso a %s+ plug-ins premium"
+
+# automatic translation
+#: bws_menu/bws_menu.php:417
+msgid "Subscribe to Pro Membership"
+msgstr "Inscrever-se na Associação Pro"
+
+# automatic translation
+#: bws_menu/bws_menu.php:427 bws_menu/bws_menu.php:450
+#: bws_menu/class-bws-settings.php:937 bws_menu/deprecated.php:135
+msgid "Check license key"
+msgstr "Verifique a chave de licença"
+
+# automatic translation
+#: bws_menu/bws_menu.php:436
+msgid "Enter your license key"
+msgstr "Digite sua chave de licença"
+
+# automatic translation
+#: bws_menu/bws_menu.php:448 bws_menu/bws_menu.php:722
+#: bws_menu/bws_menu.php:731 bws_menu/class-bws-settings.php:910
+#: bws_menu/deprecated.php:172 bws_menu/deprecated.php:180
+#: bws_menu/deprecated.php:270 bws_menu/deprecated.php:283
+#: includes/class-gglstmp-settings.php:441
+#: includes/class-gglstmp-settings.php:607
+msgid "Activate"
+msgstr "Ativar"
+
+# automatic translation
+#: bws_menu/bws_menu.php:471
+msgid "Upload Plugin"
+msgstr "Carregar plug-in"
+
+# automatic translation
+#: bws_menu/bws_menu.php:476
+#, php-format
+msgid ""
+"The plugin generated %d characters of <strong>unexpected output</strong> "
+"during activation. If you notice &#8220;headers already sent&#8221; "
+"messages, problems with syndication feeds or other issues, try deactivating "
+"or removing this plugin."
+msgstr ""
+"O plug-in gerou %d caracteres de <strong>saída inesperada</strong> durante a "
+"ativação. Se você notar mensagens de “cabeçalhos já enviados”, problemas com "
+"feeds de distribuição ou outros problemas, tente desativar ou remover este "
+"plug-in."
+
+# automatic translation
+#: bws_menu/bws_menu.php:478
+msgid ""
+"Plugin could not be activated because it triggered a <strong>fatal error</"
+"strong>."
+msgstr ""
+"O plug-in não pôde ser ativado porque acionou um <strong>erro fatal</"
+"strong> ."
+
+# automatic translation
+#: bws_menu/bws_menu.php:483
+msgid "Plugin <strong>activated</strong>."
+msgstr "Plug-in <strong>ativado</strong> ."
+
+# automatic translation
+#: bws_menu/bws_menu.php:500
+msgid "Download Pro Plugin"
+msgstr "Baixe o plug-in profissional"
+
+# automatic translation
+#: bws_menu/bws_menu.php:502 bws_menu/class-bws-settings.php:864
+msgid "Your Pro plugin is ready"
+msgstr "Seu plug-in Pro está pronto"
+
+# automatic translation
+#: bws_menu/bws_menu.php:504 bws_menu/class-bws-settings.php:866
+msgid "Your plugin has been zipped, and now is ready to download."
+msgstr "Seu plug-in foi compactado e agora está pronto para download."
+
+# automatic translation
+#: bws_menu/bws_menu.php:507 bws_menu/class-bws-settings.php:869
+msgid "Download Now"
+msgstr "Baixe Agora"
+
+# automatic translation
+#: bws_menu/bws_menu.php:511 bws_menu/class-bws-settings.php:873
+msgid "Need help installing the plugin?"
+msgstr "Precisa de ajuda para instalar o plugin?"
+
+# automatic translation
+#: bws_menu/bws_menu.php:513 bws_menu/class-bws-settings.php:875
+msgid "How to install WordPress plugin from your admin Dashboard (ZIP archive)"
+msgstr ""
+"Como instalar o plugin do WordPress a partir do seu painel de administração "
+"(arquivo ZIP)"
+
+# automatic translation
+#: bws_menu/bws_menu.php:516 bws_menu/class-bws-settings.php:879
+msgid "Get Started"
+msgstr "Iniciar"
+
+# automatic translation
+#: bws_menu/bws_menu.php:522 bws_menu/class-bws-settings.php:885
+msgid "Knowledge Base"
+msgstr "Base de conhecimento"
+
+# automatic translation
+#: bws_menu/bws_menu.php:525
+msgid "Licenses & Domains"
+msgstr "Licenças e domínios"
+
+# automatic translation
+#: bws_menu/bws_menu.php:530
+msgid "Client Area"
+msgstr "Área do cliente"
+
+# automatic translation
+#: bws_menu/bws_menu.php:534
+msgid "Return to BestWebSoft Panel"
+msgstr "Voltar ao Painel BestWebSoft"
+
+# automatic translation
+#: bws_menu/bws_menu.php:550 bws_menu/bws_menu.php:588
+#: bws_menu/bws_menu.php:764 includes/pro_banners.php:106
+msgid "All"
+msgstr "Todos"
+
+# automatic translation
+#: bws_menu/bws_menu.php:559 bws_menu/bws_menu.php:813
+msgid "Installed"
+msgstr "Instalado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:568
+msgid "Not Installed"
+msgstr "Não instalado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:575
+msgid "Filter results"
+msgstr "Filtrar resultados"
+
+# automatic translation
+#: bws_menu/bws_menu.php:578 bws_menu/bws_menu.php:754
+msgid "Category"
+msgstr "Categoria"
+
+# automatic translation
+#: bws_menu/bws_menu.php:674
+msgid "Not installed"
+msgstr "Não instalado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:678
+msgid "Renew to get updates"
+msgstr "Renove para receber atualizações"
+
+# automatic translation
+#: bws_menu/bws_menu.php:681
+#, php-format
+msgid "Update to v %s"
+msgstr "Atualizar para v %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:696 bws_menu/bws_menu.php:725
+msgid "Get Pro"
+msgstr "Obter Pro"
+
+# automatic translation
+#: bws_menu/bws_menu.php:702 bws_menu/class-bws-settings.php:207
+#: bws_menu/class-bws-settings.php:1220 google-sitemap-plugin.php:79
+#: includes/pro_banners.php:32
+msgid "Upgrade to Pro"
+msgstr "Atualize para Pro"
+
+# automatic translation
+#: bws_menu/bws_menu.php:722 bws_menu/bws_menu.php:731
+msgid "Activate this plugin"
+msgstr "Ative este plug-in"
+
+# automatic translation
+#: bws_menu/bws_menu.php:736
+msgid "Install this plugin"
+msgstr "Instalar este plug-in"
+
+# automatic translation
+#: bws_menu/bws_menu.php:736 includes/class-gglstmp-settings.php:444
+#: includes/class-gglstmp-settings.php:611
+msgid "Install Now"
+msgstr "instale agora"
+
+# automatic translation
+#: bws_menu/bws_menu.php:749
+msgid "Nothing found. Try another criteria."
+msgstr "Nada encontrado. Tente outro critério."
+
+# automatic translation
+#: bws_menu/bws_menu.php:802
+#, php-format
+msgid "By %s"
+msgstr "Por %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:811
+msgid "Already Installed"
+msgstr "Já instalado"
+
+# automatic translation
+#: bws_menu/bws_menu.php:823
+msgid "Browse More WordPress Themes"
+msgstr "Navegue por mais temas do WordPress"
+
+# automatic translation
+#: bws_menu/bws_menu.php:844
+msgid "Send to support"
+msgstr "Enviar para o suporte"
+
+# automatic translation
+#: bws_menu/bws_menu.php:851
+msgid "Send to custom email &#187;"
+msgstr "Enviar para e-mail personalizado &#187;"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:179
+msgid "Information"
+msgstr "Informação"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:194
+msgid "Inactive"
+msgstr "Inativo"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:202
+msgid "Expired"
+msgstr "Expirado"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:205
+#, php-format
+msgid "%s day(-s) left"
+msgstr "%s Dias Restantes"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:211
+#, php-format
+msgid "Expired on %s"
+msgstr "Expirou em %s"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:211
+msgid "Renew Now"
+msgstr "Renovar agora"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:213
+msgid "Active"
+msgstr "Ativo"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:219
+msgid "License"
+msgstr "Licença"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:222 google-sitemap-plugin.php:1671
+#: google-sitemap-plugin.php:1675 google-sitemap-plugin.php:1776
+#: google-sitemap-plugin.php:1792 google-sitemap-plugin.php:1822
+#: google-sitemap-plugin.php:1836
+msgid "Status"
+msgstr "Status"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:226
+msgid "Version"
+msgstr "Versão"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:373
+msgid "All plugin settings were restored."
+msgstr "Todas as configurações do plug-in foram restauradas."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:538
+msgid "Custom Code"
+msgstr "Código personalizado"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:544
+msgid ""
+"The ability to add custom code is available in the Pro version. If the Pro "
+"version is not available please contact us via Help Center"
+msgstr ""
+"A capacidade de adicionar código personalizado está disponível na versão "
+"Pro. Se a versão Pro não estiver disponível, entre em contato conosco "
+"através da Central de Ajuda"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:555
+msgid "You do not have sufficient permissions to edit plugins for this site."
+msgstr ""
+"Você não tem permissões suficientes para editar plugins para este site."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:561
+msgid "These styles will be added to the header on all pages of your site."
+msgstr ""
+"Esses estilos serão adicionados ao cabeçalho de todas as páginas do seu site."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:565
+#, php-format
+msgid ""
+"This PHP code will be hooked to the %s Action and will be printed on front "
+"end only."
+msgstr ""
+"Este código PHP será vinculado à ação %s e será impresso apenas no front-end."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:569
+msgid "These code will be added to the header on all pages of your site."
+msgstr ""
+"Esses códigos serão adicionados ao cabeçalho de todas as páginas do seu site."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:581
+msgid "Browsing"
+msgstr "Navegando"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:595
+#, php-format
+msgid "Activate custom %s code."
+msgstr "Ative o código %s personalizado."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:606
+#, php-format
+msgid "Learn more about %s"
+msgstr "Saiba mais sobre %s"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:638
+msgid "Miscellaneous Settings"
+msgstr "Configurações Diversas"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:649 bws_menu/class-bws-settings.php:725
+#, php-format
+msgid ""
+"It is prohibited to change %1$s settings on this site in the %2$s network "
+"settings."
+msgstr ""
+"É proibido alterar as configurações de %1$s neste site nas configurações de "
+"rede %2$s."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:654 bws_menu/class-bws-settings.php:730
+#, php-format
+msgid ""
+"It is prohibited to view %1$s settings on this site in the %2$s network "
+"settings."
+msgstr ""
+"É proibido visualizar as configurações de %1$s neste site nas configurações "
+"de rede %2$s."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:665
+msgid "Pro Options"
+msgstr "Opções profissionais"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:675
+msgid "Enable to display plugin Pro options."
+msgstr "Ative para exibir as opções do plug-in Pro."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:681
+msgid "Track Usage"
+msgstr "Rastreie o uso"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:691
+msgid ""
+"Enable to allow tracking plugin usage anonymously in order to make it better."
+msgstr ""
+"Ative para permitir o rastreamento do uso do plug-in anonimamente para torná-"
+"lo melhor."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:696
+msgid "Default Settings"
+msgstr "Configurações padrão"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:698
+msgid "Restore Settings"
+msgstr "Restaurar configurações"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:699
+msgid "This will restore plugin settings to defaults."
+msgstr "Isso restaurará as configurações do plug-in para os padrões."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:714
+msgid "Import / Export"
+msgstr "Importar / Exportar"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:848 includes/class-gglstmp-settings.php:87
+msgid "License Key"
+msgstr "Chave de licença"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:913
+#, php-format
+msgid "Enter your license key to activate %s and get premium plugin features."
+msgstr ""
+"Digite sua chave de licença para ativar %s e obter recursos de plug-in "
+"premium."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:916 bws_menu/class-bws-settings.php:1137
+#: bws_menu/deprecated.php:277
+msgid ""
+"Unfortunately, you have exceeded the number of available tries per day. "
+"Please, upload the plugin manually."
+msgstr ""
+"Infelizmente, você excedeu o número de tentativas disponíveis por dia. Por "
+"favor, carregue o plugin manualmente."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:920 bws_menu/deprecated.php:262
+#, php-format
+msgid "Start Your Free %s-Day Trial Now"
+msgstr "Comece sua avaliação gratuita de %s dias agora"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:939
+msgid ""
+"If necessary, you can check if the license key is correct or reenter it in "
+"the field below."
+msgstr ""
+"Se necessário, você pode verificar se a chave de licença está correta ou "
+"inseri-la novamente no campo abaixo."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:950
+msgid "Manage License Settings"
+msgstr "Gerenciar configurações de licença"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:952
+msgid "Login to Client Area"
+msgstr "Entrar na Área do Cliente"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:954
+msgid ""
+"Manage active licenses, download BWS products, and view your payment history "
+"using BestWebSoft Client Area."
+msgstr ""
+"Gerencie licenças ativas, baixe produtos BWS e visualize seu histórico de "
+"pagamentos usando a Área do Cliente BestWebSoft."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:978
+msgid "Security check"
+msgstr "Verificação de segurança"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1019 bws_menu/class-bws-settings.php:1135
+msgid "This license key is bound to another site."
+msgstr "Esta chave de licença está vinculada a outro site."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1021
+msgid ""
+"This license key is valid, but Your license has expired. If you want to "
+"update our plugin in future, you should extend the license."
+msgstr ""
+"Esta chave de licença é válida, mas sua licença expirou. Se você deseja "
+"atualizar nosso plug-in no futuro, deve estender a licença."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1023
+msgid "Unfortunately, you have exceeded the number of available tries."
+msgstr "Infelizmente, você excedeu o número de tentativas disponíveis."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1025
+msgid ""
+"Unfortunately, the Pro Trial licence was already installed to this domain. "
+"The Pro Trial license can be installed only once."
+msgstr ""
+"Infelizmente, a licença Pro Trial já foi instalada neste domínio. A licença "
+"Pro Trial pode ser instalada apenas uma vez."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1030
+msgid "The Pro Trial license key is valid."
+msgstr "A chave de licença Pro Trial é válida."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1043 bws_menu/deprecated.php:157
+#, php-format
+msgid ""
+"In order to continue using the plugin it is necessary to buy a %s license."
+msgstr "Para continuar usando o plugin é necessário comprar uma licença %s."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1139
+#, php-format
+msgid ""
+"Unfortunately, Your license has expired. To continue getting top-priority "
+"support and plugin updates, you should extend it in your %s."
+msgstr ""
+"Infelizmente, sua licença expirou. Para continuar recebendo suporte de alta "
+"prioridade e atualizações de plugins, você deve estendê-lo em seu %s."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1188
+msgid "Please, enter Your license key"
+msgstr "Por favor, insira sua chave de licença"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1203
+msgid "Need Help?"
+msgstr "Preciso de ajuda?"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1205
+msgid "Read the Instruction"
+msgstr "Leia a Instrução"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1210
+msgid "Watch the Video"
+msgstr "Assista o vídeo"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1224
+msgid "Start Your Free Trial"
+msgstr "Inicie o seu teste gratuito"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1262
+msgid "Request a Feature"
+msgstr "Solicite um recurso"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1268
+#, php-format
+msgid "How can we improve %s?"
+msgstr "Como podemos melhorar %s?"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1270
+msgid "We look forward to hear your ideas."
+msgstr "Estamos ansiosos para ouvir suas ideias."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1272
+msgid "Describe your idea"
+msgstr "Descreva sua ideia"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1275 bws_menu/deactivation-form.php:124
+msgid "Send website data and allow to contact me back"
+msgstr "Enviar dados do site e permitir contato comigo de volta"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1280
+msgid "Submit"
+msgstr "Enviar"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1281 bws_menu/deactivation-form.php:131
+msgid "Processing"
+msgstr "Em processamento"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1282
+msgid "Thank you!"
+msgstr "Obrigado!"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:26
+msgid "Need help? We are ready to answer your questions."
+msgstr "Preciso de ajuda? Estamos prontos para responder às suas perguntas."
+
+# automatic translation
+#: bws_menu/deactivation-form.php:26
+msgid "Contact Support"
+msgstr "Entre em contato com o suporte"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:31
+msgid "The plugin is not working"
+msgstr "O plug-in não está funcionando"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:33
+msgid "Kindly share what didn't work so we can fix it in future updates..."
+msgstr ""
+"Por favor, compartilhe o que não funcionou para que possamos corrigi-lo em "
+"futuras atualizações..."
+
+# automatic translation
+#: bws_menu/deactivation-form.php:37
+msgid "The plugin didn't work as expected"
+msgstr "O plug-in não funcionou como esperado"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:39
+msgid "What did you expect?"
+msgstr "O que você esperava?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:43
+msgid "The plugin suddenly stopped working"
+msgstr "O plug-in parou de funcionar repentinamente"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:50
+msgid "The plugin broke my site"
+msgstr "O plugin quebrou meu site"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:57
+msgid "I couldn't understand how to get it work"
+msgstr "não consegui entender como fazer funcionar"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:64
+msgid "I found a better plugin"
+msgstr "Achei um plugin melhor"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:66
+msgid "What's the plugin name?"
+msgstr "Qual é o nome do plug-in?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:70
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"O plug-in é ótimo, mas preciso de um recurso específico que você não oferece "
+"suporte"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:72
+msgid "What feature?"
+msgstr "Que recurso?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:76
+msgid "I no longer need the plugin"
+msgstr "Não preciso mais do plug-in"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:82
+msgid "It's a temporary deactivation, I'm just debugging an issue"
+msgstr "É uma desativação temporária, estou apenas depurando um problema"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:88
+msgid "Other"
+msgstr "Outro"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:97
+msgid "Quick Feedback"
+msgstr "Feedback rápido"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:99
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Se você tiver um momento, informe-nos por que está desativando"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:129
+msgid "Submit and Deactivate"
+msgstr "Enviar e desativar"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:130
+msgid "Skip and Deactivate"
+msgstr "Ignorar e desativar"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:276
+msgid "Please tell us the reason so we can improve it."
+msgstr "Por favor, diga-nos o motivo para que possamos melhorá-lo."
+
+# automatic translation
+#: bws_menu/deprecated.php:31
+msgid "System Status"
+msgstr "Status do sistema"
+
+# automatic translation
+#: bws_menu/deprecated.php:131
+msgid ""
+"If necessary, you can check if the license key is correct or reenter it in "
+"the field below. You can find your license key on your personal page - "
+"Client Area - on our website"
+msgstr ""
+"Se necessário, você pode verificar se a chave de licença está correta ou "
+"inseri-la novamente no campo abaixo. Você pode encontrar sua chave de "
+"licença em sua página pessoal - Área do Cliente - em nosso site"
+
+# automatic translation
+#: bws_menu/deprecated.php:131
+msgid ""
+"(your username is the email address specified during the purchase). If "
+"necessary, please submit \"Lost your password?\" request."
+msgstr ""
+"(seu nome de usuário é o endereço de e-mail especificado durante a compra). "
+"Se necessário, envie \"Esqueceu sua senha?\" solicitar."
+
+# automatic translation
+#: bws_menu/deprecated.php:157
+msgid "After that, you can activate it by entering your license key."
+msgstr "Depois disso, você pode ativá-lo inserindo sua chave de licença."
+
+# automatic translation
+#: bws_menu/deprecated.php:160 bws_menu/deprecated.php:255
+msgid "License key can be found in the"
+msgstr "A chave de licença pode ser encontrada no"
+
+# automatic translation
+#: bws_menu/deprecated.php:162 bws_menu/deprecated.php:257
+msgid "(your username is the email address specified during the purchase)."
+msgstr ""
+"(seu nome de usuário é o endereço de e-mail especificado durante a compra)."
+
+# automatic translation
+#: bws_menu/deprecated.php:189
+msgid ""
+"Congratulations! The Pro license of the plugin is activated successfully."
+msgstr "Parabéns! A licença Pro do plug-in foi ativada com sucesso."
+
+# automatic translation
+#: bws_menu/deprecated.php:191 bws_menu/deprecated.php:235
+msgid "Please, go to"
+msgstr "Por favor vá a"
+
+# automatic translation
+#: bws_menu/deprecated.php:191 bws_menu/deprecated.php:235
+msgid "the setting page"
+msgstr "a página de configuração"
+
+# automatic translation
+#: bws_menu/deprecated.php:209
+msgid "Restore all plugin settings to defaults"
+msgstr "Restaurar todas as configurações do plug-in para os padrões"
+
+# automatic translation
+#: bws_menu/deprecated.php:211
+msgid "Restore settings"
+msgstr "Restaurar configurações"
+
+# automatic translation
+#: bws_menu/deprecated.php:233
+msgid ""
+"Congratulations! Pro version of the plugin is  installed and activated "
+"successfully."
+msgstr "Parabéns! A versão Pro do plug-in foi instalada e ativada com sucesso."
+
+# automatic translation
+#: bws_menu/deprecated.php:244
+msgid "Show Pro features"
+msgstr "Mostrar recursos profissionais"
+
+# automatic translation
+#: bws_menu/deprecated.php:251
+msgid "Enter your license key to install and activate"
+msgstr "Digite sua chave de licença para instalar e ativar"
+
+# automatic translation
+#: bws_menu/deprecated.php:253
+msgid "version of the plugin."
+msgstr "versão do plug-in."
+
+# automatic translation
+#: bws_menu/product_list.php:13
+msgid "Admin Tools"
+msgstr "Ferramentas Administrativas"
+
+# automatic translation
+#: bws_menu/product_list.php:14
+msgid "Content"
+msgstr "Contente"
+
+# automatic translation
+#: bws_menu/product_list.php:15
+msgid "eCommerce"
+msgstr "comércio eletrônico"
+
+# automatic translation
+#: bws_menu/product_list.php:16
+msgid "Marketing"
+msgstr "Marketing"
+
+# automatic translation
+#: bws_menu/product_list.php:17
+msgid "Navigation"
+msgstr "Navegação"
+
+# automatic translation
+#: bws_menu/product_list.php:18
+msgid "Recommended"
+msgstr "Recomendado"
+
+# automatic translation
+#: bws_menu/product_list.php:19
+msgid "Security"
+msgstr "Segurança"
+
+# automatic translation
+#: bws_menu/product_list.php:20
+msgid "SEO"
+msgstr "ESSE"
+
+# automatic translation
+#: bws_menu/product_list.php:21
+msgid "SMM"
+msgstr "SMM"
+
+# automatic translation
+#: bws_menu/product_list.php:28
+msgid "Give a birth for your bike rental and booking WordPress website."
+msgstr "Dê à luz o seu site WordPress de aluguel e reserva de bicicletas."
+
+# automatic translation
+#: bws_menu/product_list.php:40
+msgid "Best secure captcha plugin to protect your WordPress forms."
+msgstr ""
+"Melhor plug-in de captcha seguro para proteger seus formulários do WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:50
+msgid "Create your own rental website for car renting and booking."
+msgstr "Crie seu próprio site de aluguel para aluguel e reserva de carros."
+
+# automatic translation
+#: bws_menu/product_list.php:62
+msgid ""
+"Add columns with custom content to WordPress website pages, posts, widgets, "
+"etc."
+msgstr ""
+"Adicione colunas com conteúdo personalizado às páginas do site WordPress, "
+"posts, widgets, etc."
+
+# automatic translation
+#: bws_menu/product_list.php:69
+msgid ""
+"Allow customers to reach you using secure contact form plugin any website "
+"must have."
+msgstr ""
+"Permita que os clientes entrem em contato com você usando o plug-in de "
+"formulário de contato seguro que qualquer site deve ter."
+
+# automatic translation
+#: bws_menu/product_list.php:79
+msgid "Add unlimited number of contact forms to WordPress website."
+msgstr ""
+"Adicione um número ilimitado de formulários de contato ao site WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:89
+msgid "Save and manage Contact Form messages. Never lose important data."
+msgstr ""
+"Salve e gerencie as mensagens do formulário de contato. Nunca perca dados "
+"importantes."
+
+# automatic translation
+#: bws_menu/product_list.php:99
+msgid "Add unlimited custom pages to WordPress admin dashboard."
+msgstr ""
+"Adicione páginas personalizadas ilimitadas ao painel de administração do "
+"WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:109
+msgid ""
+"Add custom post types and taxonomies to WordPress website search results."
+msgstr ""
+"Adicione tipos de postagem personalizados e taxonomias aos resultados de "
+"pesquisa do site WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:119
+msgid "Add PayPal and 2CO donate buttons to receive charity payments."
+msgstr ""
+"Adicione os botões de doação do PayPal e 2CO para receber pagamentos de "
+"caridade."
+
+# automatic translation
+#: bws_menu/product_list.php:126
+msgid ""
+"Get latest error log messages to diagnose website problems. Define and fix "
+"issues faster."
+msgstr ""
+"Obtenha as mensagens de log de erros mais recentes para diagnosticar "
+"problemas do site. Defina e corrija problemas mais rapidamente."
+
+# automatic translation
+#: bws_menu/product_list.php:133
+msgid ""
+"Add Facebook Follow, Like, and Share buttons to WordPress posts, pages, and "
+"widgets."
+msgstr ""
+"Adicione os botões Seguir, Curtir e Compartilhar do Facebook a postagens, "
+"páginas e widgets do WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:143
+msgid ""
+"Add beautiful galleries, albums & images to your WordPress website in a few "
+"clicks."
+msgstr ""
+"Adicione belas galerias, álbuns e imagens ao seu site WordPress com apenas "
+"alguns cliques."
+
+# automatic translation
+#: bws_menu/product_list.php:153
+msgid ""
+"Stronger security solution which protects your WordPress website from hacks "
+"and unauthorized login attempts."
+msgstr ""
+"Solução de segurança mais forte que protege seu site WordPress contra hacks "
+"e tentativas de login não autorizadas."
+
+# automatic translation
+#: bws_menu/product_list.php:163
+msgid ""
+"Add Adsense ads to WordPress website pages, posts, custom posts, search "
+"results, categories, tags, and widgets."
+msgstr ""
+"Adicione anúncios do Adsense às páginas do site WordPress, postagens, "
+"postagens personalizadas, resultados de pesquisa, categorias, tags e widgets."
+
+# automatic translation
+#: bws_menu/product_list.php:173
+msgid "Add Google Analytics code to WordPress website and track basic stats."
+msgstr ""
+"Adicione o código do Google Analytics ao site WordPress e acompanhe as "
+"estatísticas básicas."
+
+# automatic translation
+#: bws_menu/product_list.php:183
+msgid "Protect WordPress website forms from spam entries with reCaptcha."
+msgstr ""
+"Proteja os formulários do site WordPress contra entradas de spam com o "
+"reCaptcha."
+
+# automatic translation
+#: bws_menu/product_list.php:193
+msgid "Add customized Google maps to WordPress posts, pages and widgets."
+msgstr ""
+"Adicione mapas personalizados do Google a postagens, páginas e widgets do "
+"WordPress."
+
+# automatic translation
+#. Description of the plugin/theme
+#: bws_menu/product_list.php:203
+msgid ""
+"Generate and add XML sitemap to WordPress website. Help search engines index "
+"your blog."
+msgstr ""
+"Gere e adicione um mapa do site XML ao site WordPress. Ajude os mecanismos "
+"de pesquisa a indexar seu blog."
+
+# automatic translation
+#: bws_menu/product_list.php:213
+msgid ""
+"Replace external WordPress website links with Google shortlinks and track "
+"click stats."
+msgstr ""
+"Substitua os links externos do site WordPress por links curtos do Google e "
+"acompanhe as estatísticas de cliques."
+
+#: bws_menu/product_list.php:220
+msgid "Create Content with GPT."
+msgstr "Criar conteúdo com o GPT."
+
+# automatic translation
+#: bws_menu/product_list.php:231
+msgid ""
+"Protect WordPress website – allow and deny access for certain IP addresses, "
+"hostnames, etc."
+msgstr ""
+"Proteja o site WordPress – permita e negue acesso a determinados endereços "
+"IP, nomes de host, etc."
+
+# automatic translation
+#: bws_menu/product_list.php:241
+msgid ""
+"Create your personal job board and listing WordPress website. Search jobs, "
+"submit CV/resumes, choose candidates."
+msgstr ""
+"Crie seu quadro de empregos pessoal e liste o site WordPress. Pesquise "
+"empregos, envie CV/currículos, escolha candidatos."
+
+# automatic translation
+#: bws_menu/product_list.php:248
+msgid ""
+"Protect WordPress website against brute force attacks. Limit rate of login "
+"attempts."
+msgstr ""
+"Proteja o site WordPress contra ataques de força bruta. Limite a taxa de "
+"tentativas de login."
+
+# automatic translation
+#: bws_menu/product_list.php:258
+msgid ""
+"Add LinkedIn Share and Follow buttons to WordPress posts, pages and widgets. "
+"5 plugins included – profile, insider, etc."
+msgstr ""
+"Adicione os botões Compartilhar e Seguir do LinkedIn às postagens, páginas e "
+"widgets do WordPress. 5 plugins incluídos – perfil, insider, etc."
+
+# automatic translation
+#: bws_menu/product_list.php:268
+msgid ""
+"Translate WordPress website content to other languages manually. Create "
+"multilingual pages, posts, widgets, menus, etc."
+msgstr ""
+"Traduza o conteúdo do site WordPress para outros idiomas manualmente. Crie "
+"páginas multilíngues, posts, widgets, menus, etc."
+
+# automatic translation
+#: bws_menu/product_list.php:278
+msgid ""
+"Add customizable pagination to WordPress website. Split long content to "
+"multiple pages for better navigation."
+msgstr ""
+"Adicione paginação personalizável ao site WordPress. Divida o conteúdo longo "
+"em várias páginas para uma melhor navegação."
+
+# automatic translation
+#: bws_menu/product_list.php:288
+msgid ""
+"Generate PDF files and print WordPress posts/pages. Customize document "
+"header/footer styles and appearance."
+msgstr ""
+"Gere arquivos PDF e imprima postagens/páginas do WordPress. Personalize os "
+"estilos e a aparência do cabeçalho/rodapé do documento."
+
+# automatic translation
+#: bws_menu/product_list.php:298
+msgid ""
+"Add Pinterest Follow, Pin It buttons and profile widgets (Pin, Board, "
+"Profile) to WordPress posts, pages and widgets."
+msgstr ""
+"Adicione os botões Pinterest Follow, Pin It e widgets de perfil (Pin, Board, "
+"Profile) às postagens, páginas e widgets do WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:308
+msgid ""
+"Create your personal portfolio WordPress website. Manage and showcase past "
+"projects to get more clients."
+msgstr ""
+"Crie seu site WordPress de portfólio pessoal. Gerencie e exiba projetos "
+"anteriores para obter mais clientes."
+
+# automatic translation
+#: bws_menu/product_list.php:318
+msgid "Export WordPress posts to CSV file format easily. Configure data order."
+msgstr ""
+"Exporte postagens do WordPress para o formato de arquivo CSV facilmente. "
+"Configurar ordem de dados."
+
+# automatic translation
+#: bws_menu/product_list.php:328
+msgid ""
+"Add extra fields to default WordPress user profile. The easiest way to "
+"create and manage additional custom values."
+msgstr ""
+"Adicione campos extras ao perfil de usuário padrão do WordPress. A maneira "
+"mais fácil de criar e gerenciar valores personalizados adicionais."
+
+# automatic translation
+#: bws_menu/product_list.php:338
+msgid ""
+"Add and display HTML advertisement banner on WordPress website. Customize "
+"bar styles and appearance."
+msgstr ""
+"Adicione e exiba banner de anúncio HTML no site WordPress. Personalize os "
+"estilos e a aparência da barra."
+
+# automatic translation
+#: bws_menu/product_list.php:348
+msgid ""
+"Add customizable quotes and tips blocks to WordPress posts, pages and "
+"widgets."
+msgstr ""
+"Adicione citações personalizáveis e blocos de dicas a postagens, páginas e "
+"widgets do WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:355
+msgid ""
+"Add rating plugin to your WordPress website to receive feedback from your "
+"customers."
+msgstr ""
+"Adicione o plug-in de classificação ao seu site WordPress para receber "
+"feedback de seus clientes."
+
+# automatic translation
+#: bws_menu/product_list.php:365
+msgid ""
+"Create your personal real estate WordPress website. Sell, rent and buy "
+"properties. Add, search and browse listings easily."
+msgstr ""
+"Crie seu site WordPress imobiliário pessoal. Vender, alugar e comprar "
+"propriedades. Adicione, pesquise e navegue nas listagens facilmente."
+
+# automatic translation
+#: bws_menu/product_list.php:375
+msgid ""
+"Add related, featured, latest, and popular posts to your WordPress website. "
+"Connect your blog readers with a relevant content."
+msgstr ""
+"Adicione postagens relacionadas, em destaque, mais recentes e populares ao "
+"seu site WordPress. Conecte os leitores do seu blog com um conteúdo "
+"relevante."
+
+# automatic translation
+#: bws_menu/product_list.php:382
+msgid ""
+"Send bulk email messages to WordPress users. Custom templates, advanced "
+"settings and detailed reports."
+msgstr ""
+"Envie mensagens de e-mail em massa para usuários do WordPress. Modelos "
+"personalizados, configurações avançadas e relatórios detalhados."
+
+# automatic translation
+#: bws_menu/product_list.php:392
+msgid ""
+"The best responsive slider plugin for your WordPress website. Create "
+"beautifully animated slides just in a few clicks."
+msgstr ""
+"O melhor plug-in de controle deslizante responsivo para o seu site "
+"WordPress. Crie slides lindamente animados com apenas alguns cliques."
+
+# automatic translation
+#: bws_menu/product_list.php:399
+msgid ""
+"Configure SMTP server to receive email messages from WordPress to Gmail, "
+"Yahoo, Hotmail and other services."
+msgstr ""
+"Configure o servidor SMTP para receber mensagens de e-mail do WordPress para "
+"Gmail, Yahoo, Hotmail e outros serviços."
+
+# automatic translation
+#: bws_menu/product_list.php:406
+msgid ""
+"Add social media buttons and widgets to WordPress posts, pages and widgets. "
+"FB, Twitter, Pinterest, LinkedIn."
+msgstr ""
+"Adicione botões e widgets de mídia social a postagens, páginas e widgets do "
+"WordPress. Facebook, Twitter, Pinterest, LinkedIn."
+
+# automatic translation
+#: bws_menu/product_list.php:416
+msgid ""
+"Add social media login, registration, and commenting to your WordPress "
+"website."
+msgstr ""
+"Adicione login de mídia social, registro e comentários ao seu site WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:423
+msgid ""
+"Add email newsletter sign up form to WordPress posts, pages and widgets. "
+"Collect data and subscribe your users."
+msgstr ""
+"Adicione o formulário de inscrição do boletim informativo por e-mail às "
+"postagens, páginas e widgets do WordPress. Colete dados e inscreva seus "
+"usuários."
+
+# automatic translation
+#: bws_menu/product_list.php:433
+msgid ""
+"Add testimonials and feedbacks from your customers to WordPress website "
+"posts, pages, and widgets."
+msgstr ""
+"Adicione depoimentos e feedbacks de seus clientes às postagens, páginas e "
+"widgets do site WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:443
+msgid ""
+"Best timesheet plugin for WordPress. Track employee time, streamline "
+"attendance and generate reports."
+msgstr ""
+"Melhor plugin de quadro de horários para WordPress. Acompanhe o tempo dos "
+"funcionários, simplifique o comparecimento e gere relatórios."
+
+# automatic translation
+#: bws_menu/product_list.php:453
+msgid ""
+"Add Twitter Follow, Tweet, Hashtag, and Mention buttons to WordPress posts "
+"and pages."
+msgstr ""
+"Adicione os botões Twitter Follow, Tweet, Hashtag e Mention às postagens e "
+"páginas do WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:463
+msgid ""
+"Automatically check and update WordPress website core with all installed "
+"plugins and themes to the latest versions."
+msgstr ""
+"Verifique e atualize automaticamente o núcleo do site WordPress com todos os "
+"plugins e temas instalados para as versões mais recentes."
+
+# automatic translation
+#: bws_menu/product_list.php:473
+msgid ""
+"Powerful user role management plugin for WordPress website. Create, edit, "
+"copy, and delete user roles."
+msgstr ""
+"Poderoso plug-in de gerenciamento de função do usuário para o site "
+"WordPress. Crie, edite, copie e exclua funções de usuário."
+
+# automatic translation
+#: bws_menu/product_list.php:483
+msgid ""
+"Display live count of online visitors who are currently browsing your "
+"WordPress website."
+msgstr ""
+"Exiba a contagem ao vivo de visitantes online que estão navegando no seu "
+"site WordPress."
+
+# automatic translation
+#: bws_menu/product_list.php:493
+msgid ""
+"Backup and export Zendesk Help Center content automatically to your "
+"WordPress website database."
+msgstr ""
+"Faça backup e exporte o conteúdo da Central de Ajuda do Zendesk "
+"automaticamente para o banco de dados do seu site WordPress."
+
+# automatic translation
+#: google-sitemap-plugin.php:44 google-sitemap-plugin.php:54
+#: includes/class-gglstmp-settings.php:343
+msgid "Sitemap Settings"
+msgstr "Configurações do mapa do site"
+
+# automatic translation
+#: google-sitemap-plugin.php:62 google-sitemap-plugin.php:63
+#: google-sitemap-plugin.php:1584
+msgid "Custom Links"
+msgstr "Links personalizados"
+
+# automatic translation
+#: google-sitemap-plugin.php:470
+msgid "Post categories"
+msgstr "Postar categorias"
+
+# automatic translation
+#: google-sitemap-plugin.php:471
+msgid "Post tags"
+msgstr "tags de postagem"
+
+# automatic translation
+#: google-sitemap-plugin.php:1577
+msgid "Please enable JavaScript in your browser."
+msgstr "Ative o JavaScript em seu navegador."
+
+# automatic translation
+#: google-sitemap-plugin.php:1660 google-sitemap-plugin.php:1755
+#: google-sitemap-plugin.php:1818
+msgid "Website"
+msgstr "Local na rede Internet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1672 google-sitemap-plugin.php:1706
+#: google-sitemap-plugin.php:1793
+msgid "Not added"
+msgstr "Não adicionado"
+
+# automatic translation
+#: google-sitemap-plugin.php:1676 google-sitemap-plugin.php:1709
+#: google-sitemap-plugin.php:1823 google-sitemap-plugin.php:1937
+msgid "Added"
+msgstr "Adicionado"
+
+# automatic translation
+#: google-sitemap-plugin.php:1678 google-sitemap-plugin.php:1880
+#: google-sitemap-plugin.php:1892 google-sitemap-plugin.php:1906
+msgid "Verification Status"
+msgstr "Status de verificação"
+
+# automatic translation
+#: google-sitemap-plugin.php:1680 google-sitemap-plugin.php:1893
+msgid "Verified"
+msgstr "Verificado"
+
+# automatic translation
+#: google-sitemap-plugin.php:1682
+msgid "Not verified"
+msgstr "Não verificado"
+
+# automatic translation
+#: google-sitemap-plugin.php:1691 google-sitemap-plugin.php:1914
+msgid "Sitemap Status"
+msgstr "Status do mapa do site"
+
+# automatic translation
+#: google-sitemap-plugin.php:1711
+msgid "Added with errors."
+msgstr "Adicionado com erros."
+
+# automatic translation
+#: google-sitemap-plugin.php:1711
+msgid "View errors in Google Webmaster Tools"
+msgstr "Ver erros nas Ferramentas do Google para webmasters"
+
+# automatic translation
+#: google-sitemap-plugin.php:1714
+msgid "Sitemap URL"
+msgstr "URL do mapa do site"
+
+# automatic translation
+#: google-sitemap-plugin.php:1717 google-sitemap-plugin.php:1733
+#: google-sitemap-plugin.php:1795 google-sitemap-plugin.php:1838
+#: google-sitemap-plugin.php:1877 google-sitemap-plugin.php:1908
+#: google-sitemap-plugin.php:1950 google-sitemap-plugin.php:1970
+#: includes/class-gglstmp-settings.php:782
+msgid "Error"
+msgstr "Erro"
+
+# automatic translation
+#: google-sitemap-plugin.php:1717
+msgid "Please check the sitemap file manually."
+msgstr "Verifique o arquivo de mapa do site manualmente."
+
+# automatic translation
+#: google-sitemap-plugin.php:1722 google-sitemap-plugin.php:1783
+#: google-sitemap-plugin.php:1826 google-sitemap-plugin.php:1865
+#: google-sitemap-plugin.php:1896 google-sitemap-plugin.php:1940
+msgid "Unexpected error"
+msgstr "Erro inesperado"
+
+# automatic translation
+#: google-sitemap-plugin.php:1735 google-sitemap-plugin.php:1841
+#: google-sitemap-plugin.php:1911
+msgid "Manual verification required."
+msgstr "Verificação manual necessária."
+
+# automatic translation
+#: google-sitemap-plugin.php:1777
+msgid "Deleted"
+msgstr "Excluído"
+
+# automatic translation
+#: google-sitemap-plugin.php:1857 google-sitemap-plugin.php:1860
+#: google-sitemap-plugin.php:1876
+msgid "Verification Code"
+msgstr "Código de verificação"
+
+# automatic translation
+#: google-sitemap-plugin.php:1858
+msgid "Received and added to the site"
+msgstr "Recebido e adicionado ao site"
+
+# automatic translation
+#: google-sitemap-plugin.php:1861
+msgid "Received, but has not been added to the site"
+msgstr "Recebido, mas não foi adicionado ao site"
+
+# automatic translation
+#: google-sitemap-plugin.php:1953
+msgid "Please add the sitemap file manually."
+msgstr "Adicione o arquivo de mapa do site manualmente."
+
+# automatic translation
+#: google-sitemap-plugin.php:1958
+msgid "Error 404"
+msgstr "Erro 404"
+
+# automatic translation
+#: google-sitemap-plugin.php:1960
+#, php-format
+msgid "The sitemap file %s not found."
+msgstr "O arquivo de mapa do site %s não foi encontrado."
+
+# automatic translation
+#: google-sitemap-plugin.php:1970
+msgid "The sitemap file not found."
+msgstr "O arquivo de mapa do site não foi encontrado."
+
+# automatic translation
+#: google-sitemap-plugin.php:2085 google-sitemap-plugin.php:2094
+msgid "Sitemap plugin"
+msgstr "Plug-in de mapa do site"
+
+# automatic translation
+#: google-sitemap-plugin.php:2127
+msgid "Canonical Url"
+msgstr "URL Canônica"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:84
+msgid "Structure"
+msgstr "Estrutura"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:85
+msgid "Misc"
+msgstr "Diversos"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:153
+msgid "Post category"
+msgstr "Categoria de postagem"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:154
+msgid "Post tag"
+msgstr "etiqueta de postagem"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:332
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:358
+msgid "Yoast Sitemap"
+msgstr "Yoast Sitemap"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:361
+msgid "Enable to activate the sitemap (Yoast sitemap will be deactivated)."
+msgstr ""
+"Habilite para ativar o mapa do site (o mapa do site Yoast será desativado)."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:372
+#, php-format
+msgctxt "%robots.txt file link%"
+msgid "Enable to add a sitemap file path to the %s file."
+msgstr ""
+"Habilite para adicionar um caminho de arquivo de mapa do site ao arquivo %s."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:389
+msgid "Sitemap Filename"
+msgstr "Nome do arquivo do mapa do site"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:392
+msgid ""
+"The default name is sitemap.xml. For multisite the default name is "
+"sitemap_blog_id.xml"
+msgstr ""
+"O nome padrão é sitemap.xml. Para multisite, o nome padrão é sitemap_blog_id."
+"xml"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:402
+msgid "Disable automatic canonical tag"
+msgstr "Desativar etiqueta canônica automática"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:405
+msgid "Enable to remove automatic canonical tag with standart WP url"
+msgstr "Ative para remover a etiqueta canônica automática com url WP padrão"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:409
+msgid "Disable all canonical tag"
+msgstr "Desativar todas as tags canônicas"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:412
+msgid "Enable to remove all canonical tag from plugin"
+msgstr "Ative para remover todas as tags canônicas do plug-in"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:416
+msgid "Media Sitemap"
+msgstr "Mapa do site de mídia"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:419
+msgid "Enable to create separate sitemap files for images and videos."
+msgstr ""
+"Ative para criar arquivos de mapa do site separados para imagens e vídeos."
+
+#: includes/class-gglstmp-settings.php:423
+msgid "Images quality"
+msgstr "Qualidade das imagens"
+
+#: includes/class-gglstmp-settings.php:426
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/class-gglstmp-settings.php:427
+msgid "Medium"
+msgstr "Médio"
+
+#: includes/class-gglstmp-settings.php:428
+msgid "Large"
+msgstr "Grande"
+
+#: includes/class-gglstmp-settings.php:429
+msgid "Full"
+msgstr "Completo"
+
+#: includes/class-gglstmp-settings.php:431
+msgid ""
+"Choosing the quality of images in the sitemap. If there is no image of the "
+"required size, a full-size image will be used."
+msgstr ""
+"Escolha da qualidade das imagens no mapa do site. Se não houver nenhuma "
+"imagem com o tamanho necessário, será usada uma imagem em tamanho real."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:438
+msgid "This option will be applied to all websites in the network."
+msgstr "Esta opção será aplicada a todos os sites da rede."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:451
+#, php-format
+msgid "%s Plugin"
+msgstr "plug-in %s"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:454
+#, php-format
+msgid "Enable to allow XML files access using %s plugin."
+msgstr "Ative para permitir acesso a arquivos XML usando o plug-in %s."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:455
+msgid "The following string will be added to your .htaccess file"
+msgstr "A seguinte string será adicionada ao seu arquivo .htaccess"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:479
+msgid "Split Sitemap"
+msgstr "Mapa do site dividido"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:482
+msgid ""
+"Create a main sitemap with separate child sitemaps for post, pages, "
+"categories"
+msgstr ""
+"Crie um sitemap principal com sitemaps filhos separados para postagem, "
+"páginas, categorias"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:486
+msgid "Split Sitemap Items"
+msgstr "Dividir itens de mapa do site"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:498
+msgid "Enable the items on the Structure tab to make them available."
+msgstr "Ative os itens na guia Estrutura para torná-los disponíveis."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:502
+msgid "Items Limit"
+msgstr "Limite de itens"
+
+#: includes/class-gglstmp-settings.php:505
+msgid ""
+"The number of rows from the database when executing a request to build a "
+"sitemap"
+msgstr ""
+"O número de linhas do banco de dados ao executar uma solicitação para criar "
+"um mapa do site"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:509
+msgid "URLs Limit"
+msgstr "Limite de URLs"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:514
+msgid ""
+"A sitemap file can't contain more than 50,000 URLs and must be no larger "
+"than 50 MB uncompressed."
+msgstr ""
+"Um arquivo de mapa do site não pode conter mais de 50.000 URLs e não deve "
+"ter mais de 50 MB descompactado."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:518
+msgid "Decrease the limit if your sitemap exceeds file size limit."
+msgstr ""
+"Diminua o limite se o mapa do site exceder o limite de tamanho de arquivo."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:519
+msgid ""
+"When the limit is reached, the sitemap will be splitted into multiple files."
+msgstr ""
+"Quando o limite for atingido, o sitemap será dividido em vários arquivos."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:524
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:528
+msgid ""
+"This hosting does not support сURL, so you cannot add a sitemap file "
+"automatically."
+msgstr ""
+"Esta hospedagem não suporta сURL, então você não pode adicionar um arquivo "
+"de mapa do site automaticamente."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:532
+msgid "Logout"
+msgstr "Sair"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:536
+msgid "Manage Website with Google Search Console"
+msgstr "Gerenciar site com o Google Search Console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:538
+msgid "Add"
+msgstr "Adicionar"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:539 includes/pro_banners.php:162
+msgid "Delete"
+msgstr "Excluir"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:540
+msgid "Get Info"
+msgstr "Obter informação"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:542
+msgid ""
+"Add, delete or get info about this website using your Google Search Console "
+"account."
+msgstr ""
+"Adicione, exclua ou obtenha informações sobre este site usando sua conta do "
+"Google Search Console."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:552
+msgid "Client ID"
+msgstr "ID do Cliente"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:562
+msgid "Client Secret"
+msgstr "Segredo do cliente"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:582
+msgid "Open the Google Search Console"
+msgstr "Abra o Console de Pesquisa do Google"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:583
+msgid "Remove Console Access"
+msgstr "Remover acesso ao console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:585
+msgid "Invalid authorization code. Please try again."
+msgstr "Código de autorização inválido. Por favor, tente novamente."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:593
+msgid "You can also add your sitemap to Google Search Console manually."
+msgstr ""
+"Você também pode adicionar seu sitemap ao Google Search Console manualmente."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:594
+msgid "Read the instruction"
+msgstr "Leia a instrução"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:599
+msgid "Alternate Language Pages"
+msgstr "Páginas de idioma alternativo"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:620
+msgid "Enable to add alternate language pages using Multilanguage plugin."
+msgstr ""
+"Ative para adicionar páginas de idiomas alternativos usando o plug-in "
+"multilíngue."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:633
+msgid "Sitemap Structure"
+msgstr "Estrutura do mapa do site"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:638
+msgid "Post Types"
+msgstr "Tipos de postagem"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:654
+msgid "Enable to add post type links to the sitemap."
+msgstr "Ative para adicionar links de tipo de postagem ao mapa do site."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:658
+msgid "Taxonomies"
+msgstr "Taxonomias"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:673
+msgid "Enable to taxonomy links to the sitemap."
+msgstr "Ative os links de taxonomia para o mapa do site."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:755
+#, php-format
+msgid "Sitemap File: %s"
+msgstr "Arquivo de mapa do site: %s"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:785
+#, php-format
+msgid ""
+"Can't access XML files. Try to add the following rule %1$s to your %2$s file "
+"which is located in the root of your website to resolve this error. Find the "
+"following line %3$s and paste the code just after it."
+msgstr ""
+"Não é possível acessar arquivos XML. Tente adicionar a seguinte regra %1$s "
+"ao seu arquivo %2$s que está localizado na raiz do seu site para resolver "
+"este erro. Encontre a seguinte linha %3$s e cole o código logo após ela."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:803
+msgid "Note"
+msgstr "Observação"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:804
+msgid ""
+"Another plugin is providing Google Client functionality and may interrupt "
+"proper plugin work."
+msgstr ""
+"Outro plug-in está fornecendo a funcionalidade Google Client e pode "
+"interromper o trabalho adequado do plug-in."
+
+#: includes/class-gglstmp-settings.php:820
+#, php-format
+msgctxt "%reading settings page link%"
+msgid ""
+"The “Robots.txt” option is enabled. You should disable the “Search Engine "
+"Visibility\" option on the %s."
+msgstr ""
+"A opção \"Robots.txt\" está ativada. Você deve desativar a opção "
+"\"Visibilidade do mecanismo de pesquisa\" no %s."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:824
+msgctxt "...on the reading settings page."
+msgid "Reading Settings page"
+msgstr "Página Configurações de leitura"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:828
+msgid ""
+"Also, please add the following code to the beginning of your \".htaccess\" "
+"file:"
+msgstr ""
+"Além disso, adicione o seguinte código ao início do seu arquivo \"."
+"htaccess\":"
+
+# automatic translation
+#: includes/pro_banners.php:23
+msgid "This option is available in Pro version of plugin"
+msgstr "Esta opção está disponível na versão Pro do plugin"
+
+# automatic translation
+#: includes/pro_banners.php:38
+msgid "This tab contains Pro options only."
+msgstr "Esta guia contém apenas opções do Pro."
+
+# automatic translation
+#: includes/pro_banners.php:40
+#, php-format
+msgid "%1$sChange the settings%2$s to view the Pro options."
+msgstr "%1$sAltere as configurações%2$s para ver as opções Pro."
+
+# automatic translation
+#: includes/pro_banners.php:59
+msgid "Title and Meta Description"
+msgstr "Título e meta descrição"
+
+# automatic translation
+#: includes/pro_banners.php:62
+msgid "Enable to change title and meta description."
+msgstr "Ative para alterar o título e a meta descrição."
+
+# automatic translation
+#: includes/pro_banners.php:66 includes/pro_banners.php:130
+#: includes/pro_banners.php:209
+msgid "Change Frequency"
+msgstr "Mudar a frequência"
+
+# automatic translation
+#: includes/pro_banners.php:69 includes/pro_banners.php:167
+#: includes/pro_banners.php:175 includes/pro_banners.php:183
+#: includes/pro_banners.php:191 includes/pro_banners.php:199
+msgid "Monthly"
+msgstr "Por mês"
+
+# automatic translation
+#: includes/pro_banners.php:71
+msgid ""
+"This value provides general information to search engines and tell them how "
+"frequently the page is likely to change. It may not correlate exactly to how "
+"often they crawl the website."
+msgstr ""
+"Esse valor fornece informações gerais aos mecanismos de pesquisa e informa "
+"com que frequência a página provavelmente será alterada. Pode não "
+"corresponder exatamente à frequência com que eles rastreiam o site."
+
+# automatic translation
+#: includes/pro_banners.php:75
+msgid "External Sitemap Update Frequency"
+msgstr "Frequência de atualização do mapa do site externo"
+
+# automatic translation
+#: includes/pro_banners.php:77
+msgid "day(-s)"
+msgstr "dias)"
+
+# automatic translation
+#: includes/pro_banners.php:79
+msgid ""
+"This option sets how often the external index sitemap files should be "
+"checked for updates."
+msgstr ""
+"Esta opção define a frequência com que os arquivos de mapa do site de índice "
+"externo devem ser verificados quanto a atualizações."
+
+# automatic translation
+#: includes/pro_banners.php:93
+msgid "Example of site pages' tree"
+msgstr "Exemplo de árvore de páginas do site"
+
+# automatic translation
+#: includes/pro_banners.php:107
+msgid "Enabled"
+msgstr "Habilitado"
+
+# automatic translation
+#: includes/pro_banners.php:108
+msgid "Disabled"
+msgstr "Desabilitado"
+
+# automatic translation
+#: includes/pro_banners.php:112
+msgid "Search"
+msgstr "Procurar"
+
+# automatic translation
+#: includes/pro_banners.php:117
+msgid "Bulk Actions"
+msgstr "Ações em massa"
+
+# automatic translation
+#: includes/pro_banners.php:119
+msgid "Apply"
+msgstr "Aplicar"
+
+# automatic translation
+#: includes/pro_banners.php:121
+msgid "items"
+msgstr "Unid"
+
+# automatic translation
+#: includes/pro_banners.php:129 includes/pro_banners.php:208
+msgid "Priority"
+msgstr "Prioridade"
+
+# automatic translation
+#: includes/pro_banners.php:131 includes/pro_banners.php:210
+msgid "Last Changed"
+msgstr "última alteração"
+
+# automatic translation
+#: includes/pro_banners.php:140
+msgid "Please note"
+msgstr "Observe"
+
+# automatic translation
+#: includes/pro_banners.php:141
+msgid ""
+"All URLs listed in the sitemap.xml must use the same protocol (HTTP or "
+"HTTPS) and must be located on the same host as the sitemap.xml."
+msgstr ""
+"Todos os URLs listados no sitemap.xml devem usar o mesmo protocolo (HTTP ou "
+"HTTPS) e devem estar localizados no mesmo host que o sitemap.xml."
+
+# automatic translation
+#: includes/pro_banners.php:141
+msgid "You can also add multiple URLs at once."
+msgstr "Você também pode adicionar vários URLs de uma só vez."
+
+# automatic translation
+#: includes/pro_banners.php:148
+msgid "Always"
+msgstr "Sempre"
+
+# automatic translation
+#: includes/pro_banners.php:152
+msgid "Save"
+msgstr "Salvar"
+
+# automatic translation
+#: includes/pro_banners.php:160
+msgid "Edit"
+msgstr "Editar"
+
+# automatic translation
+#: includes/pro_banners.php:161
+msgid "Disable"
+msgstr "Desativar"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+msgid "Sitemap by BestWebSoft"
+msgstr "Mapa do site por BestWebSoft"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+msgid "https://bestwebsoft.com/products/wordpress/plugins/google-sitemap/"
+msgstr "https://bestwebsoft.com/products/wordpress/plugins/google-sitemap/"
+
+# automatic translation
+#. Author of the plugin/theme
+msgid "BestWebSoft"
+msgstr "BestWebSoft"
+
+# automatic translation
+#. Author URI of the plugin/theme
+msgid "https://bestwebsoft.com/"
+msgstr "https://bestwebsoft.com/"

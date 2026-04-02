@@ -1,0 +1,28 @@
+.fae-genuine-cursor {
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), transparent 70%);
+}
+
+.fae-genuine-cursor.hover {
+  width: 74px;
+  height: 74px;
+  filter: brightness(1.05);
+}
+
+.fae-genuine-cursor.hover .fae-genuine-core {
+  transform: scale(0.6);
+}
+
+.fae-genuine-core {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    #fff,
+    rgba(255, 255, 255, 0.65) 10%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25), 0 0 18px rgba(124, 58, 237, 0.35);
+  transition: transform 0.18s ease;
+}
+

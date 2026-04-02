@@ -1,0 +1,1288 @@
+/*******
+ * Event Genius Calendar CSS
+ * Styles for calendar views and event listings
+ ******/
+
+/*******
+ * List View
+ ******/
+.evge-event-list {
+    max-width: 900px;
+    padding: 10px;
+}
+
+.evge-event-list-item {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.evge-event-list-details {
+    flex: 8;
+}
+
+.evge-event-list-details .evge-single-about-details {
+    margin: 10px 0;
+}
+
+.evge-event-list-details .evge-single-about-details .evge-about-detail-attendees {
+    box-shadow: none;
+}
+
+.evge-event-list-details .evge-about-detail {
+    padding: 7px 14px 8px 12px;
+}
+
+.evge-event-list-item .evge-event-list-featured-image {
+    display: block;
+    flex: 0 0 33%;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.evge-event-list-item .evge-event-list-featured-image img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evge-event-list-meta-wrap {
+    margin-bottom: 10px;
+}
+
+.evge .evge-meta p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.evge-meta .evge-event-meta-row {
+    padding: 8px 0 0 0;
+}
+
+.evge-meta .evge-meta-venue-summary:last-child {
+    padding-top: 3px;
+}
+
+.evge-event-tooltip .evge-event-list-summary {
+    padding: 0 0 10px 0;
+    margin: 0;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+.evge .evge-event-list-details h3 {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.evge .evge-event-list-details .evge-event-list-summary {
+    padding: 0 20px 0 0;
+}
+
+.evge-event-list-date {
+    font-weight: bold;
+}
+
+.evge-event-meta-row {
+    padding: 5px 0;
+}
+
+.evge-event-meta-item {
+    display: flex;
+    margin-bottom: 2px;
+    line-height: 1.4;
+    gap: 4px;
+}
+
+.evge-event-list-summary p:last-child {
+    margin-bottom: 10px;
+}
+
+/*******
+ * Event List Actions (Buttons)
+ ******/
+.evge-event-list-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.evge-event-list-actions .evge-cta,
+.evge-event-list-actions .evge-learn-more,
+.evge .evge-event-list-actions .evge-learn-more {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    font-size: 13px;
+    padding: 0 18px;
+    margin: 0;
+    line-height: 1;
+    border-radius: 5px;
+}
+.evge-event-list-actions .evge-cta {
+    border: none;
+}
+.evge .evge-event-list-actions .evge-learn-more span {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.evge-learn-more path {
+    fill: #333;
+}
+.evge .evge-event-list-actions .evge-button svg {
+    height: auto;
+}
+.evge-meta-venue-summary .evge-event-meta-item {
+    display: inline-block;
+}
+
+.evge .evge-event-list-details .evge-event-meta-item {
+    gap: 8px;
+}
+
+.evge-single-event-meta p svg {
+    margin-right: 5px;
+}
+
+/*******
+ * Grid View
+ ******/
+.evge-event-list.evge-list-grid {
+    display: grid;
+    gap: 26px;
+    max-width: 1300px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.evge-is-wide .evge-event-list.evge-list-grid {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.evge-list-grid .evge-event-list-item {
+    flex-direction: column;
+}
+
+.evge-list-grid .evge-event-list-featured-image {
+    height: 200px;
+    max-width: 100%;
+}
+
+.evge-list-grid .evge-event-list-featured-image img {
+    object-fit: contain;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+    height: 100%;
+}
+
+/*******
+ * Featured Image Placeholder
+ ******/
+.evge-featured-placeholder-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.05);
+}
+.evge a.evge-event-list-featured-image {
+    text-decoration: none;
+    color: inherit;
+}
+/*******
+ * Archive Layout
+ ******/
+#evge-archive-main .evge-page-header {
+    margin: 30px auto;
+}
+
+#evge-archive-main h1 {
+    margin: 0;
+}
+
+.evge-archive-wrap {
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.evge-archive-wrap #evge-archive-main .evge-archive-title {
+    margin-bottom: 20px;
+}
+
+/*******
+ * Calendar Container & Variables
+ ******/
+.evge-calendar-wrapper {
+    --calendar-bg: #fff;
+    --calendar-border: #e5e5e5;
+    --calendar-text: #fff;
+    --calendar-muted: rgba(255,255,255,0.8);
+    --calendar-filters: rgba(0, 0, 0, 0.06);
+    --calendar-highlight: #f0f0f0;
+    --calendar-today: #e3f2fd;
+    --calendar-event: #bbdefb;
+    --calendar-event-hover: #90caf9;
+    
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/*******
+ * Calendar Layout
+ ******/
+.evge-calendar-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.evge-month-calendar-wrap {
+    background: var(--calendar-filters);
+    padding: 0 10px 10px;
+    color: #333;
+}
+
+.evge-month-calendar-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.evge .evge-month-calendar-top .evge-month-calendar-month-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.evge-month-calendar-top button {
+    border: 0;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 6px 9px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evge-month-calendar-top button svg {
+    width: 5px;
+    height: 10px;
+}
+
+.evge-month-calendar-top button svg,
+.evge-month-calendar-top button path {
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+.evge-month-calendar-top button:hover,
+.evge-month-calendar-top button:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/*******
+ * Calendar Headers & Days
+ ******/
+.evge-calendar-headers {
+    display: flex;
+    background: #fff;
+}
+
+.evge-calendar-header {
+    flex: 1;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid var(--calendar-border);
+    border-right: 0;
+    border-top: 0;
+    text-transform: uppercase;
+}
+
+.evge-calendar-days {
+    display: flex;
+    flex-direction: column;
+}
+
+.evge-calendar-week {
+    display: flex;
+    border-bottom: 1px solid var(--calendar-border);
+}
+
+.evge-calendar-week:last-child {
+    border-bottom: none;
+}
+
+.evge-calendar-day {
+    flex: 1;
+    min-width: 0; /* Allows flex items to shrink below content size */
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    background: var(--calendar-bg);
+    border-right: 1px solid var(--calendar-border);
+    padding: 0 6px 6px;
+}
+
+.evge-calendar-day:last-child {
+    border-right: none;
+}
+
+.evge-day-header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: -6px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.evge-other-month .evge-day-header {
+    color: #ccc;
+}
+
+.evge-day-date {
+    font-weight: bold;
+    padding: 0 6px;
+}
+
+.evge-day-events {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-height: 60px;
+}
+
+/*******
+ * Event Cards
+ ******/
+.evge-event-card {
+    box-sizing: border-box;
+    padding: 0;
+    color: var(--calendar-text);
+    cursor: pointer;
+    font-size: clamp(0.7rem, 1.8vw, 0.85rem);
+    min-height: 24px;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none !important;
+}
+
+.evge-calendar-grid .evge-event-card .evge-event-card-container {
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.evge-event-card .evge-event-card-container {
+    background: var(--event-color, var(--calendar-event));
+}
+
+.evge-event-card .evge-event-card-container:hover,
+.evge-event-card .evge-event-card-container:active {
+    opacity: 0.9;
+    background: var(--event-color, var(--calendar-event));
+    color: var(--calendar-text);
+}
+
+.evge-calendar-wrapper .evge-card-event-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: -4px;
+}
+
+.evge-event-time,
+.evge-event-venue {
+    font-size: 13px;
+    color: var(--calendar-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*******
+ * Calendar States
+ ******/
+.evge-calendar-day.evge-other-month {
+    color: var(--calendar-muted);
+}
+
+.evge-calendar-day.evge-today .evge-day-date {
+    color: #1A79C1;
+    border-top: 2px solid #1A79C1;
+}
+
+.evge-more-events {
+    color: var(--calendar-muted);
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 0.85em;
+}
+
+.evge-more-events:hover {
+    text-decoration: underline;
+}
+
+/*******
+ * Event Spans
+ ******/
+.evge-event-card.evge-event-start {
+    position: relative;
+    z-index: 1;
+}
+
+.evge-event-card.evge-event-continuation {
+    visibility: hidden;
+}
+
+.evge-event-card.evge-span-2 { width: calc(200% + 13px); }
+.evge-event-card.evge-span-3 { width: calc(300% + 26px); }
+.evge-event-card.evge-span-4 { width: calc(400% + 39px); }
+.evge-event-card.evge-span-5 { width: calc(500% + 52px); }
+.evge-event-card.evge-span-6 { width: calc(600% + 65px); }
+.evge-event-card.evge-span-7 { width: calc(700% + 78px); }
+
+/*******
+ * Event Tooltips
+ ******/
+.evge-event-tooltip {
+    width: 340px;
+}
+
+.evge-event-tooltip .evge-event-list-item {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.evge-event-tooltip .evge-featured-placeholder-wrap img {
+    box-shadow: none;
+}
+
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image {
+    max-width: 100%;
+}
+
+.evge-event-tooltip .evge-event-list-details h3 {
+    margin: 0;
+    padding: 8px 0;
+    color: #333;
+}
+
+.evge-event-tooltip .evge-event-list-date {
+    font-weight: normal;
+}
+
+.evge-event-tooltip .evge-event-meta-item {
+    margin-bottom: 5px;
+}
+
+.evge-event-tooltip .evge-event-meta-item svg {
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 2px;
+    height: 18px;
+}
+
+.evge-event-tooltip.evge-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*******
+ * Tooltipster Styles
+ ******/
+.evge-tooltipster-base {
+    display: flex;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    background: white;
+    border: 1px solid var(--calendar-border);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #333;
+}
+
+.evge-tooltipster-base.evge-tooltipster-show {
+    opacity: 1;
+}
+
+.evge-tooltipster-box {
+    flex-grow: 1;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0.95);
+}
+
+.evge-tooltipster-show .evge-tooltipster-box {
+    transform: scale(1);
+}
+
+.evge-tooltipster-content {
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+/*******
+ * Month Selector
+ ******/
+.evge-month-selector {
+    position: relative;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.evge-month-calendar-month-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.evge-month-dropdown-arrow {
+    font-size: 12px;
+}
+
+.evge-month-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid var(--calendar-border);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    min-width: 240px;
+    padding: 12px;
+}
+
+.evge-month-dropdown.evge-active {
+    display: block;
+}
+
+.evge-month-dropdown .evge-year-display {
+    font-weight: bold;
+}
+
+.evge-month-option {
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.evge-month-option:hover {
+    background: var(--calendar-highlight);
+}
+
+.evge-month-dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 0 8px;
+}
+
+.evge-month-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.evge-year-prev,
+.evge-year-next {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.evge-year-prev:hover,
+.evge-year-next:hover {
+    opacity: .8;
+}
+
+.evge-month-option.evge-active {
+    background: var(--calendar-highlight);
+    font-weight: 500;
+}
+
+/*******
+ * Calendar Filters
+ ******/
+.evge-calendar-filters {
+    --evge-filter-bar-control-height: 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 10px;
+    background: var(--calendar-filters);
+    border-radius: 5px;
+}
+
+/* Single height for all filter bar controls (resists theme overrides) */
+.evge .evge-calendar-filters .evge-search-input,
+.evge .evge-calendar-filters select,
+.evge .evge-calendar-filters .evge-filter-more-button {
+    box-sizing: border-box;
+    height: var(--evge-filter-bar-control-height);
+    min-height: var(--evge-filter-bar-control-height);
+}
+
+.evge-filter-group {
+    position: relative;
+}
+
+.evge-filter-group:first-child {
+    display: flex;
+    gap: 10px;
+    flex: 5;
+    align-items: center;
+}
+
+/* Initially hide filters beyond the first 3; shown when "more" is clicked */
+.evge-filter-group .evge-filter-item-more {
+    display: none;
+}
+
+.evge-filter-group.evge-filter-group-expanded .evge-filter-item-more {
+    display: inline-block;
+}
+
+.evge-filter-group.evge-filter-group-expanded .evge-filter-more-button {
+    display: none;
+}
+
+.evge-filter-more-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--evge-filter-bar-control-height);
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #fff;
+    color: inherit;
+    cursor: pointer;
+}
+
+.evge-filter-more-button:hover,
+.evge-filter-more-button:active,
+.evge-filter-more-button:focus {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    color: inherit;
+}
+.evge-filter-more-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.evge-filter-group:last-child {
+    flex: 5;
+    display: flex;
+    justify-content: right;
+}
+
+/* When more than 4 filters: allow wrapping and add spacing so the bar doesn’t look cramped */
+.evge-calendar-filters.evge-filter-bar-many {
+    flex-wrap: wrap;
+}
+
+.evge-calendar-filters.evge-filter-bar-many .evge-filter-group:first-child {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    min-width: 0;
+    align-items: center;
+    flex: 4;
+}
+
+.evge-calendar-filters.evge-filter-bar-many .evge-filter-group:last-child {
+    min-width: 0;
+    flex: 1;
+}
+
+.evge-calendar-filters.evge-filter-bar-many .evge-filter-group:first-child .evge-search-input,
+.evge-calendar-filters.evge-filter-bar-many .evge-filter-group:first-child select {
+    min-width: 110px;
+    max-width: 150px;
+}
+
+.evge-calendar-super-narrow .evge-calendar-filters.evge-filter-bar-many .evge-filter-group:first-child .evge-search-input,
+.evge-calendar-super-narrow .evge-calendar-filters.evge-filter-bar-many .evge-filter-group:first-child select {
+    min-width: 100%;
+    max-width: 100%;
+}
+.evge-calendar-super-narrow .evge-filter-bar-item,
+.evge-calendar-super-narrow .evge-filter-group .evge-view-select {
+    width: 100%;
+}
+.evge-calendar-super-narrow .evge-calendar-filters {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.evge-calendar-super-narrow .evge-filter-group:first-child,
+.evge-calendar-super-narrow .evge-filter-group:last-child {
+    flex: none;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.evge-calendar-super-narrow .evge-filter-group:first-child {
+    flex-direction: column;
+}
+
+.evge-calendar-super-narrow .evge-search-input,
+.evge-calendar-super-narrow .evge-filter-group select {
+    max-width: 100%;
+}
+.evge .evge-filter-bar-form {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.evge .evge-filter-bar-form input,
+.evge .evge-filter-bar-form select {
+    margin: inherit;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.evge-month-calendar-top button:hover,
+.evge .evge-filter-bar-form select:hover {
+    cursor: pointer;
+}
+.evge-filter-group .evge-view-select {
+    width: auto;
+    min-width: 120px;
+}
+.evge-search-input,
+.evge-filter-group select {
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.evge-search-input {
+    width: 100%;
+}
+
+.evge-filter-group select:focus,
+.evge-search-input:focus {
+    outline: none;
+    border-color: var(--calendar-highlight);
+}
+
+/*******
+ * Event Visibility
+ ******/
+.evge-event-hidden {
+    display: none;
+}
+
+.evge-show-more-events {
+    font-size: 11px;
+    color: var(--calendar-text);
+    padding: 2px 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    background: #e3eff8;
+    color: #222;
+    padding: 5px 8px;
+}
+
+.evge-show-more-events:hover,
+.evge-show-more-events:focus {
+    opacity: 1;
+    background: #d5e9f7;
+    color: #222;
+}
+
+.evge-show-more-events:active {
+    box-shadow: none;
+}
+
+.evge-calendar-day.evge-show-all-events .evge-event-hidden {
+    display: block;
+}
+
+.evge-calendar-day.evge-show-all-events .evge-show-more-events,
+.evge-calendar-narrow .evge-show-more-events {
+    display: none;
+}
+
+/*******
+ * Calendar Indicators
+ ******/
+.evge-calendar-event-indicator {
+    display: none;
+}
+
+.evge-calendar-narrow .evge-calendar-event-indicator {
+    display: flex;
+}
+
+.evge-calendar-narrow .evge-calendar-header {
+    font-size: 14px;
+}
+
+.evge-calendar-narrow .evge-calendar-header span {
+    display: none;
+}
+
+.evge-calendar-narrow .evge-calendar-header::first-letter {
+    display: inline;
+}
+
+.evge-calendar-narrow .evge-calendar-day {
+    font-size: 13px;
+}
+
+.evge-calendar-narrow .evge-calendar-day-number {
+    font-size: 14px;
+}
+
+.evge-calendar-narrow .evge-event-card {
+    display: none;
+}
+
+.evge-calendar-narrow .evge-event-dot {
+    width: 16px;
+    height: 16px;
+    background: #1A79C1;
+    border-radius: 50%;
+    margin: 2px auto;
+    cursor: pointer;
+}
+
+.evge-calendar-narrow .evge-event-dot:hover,
+.evge-calendar-narrow .evge-event-dot:active {
+    opacity: 0.9;
+}
+
+.evge-calendar-narrow .evge-calendar-day.has-events {
+    cursor: pointer;
+}
+
+.evge-calendar-narrow .evge-day-events-list {
+    grid-column: 1 / -1;
+    padding: 16px;
+    background: var(--calendar-background);
+    border: 1px solid var(--calendar-border);
+    margin-top: 16px;
+}
+
+.evge-calendar-narrow .evge-day-event-item {
+    padding: 12px;
+    border-bottom: 1px solid var(--calendar-border);
+}
+
+.evge-calendar-narrow .evge-day-event-item:last-child {
+    border-bottom: none;
+}
+
+.evge-calendar-narrow .evge-day-event-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.evge-calendar-narrow .evge-day-event-meta {
+    font-size: 12px;
+    color: var(--calendar-text-light);
+    margin-bottom: 8px;
+}
+
+.evge-calendar-narrow .evge-day-event-desc {
+    font-size: 13px;
+}
+
+/*******
+ * List Layout
+ ******/
+.evge-calendar-narrow .evge-list-layout .evge-event-date {
+    display: none;
+}
+
+.evge-calendar-narrow .evge-list-layout .evge-event-list-item {
+    gap: 20px;
+}
+
+.evge-is-small .evge-list-layout .evge-single-about-details {
+    gap: 5px;
+}
+
+.evge-is-small .evge-list-layout .evge-event-list-details .evge-about-detail {
+    padding: 5px 8px 5px 7px;
+    gap: 5px;
+}
+
+.evge-is-narrow .evge-list-layout .evge-event-list-item {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+}
+
+.evge-is-narrow .evge-event-list-item .evge-event-list-featured-image {
+    flex: 100%;
+}
+
+.evge-is-narrow .evge-list-layout .evge-event-list-item {
+    gap: 10px;
+}
+
+/*******
+ * Pagination
+ ******/
+.evge-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    gap: 0.5rem;
+}
+
+.evge-pagination-top {
+    margin-bottom: 2rem;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--calendar-border);
+}
+
+.evge-pagination-bottom {
+    margin: 2rem 0 1rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid var(--calendar-border);
+}
+
+.evge-pagination-numbers {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.evge .evge-pagination a,
+.evge .evge-pagination .page-numbers {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #666;
+    transition: all 0.2s ease;
+    background: rgba(255,255,255,0.8);
+}
+
+.evge-pagination a:hover,
+.evge .evge-pagination .page-numbers:hover {
+    background-color: #fff;
+    border-color: #222;
+    color: #222;
+}
+
+.evge .evge-pagination a.evge-pagination-current,
+.evge .evge-pagination .page-numbers {
+    border-color: #222;
+    background: #fff;
+    color: #222;
+}
+
+.evge-pagination-current:hover,
+.evge .evge-pagination .page-numbers:hover {
+    border-color: #222;
+}
+
+.evge-pagination-dots {
+    padding: 0 0.5rem;
+    color: #666;
+}
+
+.evge-pagination-prev,
+.evge-pagination-next {
+    padding: 0 1rem;
+}
+
+/*******
+ * Grid Layout
+ ******/
+.evge-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.evge-grid-layout .evge-event-list-item {
+    display: block;
+}
+
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.evge-grid-layout .evge-event-meta-item {
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image .evge-event-date,
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image .evge-event-date {
+    max-height: 100%;
+    height: 100%;
+}
+
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image .evge-event-date .evge-event-month,
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image .evge-event-date .evge-event-month {
+    font-size: 1.5em;
+}
+
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image .evge-event-date .evge-event-day,
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image .evge-event-date .evge-event-day {
+    font-size: 3em;
+    color: #333;
+}
+
+.evge-color-theme-dark .evge-event-month {
+    color: #999;
+}
+
+.evge-color-theme-dark .evge-event-calendar .evge-event-list-item .evge-event-list-featured-image .evge-event-date .evge-event-day {
+    color: #bbb;
+}
+
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image .evge-event-date:hover,
+.evge-grid-layout .evge-event-list-item .evge-event-list-featured-image .evge-event-date:active,
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image .evge-event-date:hover,
+.evge-event-tooltip .evge-event-list-item .evge-event-list-featured-image .evge-event-date:active {
+    opacity: .8;
+}
+
+/*******
+ * Loading States
+ ******/
+.evge-loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.evge-loading::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.evge-loading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 2;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/*******
+ * Dark Mode
+ ******/
+.evge-color-theme-dark.evge-calendar-wrapper {
+    background: none;
+}
+
+.evge-color-theme-dark  {
+    border-radius: 5px;
+}
+
+.evge-color-theme-dark .evge-calendar-filters,
+.evge-color-theme-dark .evge-month-calendar-wrap {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.evge-color-theme-dark .evge-month-calendar-top .evge-month-calendar-month-name {
+    color: white;
+}
+
+.evge-color-theme-dark .evge-month-calendar-top svg path {
+    fill: white;
+}
+
+.evge-color-theme-dark .evge-month-calendar-top button {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.evge-color-theme-dark .evge-search-input,
+.evge-color-theme-dark .evge-venue-select,
+.evge-color-theme-dark .evge-view-select {
+    color: #333;
+}
+
+/*******
+ * Utility Classes
+ ******/
+.evge-day-events br,
+.evge-month-calendar-top br {
+    display: none !important;
+}
+
+.evge-month-calendar-wrap p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.evge-calendar-wrapper[data-view="month"] .evge-time-select {
+    display: none;
+}
+
+/*******
+ * No Events State
+ ******/
+.evge-no-events-found {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.evge-no-events-message {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.evge-no-events-icon {
+    margin-bottom: 1.5rem;
+    color: #6c757d;
+}
+
+.evge-no-events-icon svg {
+    width: 64px;
+    height: 64px;
+}
+
+.evge-no-events-found h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.evge-no-events-description {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.evge-no-events-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.evge-button.evge-button-secondary {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.evge-button.evge-button-secondary:hover {
+    background: #dee2e6;
+    color: #495057;
+}
+
+/*******
+ * Media Queries
+ ******/
+@media (max-width: 768px) {
+    .evge-calendar-day {
+        padding: 4px;
+    }
+
+    .evge-day-header {
+        margin-bottom: 4px;
+    }
+
+    .evge-event-card {
+        padding: 2px 4px;
+        min-height: 20px;
+    }
+
+    .evge-event-tooltip {
+        position: fixed;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: auto !important;
+        max-width: none;
+        margin: 0;
+        border-radius: 8px 8px 0 0;
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .evge-calendar-header {
+        /* Use abbreviated day names */
+        font-size: clamp(0.7rem, 3vw, 0.8rem);
+    }
+
+    .evge-no-events-actions {
+        flex-direction: column;
+    }
+
+    .evge-no-events-found .evge-button {
+        width: 100%;
+    }
+}

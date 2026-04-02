@@ -1,0 +1,11 @@
+/* Hide cursor globally on frontend */
+body:not(.wp-admin),
+body:not(.wp-admin) * {
+  cursor: none !important;
+}
+
+.faeflag-cursor svg {
+  width: 100%;
+  height: 100%;
+}
+

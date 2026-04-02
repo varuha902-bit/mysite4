@@ -1,0 +1,23 @@
+/* Ink Keys - Keyboard letter ink pop effect */
+
+.fae-ink-key {
+  position: fixed;
+  font-size: 36px;
+  pointer-events: none;
+  z-index: 999999;
+  animation: fae-ink-pop 700ms ease-out forwards;
+  filter: contrast(150%) drop-shadow(0 0 2px currentColor);
+  font-weight: bold;
+}
+
+@keyframes fae-ink-pop {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+

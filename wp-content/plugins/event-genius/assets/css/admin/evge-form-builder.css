@@ -1,0 +1,528 @@
+/**
+Main Header
+ */
+.evge-for-builder-editing {
+    font-weight: normal;
+    line-height: 1.2;
+}
+.evge-before-subnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.evge-bump-down {
+    margin-top: 20px;
+}
+.evge-before-subnav h2 {
+    font-size: 28px;
+}
+.evge-button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.evge-button-group a,
+.wp-core-ui .evge-button-group button{
+    height: 48px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.evge-button-group a {
+    background: rgba(256,256,256,.5);
+    border: 1px solid #CECECE;
+    padding: 0 12px;
+}
+.evge-button-group a:hover,
+.evge-button-group a:active {
+    background: #fff;
+}
+.wp-core-ui .evge-button-group button span{
+    gap: 8px;
+}
+.wp-core-ui .evge-button-group button svg {
+    opacity: .6;
+}
+
+/* Subnav */
+.evge-builder-subnav-wrap .evge-main-admin-nav {
+    background: #E6E6E6;
+    border: 1px solid #E6e6e6;
+    color: #444;
+}
+.evge-builder-subnav-wrap .evge-main-admin-nav-item a,
+.evge-builder-subnav-wrap .evge-main-admin-nav-item a:hover,
+.evge-builder-subnav-wrap .evge-main-admin-nav-item a:active {
+    color: #444;
+}
+
+/**
+Form Fields
+**/
+
+.evge-form-builder-page-content-wrap {
+    display: flex;
+    max-width: 1200px;
+}
+.evge-form-builder-page-content-wrap button:hover,
+.evge-field-edit-settings-tab:hover{
+    cursor: pointer;
+}
+.evge-form-builder-sidebar-inner {
+    display: flex;
+    flex-direction: column;
+}
+.evge-sidebar-item {
+    padding: 10px;
+}
+.evge-form-builder {
+    display: flex;
+    width: 100%;
+}
+.evge-form-preview-section {
+    overflow: hidden;
+    width: 100%;
+}
+.evge-hidden-initially {
+    display: none;
+}
+.evge-form-fields-section {
+    min-width: 500px;
+    padding: 0;
+}
+.evge-field-wrapper-type-hidden .evge-left-options .evge-single-option {
+    display: none;
+}
+
+
+.evge-field-label {
+    font-size: 14px;
+}
+.evge-field-edit-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.evge-field-edit-group {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding:  0;
+    width: 100%;
+
+    background: #F6F6F6;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom:  10px;
+}
+.evge-field-edit-summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    appearance: none;
+    border: 0;
+    background: none;
+}
+.evge-field-label {
+    display: flex;
+    gap: 10px;
+}
+.evge-toggle-edit-icon {
+    width: 14px;
+    padding: 14px;
+    opacity: 0.4;
+}
+.evge-edit-wrap button svg {
+    height: 16px;
+}
+.evge-field-edit-summary:hover,
+.evge-field-edit-summary:active{
+    background: #fff;
+}
+.evge-field-edit-summary:hover .evge-toggle-edit-icon,
+.evge-field-edit-summary:active .evge-toggle-edit-icon{
+    opacity: 0.8;
+}
+
+.evge-settings-section label {
+    display: block;
+    font-weight: bold;
+    padding: 4px 0 2px 0;
+}
+.evge-field-save-button-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.evge-field-save-button-wrap button{
+    min-width: 100px;
+}
+.evge-no-action svg{
+    fill: #B2B2B2;
+}
+.evge-field-delete-button{
+    color: #D37362;
+}
+.evge-field-delete-button:hover,
+.evge-field-delete-button:active{
+    color: #333;
+}
+
+.evge-all-fields-header,
+.evge-form-preview-section .evge-preview-header {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    gap: 20px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.evge-field-edit-wrap {
+    position: relative;
+}
+.evge-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    z-index:1;
+}
+.evge-field-edit-wrap .evge-icon-circle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -8px;
+    left: -8px;
+}
+.evge-field-edit-wrap .evge-save-needed-alert,
+.evge-save-needed-alert {
+    display: none;
+}
+.evge-changes-made .evge-field-edit-wrap .evge-save-needed-alert,
+.evge-changes-made .evge-save-needed-alert {
+    /* display: flex; Do nothing for now */
+}
+.evge-field-edit-wrap .evge-icon-circle svg {
+    height: 12px;
+    width: 12px;
+}
+.evge-preview-header strong,
+.evge-all-fields-header strong {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/** In Form Fields **/
+#evge-available-fields{
+    margin-right: 10px;
+}
+.evge-registration-form-fields {
+    position: relative;
+}
+.evge-ui-state-highlight {
+    border: 2px dashed #ccc;
+    background-color: #f0f0f0;
+}
+
+.evge-form-preview-section .evge-field-wrapper {
+    position: relative;
+}
+.evge-form-preview-section .evge-field-wrapper:hover {
+    cursor: move;
+}
+.evge-field-options-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.evge-in-form-field-action-button {
+    padding: 6px;
+    background: none;
+    appearance: none;
+    border: 0;
+}
+.evge-in-form-field-action-button:hover {
+    background: #eee;
+}
+.evge-in-form-field-action-button svg {
+    height: 14px;
+    opacity: 0.4;
+}
+.evge-in-form-field-action-button:hover svg,
+.evge-in-form-field-action-button:active svg{
+    opacity: 1;
+}
+.evge-form-field-in-form-options-inner {
+    justify-content: space-between;
+    padding: 8px 0 0;
+}
+.evge-form-field-in-form-options .evge-field-option-remove a{
+    color: #D26060;
+    text-decoration: none;
+    padding: 0;
+}
+.evge-field-option-remove svg{
+    opacity: 1;
+}
+.evge-field-option-remove svg path{
+    stroke: #D26060;
+}
+.evge-field-option-remove:hover svg path,
+.evge-field-option-remove:active svg path{
+    stroke: #111;
+}
+.evge-field-wrapper .evge-single-option select {
+    padding: 2px 30px 2px 10px;
+    margin-right: 5px;
+    width: auto;
+}
+.evge-left-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.evge-in-form-field-option {
+    display: inline-block;
+    padding: 3px;
+}
+.evge-form-preview-section .evge-field-wrapper:hover {
+    background: #F0F0F1;
+    border-radius: 5px;
+}
+.evge-field-wrapper:hover .evge-field-options-bar {
+    display: block;
+}
+.evge-field-label .evge-icon-text {
+    padding-right: 20px;
+}
+.evge-icon-buffer {
+    width: 18px;
+    padding-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.evge-icon-text .evge-text-field{
+    height: 12px;
+}
+.evge-in-form-field-add-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 13px 30px;
+
+    border: 1px solid #1A79C1;
+    color: #1A79C1;
+    background-color: #f6f7f7;
+    border-radius: 5px;
+}
+.evge-in-form-field-add-button:hover,
+.evge-in-form-field-add-button:active{
+    background-color: #fff;
+}
+.evge-add-chevron{
+    display: inline-block;
+}
+.evge-add-chevron svg {
+    height: 10px;
+    fill: #1A79C1;
+}
+.evge-disabled .evge-in-form-field-add-button {
+    border: 1px solid #DCDCDC;
+    color: #ccc;
+    background: none;
+    border-radius: 5px;
+}
+.evge-disabled .evge-add-chevron path,
+.evge-form-field-add.evge-disabled path{
+    fill: #ccc;
+}
+
+.evge-edit-wrap {
+    height: 38px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.evge-edit-wrap button{
+    height: 36px;
+    appearance: none;
+    border: none;
+    padding-left: 8px;
+    margin-top: 1px;
+}
+.evge-field-edit-settings{
+    padding: 0 15px 15px;
+}
+.wrap h2.evge-field-edit-settings-tabs {
+    margin: 10px 0;
+    padding: 3px;
+    background: #E6E6E6;
+    border-radius: 5px;
+    border: 0;
+}
+.evge-field-edit-settings-tab.nav-tab {
+    font-size: 13px;
+    padding: 8px 0;
+    line-height: 1;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    background: none;
+    color: #444;
+    font-weight: normal;
+    border: 0;
+    border-radius: 3px;
+}
+.evge-field-edit-settings-tab.nav-tab-active{
+    background: #fff;
+    color: #333;
+    font-weight: 600;
+}
+.evge-field-edit-settings-tab.nav-tab:hover,
+.evge-field-edit-settings-tab.nav-tab:active{
+    color: #000;
+}
+.evge-settings-section {
+    margin-bottom: 8px;
+}
+.evge-settings-section input,
+.evge-settings-section textarea,
+.evge-settings-section select {
+    width: 100%;
+    border: 1px solid #DCDCDC;
+    font-size: 13px;
+}
+.evge-settings-section select{
+    width: 50%;
+    border: 1px solid #DCDCDC;
+}
+#evge-disabled-field{
+    background-color: #fff;
+}
+#evge-add-new-field{
+    padding: 14px 20px;
+    margin-top: 5px;
+}
+
+/** Registration Form Overrides **/
+.evge-left-dynamic {
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.evge-form-preview-section .evge-registration-form-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.evge-form-preview-section .evge-input-wrapper,
+#evge-form-preview-section .evge-registration-submit{
+    pointer-events: none;
+}
+#evge-form-builder .evge-field-wrapper select{
+    background: #fff url('data:image/svg+xml,<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.88386 6L-2.02446e-07 -4.80825e-07L1.68448 -4.07194e-07L5.21172 4.49302L5.27955 4.49302L9.30421 -7.41252e-08L11 0L5.55087 6L4.88386 6Z" fill="%23333333"/></svg>') no-repeat right 10px top 55%;
+    max-width: 50%;
+}
+
+.evge-left-dynamic h3 {
+    margin: 0 auto;
+}
+
+.evge-form-preview-section .evge-field-wrapper input[type=email],
+.evge-form-preview-section .evge-field-wrapper input[type=tel],
+.evge-form-preview-section .evge-field-wrapper input[type=text],
+.evge-form-preview-section .evge-field-wrapper input[type=file],
+.evge-form-preview-section .evge-field-wrapper input[type=date],
+.evge-form-preview-section .evge-field-wrapper select,
+.evge-form-preview-section .evge-field-wrapper textarea {
+    border: 1px solid #CECECE;
+    background: #fff;
+    border-radius: 5px;
+}
+.evge-form-preview-section .evge-radio-checkbox-input input{
+    margin: 1px;
+}
+
+.evge-form-preview-section .evge-label-wrapper label {
+    line-height: 1.2;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 5px 2px;
+    display: block;
+}
+.evge-settings-section .evge-radio-option,
+.evge-settings-section .evge-checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+.evge-settings-section .evge-radio-option input,
+.evge-settings-section .evge-checkbox-option input {
+    width: 17px;
+}
+
+.evge-form-preview-section .evge-field-wrapper {
+    position: relative;
+    padding: 10px 8px;
+}
+.evge-button-preview-wrap {
+    padding: 10px 8px;
+}
+.evge-guest-type-selector {
+    align-items: center;
+}
+.evge-button-preview-wrap #evge-registration-submit {
+    font-size: 16px;
+    padding: 18px;
+    width: 100%;
+    margin: 10px 0;
+}
+/** Responsive **/
+@media only screen and (max-width: 1200px) {
+    #evge-form-builder .evge-field-wrapper select {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .evge-form-builder{
+        display: block;
+    }
+    .evge-form-preview-section {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .evge-form-fields-section{
+        min-width: 100%;
+    }
+    .evge-field-edit-wrap {
+        gap: 0;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
+
+.evge-settings-section .wp-picker-input-wrap label {
+    display: inline-block;
+    padding: 0;
+}
+.evge-settings-section .wp-picker-input-wrap input {
+    width: auto;
+}
+
+.evge-field-wrapper-rich-editor textarea{
+    width: 100%;
+}

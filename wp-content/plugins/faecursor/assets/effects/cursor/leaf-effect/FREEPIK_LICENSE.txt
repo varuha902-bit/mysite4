@@ -1,0 +1,13 @@
+FREEPIK ASSET ATTRIBUTION
+
+Some visual assets used in this plugin are provided by Freepik under the Freepik Free License.
+
+Attribution:
+Designed by Freepik — https://www.freepik.com
+
+Freepik Free License terms include:
+- Free to use in personal and commercial projects.
+- Attribution is required unless you hold a Premium license for the asset.
+- Redistribution of the original files as standalone assets is not allowed.
+
+For more details, see Freepik Terms of Use: https://www.freepik.com/legal/terms-of-use

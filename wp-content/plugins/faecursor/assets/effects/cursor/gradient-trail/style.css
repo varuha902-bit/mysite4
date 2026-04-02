@@ -1,0 +1,9 @@
+/**
+ * Gradient Trail Styles
+ */
+
+#fae-gradient-trail {
+  will-change: contents;
+  transition: opacity 0.3s ease;
+}
+

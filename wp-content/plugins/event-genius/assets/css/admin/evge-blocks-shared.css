@@ -1,0 +1,103 @@
+/* Common styles for Event Genius blocks */
+
+.evge-block {
+    margin-bottom: 1.5em;
+    pointer-events: none;
+}
+
+.evge-block-header {
+    margin-bottom: 1em;
+}
+
+.evge-block-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 0.5em;
+}
+
+/* Loading states */
+.evge-loading {
+    position: relative;
+    min-height: 100px;
+}
+
+.evge-loading::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Common form styles */
+.evge-form-group {
+    margin-bottom: 1em;
+}
+
+.evge-form-label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.evge-form-input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Common button styles */
+.evge-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background: #0073aa;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.evge-button:hover {
+    background: #005177;
+}
+
+/* Error states */
+.evge-error {
+    color: #d63638;
+    padding: 0.5em;
+    border: 1px solid #d63638;
+    border-radius: 4px;
+    margin: 1em 0;
+    background: #fde8e8;
+}
+
+/* Allow specific interactions where needed */
+.evge-block .allowed-interaction {
+    pointer-events: auto;
+}
+
+/* Common form styles */
+.evge-form-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Common list styles */
+.evge-list-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Common attendee list styles */
+.evge-attendee-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 

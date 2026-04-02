@@ -1,0 +1,4421 @@
+
+.evge-flex-center > input[type=checkbox],
+.evge-flex-center > input[type=radio] {
+    margin: 0;
+}
+.evge-setting-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.evge-flex-large-gap {
+    gap: 24px;
+}
+.evge-flex-input {
+    display: flex;
+    align-items: center;
+}
+.evge-flex-input input[type=radio] {
+    margin: 0 5px 0 0;
+}
+.evge-force-display-flex {
+    display: flex !important;
+}
+.evge-heading-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 10px;
+    line-height: 1;
+}
+.evge-heading-inline {
+    display: inline-block;
+    margin: 0;
+}
+.evge-label-right-space label {
+    min-width: 140px;
+    display: inline-block;
+}
+.evge-single-event-meta-wrap {
+    margin-bottom: 6px;
+}
+.evge-single-event-meta-wrap .evge-event-details{
+    padding: 5px 5px 0 5px;
+}
+
+/* General */
+.evge-no-action:hover {
+    cursor: default;
+}
+.evge-admin-wrap .wp-editor-wrap { /* restricts the width of the rich editor */
+    max-width: 700px;
+}
+
+
+/** Button Row **/
+.evge-event-actions-button-row {
+    display: flex;
+    justify-content: space-between;
+    background: #F6F6F6;
+    border-top: 1px solid #dcdcdc;
+}
+.evge-actions-left {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.evge-more-actions-button {
+    display: none;
+    min-width: 40px;
+    justify-content: center;
+}
+
+.evge-more-actions-button.show {
+    display: flex;
+}
+
+/* Transfer Registration Interface - Uses same styling as narrow tool forms */
+.evge-transfer-form-wrap {
+    /* Inherits from evge-narrow-tool-form-wrap */
+}
+
+.evge-transfer-form-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.evge-transfer-form-top-row-left {
+    flex: 1;
+}
+
+.evge-transfer-form-top-row-right {
+    margin-left: 20px;
+}
+
+.evge-registrations-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.evge-registration-pill {
+    display: inline-flex;
+    align-items: center;
+    background: #e7f3ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 16px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: #1a79c1;
+}
+
+.evge-registration-remove {
+    background: none;
+    border: none;
+    color: #1a79c1;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evge-registration-remove:hover {
+    color: #d63638;
+}
+
+.evge-registration-count {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Select2 z-index fixes for modals */
+.select2-container--open .select2-dropdown {
+    z-index: 999999 !important;
+}
+
+.select2-container--open .select2-dropdown--above {
+    z-index: 999999 !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+    z-index: 999999 !important;
+}
+
+.select2-container--open .select2-results {
+    z-index: 999999 !important;
+}
+
+/* Events count display */
+.evge-events-count {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Select2 styling for admin modals */
+.evge-narrow-tool-form .select2-container {
+    max-width: 100%;
+    min-width: 400px;
+    color: #555;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all .2s linear;
+}
+
+.evge-narrow-tool-form .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #555;
+}
+
+.evge-narrow-tool-form .select2-container--default .select2-selection--single {
+    height: 42px;
+    border-color: #bbb;
+    border-radius: 3px;
+    line-height: 42px;
+    padding: 6px 0;
+}
+
+.evge-narrow-tool-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 28px;
+    padding-left: 8px;
+}
+
+.evge-narrow-tool-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 7px;
+}
+
+/* Success message styling */
+.evge-success-message {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+.evge-success-icon {
+    font-size: 48px;
+    color: #46b450;
+    margin-bottom: 20px;
+}
+
+.evge-success-message h3 {
+    color: #46b450;
+    margin-bottom: 15px;
+}
+
+.evge-success-details {
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
+.evge-actions-right {
+    padding: 12px;
+    border-left: 1px solid #dcdcdc;
+}
+/* Buttons */
+.evge-disabled {
+    pointer-events: none;
+    color: #848B91 !important;
+    border-color: #dcdcde !important;
+    background: #f6f7f7 !important;
+    box-shadow: none!important;
+    cursor: default;
+    transform: none !important;
+}
+.evge-admin-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#evge-back-overview,
+.evge-left-icon,
+.wp-core-ui .evge-left-icon{
+    min-height: auto;
+    padding: 9px 10px;
+    height: auto;
+    line-height: 1;
+}
+#evge-back-overview svg {
+    height: 9px;
+}
+
+.evge-admin-page .button-primary,
+.evge-admin-page .evge-admin-primary-button {
+    border-radius: 5px;
+    background-color: #1A79C1;
+    padding: 3px 16px;
+    color: #fff;
+}
+.evge-admin-page .button-primary:hover,
+.evge-admin-page .button-primary:active,
+.evge-admin-page .evge-admin-primary-button:hover,
+.evge-admin-page .evge-admin-primary-button:active {
+    background-color: #1569a8;
+}
+
+.button.evge-admin-secondary-button {
+    border-radius: 5px;
+    color: #1A79C1;
+    border-color: #1A79C1;
+    background: #F9F9F9;
+}
+.evge-admin-button span {
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1;
+}
+.evge-admin-button svg {
+    height: 14px
+}
+.evge-admin-button-large {
+    padding: 12px 16px;
+}
+.evge-admin-button-large span {
+    font-size: 16px;
+}
+.evge-admin-button-large svg {
+    height: 16px
+}
+.evge-search-wrap input[type=search]{
+    min-height: auto;
+    line-height: 1;
+    font-size: 14px;
+    padding: 4px 10px;
+    margin: 0;
+}
+.evge-event-details-actions .button {
+    display: flex;
+    line-height: 1.1;
+}
+.evge-overview-bottom.evge-event-details-actions .button {
+    margin: 0 6px 0 0;
+}
+/* Button tooltips for event details actions */
+.evge-event-details-actions .evge-button-tooltip {
+    position: relative;
+}
+.evge-event-details-actions .evge-button-tooltip .evge-tooltip {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    min-width: auto;
+    width: auto;
+    white-space: nowrap;
+}
+.evge-event-details-actions .evge-button-tooltip .evge-tooltip::after {
+    bottom: -10px;
+    left: 50%;
+}
+.evge-admin-wrap .evge-primary-button,
+.evge-primary-button{
+    background: #033748;
+    color: #fff;
+    border: none;
+}
+.evge-admin-wrap .evge-primary-button:active,
+.evge-primary-button:active,
+.evge-admin-wrap .evge-primary-button:hover,
+.evge-primary-button:hover{
+    background: #00131A;
+    color: #fff;
+}
+.evge-admin-wrap .evge-blue-action-button,
+.evge-blue-action-button{
+    background: #1A79C1;
+    color: #fff;
+    border: none;
+}
+.evge-admin-wrap .evge-blue-action-button:active,
+.evge-blue-action-button:active,
+.evge-admin-wrap .evge-blue-action-button:hover,
+.evge-blue-action-button:hover{
+    background: #085FA2;
+    color: #fff;
+}
+.wp-core-ui .evge-standard-button {
+    display: inline-block;
+    min-height: 4px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.evge-danger-button {
+    color: #D37362;
+    border: 1px solid #D37362;
+    background: rgba(211,115,98, .05);
+}
+.evge-danger-button:hover,
+.evge-danger-button:active{
+    color: #D37362;
+    border: 1px solid #D37362;
+    background: rgba(211,115,98, .2);
+}
+.evge-danger-link {
+    color: #D37362;
+    text-decoration: none;
+}
+
+.evge-danger-link:hover,
+.evge-danger-link:active {
+    color: #bb5240;
+    text-decoration: none;
+}
+/** icons **/
+.evge-detail-row svg,
+#evge-show-canceled .evge-icon-text svg{
+    height: 1em;
+}
+
+
+.evge-tooltip-link svg {
+    height: 1.2em;
+}
+.evge-icon-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.evge-icon-text.evge-small-gap-icon-text {
+    gap: 5px;
+}
+.evge-icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+.evge-icon-circle svg {
+    height: 12px !important;
+}
+/** statuses and color **/
+.evge-registration-column-status {
+    display: block;
+    width: 70%;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 5px;
+    word-wrap: normal;
+}
+.evge-status-confirmed,
+.evge-status-complete {
+    background: #D0EEDA;
+    color: #298648;
+}
+.evge-status-pending,
+.evge-status-processing,
+.evge-status-offline {
+    background: #FFE198;
+    color: #94701A;
+}
+.evge-status-canceled,
+.evge-destructive,
+.evge-admin-page .evge-destructive,
+.evge-status-abandoned,
+.evge-status-error {
+    background: #F6D6D1;
+    color: #B35545;
+}
+
+.evge-status-processing {
+    background: #D5E9F8;
+    color: #3781BA;
+}
+button.evge-destructive {
+    border: 1px solid #DCB0A8;
+}
+.evge-destructive:hover,
+.evge-destructive:active,
+.evge-admin-page .evge-destructive:hover,
+.evge-admin-page .evge-destructive:active,
+.evge-status-abandoned:hover,
+.evge-status-abandoned:active {
+    background: #f5d0ca;
+}
+/* Attendance status styles */
+.evge-status-attended {
+    background: #EAFCF1;
+    color: #4AB674;
+}
+.evge-status-noshow {
+    background: #FFF4F2;
+    color: #D37362;
+}
+.evge-status-excused {
+    background: #E8F4FD;
+    color: #3781BA;
+}
+.evge-status-unknown {
+    background: #e2e3e5;
+    color: #6c757d;
+}
+.evge-primary-blue-bg {
+    background: #1A79C1;
+}
+
+/** Header **/
+.evge-admin-wrap,
+.evge-header-nav-move{
+    padding-top: 54px;
+}
+.evge-header-nav-move .evge-admin-header {
+    z-index: -1;
+}
+.evge-header-nav-move .evge-header-support {
+    display: none;
+}
+.evge-admin-header {
+    position: absolute;
+
+    box-sizing: border-box;
+    padding: 8px 24px;
+    background: #fff;
+    border-bottom: 1px solid #c3c4c7;
+    top: 0;
+    left: -20px;
+    width: calc(100% + 20px);
+}
+.evge-admin-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.evge-admin-header-identity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.evge-admin-header-identity h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.evge-admin-header-identity h1 .evge-brand {
+    color: #1D6E85;
+    font-size: 16px;
+}
+.evge-admin-header-identity h1 .evge-current-page {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.evge-admin-header-identity h1 .evge-calendar-color-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+    border: 1px solid #ccd0d4;
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.evge-admin-header-identity .evge-admin-secondary-button{
+    margin: -1px 0 0 6px;
+}
+.evge-admin-header-identity img {
+    height: 43px;
+}
+.evge-admin-header .evge-help-button {
+    background: #f6f7f7;
+    border: 1px solid #D0D0D0;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.evge-admin-header .evge-help-button:hover,
+.evge-admin-header .evge-help-button:active{
+    background: #f0f0f1;
+}
+
+@media all and (max-width: 782px){
+    .evge-admin-header .evge-help-button{
+        padding: 13px 16px;
+    }
+}
+@media all and (max-width: 700px){
+    .evge-admin-header-identity img {
+        height: 34px;
+    }
+    .evge-admin-header-identity h1 .evge-current-page{
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 600px){
+    .evge-admin-header {
+        top: 45px;
+    }
+    .evge-admin-header .evge-help-button{
+        display: none;
+    }
+}
+
+/* Category and Tag Adaptations */
+.taxonomy-evge_event_cat,
+.taxonomy-evge_event_tag {
+    visibility: hidden;
+}
+
+/**
+Table
+ */
+.evge-reg-row .check-column input {
+    width: 16px;
+}
+/**
+Details
+ */
+ .evge-event-details .evge-detail-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.evge-management-page .evge-event-details,
+.evge-event-details {
+    padding: 15px 5px;
+}
+.evge-detail-row {
+    padding: 0 14px;
+}
+.evge-event-detail {
+    padding: 2px 0;
+    color: #333;
+    margin-right: 15px;
+}
+.evge-event-details .evge-event-detail {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.evge-event-details-date-summary svg{
+    position: relative;
+}
+.evge-event-details-date-summary {
+    gap: 5px;
+}
+.evge-event-detail-item {
+    display: flex;
+    align-items: center;
+    margin: 0 14px 8px 0;
+}
+.evge-event-details-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.evge-event-details-title > span {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 8px;
+}
+.evge-event-details-title a {
+    text-decoration: none;
+}
+.evge-event-details-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.evge-single-view-wrapper .evge-event-details-top {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.evge-single-view-wrapper .evge-event-details-top,
+.evge-single-view-wrapper .evge-detail-row{
+    padding: 0;
+}
+.evge-event-details-actions {
+    display: flex;
+    gap: 6px;
+}
+.evge-overview-display {
+    margin-bottom: 10px;
+}
+.evge-reg-status-bar .subsubsub{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.evge-reg-status-bar .subsubsub a{
+    line-height: 1;
+}
+/** Single **/
+.evge-single-view-wrapper .evge-event-details-actions .evge-event-details-attendance {
+    font-size: 14px;
+}
+.evge-single-view-wrapper .evge-event-details-top .evge-event-details-attendance {
+    display: none;
+}
+.evge-single-view-wrapper .evge-event-details-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.evge-single-view-wrapper .evge-single-actions-right-justify {
+    display: flex;
+    gap: 10px
+}
+.evge-single-view-wrapper .evge-detail-row .evge-event-detail-item {
+    margin-bottom: 0;
+}
+/** Navigation **/
+.evge-main-admin-nav {
+    display: block;
+    margin: 16px 0 30px;
+    padding: 4px;
+    background: #DFE9F1;
+    border: 1px solid #C1E0F8;
+    border-radius: 5px;
+}
+.evge-main-admin-subnav {
+    display: block;
+    margin-bottom: 20px;
+}
+.evge-event-card .evge-main-admin-subnav {
+    margin-bottom: 0;
+}
+.evge-main-admin-nav-inner,
+.evge-main-admin-subnav-inner{
+    display: flex;
+}
+.evge-main-admin-subnav-inner {
+    display: inline-block;
+    border-bottom: 1px solid #dcdcdc;
+}
+.evge-event-card-inner .evge-main-admin-subnav-inner {
+    border-bottom: none;
+}
+.evge-main-admin-subnav-item {
+    display: inline-block;
+}
+.evge-nav-tab {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-right: 4px;
+    font-size: 16px;
+    color: #1B4B6F;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+.evge-subnav-tab {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: #444;
+    margin-right: 4px;
+
+    text-decoration: none;
+}
+.evge-nav-tab:hover,
+.evge-nav-tab:active,
+.evge-nav-tab:focus{
+    background: rgba(255,255,255,0.4);
+}
+.evge-nav-tab-active,
+.evge-nav-tab-active:hover,
+.evge-nav-tab-active:active,
+.evge-nav-tab-active:focus{
+    color: #111;
+    background: #fff;
+}
+.evge-subnav-tab-active,
+.evge-subnav-tab:hover,
+.evge-subnav-tab:active,
+.evge-subnav-tab:focus{
+    color: #111;
+    border-bottom: 2px solid #1A79C1;
+}
+
+.evge-subnav-tab .evge-upsell-pro-badge {
+    margin-left: 6px;
+}
+
+/* Opacity styling for upsell sub-navigation tabs */
+.evge-subnav-tab.evge-modal-trigger {
+    opacity: 0.6;
+}
+
+.evge-subnav-tab.evge-modal-trigger:hover,
+.evge-subnav-tab.evge-modal-trigger:active,
+.evge-subnav-tab.evge-modal-trigger:focus {
+    opacity: 0.8;
+}
+
+/* Advanced form fields upsell link */
+.evge-type-select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.evge-type-select-wrapper select {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+}
+
+.evge-advanced-fields-upsell-link {
+    font-size: 13px;
+    color: #1A79C1;
+    text-decoration: none;
+    font-weight: normal;
+    flex: 0 0 auto;
+}
+
+.evge-advanced-fields-upsell-link:hover {
+    color: #1569a8;
+    text-decoration: underline;
+}
+.evge-nav-link-wrap {
+    margin: 0;
+    padding: 10px 0 6px 0;
+}
+.wrap h2.evge-subtabs {
+    border: none;
+}
+/* Icon Link - Additional property for admin context */
+.evge-icon-link {
+    text-decoration: none;
+}
+#evge-show-canceled {
+    min-height: auto;
+    padding: 3px 10px;
+}
+.evge-registrations-data th {
+    position: relative;
+}
+.evge-data-nav-wrap {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    opacity: .8;
+}
+.evge-data-nav-wrap svg {
+    height: 100%;
+    color: #033748;
+}
+.evge-data-nav-wrap:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.evge-data-nav-wrap.evge-right {
+    right: 5px;
+}
+.evge-data-nav-wrap.evge-left {
+    left: -20px;
+}
+.evge-data-nav {
+    height: 16px;
+    margin: 7px 0;
+    display: flex;
+    justify-content: center;
+}
+.evge-data-cell{
+    display: none;
+}
+.evge-data-group-1 {
+    display: table-cell;
+}
+/* Hide delete button on payments tab instead of hiding the entire check-column */
+.evge-subtab-payments .evge-actions-left .evge-action-button[data-evge-ajax*="bulk_delete"] {
+    display: none;
+}
+
+@media all and (max-width: 1000px){
+    .evge-nav-tab {
+        padding: 10px 20px;
+    }
+}
+@media all and (max-width: 800px){
+    .evge-main-admin-nav-inner,
+    .evge-main-admin-subnav-inner {
+        flex-wrap: wrap;
+    }
+}
+
+
+/**
+ToolBar
+**/
+.evge-filter-move {
+    line-height: 0;
+}
+.evge-management-page .wp-filter .view-switch {
+    padding: 13px 7px 13px 5px;
+    border-right: 1px solid #DCDCDC;
+}
+.evge-management-page .wp-filter .view-switch a {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    background-color: #ccc;
+    border-radius: 5px;
+    height: 24px;
+    width: 24px
+}
+.evge-management-page .wp-filter .view-switch a.current,
+.evge-management-page .wp-filter .view-switch a:hover,
+.evge-management-page .wp-filter .view-switch a:active{
+    background-color: #1A79C1;
+}
+.evge-management-page .wp-filter .view-switch a svg {
+    height: 16px;
+}
+.evge-filter-move {
+    line-height: 0;
+}
+.evge-toolbar {
+    margin-bottom: 10px;
+}
+.evge-single-toolbar {
+    margin: 0;
+    border: none;
+    background: #F6F6F6;
+    border-top: 1px solid #c3c4c7;
+}
+.evge-management-page.evge-event-card-page .evge-toolbar {
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.evge-registration-toolbar {
+    padding: 0;
+}
+.wp-core-ui .evge-toolbar-section {
+    padding: 12px;
+    flex-wrap: nowrap;
+}
+
+.evge-management-page .evge-toolbar {
+    margin: 0;
+    border-bottom: 0;
+    background: #F6F6F6;
+    border-radius: 5px 5px 0 0;
+    border-color: #DCDCDC;
+
+}
+.evge-management-page #evge-filter-go {
+    background: #fff;
+    color: #1A79C1;
+    border-color: #1A79C1;
+    border-radius: 5px;
+}
+.evge-management-page #evge-filter-go:hover,
+.evge-management-page #evge-filter-go:active{
+    background: #F6F6F6;
+    color: #1A79C1;
+    border-color: #1A79C1;
+}
+.evge-management-page .subsubsub {
+    margin-bottom: 12px;
+}
+.evge-management-page .tablenav {
+    padding: 10px 0;
+}
+.evge-management-page .tablenav.top {
+    display: none;
+}
+.evge-management-page .wp-list-table {
+    border-radius: 0 0 5px 5px;
+    border-color: #DCDCDC;
+
+}
+.evge-management-page .wp-list-table th,
+.evge-management-page .wp-list-table td{
+    border-color: #DCDCDC;
+}
+.evge-management-page .striped>tbody>:nth-child(even){
+    background-color: #F0F0F1;
+}
+.evge-management-page .evge-reg-table .striped>tbody>:nth-child(even){
+    background-color: #fff;
+}
+.wp-core-ui .evge-management-page select,
+.wp-core-ui .evge-management-page input{
+    border-color: #DCDCDC;
+}
+
+@media all and (min-width: 945px){
+    .evge-toolbar-inner{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .evge-toolbar-primary {
+        border-left: 1px solid #DCDCDC;
+    }
+}
+
+.evge-toolbar-secondary .evge-toolbar-button{
+    vertical-align: middle;
+}
+.evge-search-type-wrap {
+    margin-top: 10px;
+}
+
+/** Pagination **/
+.evge-event-pagination {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+/**
+Grid
+ */
+.evge-event-card-inner {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+}
+
+.evge-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.evge-identifier-column .evge-identifier {
+    font-weight: bold;
+}
+.evge-identifier-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.evge-identifier-top .row-actions {
+    padding: 0;
+}
+table.evge-registrations-data.widefat {
+    border: none;
+    border-top: 1px solid #c3c4c7;
+}
+.evge-event-card-reg-table th,
+.evge-event-card-reg-table td{
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+@media all and (max-width: 715px){
+    .evge-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .evge-single-view-wrapper .evge-event-card-reg-table td{
+        display: block;
+        padding: 0px 10px 5px 10px;
+    }
+    .evge-single-view-wrapper .evge-event-card-reg-table tr{
+        display: block;
+        padding-bottom: 5px;
+    }
+    .evge-single-view-wrapper .evge-reg-row .check-column input {
+        width: 100%;
+    }
+    .evge-single-view-wrapper .evge-registrations-data thead{
+        display: none;
+    }
+}
+
+.evge-overview-bottom {
+    padding: 10px;
+    background-color: #f6f7f7;
+    border-radius: 0 0 5px 5px;
+}
+.evge-overview-bottom .button svg{
+    height: 9px;
+}
+
+
+/** Identity Tools **/
+
+
+/** Settings Adaptations **/
+.evge-multi-text-text-field .large-text {
+    max-width: 700px;
+}
+.evge-multi-text-fields-wrap .evge-multi-text-rich-editor-field {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.evge-multi-text-rich-editor-field {
+    position: relative;
+}
+.evge-multi-text-rich-editor-field label {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+
+
+/* Modal */
+#evge-modal {
+    color: #334155;
+    background: #fff;
+}
+.evge-narrow-max-width-modal {
+    max-width: 600px;
+}
+.evge-small-max-width-modal {
+    max-width: 800px;
+}
+.evge-medium-max-width-modal {
+    max-width: 1200px;
+}
+.evge-modal-is-open {
+    overflow: hidden;
+}
+.wp-admin .evge-modal {
+    position: fixed;
+    width: calc(100vw - 50px);
+    max-height: calc(100vh - 50px);
+    padding: 0;
+    overflow-y: auto;
+    opacity: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.7);
+    box-shadow: 0 5px 15px rgba(0,0,0,.7);
+    background: #fcfcfc;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.evge-modal .evge-recurrence-modal-content-inner p {
+    margin-bottom: 10px;
+}
+.evge-modal-content .evge-modal-heading h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+/* Centered Modal Styles */
+.evge-modal.evge-centered-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    max-height: 90vh;
+}
+
+@media all and (min-width: 1050px){
+    /* Standard modal positioning */
+    .evge-modal {
+        width: calc(100vw - 50px);
+        left: 25px;
+        margin-left: 0;
+    }
+    .evge-maximum-max-width-modal {
+        width: calc(100vw - 50px);
+        max-width: 1400px;
+        left: 25px;
+        margin-left: 0;
+    }
+    
+    /* Centered modal positioning */
+    .evge-modal.evge-centered-modal {
+        width: 1000px;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
+    .evge-maximum-max-width-modal.evge-centered-modal {
+        width: calc(100vw - 50px);
+        max-width: 1400px;
+        transform: translate(-50%, -50%);
+    }
+}
+@media all and (min-width: 1000px) {
+    .wp-admin .evge-small-max-width-modal {
+        width: 800px;
+        max-width: 800px;
+        left: 50%;
+        margin-left: -400px;
+    }
+    /* Upsell modals get a larger width */
+    .wp-admin .evge-small-max-width-modal:has(.evge-upsell-modal-heading),
+    .wp-admin .evge-small-max-width-modal:has(.evge-upsell-modal-content) {
+        width: 1000px;
+        max-width: 1000px;
+        margin-left: -500px;
+    }
+}
+
+@media all and (min-width: 1200px){
+    /* Standard modal positioning */
+    .evge-medium-max-width-modal {
+        width: 1200px;
+        max-width: 1200px;
+        left: 50%;
+        margin-left: -600px;
+    }
+}
+
+@media all and (min-width: 1450px){
+    /* Standard modal positioning */
+    .evge-maximum-max-width-modal {
+        width: 1400px;
+        left: 50%;
+        margin-left: -700px;
+    }
+    
+    /* Centered modal positioning */
+    .evge-maximum-max-width-modal.evge-centered-modal {
+        width: 1400px;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media all and (min-width: 650px){
+    /* Standard modal positioning */
+    .evge-modal.evge-narrow-max-width-modal {
+        width: 600px;
+        left: 50%;
+        margin-left: -300px;
+    }
+    
+    /* Centered modal positioning */
+    .evge-modal.evge-narrow-max-width-modal.evge-centered-modal {
+        width: 600px;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.wp-admin .evge-modal.evge-modal-no-header .evge-button-link.evge-action-modal-close,
+.wp-admin #evge-modal.evge-modal-no-header .evge-button-link.evge-action-modal-close{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    left: auto;
+    bottom: 0;
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    z-index: 1000;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    transition-property: border, background;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+    color: #BCBCBC;
+}
+.wp-admin .evge-modal:not(.evge-narrow-max-width-modal) .evge-button-link.evge-action-modal-close,
+.wp-admin #evge-modal:not(.evge-narrow-max-width-modal) .evge-button-link.evge-action-modal-close {
+    top: 25px;
+    right: 30px;
+}
+.evge-modal .evge-button-link.evge-action-modal-close:hover svg,
+.evge-modal .evge-button-link.evge-action-modal-close:active svg{
+    color: #1d2327;
+}
+.evge-media-modal-icon {
+    display: block;
+}
+.evge-modal .evge-button-link {
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+}
+.evge-modal .evge-modal-inner-pad {
+    margin: 40px 30px;
+}
+.evge-modal .evge-modal-body-pad {
+    padding: 40px 30px;
+}
+/* Modal heading and content areas with independent padding */
+#evge-modal .evge-modal-heading {
+    padding: 20px 30px;
+}
+#evge-modal .evge-modal-body {
+    background: #F9F9F9;
+    border-top: 1px solid #DCDCDC;
+}
+#evge-modal .evge-single-registration-tab .evge-modal-body {
+    border: none;
+    padding-top: 0;
+}
+.evge-modal-content-inner {
+    padding-top: 15px;
+}
+.wp-admin.evge-modal-is-open .evge-modal {
+    opacity: 1;
+    z-index: 160000;
+    border-radius: 5px;
+}
+.wp-admin .evge-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+    z-index: 159900;
+}
+
+.evge-modal-is-open .evge-modal-backdrop {
+    opacity: 1;
+}
+
+.evge-modal-placeholder {
+    width: 100%;
+    min-height: 200px;
+}
+
+.evge-modal-content .evge-cols {
+    justify-content: space-between;
+    gap: 20px;
+}
+.evge-modal-col-right {
+    width: 40%;
+}
+
+.evge-modal-event-details {
+    padding: 0 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+
+}
+.evge-modal-featured-image {
+    margin-bottom: 10px;
+}
+
+.evge-modal-title {
+    margin-bottom: 8px;
+}
+.evge-narrow-modal-inner {
+    /* Remove padding since it's now handled by the modal structure */
+    padding: 0;
+}
+/* Remove padding for recurrence modals */
+.evge-recurrence-modal .evge-narrow-modal-inner {
+    padding: 0;
+}
+/* Add padding back for all other narrow modals (not recurrence) */
+.evge-narrow-max-width-modal:not(.evge-recurrence-modal) .evge-narrow-modal-inner {
+    padding: 20px;
+}
+.evge-modal-section {
+    /* Remove padding since it's now handled by the modal structure */
+    padding: 0;
+}
+.evge-modal-section-heading {
+    display: block;
+    margin-bottom: 10px;
+}
+.evge-modal .evge-recurrence-modal-content-inner,
+.evge-queue-processing-modal-content {
+    padding: 20px;
+}
+.evge-queue-processing-modal-content h3,
+.evge-modal .evge-recurrence-modal-content h3 {
+    margin-top: 0;
+}
+.evge-modal .evge-recurrence-modal-content p{
+    padding: 0 0 10px 0;
+}
+.evge-modal .evge-recurrence-modal-content button{
+    margin-top: 10px;
+}
+
+.evge-standard-dialog {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.evge-standard-dialog strong{
+    font-size: 16px;
+}
+.evge-standard-dialog p{
+    font-size: 14px;
+}
+
+.evge-single-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.evge-single-header .evge-registration-column-status{
+    width: auto;
+    padding: 6px 15px;
+}
+.evge-single-header .evge-registration-column-status.evge-status-confirmed{
+    border: 1px solid #A1D1B1;
+}
+.evge-single-header .evge-registration-column-status.evge-status-pending{
+    border: 1px solid #E4C370;
+}
+.evge-single-header .evge-registration-column-status.evge-status-canceled{
+    border: 1px solid #EEBEB5;
+}
+
+#evge-modal .evge-single-event-meta {
+    padding: 15px 30px;
+}
+.evge-single-event-meta > div {
+    display: inline-block;
+    margin-right: 12px;
+}
+.evge-single-registration-manager .evge-single-event-meta-misc .evge-event-detail-item {
+    display: inline-block;
+}
+#evge-modal .evge-modal-tabs {
+    padding: 0 30px
+}
+#evge-modal .evge-single-registration-content {
+    padding: 0 30px 30px;
+    margin-top: -10px;
+}
+.evge-single-registration-content .evge-dashboard-item {
+    background: #fff;
+}
+.evge-user-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.evge-user-avatar {
+    margin-right: 20px;
+}
+
+.evge-user-meta h4 {
+    margin: 0 0 5px 0;
+}
+
+.evge-username {
+    color: #666;
+    margin: 0 0 10px 0;
+}
+
+.evge-user-email {
+    margin: 0;
+}
+
+.evge-user-details {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.evge-user-details p,
+.evge-modal .evge-user-details p {
+    margin: 0 0 10px 0;
+}
+
+.evge-user-actions {
+    margin-top: 20px;
+}
+
+.evge-user-actions .button {
+    margin-right: 10px;
+}
+
+.evge-no-user {
+    color: #666;
+    font-style: italic;
+}
+.evge-single-registration-content .evge-user-actions{
+    margin: 0;
+}
+.evge-single-registration-content .evge-field-inner{
+    display: flex;
+}
+.evge-single-registration-content .evge-field-inner .evge-label-wrapper{
+    flex: 2;
+}
+.evge-single-registration-content .evge-field-inner .evge-input-wrapper{
+    flex: 5;
+    max-width: 100%;
+}
+
+.evge-single-registration-content .evge-form-button-wrapper{
+    padding: 30px 0 0;
+}
+.evge-single-registration-content .evge-admin-button-large span{
+    font-size: 14px;
+}
+.evge-single-registration-content .evge-field-wrapper select{
+    background: none;
+}
+
+.evge-single-registration-content .evge-field-wrapper input[type=email],
+.evge-single-registration-content .evge-field-wrapper input[type=tel],
+.evge-single-registration-content .evge-field-wrapper input[type=text],
+.evge-single-registration-content .evge-field-wrapper select,
+.evge-single-registration-content .evge-field-wrapper textarea{
+    background: none;
+    border: 1px solid #ccc;
+}
+
+#evge-modal .evge-single-event-meta {
+    padding-left: 30px;
+}
+
+/* Single registrations not in modal */
+.evge-admin-page .evge-single-event-meta {
+    padding: 15px 30px 15px 0;
+    border: 0;
+}
+.evge-admin-page .evge-single-registration-content {
+    padding: 0;
+}
+.evge-admin-page .evge-single-registration-content{
+    background: none;
+}
+
+
+@media all and (max-width: 725px){
+    .evge-modal .evge-modal-content .evge-cols {
+        flex-direction: column;
+    }
+    .evge-modal .evge-registration-form-wrap {
+        width: auto;
+    }
+    .evge-single-view-wrapper .evge-event-details-actions {
+        margin-top: 10px;
+    }
+    .evge-single-event-meta-wrap .evge-event-details-actions .button{
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 600px){
+    .evge-admin-page .evge-modal .evge-single-header{
+        padding: 0 15px 15px 0;
+    }
+    .evge-single-registration-content .evge-form-button-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+.evge-alert-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+
+}
+.evge-alert-icon.evge-success {
+    background: #BEE7D1;
+    color: #399664;
+}
+.evge-alert-icon.evge-unknown {
+    background: #FFEAD2;
+    color: #D29853;
+}
+
+.evge-alert-icon svg {
+    fill: currentColor;
+}
+.evge-alert-icon svg {
+    max-width: 50px;
+    max-height: 70px;
+    width: 100%;
+}
+
+/** Dialog Buttons **/
+.evge-standard-dialog-buttons form{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.evge-standard-dialog-buttons button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.evge-standard-dialog-buttons .evge-dialog-secondary {
+    color: #555;
+    border: 1px solid #aaa;
+}
+.evge-standard-dialog-buttons .evge-dialog-secondary:hover,
+.evge-standard-dialog-buttons .evge-dialog-secondary:active {
+    background: #e2e2e2;
+}
+
+/**
+Reg Form
+ */
+.evge-modal-pad {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.evge-registration-form-inner {
+    padding: 5px;
+}
+.evge-field-wrapper {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.evge-form-button-wrapper {
+    padding: 10px 5px 5px;
+}
+.evge-form-button-wrapper {
+    padding: 10px 5px 5px;
+    display: flex;
+    gap:  10px;
+}
+.evge-field-wrapper input[type=email],
+.evge-field-wrapper input[type=tel],
+.evge-field-wrapper input[type=text],
+.evge-field-wrapper select,
+.evge-field-wrapper textarea{
+    color: #555;
+    padding: 6px 10px;
+    height: auto;
+    width: 100%;
+    border: 1px solid #6D97AD;
+    border-radius: 3px;
+    background: #F8FCFE;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+.evge-field-wrapper input[type=email]:focus,
+.evge-field-wrapper input[type=tel]:focus,
+.evge-field-wrapper input[type=text]:focus,
+.evge-field-wrapper select:focus,
+.evge-field-wrapper textarea:focus {
+    color: #222;
+    background-color: #fff;
+    border-color: #557B8F;
+    box-shadow: none;
+}
+.wp-admin #evge-modal .evge-select-input select {
+    /* Remove native browser styling to use custom caret */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Custom SVG caret - always visible */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px 16px;
+    /* Ensure text doesn't overlap the caret */
+    padding-right: 32px;
+}
+
+/* Specific background color for evge-field-wrapper selects */
+.evge-field-wrapper select {
+    background-color: #F8FCFE;
+}
+.evge-short-input,
+.evge-settings-section-wrap .evge-short-input {
+    max-width: 100px;
+    min-width: 100px;
+}
+.evge-long-input {
+    max-width: 350px;
+    width: 100%;
+}
+.evge-block-input {
+    display: block;
+}
+.evge-label-wrapper label {
+    line-height: 1.2;
+    font-size: 16px;
+}
+.evge-field-error {
+    display: none;
+    line-height: 18px;
+    font-size: 14px;
+    color: #d63638;
+    margin-top: 5px;
+}
+
+.evge-has-error .evge-field-error {
+    display: block !important;
+}
+
+.evge-field-wrapper.evge-has-error {
+    padding: 4px;
+    border: 1px solid #DB8E69;
+    border-radius: 3px;
+    background: #FFECE4;
+    color: #74371B;
+}
+.evge-currentcy-code {
+    font-size: 11px;
+    color: #6A7177;
+}
+
+
+/* Dashboard */
+.evge-dashboard-wrap {
+    padding-top: 20px;
+    max-width: 1400px;
+}
+.evge-welcome-dashboard-row,
+.evge-2-column-row{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.evge-2-column-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.evge-2-column-wrapper .evge-dashboard-item {
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.evge-welcome-dashboard-row .evge-dashboard-item {
+    display: flex;
+    gap: 20px;
+}
+.evge-welcome-left {
+    width: 60%;
+    padding: 12px;
+}
+.evge-welcome-right {
+    width: 40%;
+    padding: 12px;
+}
+
+.evge-1-column .evge-dashboard-item {
+    width: 100%;
+}
+.evge-dashboard-item-header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.evge-dashboard-item {
+    box-sizing: border-box;
+    position: relative;
+    background: rgba( 255,255,255,.7);
+    border-radius: 5px;
+    padding: 25px;
+    border: 1px solid #DCDCDC;
+}
+.evge-dashboard-quick-actions {
+    padding: 10px 25px;
+}
+.wp-core-ui .evge-dashboard-quick-actions-inner {
+    gap: 20px;
+}
+.evge-dashboard-quick-actions a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.evge-dashboard-quick-actions svg{
+    margin-right: 10px;
+}
+
+.evge-dashboard-item-header {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DCDCDC;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.evge-dashboard-item-no-footer .evge-dashboard-item-content {
+    margin-bottom: 0;
+}
+
+.evge-2-column-row .evge-dashboard-item {
+    width: 50%;
+}
+.evge-3-column-row .evge-dashboard-item {
+    width: 33.33%;
+}
+.evge-dashboard-item .evge-bottom-action-bar,
+.evge-dashboard-item-footer{
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.evge-dashboard-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.evge-dashboard-grid-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.evge-dashboard-grid-row h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.evge-dashboard-grid-row p {
+    margin: 0;
+    font-size: 12px;
+}
+.evge-dashboard-action-col {
+    display: flex;
+    gap: 5px;
+    color: #ccc;
+}
+.evge-dashboard-action-col a {
+    font-size: 12px;
+}
+.evge-dashboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.evge-dashboard-empty-message {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+.evge-dashboard-empty-message p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.evge-dashboard-empty-message .evge-icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-style: normal;
+    color: #2271b1;
+    text-decoration: none;
+}
+.evge-dashboard-empty-message .evge-icon-link:hover {
+    color: #135e96;
+}
+.evge-dashboard-empty-message .evge-icon-link svg {
+    width: 12px;
+    height: 12px;
+    fill: currentColor;
+}
+.evge-identity {
+    font-weight: bold;
+}
+.evge-dashboard-grid-item {
+    display: flex;
+}
+.evge-dashboard-grid-item div {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #bbb;
+}
+.evge-dashboard-grid-item div:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+#evge-dashboard-analytics {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+}
+.evge-analytics-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+.evge-analytics-item-heading {
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+}
+.evge-analytics-item-content {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.evge-analytics-trend {
+    display: flex;
+    gap: 6px;
+    color: #999;
+}
+.evge-trend-up {
+    color: #59A25D;
+    font-weight: bold;
+}
+.evge-trend-down {
+    color: #801515;
+    font-weight: bold;
+}
+.evge-analytics-blurred {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    min-width: 240px;
+    position: relative;
+    padding: 0 10px;
+}
+.evge-analytics-blurred .evge-analytics-col {
+    opacity: .8
+}
+.evge-analytics-upsell-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background: rgba(250,250,250,.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+}
+.evge-analytics-upsell-heading {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.evge-analytics-upsell-cta a{
+    background: #555;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 18px 7px 18px;
+}
+.evge-analytics-upsell-cta a svg {
+    height: 24px;
+}
+.evge-analytics-upsell-cta span{
+    line-height: 2;
+}
+@media all and (max-width: 1280px){
+    .evge-analytics-item-heading {
+        font-size: 13px;
+        color: #999;
+    }
+    .evge-analytics-item-content {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .evge-analytics-col {
+        gap: 6px;
+    }
+    .evge-analytics-blurred {
+        min-width: 140px;
+    }
+    .evge-analytics-upsell-heading {
+        font-size: 14px;
+    }
+    #evge-dashboard-analytics{
+        gap: 10px;
+    }
+    .evge-analytics-blurred {
+        gap: 30px;
+        padding: 0;
+    }
+}
+@media all and (max-width: 1150px){
+    .evge-2-column-wrapper {
+        display: block;
+        grid-template-columns: 49% 49%;
+        gap: 2%;
+    }
+}
+@media all and (max-width: 500px){
+    #evge-dashboard-analytics,
+    .evge-dashboard-grid-row,
+    .evge-dashboard-grid-item,
+    .evge-dashboard-quick-actions-inner{
+        flex-direction: column
+    }
+    .evge-dashboard-grid-item div {
+        border: none;
+    }
+    .evge-dashboard-grid-row {
+        margin-bottom: 10px;
+        gap: 5px;
+    }
+}
+/** Confirm Message Badge **/
+.evge-message-badge {
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 200000;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f8fff8;
+    color: #2c812c;
+    border: 1px solid #569f56;
+}
+.evge-message-badge svg {
+    margin: 2px 2px 0 0;
+}
+/**
+Spinner
+ */
+@keyframes evgespin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.evge-processing-wrap {
+    position: relative;
+}
+.evge-processing-wrap-flex {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.evge-fade {
+    opacity: .6;
+}
+.evge-modal-is-open .evge-modal.evge-is-processing .evge-modal-content{
+    opacity: .6;
+}
+.evge-is-processing .evge-spinner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -19px 0 0 -19px;
+}
+
+.evge-processing-wrap-flex.evge-is-processing .evge-spinner-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.evge-is-processing .evge-spinner-circle {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 8px solid rgba(15, 84, 104, 0.2);
+    border-top-color: #1D6E85;
+    -webkit-animation: evgespin 1s infinite linear;
+    animation: evgespin 1s infinite linear;
+}
+/**
+ * Responsive
+ */
+.evge-dynamic {
+    min-height: 50px;
+}
+
+
+/** Settings **/
+.evge-settings-section-wrap {
+    margin-bottom: 30px;
+}
+
+.evge-settings-section-wrap h2 {
+    padding: 10px 0 18px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 16px;
+}
+
+.evge-configuration-header {
+    margin: 20px 0 0;
+}
+.evge-configuration-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.evge-settings-section-wrap label{
+    font-weight: normal;
+}
+.evge-toggle-setting {
+    display: flex;
+    gap: 12px;
+}
+.evge-setting-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+.evge-multi-text-fields-wrap {
+    margin-top: 5px;
+}
+.evge-multi-text-fields-wrap > div {
+    margin-bottom: 10px;
+}
+.evge-multi-text-fields-wrap .evge-multi-text-toggle-field {
+    margin-bottom: 16px;
+}
+
+.evge-setting-label .evge-tooltip-link svg {
+    height: 16px;
+    width: 16px;
+}
+.evge-setting-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.evge-bump-down {
+    margin-top: 40px;
+
+}
+.evge-button-link {
+    display: inline-block;
+    border: 3px solid #97D9D0;
+    border-radius: 5px;
+    background: #F2FDFC;
+    padding: 6px 10px;;
+    line-height: 1;
+    text-decoration: none;
+    color: #04564B;
+}
+.evge-button-link > div {
+    display: flex;
+}
+
+/* Time field styling */
+.evge-time-field-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.evge-time-input {
+    width: 80px;
+    min-width: 80px;
+}
+
+.evge-time-unit-select {
+    width: 100px;
+    min-width: 100px;
+}
+.evge-button-link > div svg {
+    height: 14px;
+}
+.evge-datetime-setting-wrap {
+    display: flex;
+    gap: 5px;
+}
+.evge-button-link:hover {
+    background: #333;
+}
+.evge-license-field-wrap {
+    padding: 23px;
+    background: rgba(255,255,255,.2);
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.evge-license-field-wrap .evge-license-field-wrap-inner > strong,
+.evge-license-field-wrap >strong {
+    font-size: 16px;
+    color: #000;
+}
+.evge-license-field-wrap p {
+    font-size: 14px;
+}
+.evge-license-field-wrap-inner {
+    height: 23px;
+}
+.evge-license-actions button {
+    height: 36px;
+    border-radius: 5px;
+}
+.evge-license-actions .evge-license-link {
+    color: #2271b1;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.evge-license-actions .evge-license-link:hover {
+    color: #135e96;
+    text-decoration: underline;
+}
+.evge-license-field-wrap-inner .evge-registration-column-status {
+    width: auto;
+}
+.evge-license-field-wrap a:not(.evge-license-link) {
+    display: inline-block;
+    border: 1px solid #1A79C1;
+    border-radius: 5px;
+    background: #fff;
+    padding: 9px 15px;
+    line-height: 1;
+    text-decoration: none;
+    color: #1A79C1;
+    font-size: 14px;
+}
+.evge-license-field-wrap a > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.evge-license-field-wrap a > div svg {
+    height: 14px;
+}
+.evge-license-field-wrap a strong {
+    background: #1A79C1;
+    border: 1px solid #1A79C1;
+    display: inline-block;
+    padding: 4px 5px 5px 5px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform:uppercase;
+}
+
+.evge-license-field-wrap a:not(.evge-license-link):hover,
+.evge-license-field-wrap a:not(.evge-license-link):active{
+    background: #1A79C1;
+    color: #fff;
+}
+.evge-license-field-wrap a:hover strong,
+.evge-license-field-wrap a:active strong{
+    padding: 4px 5px 5px 5px;
+    border: 1px solid #fff;
+}
+.evge-license-field-wrap a:hover svg path,
+.evge-license-field-wrap a:active svg path{
+    fill: #fff;
+}
+
+.evge-settings-section-wrap input[type=color],
+.evge-settings-section-wrap input[type=date],
+.evge-settings-section-wrap input[type=datetime-local],
+.evge-settings-section-wrap input[type=datetime],
+.evge-settings-section-wrap input[type=email],
+.evge-settings-section-wrap input[type=month],
+.evge-settings-section-wrap input[type=number],
+.evge-settings-section-wrap input[type=password],
+.evge-settings-section-wrap input[type=search],
+.evge-settings-section-wrap input[type=tel],
+.evge-settings-section-wrap input[type=text],
+.evge-settings-section-wrap input[type=url],
+.evge-settings-section-wrap select,
+.evge-settings-section-wrap textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+.evge-settings-section-wrap .evge-setting-flex-column input[type=number] {
+    max-width: 200px;
+}
+.evge-settings-section-wrap select{
+    min-width: 220px;
+}
+.evge-settings-sub-group td{
+    padding: 5px 10px;
+}
+.evge-settings-sub-group-wide {
+    min-width: 600px;
+}
+@media all and (max-width: 784px){
+    .evge-admin-page .evge-multi-text-fields-wrap input[type=text]{
+        width: 90%;
+    }
+}
+
+
+
+/** Tooltips and Notices **/
+.evge-asterisk {
+    color: #D37362;
+}
+.evge-highlight-text-notice {
+    padding: 8px 12px;
+    color: #333;
+    background: #E6E6E6;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.evge-exclamation-notice {
+    padding: 6px 14px;
+    color: #333;
+    background: #E6E6E6;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.evge-exclamation-notice p {
+    margin: 0 !important;
+}
+.evge-exclamation-notice svg {
+    fill: #aaa;
+}
+.evge-blue-exclamation {
+    background: #DFE9F1;
+    color: #1A79C1;
+}
+.evge-blue-exclamation svg {
+    fill: #1A79C1;
+}
+.evge-exclamation-notice .evge-notice-icon {
+    margin: 4px 3px 0 0
+}
+.evge-tooltip-wrap .evge-tooltip-link{
+    display: flex;
+    align-items: center;
+}
+.evge-tooltip-wrap .evge-tooltip {
+	display: none;
+	position: absolute;
+	min-width: 260px;
+    max-width: 320px;
+	bottom: 30px;
+	left: -25px;
+	padding: 10px 15px 12px;
+	border-radius: 5px;
+	background: #1A79C1;
+	color: #fff;
+	z-index: 100;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.evge-tooltip-wrap .evge-tooltip-right {
+    left: auto;
+    right: -250px;
+}
+.evge-tooltip-wrap .evge-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 33px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1A79C1 transparent transparent transparent;
+}
+
+.evge-tooltip-wrap .evge-tooltip-right::after {
+    left: 33px;
+    right: auto;
+    margin-left: -5px;
+    margin-right: 0;
+}
+@media all and (max-width: 1380px){
+    .evge-tooltip-wrap .evge-tooltip::after {
+        left: 260px;
+    }
+    .evge-tooltip-wrap .evge-tooltip {
+        left: -250px;
+    }
+    .evge-tooltip-wrap .evge-tooltip-right {
+        left: auto;
+        right: -250px;
+    }
+    .evge-tooltip-wrap .evge-tooltip-right::after {
+        left: 260px;
+        right: auto;
+    }
+    th .evge-tooltip-wrap .evge-tooltip {
+        left: -22px;
+    }
+    th .evge-tooltip-wrap .evge-tooltip::after {
+        left: 33px;
+    }
+}
+.evge-tooltip-wrap {
+    position: relative;
+}
+.evge-tooltip-wrap:hover .evge-tooltip{
+    display: block;
+
+}
+.evge-tooltip p,
+.evge-admin-wrap .evge-tooltip p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Ensure tooltip text color is white */
+.evge-tooltip,
+.evge-tooltip p,
+.evge-tooltip-wrap .evge-tooltip,
+.evge-tooltip-wrap .evge-tooltip p {
+	color: #fff;
+}
+.evge-standout-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.evge-datetime-setting-custom{
+    padding-left: 2px;
+}
+
+/* Custom slugs: collapsible slug options */
+.evge-custom-slugs-wrap {
+	margin-top: 0;
+}
+.evge-custom-slugs-description {
+	margin-bottom: 10px;
+	color: #50575e;
+}
+.evge-custom-slugs-toggle-wrap {
+	margin-bottom: 12px;
+}
+.evge-show-slug-options {
+	margin: 0;
+}
+.evge-slug-options-content {
+	display: none;
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcdc;
+}
+.evge-slug-options-content[hidden] {
+	display: none !important;
+}
+.evge-slug-options-table {
+	margin-top: 0;
+}
+.evge-slug-options-table .evge-slug-options-label {
+	vertical-align: middle;
+	padding-right: 16px;
+	width: 1%;
+	white-space: nowrap;
+}
+.evge-slug-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: nowrap;
+}
+.evge-slug-input-wrap {
+	flex: 0 0 auto;
+	min-width: 180px;
+	max-width: 240px;
+}
+.evge-slug-input-wrap .evge-slug-input {
+	width: 100%;
+	max-width: none;
+}
+.evge-slug-options-table .evge-slug-input {
+	max-width: 240px;
+}
+.evge-slug-example {
+	margin: 0;
+	flex: 1 1 auto;
+	min-width: 0;
+	font-size: 12px;
+	color: #646970;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.evge-slug-example .evge-slug-example-link,
+.evge-slug-example .evge-slug-example-url {
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: bottom;
+}
+.evge-slug-example-url {
+	word-break: break-all;
+}
+
+/* Placeholder Reference Table */
+.evge-placeholder-reference {
+    background: #fff;
+    max-width: 700px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+.evge-placeholder-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.evge-placeholder-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 0 0 12px;
+}
+
+.evge-placeholder-tab {
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.evge-placeholder-tab.evge-active,
+.evge-placeholder-tab:hover{
+    border-bottom: 1px solid #1A79C1;
+    padding: 12px 12px 11px;
+}
+.evge-placeholder-search {
+    flex: 0 0 200px;
+    position: relative;
+    margin: 5px 0 5px 10px;
+}
+.evge-placeholder-search img {
+    position: absolute;
+    top:  10px;
+    left: 10px;
+}
+
+.evge-placeholder-search-input {
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.evge-placeholder-content {
+    /* padding: 12px; */
+}
+
+.evge-placeholder-category {
+    display: none;
+}
+
+.evge-placeholder-category.evge-active {
+    display: block;
+}
+
+.evge-placeholder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    background: #F8F9FA;
+    gap: 8px;
+}
+
+.evge-placeholder-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.evge-placeholder-description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.evge-placeholder-insert {
+    padding: 4px 8px;
+    border: 1px solid #dcdcdc;
+    background: #F0F0F1;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #666;
+}
+
+.evge-placeholder-insert:hover {
+    background: #ddd;
+}
+code.evge-placeholder-code {
+    background: #fff;
+    border: 1px solid #DCDCDC;
+}
+
+.evge-settings-section-wrap input[type=text].evge-placeholder-search-input,
+.evge-placeholder-header input[type=text].evge-placeholder-search-input {
+    line-height: 1.4;
+    width: 100%;
+    padding: 6px 8px 6px 32px;
+}
+
+.evge-placeholderable-field .evge-exclamation-notice,
+.evge-placeholder-reference{
+    margin-top: 6px;
+}
+
+.evge-placeholder-hidden,
+.evge-placeholder-search-hidden,
+.evge-placeholder-content .evge-category-expanded .evge-placeholder-search-hidden{
+    display: none;
+}
+
+.evge-show-more-placeholders {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background: none;
+    border: none;
+    color: #1A79C1;
+    cursor: pointer;
+}
+
+.evge-show-more-placeholders:hover {
+    text-decoration: underline;
+}
+
+.evge-category-expanded .evge-placeholder-hidden {
+    display: flex;
+}
+
+.evge-category-expanded .evge-show-more-placeholders {
+    display: none;
+}
+
+
+/** Gateway **/
+
+.evge-admin-wrap .form-table .evge_gateways_table th {
+    min-width: 50px;
+}
+
+.evge_gateways_table th,
+.evge_gateways_table td{
+    display: table-cell !important;
+    padding: 1em !important;
+    vertical-align: top;
+    line-height: 1.75em;
+}
+.evge-toggle-table td{
+    padding: 8px;
+}
+.evge-input-toggle,
+.evge-settings-toggle{
+    height: 16px;
+    width: 28px;
+    border: 2px solid #1A79C1;
+    background-color: #1A79C1;
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 10em;
+    position: relative;
+    margin-top: -1px;
+    vertical-align: text-top
+}
+
+.evge-input-toggle::before,
+.evge-settings-toggle::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100%
+}
+
+.evge-input-toggle.evge-input-toggle--disabled,
+.evge-settings-toggle.evge-input-toggle--disabled {
+    border-color: #ccc;
+    background-color: #ccc;
+}
+
+.evge-input-toggle.evge-input-toggle--disabled::before,
+.evge-settings-toggle.evge-input-toggle--disabled::before {
+    right: auto;
+    left: 0
+}
+
+.evge-input-toggle.evge-input-toggle--loading,
+.evge-settings-toggle.evge-input-toggle--loading {
+    opacity: .5
+}
+
+
+table.evge_emails.evge_emails td,table.evge_gateways.evge_emails td,table.evge_shipping.evge_emails td {
+    vertical-align: middle
+}
+
+table.evge_emails tr:nth-child(odd) td,table.evge_gateways_table tr:nth-child(odd) td,table.evge_shipping tr:nth-child(odd) td {
+    background: #f9f9f9
+}
+
+table.evge_emails td.name,table.evge_gateways_table td.name,table.evge_shipping td.name {
+    font-weight: 700
+}
+
+table.evge_emails .settings,table.evge_gateways_table .settings,table.evge_shipping .settings {
+    text-align: right
+}
+
+table.evge_gateways_table .default,
+table.evge_gateways_table .radio,
+table.evge_gateways_table .status {
+    text-align: center
+}
+
+table.evge_gateways_table .default .tips,
+table.evge_gateways_table .radio .tips,
+table.evge_gateways_table .status .tips {
+    margin: 0 auto
+}
+
+table.evge_gateways_table .default input,
+table.evge_gateways_table .radio input,
+table.evge_gateways_table .status input {
+    margin: 0
+}
+
+table.evge_emails td.sort,table.evge_gateways_table td.sort,table.evge_shipping td.sort {
+    font-size: 15px;
+    text-align: center
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav {
+    white-space: nowrap;
+    width: 72px
+}
+
+table.evge_gateways_table .evge-payment-gateway-method-toggle-enabled,
+table.evge_gateways_table .evge-payment-gateway-method-toggle-disabled {
+    padding-top: 1px;
+    display: block;
+    outline: 0;
+    box-shadow: none
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav button {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    color: #82878c;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: 0
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav button::before {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font: normal 20px/23px dashicons;
+    text-align: center;
+    text-indent: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav button:focus,
+table.evge_gateways_table td.sort .evge-item-reorder-nav button:hover {
+    color: #191e23
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav .evge-move-down::before {
+    content: "\f347"
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav .evge-move-up::before{
+    content: "\f343"
+}
+
+table.evge_gateways_table td.sort .evge-item-reorder-nav .evge-move-disabled {
+    color: #d5d5d5!important;
+    cursor: default;
+    pointer-events: none
+}
+.evge_gateways_table {
+    margin-bottom: 20px;
+}
+.evge_gateways_table th,
+.evge_gateways_table td {
+    box-sizing: border-box;
+}
+.evge_gateways_table .status {
+    width: 80px;
+}
+.evge_gateways_table .action {
+    max-width: 120px;
+    box-sizing: border-box;
+}
+.evge_gateways_table .method-description {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.evge_gateways_table tr {
+    position: relative;
+}
+.evge-redirect-needed-alert {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 16px;
+    background-color: inherit;
+}
+
+.evge-gateway-redirecting .method-description span,
+.evge-gateway-redirecting .evge-payment-gateway-method-toggle-enabled{
+    visibility: hidden;
+}
+
+.evge-admin-breadcrumb {
+    margin-left: .5em;
+}
+.evge-line-link {
+    display: inline-block;
+}
+.evge-icon-text {
+    display: flex;
+    align-items: center;
+}
+.evge-icon-text svg {
+    height: 14px;
+    width: auto;
+    min-width: 8px;
+}
+.evge-small-icon.evge-icon-text svg {
+    height: 11px;
+}
+.evge-tiny-icon svg {
+    height: 9px;
+}
+/* Form Settings */
+.evge-button-preview-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.evge-button-preview-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 300px;
+}
+.evge-button-preview-single .evge-button-preview-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.evge-button-preview {
+    pointer-events: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+.evge-button-preview-preview label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/**
+Management pages
+ */
+.evge-admin-registrations-page .column-name {
+    min-width: 20ch;
+
+}
+
+/* Dashboard Notices */
+.evge-dashboard-notice {
+    display: flex;
+    gap: 25px;
+    background: #fff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    position: relative;
+}
+.evge-notice-close {
+    position: absolute;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+    color: #AAAAAA;
+}
+.evge-notice-close:hover {
+    cursor: pointer;
+}
+.evge-notice-close:hover svg g path {
+    stroke: #222;
+}
+.evge-notice-image {
+    max-width: 50px;
+}
+.evge-notice-close:hover {
+    cursor: pointer;
+}
+.evge-notice-close:hover svg g path {
+    stroke: #222;
+}
+.evge-notice-image {
+    max-width: 50px;
+}
+
+.evge-notice-image img {
+    width: 100%;
+}
+.evge-notice-content.evge-notice-no-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.evge-notice-content.evge-notice-no-text .evge-notice-heading {
+    margin: 0;
+}
+.evge-notice-heading {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.evge-notice-text {
+    margin-bottom: 15px;
+}
+.wp-core-ui .evge-notice-actions a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 6px;
+    font-size: 14px;
+    line-height: 1;
+    min-height:  auto;
+    border-radius: 5px;
+}
+.wp-core-ui .evge-notice-actions a:hover path,
+.wp-core-ui .evge-notice-actions a:active path {
+    fill: #0a4b78;
+}
+.evge-notice-action {
+    text-decoration: none;
+}
+
+.evge-button-primary.evge-notice-action {
+    background: #1A79C1;
+    border-color: #1A79C1;
+    color: #fff;
+}
+
+.evge-button-secondary.evge-notice-action {
+    background: #EEF7FE;
+    border-color: #1A79C1;
+    color: #1A79C1;
+}
+.evge-button-secondary.evge-notice-action:hover,
+.evge-button-secondary.evge-notice-action:active{
+    background: #C1DFF6;
+    border-color: #1A79C1;
+    color: #1A79C1;
+}
+
+
+.evge-hidden-initially {
+    display: none;
+}
+
+/* Blocks */
+.evge-block-preview {
+    pointer-events: none;
+}
+
+
+/* Support Page */
+.evge-support-page {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+.evge-support-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.evge-support-left {
+    min-width: 400px;
+}
+.evge-support-right {
+    width: calc(100% - 400px);
+}
+@media all and (max-width: 1000px){
+    .evge-support-container {
+        flex-direction: column;
+    }
+    .evge-support-left {
+        min-width: 100%;
+    }
+    .evge-support-right {
+        width: 100%;
+    }
+}
+.evge-support-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.evge-support-left .evge-support-section:last-child{
+    margin-bottom: 0;
+}
+.evge-helpful-links {
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+.evge-helpful-links li {
+    margin-bottom: 10px;
+}
+.evge-helpful-links a {
+    text-decoration: none;
+    color: #2271b1;
+}
+.evge-helpful-links a svg{
+    height: 8px;
+    margin-left: 3px;
+}
+.evge-helpful-links a:hover {
+    color: #135e96;
+}
+.evge-contact-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.evge-section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 12px;
+}
+.evge-support-section-system-info .evge-section-header {
+    justify-content: space-between;
+}
+.evge-section-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.evge-section-header-icon{
+    padding: 8px;
+    background: #F6D6D1;
+    border-radius: 30px;
+    margin-right: 8px;
+}
+.evge-section-header-icon svg{
+    display: block;
+}
+.evge-copyable {
+    background: #f0f0f1;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.evge-copyable pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: monospace;
+}
+.evge-copyable pre strong {
+    color: #1d2327;
+    font-weight: 600;
+}
+#evge-copy-system-info,
+#evge-copy-logs,
+.evge-support-page .evge-button-link {
+    border: 1px solid #D37362;
+    color: #D37362;
+    background: #fbfbfb;
+    padding: 0px 12px;
+    line-height: 30px;
+    min-height: 30px;
+}
+#evge-copy-system-info,
+#evge-copy-logs{
+    margin: 0 0 0 auto;
+}
+#evge-copy-system-info:hover,
+#evge-copy-logs:hover,
+.evge-support-page .evge-button-link:hover,
+#evge-copy-system-info:active,
+#evge-copy-logs:active,
+.evge-support-page .evge-button-link:active{
+    background: #F9F3F3;
+    color: #D37362;
+}
+#evge-copy-system-info svg,
+#evge-copy-logs svg{
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+.evge-support-page .evge-button-link svg{
+    height: 8px;
+    margin: 0 0 0 3px;
+}
+.evge-support-contact p{
+    padding-bottom: 20px;
+}
+.evge-support-contact .evge-button-link{
+    background: #D37362;
+    color: #fff;
+}
+.evge-support-contact .evge-button-link:hover,
+.evge-support-contact .evge-button-link:active{
+    opacity: 0.9;
+    background: #D37362;
+    color: #fff;
+}
+.evge-support-contact .evge-button-link path{
+    fill: #fff;
+}
+
+/* Recurrence Debug */
+.evge-support-recurrence-debug .evge-button-link {
+    margin-bottom: 10px;
+}
+.evge-debug-log-section {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.evge-debug-log {
+    margin-top: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.evge-debug-log pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.evge-debug-log-section .evge-section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.evge-debug-log-section .evge-section-header h2 {
+    margin: 0;
+    flex: 1;
+}
+
+#evge-clear-log {
+    margin-left: auto;
+}
+
+/* Field Type Mismatch Warning */
+.evge-field-type-mismatch-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-size: 13px;
+    color: #856404;
+    display: inline-block;
+}
+
+/* Dashboard Empty State */
+.evge-dashboard-empty-state {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.evge-empty-state-container {
+    max-width: 920px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.evge-empty-state-column {
+    flex: 1;
+    min-width: 400px;
+    /* padding-top: 20px; */
+}
+
+.evge-empty-state-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.evge-empty-state-image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evge-empty-state-image-placeholder img {
+    width: 100%;
+}
+
+.wrap .evge-empty-state-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+}
+
+.evge-empty-state-description p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.evge-empty-state-actions {
+    margin: 40px 0;
+}
+
+.evge-create-first-event-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 16px !important;
+}
+
+.evge-empty-state-features h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d2327;
+    margin: 0 0 20px 0;
+}
+
+.evge-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.evge-feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #646970;
+}
+
+.evge-feature-checkbox {
+    color: #00a32a;
+    font-weight: bold;
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+.evge-feature-text {
+    line-height: 1.4;
+}
+
+/* Responsive design for empty state */
+@media all and (max-width: 1120px) {
+    .evge-empty-state-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 30px;
+    }
+
+    .evge-empty-state-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .evge-feature-item {
+        justify-content: center;
+    }
+
+    .evge-empty-state-image {
+        display: none;
+    }
+
+    .evge-create-first-event-btn {
+        width: auto;
+        text-align: center;
+        font-size: 16px !important;
+    }
+}
+
+/* Notice Base Styles - Shared Layout */
+.evge-notice-base {
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.evge-notice-base p {
+    margin: 0 !important;
+}
+
+.evge-notice-base .evge-notice-icon {
+    margin: 4px 3px 0 0;
+}
+
+.evge-blue-exclamation {
+    background: #DFE9F1;
+    color: #1A79C1;
+}
+
+.evge-blue-exclamation svg {
+    fill: #1A79C1;
+}
+
+.evge-notice-link-wrap {
+    margin-top: 10px;
+}
+/* Documentation Notice - Specific Colors */
+.evge-documentation-notice {
+    color: #1A79C1;
+    background: #DFE9F1;
+}
+
+.evge-documentation-notice a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+
+.evge-documentation-notice a:hover {
+    text-decoration: underline;
+}
+
+.evge-documentation-notice a svg {
+    height: 9px;
+    width: auto;
+    fill: currentColor;
+    margin-left: 8px;
+}
+
+/* Alert Notice */
+.evge-alert-notice {
+    padding: 3px 9px;
+    background: #FFEFC7;
+    border: 1px solid #E7C063;
+    color: #856008;
+}
+
+.evge-icon-text .evge-tooltip p {
+	padding: 0;
+	margin: 0;
+	line-height: 1.3;
+}
+
+/* Payment Status Display in Modal */
+.evge-payment-info-item .evge-tooltip-wrap {
+	position: relative;
+	display: inline-block;
+}
+
+.evge-payment-info-item .evge-status-complete,
+.evge-payment-info-item .evge-status-pending,
+.evge-payment-info-item .evge-status-processing,
+.evge-payment-info-item .evge-status-offline,
+.evge-payment-info-item .evge-status-abandoned,
+.evge-payment-info-item .evge-status-error,
+.evge-payment-info-item .evge-status-refunded {
+	font-weight: 600;
+	padding: 4px 8px;
+	border-radius: 4px;
+	cursor: help;
+}
+
+
+
+.evge-payment-info-item .evge-tooltip {
+	min-width: 300px;
+	max-width: 400px;
+	white-space: normal;
+	line-height: 1.4;
+}
+
+/* Table Filters - Global Styles */
+.evge-table-filters {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px 0 0;
+	border-bottom: 1px solid #c3c4c7;
+	background: #f6f7f7;
+}
+
+.evge-table-filters .subsubsub {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	color: #666;
+}
+
+.evge-table-filters .subsubsub li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.evge-table-filters .subsubsub li:not(:last-child)::after {
+	content: ' | ';
+	color: #ccc;
+}
+
+.evge-table-filters .subsubsub a {
+	color: #0073aa;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.evge-table-filters .subsubsub a:hover {
+	color: #005177;
+	text-decoration: underline;
+}
+
+.evge-table-filters .subsubsub a.current {
+	color: #000;
+	font-weight: bold;
+	border-radius: 3px 3px 0 0;
+}
+
+.evge-table-search {
+	padding: 0;
+	background: #f6f7f7;
+}
+
+.evge-table-search input[type="search"] {
+	margin-right: 10px;
+}
+
+/* Email Template Preview Styles */
+.evge-email-template-preview-container {
+	margin-top: 15px;
+    max-width: 700px;
+}
+
+.evge-template-preview {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.evge-template-preview-header {
+	background: #f8f9fa;
+	padding: 12px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.evge-template-preview-subject,
+.evge-template-preview-from {
+	margin-bottom: 8px;
+	line-height: 1.4;
+}
+
+.evge-template-preview-subject:last-child,
+.evge-template-preview-from:last-child {
+	margin-bottom: 0;
+}
+
+.evge-template-preview-subject strong,
+.evge-template-preview-from strong {
+	color: #555;
+	font-weight: 600;
+	margin-right: 8px;
+}
+
+.evge-template-preview-subject span,
+.evge-template-preview-from span {
+	color: #333;
+}
+
+.evge-template-preview-content {
+	position: relative;
+	overflow: hidden;
+}
+
+.evge-template-preview-content-text {
+	max-height: 200px;
+	overflow: hidden;
+	position: relative;
+	transition: max-height 0.8s ease-in-out;
+}
+
+.evge-template-preview-content-text:hover {
+	max-height: 2000px;
+}
+
+.evge-template-preview-content-text::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 20px;
+	background: linear-gradient(transparent, #fff);
+	pointer-events: none;
+	transition: opacity 0.8s ease-in-out;
+}
+
+.evge-template-preview-content-text:hover::after {
+	opacity: 0;
+}
+
+/* Email content styling within preview */
+.evge-template-preview-content-text table {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.evge-template-preview-content-text .body {
+	background-color: #f6f6f6 !important;
+}
+
+.evge-template-preview-content-text .container {
+	max-width: 580px !important;
+	width: 100% !important;
+}
+
+.evge-template-preview-content-text .main {
+	background: #fff !important;
+	border-radius: 3px !important;
+}
+
+.evge-template-preview-content-text .wrapper {
+	padding: 20px !important;
+}
+
+/* Hover indicator */
+.evge-template-preview-content:hover {
+	cursor: pointer;
+}
+
+.evge-inline-block-wrapper {
+    display: inline-block;
+}
+/* Embed Instructions Modal Styles */
+.evge-modal p.evge-embed-description {
+    margin-bottom: 20px;
+}
+
+.evge-embed-section {
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.evge-embed-section:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.evge-embed-section h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.evge-embed-section ol {
+	margin: 0 0 20px 0;
+	padding-left: 20px;
+}
+
+.evge-embed-section ol li {
+	margin-bottom: 10px;
+	line-height: 1.6;
+}
+
+/* Responsive grid for block instructions */
+.evge-block-instructions-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	margin-top: 15px;
+}
+
+.evge-block-instructions-content {
+	min-width: 0;
+}
+
+.evge-block-instructions-image {
+	min-width: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100%;
+}
+
+.evge-block-instructions-image img {
+	max-height: 215px;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+@media screen and (min-width: 782px) {
+	.evge-block-instructions-grid {
+		grid-template-columns: 1fr 1fr;
+		align-items: stretch;
+	}
+	
+	.evge-block-instructions-image {
+		align-items: stretch;
+	}
+}
+
+/* Other Blocks Section */
+.evge-other-blocks-intro {
+	margin-bottom: 15px;
+}
+
+.evge-other-blocks-intro p {
+	margin-bottom: 15px;
+}
+
+.evge-other-blocks-intro p:last-of-type {
+	margin-bottom: 10px;
+}
+
+.evge-other-blocks-show-more {
+	margin-top: 10px;
+}
+
+.evge-other-blocks-content-wrapper {
+	margin-top: 15px;
+}
+
+.evge-other-blocks-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+    margin-top: 15px;
+}
+
+.evge-other-blocks-content {
+	min-width: 0;
+}
+
+.evge-other-blocks-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.evge-other-block-item {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.evge-other-block-item:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.evge-other-block-item strong {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #1d2327;
+}
+
+.evge-other-block-description {
+	margin: 5px 0 0 0;
+	font-size: 13px;
+	color: #646970;
+	line-height: 1.5;
+}
+
+.evge-other-blocks-examples {
+	min-width: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100%;
+}
+
+.evge-other-blocks-examples img {
+    max-height: 315px;
+}
+
+@media screen and (min-width: 782px) {
+	.evge-other-blocks-grid {
+		grid-template-columns: 1fr 1fr;
+		align-items: stretch;
+	}
+	
+	.evge-other-blocks-examples {
+		align-items: stretch;
+	}
+}
+
+.evge-block-info {
+	background: #f0f0f1;
+	padding: 12px 15px;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+
+.evge-block-info strong {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.evge-block-name {
+	font-family: monospace;
+	font-size: 13px;
+	color: #1d2327;
+	background: #fff;
+	padding: 4px 8px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+/* Reuse copy success styling from calendar builder - matches .evge-cal-shortcode .evge-copy-success */
+/* Note: .evge-shortcode-container and .evge-shortcode styles are already available from evge-calendar-builder.css */
+.evge-embed-instructions-modal .evge-copy-success {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #a5cdae;
+	padding: 7px 10px;
+	border-radius: 5px;
+	margin-top: 0.5rem;
+}
+
+.evge-shortcode-attributes {
+	margin-top: 20px;
+}
+
+.evge-shortcode-attributes h4 {
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.evge-shortcode-attributes ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.evge-shortcode-attributes li {
+	margin-bottom: 8px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.evge-shortcode-attributes li code {
+	font-family: monospace;
+	background: #f0f0f1;
+	padding: 2px 6px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.evge-attr-description {
+	margin-left: 8px;
+	color: #646970;
+	font-size: 13px;
+}
+
+/* Override gray backgrounds to white for embed instructions on settings pages */
+.evge-settings-section-wrap .evge-shortcode-container,
+.evge-settings-section-wrap .evge-block-info {
+    background: #ffffff;
+    border: 1px solid #dcdcde;
+}
+
+.evge-settings-section-wrap .evge-block-name {
+    background: #efefef;
+}
+
+/* Post Editor Blocks Notice */
+.evge-post-editor-blocks-notice {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	max-width: 400px;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	z-index: 100000;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.evge-post-editor-blocks-notice-content {
+	padding: 16px;
+}
+
+.evge-post-editor-blocks-notice-header {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.evge-post-editor-blocks-notice-icon {
+	flex-shrink: 0;
+	margin-top: 2px;
+}
+
+.evge-post-editor-blocks-notice-icon img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.evge-post-editor-blocks-notice-text {
+	flex: 1;
+	min-width: 0;
+}
+
+.evge-post-editor-blocks-notice-text p {
+	margin: 0;
+	color: #1d2327;
+}
+
+.evge-post-editor-blocks-notice-dismiss {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	flex-shrink: 0;
+	opacity: 0.6;
+	transition: opacity 0.2s;
+	margin-top: 2px;
+}
+
+.evge-post-editor-blocks-notice-dismiss:hover {
+	opacity: 1;
+}
+
+.evge-post-editor-blocks-notice-dismiss svg {
+	width: 12px;
+	height: 12px;
+}
+
+.evge-post-editor-blocks-notice-expandable {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.evge-post-editor-blocks-notice-actions {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.evge-post-editor-blocks-notice-show-more {
+	margin: 0;
+}
+
+.evge-post-editor-blocks-notice-dismiss-btn {
+	margin: 0;
+}
+
+.evge-post-editor-blocks-notice-details {
+	margin-top: 12px;
+}
+
+.evge-post-editor-blocks-notice-details h4 {
+	margin: 0 0 8px 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.evge-post-editor-blocks-list,
+.evge-post-editor-shortcodes-list {
+	margin: 0 0 16px 0;
+	padding-left: 20px;
+	list-style: disc;
+}
+
+.evge-block-description {
+	display: block;
+	color: #646970;
+	font-size: 12px;
+}
+
+/* Generic Item Grid Styles - Used for forms, calendars, etc. */
+.evge-items-grid {
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+    clear: both;
+}
+
+@media screen and (max-width: 1200px) {
+    .evge-items-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .evge-items-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.evge-item-card {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.evge-item-card-top {
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #dcdcdc;
+    border-radius: 5px 5px 0 0;
+}
+
+.evge-item-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.evge-item-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button tooltips - reuse existing tooltip styles with minimal modifications */
+.evge-item-actions .evge-button-tooltip {
+    position: relative;
+}
+
+.evge-item-actions .evge-button-tooltip .evge-tooltip {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    min-width: auto;
+    width: auto;
+    white-space: nowrap;
+}
+
+.evge-item-actions .evge-button-tooltip .evge-tooltip::after {
+    bottom: -10px;
+    left: 50%;
+}
+
+/* Delete button styling - red icon and border */
+.evge-item-actions .evge-delete-button-wrap .evge-delete-button {
+    border-color: #EBCFCA;
+}
+
+.evge-item-actions .evge-delete-button-wrap .evge-delete-button svg {
+    color: #D37362;
+}
+
+.evge-item-card-bottom {
+    border-radius: 0 0 5px 5px;
+}
+
+.evge-form-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.evge-form-meta-item {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.evge-form-meta-item strong {
+    font-weight: 600;
+    color: #1d2327;
+    min-width: 100px;
+}
+
+.evge-form-fields {
+    flex-wrap: wrap;
+}
+
+.evge-form-fields-more {
+    color: #8c8f94;
+    font-style: italic;
+}
+
+.evge-no-items {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.evge-no-fields {
+    color: #8c8f94;
+    font-style: italic;
+}
+
+/* Upsell Modal Styles */
+.evge-upsell-modal-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.evge-upsell-logo {
+    height: 50px;
+    width: auto;
+}
+
+.evge-upsell-heading-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1;
+}
+
+
+.evge-upsell-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+}
+
+.evge-upsell-image-column {
+    max-width: 100%;
+    min-width: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.evge-upsell-feature-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.evge-upsell-content-column {
+    min-width: 0;
+    border-left: 1px solid #DCDCDC;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evge-upsell-features {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.evge-upsell-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.evge-upsell-feature-icon {
+    color: #D37362;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.evge-upsell-feature-icon svg {
+    color: #D37362;
+}
+
+.evge-upsell-feature-text {
+    flex: 1;
+}
+
+.wp-core-ui .evge-upsell-cta-button,
+.evge-upsell-cta-button {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evge-upsell-cta-button .evge-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.evge-upsell-cta-button .evge-icon-text svg {
+    height: 1em;
+    width: auto;
+}
+
+.evge-upsell-pro-badge {
+    display: inline-block;
+    background-color: #1A79C1;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease;
+}
+
+.evge-upsell-pro-badge:hover {
+    background-color: #1569a8;
+    color: #fff;
+}
+
+.evge-upsell-toggle .evge-settings-toggle-wrap {
+    cursor: pointer;
+}
+
+.evge-upsell-toggle .evge-settings-toggle {
+    pointer-events: none;
+}
+
+/* Disabled styling for upsell sections */
+.evge-upsell-disabled {
+    opacity: 0.6;
+}
+
+.evge-upsell-disabled .evge-settings-toggle {
+    background-color: #f0f0f0 !important;
+    color: #999 !important;
+    border-color: #ddd !important;
+}
+
+.evge-upsell-disabled .evge-settings-toggle:hover {
+    background-color: #f0f0f0 !important;
+    color: #999 !important;
+    border-color: #ddd !important;
+}
+
+.evge-registration-section h4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.evge-registration-section h4 .evge-upsell-pro-badge {
+    margin-left: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.evge-upsell-footer {
+    grid-column: 1 / -1;
+    padding: 30px;
+    border-top: 1px solid #DCDCDC;
+}
+
+.evge-upsell-footer-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.evge-upsell-footer-column {
+    flex: 1;
+}
+
+.evge-upsell-footer-title-column {
+    flex: 0 0 auto;
+    min-width: 120px;
+}
+
+.evge-modal .evge-upsell-footer-title,
+.evge-modal .evge-upsell-footer-title-medium-screen {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.evge-upsell-footer-features-column {
+    flex: 1;
+}
+
+.evge-upsell-footer-features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.evge-upsell-footer-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.evge-upsell-footer-feature-icon {
+    color: #D37362;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.evge-upsell-footer-feature-icon svg {
+    color: #D37362;
+}
+
+.evge-upsell-footer-feature-text {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+}
+.evge-upsell-image-column {
+    overflow: hidden;
+}
+
+.evge-upsell-feature-image {
+    max-width: 150%;
+    width: 150%;
+    height: auto;
+    display: block;
+}
+.evge-modal .evge-upsell-footer-title-medium-screen {
+    display: block;
+    margin-bottom: 20px;
+}
+.evge-upsell-footer-title-column {
+    display: none;
+}
+@media screen and (min-width: 1000px) {
+    .evge-modal .evge-upsell-footer-title-medium-screen {
+        display: none;
+    }
+    .evge-upsell-footer-title-column {
+        display: block;
+    }
+    .evge-upsell-layout {
+        grid-template-columns: 60% 40%;
+    }
+
+    .evge-upsell-feature-image {
+        max-width: 100%;
+        width: 100%;
+    }
+    /* On wide screens, ensure 4 columns display properly */
+    .evge-upsell-footer-columns {
+        gap: 30px;
+    }
+    
+    /* Increase padding and text size on the rightmost column */
+    .evge-upsell-content-column {
+        padding: 30px 40px;
+    }
+    .evge-upsell-description p {
+        font-size: 20px;
+    }
+    .evge-upsell-feature-text {
+        font-size: 16px;
+    }
+
+    .wp-core-ui .evge-upsell-cta-button,
+    .evge-upsell-cta-button {
+        font-size: 18px;
+        height: 66px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .evge-upsell-layout {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .evge-upsell-feature-image {
+        max-width: 100%;
+        width: 100%;
+
+    }
+
+    .evge-upsell-image-column {
+        max-height: 400px;
+        position: relative;
+    }
+    
+    .evge-upsell-image-column::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+        pointer-events: none;
+    }
+
+    .evge-upsell-footer-title-medium-screen {
+        display: none;
+    }
+
+    .evge-upsell-footer-columns {
+        flex-direction: column;
+        gap: 0;
+    }
+    .evge-upsell-footer-title-column {
+        display: block;
+        margin-bottom: 12px;
+        min-width: auto;
+    }
+ 
+    .evge-upsell-content-column {
+        padding: 30px 40px;
+    }
+    .evge-upsell-description p {
+        font-size: 20px;
+    }
+
+    .evge-upsell-feature-text {
+        font-size: 16px;
+    }
+
+    .wp-core-ui .evge-upsell-cta-button,
+    .evge-upsell-cta-button {
+        font-size: 18px;
+        height: 66px;
+    }
+}
+/* Block Theme Disabled Settings */
+.evge-setting-disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    position: relative;
+}
+
+.evge-setting-disabled select,
+.evge-setting-disabled input[type="checkbox"],
+.evge-setting-disabled input[type="radio"],
+.evge-setting-disabled .evge-settings-toggle-wrap {
+    cursor: not-allowed;
+}
+
+.evge-setting-disabled .evge-settings-toggle-wrap.evge-disabled {
+    opacity: 0.6;
+}
+
+/* Send confirmation email feedback (registration modal – free and Pro) */
+.evge-registration-form-inner .evge-send-confirmation-feedback:not(:empty) {
+    margin-top: 12px;
+}
+
+.evge-registration-form-inner .evge-send-confirmation-feedback .evge-email-summary {
+    margin-bottom: 0;
+}
+
+.evge-registration-form-inner .evge-email-summary {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.evge-registration-form-inner .evge-email-summary.evge-email-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.evge-registration-form-inner .evge-email-summary.evge-email-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}

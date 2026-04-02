@@ -1,0 +1,5536 @@
+# Copyright (C) 2026 Event Genius
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Genius 1.8"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-event-genius\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-27 16:14:05+00:00"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: event-genius\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:65
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:629
+msgid "Event Genius"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage events and event registration with ease. Customizable registration forms, event calendars, and more."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpeventgenius.com"
+msgstr ""
+
+#: admin/templates/evge/all-events/all-events-list.php:10
+msgid "Event moved to trash."
+msgstr ""
+
+#: admin/templates/evge/all-events/all-events-list.php:13
+msgid "Event restored from trash."
+msgstr ""
+
+#: admin/templates/evge/all-events/all-events-list.php:16
+msgid "Trash emptied successfully."
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:48
+#: admin/templates/evge/calendars/calendar-builder.php:30
+#: admin/templates/evge/calendars/calendar-events.php:17
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:32
+msgid "Default (Archive)"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:79
+msgid "First page"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:90
+msgid "Previous page"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:97
+msgid "Current Page"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:114
+msgid "Next page"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:125
+msgid "Last page"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:136
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/templates/evge/all-events/calendars.php:159
+msgid "Search Lists"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:165
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:157
+#: admin/templates/evge/calendars/calendar-builder.php:260
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:91
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:82
+msgid "Search"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:197
+msgid "ID:"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:213
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:19
+#: admin/templates/evge/registrations/form-builder/submit-edit.php:22
+#: admin/templates/registration/partials/overview/actions.php:9
+#: admin/templates/registration/partials/single/actions.php:7
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:109
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:99
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:93
+#: WPEventGenius/Admin/Services/DashboardPageService.php:62
+msgid "Edit"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:237
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:118
+msgid "Embed"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:277
+msgid "Delete"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:324
+msgid "More Events"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:331
+msgid "No upcoming events"
+msgstr ""
+
+#: admin/templates/evge/all-events/calendars.php:339
+msgid "No calendars found. Create your first calendar!"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:30
+msgid "View a single column of events in a condensed list"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:31
+msgid "List View"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:62
+msgid "View two columns of event cards in a grid"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:69
+msgid "Grid View"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:97
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:56
+msgid "Sort by time"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:99
+msgid "View Upcoming"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:100
+msgid "View Current"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:101
+msgid "View Past"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:102
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:59
+msgid "After Custom Date"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:103
+msgid "View All"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:105
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:62
+msgid "Sort by event start date"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:112
+msgid "Sort by registration enabled"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:114
+#: admin/templates/registration/partials/event-meta.php:86
+#: admin/templates/registration/partials/event-meta.php:106
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:345
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:232
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:230
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:52
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:52
+msgid "All"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:115
+msgid "With Registration"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:122
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:70
+#: templates/event-genius/events/calendars/partials/filter-bar.php:104
+msgid "Filter by category"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:124
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:72
+msgid "any category"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:134
+#: templates/event-genius/events/calendars/partials/filter-bar.php:133
+msgid "Filter by tag"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:136
+msgid "any tag"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:143
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:78
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:19
+msgid "Go"
+msgstr ""
+
+#: admin/templates/evge/all-events/partials/search-and-filter-bar.php:156
+msgid "Search Events or Registrants"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:57
+msgid "Calendar Name"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:59
+#: admin/templates/evge/registrations/form-builder/settings.php:7
+#: admin/templates/evge/registrations/form-builder/submit-edit.php:30
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:828
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:159
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:163
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:174
+msgid "Default"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:68
+msgid "Identity Color"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:77
+#: admin/templates/evge/calendars/calendar-builder.php:107
+msgid "Event Filters"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:79
+msgid "Default (Archive) filters are not editable."
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:97
+msgid "+ Create Filter"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:113
+#: admin/templates/evge/calendars/partials/filter-row.php:30
+msgid "Filter Type"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:115
+#: admin/templates/evge/calendars/partials/filter-row.php:35
+msgid "Select Type"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:116
+#: admin/templates/evge/calendars/calendar-builder.php:274
+#: admin/templates/evge/calendars/partials/filter-row.php:37
+msgid "Category"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:117
+#: admin/templates/evge/calendars/calendar-builder.php:281
+#: admin/templates/evge/calendars/partials/filter-row.php:40
+msgid "Tag"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:124
+#: admin/templates/evge/calendars/partials/filter-row.php:47
+msgid "Filter Action"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:126
+#: admin/templates/evge/calendars/partials/filter-row.php:53
+msgid "Include"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:127
+#: admin/templates/evge/calendars/partials/filter-row.php:56
+msgid "Exclude"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:132
+#: admin/templates/evge/calendars/partials/filter-row.php:63
+msgid "Filter Terms"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:140
+msgid "Add"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:152
+msgid "Filter Relationship"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:156
+msgid "AND (match all)"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:159
+msgid "OR (match any)"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:167
+msgid "View Type"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:171
+#: templates/event-genius/events/calendars/partials/filter-bar.php:185
+msgid "Month"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:174
+#: templates/event-genius/events/calendars/partials/filter-bar.php:184
+msgid "Grid"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:177
+#: templates/event-genius/events/calendars/partials/filter-bar.php:183
+msgid "List"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:184
+msgid "Events Per Page"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:186
+msgid "(grid or list)"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:198
+msgid "Events Per Day"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:200
+msgid "(month view)"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:226
+msgid "Toolbar"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:238
+msgid "Calendar toolbar is enabled"
+msgstr ""
+
+#. translators: %s: name of the payment method
+#: admin/templates/evge/calendars/calendar-builder.php:239
+#: admin/templates/evge/calendars/calendar-builder.php:318
+#: WPEventGenius/Admin/BaseAdminPage.php:519
+#: WPEventGenius/Admin/BaseAdminPage.php:703
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:527
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:725
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1676
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:101
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:65
+msgid "Yes"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:243
+msgid "Calendar toolbar is disabled"
+msgstr ""
+
+#. translators: %s: name of the payment method
+#: admin/templates/evge/calendars/calendar-builder.php:244
+#: admin/templates/evge/calendars/calendar-builder.php:323
+#: admin/templates/evge/registrations/form-builder/builder.php:88
+#: admin/templates/evge/registrations/form-builder/builder.php:99
+#: WPEventGenius/Admin/BaseAdminPage.php:521
+#: WPEventGenius/Admin/BaseAdminPage.php:704
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:528
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:726
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1677
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:106
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:70
+#: WPEventGenius/Common/Services/UpsellService.php:573
+#: WPEventGenius/Common/Services/UpsellService.php:618
+msgid "No"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:251
+#: admin/templates/evge/calendars/calendar-builder.php:253
+msgid "Filter Bar Options"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:267
+#: admin/templates/evge/calendars/calendar-events.php:99
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:333
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1065
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:31
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:27
+#: WPEventGenius/Admin/Page/BasePage.php:316
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:642
+#: WPEventGenius/Common/Utils/Placeholders.php:76
+msgid "Venue"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:288
+msgid "Upcoming/Past"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:295
+msgid "Display"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:307
+msgid "Bulk Registration"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:317
+msgid "Bulk registration is enabled"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:322
+msgid "Bulk registration is disabled"
+msgstr ""
+
+#. translators: %s: Link to registration settings
+#: admin/templates/evge/calendars/calendar-builder.php:333
+msgid "Go to %s to configure emails"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:334
+msgid "Settings->Registrations"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:348
+msgid "Save Calendar"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:355
+#: admin/templates/evge/registrations/form-builder/builder.php:49
+#: WPEventGenius/Admin/BaseAdminPage.php:376
+msgid "Preview"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-builder.php:357
+msgid "View Full Preview in a New Tab"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:86
+msgid "Search events..."
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:95
+#: admin/templates/evge/registrations/single-registration.php:248
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:92
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:33
+#: WPEventGenius/Admin/Page/BasePage.php:304
+#: WPEventGenius/Admin/Page/Settings/Text/TextSettingsPage.php:36
+#: WPEventGenius/Common/Utils/Placeholders.php:72
+msgid "Event"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:96
+#: admin/templates/evge/registrations/single-registration.php:249
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:128
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:30
+#: WPEventGenius/Admin/Page/BasePage.php:301
+#: WPEventGenius/Admin/Page/BasePage.php:315
+#: WPEventGenius/Admin/Page/BasePage.php:341
+#: WPEventGenius/Admin/Settings/EventSettings.php:73
+#: WPEventGenius/Common/Utils/Utils.php:76
+msgid "Date"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:97
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:56
+#: WPEventGenius/Admin/Settings/EventSettings.php:78
+#: WPEventGenius/Common/Utils/Defaults.php:215
+msgid "Categories"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:98
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:62
+#: WPEventGenius/Admin/Settings/EventSettings.php:79
+#: WPEventGenius/Common/Utils/Defaults.php:214
+msgid "Tags"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-events.php:157
+msgid "No events found."
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-modal.php:15
+msgid "Embed Calendar"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-modal.php:16
+msgid "Close modal"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-modal.php:20
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:493
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:357
+msgid "Copy this shortcode and paste it into any post or page:"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-modal.php:24
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:498
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:363
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:499
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:529
+msgid "Copy"
+msgstr ""
+
+#: admin/templates/evge/calendars/calendar-modal.php:28
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:502
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:368
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:504
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:534
+msgid "Shortcode copied!"
+msgstr ""
+
+#: admin/templates/evge/calendars/partials/filter-row.php:21
+msgid "Filter"
+msgstr ""
+
+#: admin/templates/evge/calendars/partials/filter-row.php:23
+#: admin/templates/evge/registrations/form-builder/builder.php:109
+#: WPEventGenius/Common/Services/ScriptService.php:421
+msgid "Remove"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:17
+msgid "Welcome to Event Genius"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:21
+msgid "Event Genius is a powerful event management plugin for WordPress."
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:24
+msgid "To get started, use the button below to create your first event."
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:30
+msgid "Create My First Event"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:35
+msgid "You can also:"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:39
+msgid "Configure your Registration Form"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:43
+msgid "Customize and Embed Event Calendars"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:47
+msgid "Configure Emails and Settings"
+msgstr ""
+
+#: admin/templates/evge/dashboard-empty-state.php:50
+msgid "...and much more!"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:21
+msgid "Latest Registrations"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:27
+msgid "Manage All Registrations"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:40
+#: templates/event-genius/organizers/single/partials/content-after.php:28
+#: templates/event-genius/organizers/single/single-organizer.php:122
+msgid "Upcoming Events"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:47
+msgid "Manage All Events"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:51
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:94
+msgid "Add New Event"
+msgstr ""
+
+#: admin/templates/evge/dashboard.php:55
+msgid "View Event Archive"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:11
+#: admin/templates/evge/registrations/registrations.php:20
+#: WPEventGenius/Admin/Page/BasePage.php:197
+#: WPEventGenius/Admin/Page/Registrations/RegistrationsPage.php:28
+#: WPEventGenius/Admin/Page/RegistrationsBasePage.php:21
+#: WPEventGenius/Admin/Page/RegistrationsBasePage.php:30
+#: WPEventGenius/Admin/Services/DashboardPageService.php:64
+#: WPEventGenius/Admin/Services/MenusService.php:80
+#: WPEventGenius/Admin/Services/MenusService.php:114
+msgid "Registrations"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:23
+msgid "30 days"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:29
+msgid "Potential Revenue"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:36
+msgid "if selling tickets"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:70
+msgid "Upgrade for More Analytics"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/analytics.php:73
+msgid "Upgrade Now"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/quick-actions.php:13
+msgid "Add an Event"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/quick-actions.php:18
+msgid "Edit Settings"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/quick-actions.php:22
+msgid "Edit Registration Forms"
+msgstr ""
+
+#: admin/templates/evge/partials/dashboard/quick-actions.php:26
+msgid "Create a Calendar"
+msgstr ""
+
+#: admin/templates/evge/partials/header-bar.php:26
+#: WPEventGenius/Admin/Page/SupportPage.php:19
+#: WPEventGenius/Admin/Services/MenusService.php:102
+msgid "Support"
+msgstr ""
+
+#: admin/templates/evge/registration-settings/email.php:16
+#: admin/templates/evge/registration-settings/email.php:22
+#: admin/templates/evge/registration-settings/email.php:35
+#: admin/templates/evge/registration-settings/general.php:15
+#: admin/templates/evge/registration-settings/general.php:19
+#: admin/templates/evge/registration-settings/general.php:23
+#: admin/templates/evge/registration-settings/payments.php:11
+#: admin/templates/evge/registration-settings/payments.php:15
+#: admin/templates/evge/registration-settings/text.php:12
+#: admin/templates/evge/settings/event-text.php:16
+#: admin/templates/evge/settings/events.php:31
+#: admin/templates/evge/settings/general.php:34
+#: admin/templates/evge/settings/registration-text.php:15
+#: admin/templates/evge/settings/registration.php:30
+#: admin/templates/registration/partials/edit-registration-form.php:116
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:325
+msgid "Save Changes"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:20
+msgid "All Fields"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:23
+#: admin/templates/evge/registrations/form-builder/builder.php:52
+msgid "save your changes"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:36
+msgid "Add New Field"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:88
+#: admin/templates/evge/registrations/form-builder/builder.php:99
+#: WPEventGenius/Admin/BaseAdminPage.php:521
+msgid "The setting is currently disabled"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:90
+msgid "Required field"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/builder.php:101
+msgid "Show in attendee lists"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/settings.php:26
+#: WPEventGenius/Admin/Services/FormBuilderService.php:472
+msgid "Form Name"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/settings.php:34
+msgid "Enter form name"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:27
+msgid "Basic"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:28
+msgid "Advanced"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:32
+msgid "Type"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:56
+msgid "Label"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:60
+msgid "Options (one per line)"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:65
+msgid "Link (terms, privacy, etc.)"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:74
+msgid "Placeholder"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:78
+msgid "Error Message"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:82
+msgid "Default Value"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:86
+msgid "Scrollable Text"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:91
+msgid "Enter text, such as terms and conditions, here..."
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:97
+#: admin/templates/evge/registrations/form-builder/submit-edit.php:64
+msgid "Save"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/single-field-edit.php:105
+msgid "Cannot delete these fields because they are used for confirmation emails and registrant identity."
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/submit-edit.php:31
+msgid "Hover"
+msgstr ""
+
+#: admin/templates/evge/registrations/form-builder/submit-edit.php:65
+msgid "Cannot delete this field as it is used to submit the registration form."
+msgstr ""
+
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:58
+msgid "View Latest"
+msgstr ""
+
+#: admin/templates/evge/registrations/partials/search-and-filter-bar.php:90
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:81
+msgid "Search Registrations"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:11
+msgid "No record found."
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:99
+#: WPEventGenius/Admin/Page/AllEvents/EventSinglePage.php:94
+msgid "Registration Details"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:112
+msgid "User Information"
+msgstr ""
+
+#. translators: %s: formatted date when user registered
+#: admin/templates/evge/registrations/single-registration.php:140
+msgid "Member since %s"
+msgstr ""
+
+#. translators: %d: total number of registrations
+#: admin/templates/evge/registrations/single-registration.php:160
+msgid "Total Registrations: %d"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:169
+msgid "Edit User Profile"
+msgstr ""
+
+#. translators: %s: registration email address
+#: admin/templates/evge/registrations/single-registration.php:180
+msgid "No WordPress user account found. Registration email: %s"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:184
+msgid "No WordPress user account or email associated with this registration."
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:194
+msgid "Registration Group"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:200
+#: admin/templates/evge/registrations/single-registration.php:247
+msgid "ID"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:201
+#: admin/templates/registration/partials/overview/card.php:22
+#: admin/templates/registration/partials/registrations-list.php:21
+#: admin/templates/registration/partials/single/more.php:41
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:29
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:31
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:27
+msgid "Name"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:202
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1329
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:130
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:30
+#: WPEventGenius/Admin/Page/BasePage.php:303
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:88
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:20
+msgid "Email"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:217
+msgid "(main)"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:219
+msgid "No email"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:238
+msgid "Related Registrations"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:242
+msgid "No related registrations found."
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:250
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:35
+#: WPEventGenius/Admin/Page/BasePage.php:369
+msgid "Quantity & Cost"
+msgstr ""
+
+#: admin/templates/evge/registrations/single-registration.php:279
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:52
+#: WPEventGenius/Admin/Services/DashboardPageService.php:111
+#: WPEventGenius/Common/Utils/Formatter.php:85
+msgid "This guest is part of a registration group with a single payment."
+msgstr ""
+
+#: admin/templates/evge/support.php:182
+msgid "Docs & Troubleshooting"
+msgstr ""
+
+#: admin/templates/evge/support.php:210
+msgid "See All Docs"
+msgstr ""
+
+#: admin/templates/evge/support.php:233
+#: admin/templates/evge/support.php:276
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: admin/templates/evge/support.php:236
+msgid "How does Event Genius work with caching plugins?"
+msgstr ""
+
+#: admin/templates/evge/support.php:238
+msgid "Event Genius includes built-in support for popular WordPress caching plugins (WP Super Cache, W3 Total Cache, WP Rocket, and LiteSpeed Cache). The plugin automatically clears cache when registrations or cancellations occur, ensuring the next visitor sees up-to-date information."
+msgstr ""
+
+#: admin/templates/evge/support.php:239
+msgid "Additionally, a smart content refresh system detects stale cached content and automatically updates dynamic elements (registration status, attendee counts, capacity) without reloading the entire page. This ensures visitors always see accurate information while maintaining fast page load times."
+msgstr ""
+
+#: admin/templates/evge/support.php:240
+msgid "Learn more about caching integration"
+msgstr ""
+
+#: admin/templates/evge/support.php:253
+msgid "Contact Support"
+msgstr ""
+
+#: admin/templates/evge/support.php:255
+msgid "Have a problem you can't solve? We're here to help! Submit a ticket on the WordPress forums and we'll get back to you as soon as possible."
+msgstr ""
+
+#: admin/templates/evge/support.php:258
+msgid "Post in Support Forums"
+msgstr ""
+
+#: admin/templates/evge/support.php:279
+msgid "How does SEO work with recurring events?"
+msgstr ""
+
+#: admin/templates/evge/support.php:280
+msgid "Event Genius automatically handles SEO for recurring events to prevent duplicate content issues. Each recurring event instance gets its own unique canonical URL, invalid instances are automatically redirected, and sitemaps are filtered to prevent bloat. The plugin works seamlessly with Yoast SEO, Rank Math, and other popular SEO plugins."
+msgstr ""
+
+#: admin/templates/evge/support.php:282
+msgid "Learn More About Recurring Events SEO"
+msgstr ""
+
+#: admin/templates/evge/support.php:300
+msgid "Recurrence Debug Tools"
+msgstr ""
+
+#: admin/templates/evge/support.php:302
+msgid "This will stop the automatic scheduling of recurrences and allow a support person to troubleshoot issues."
+msgstr ""
+
+#. translators: %s: Time until debug mode expires
+#: admin/templates/evge/support.php:311
+msgid "Debug mode is active and will expire in %s."
+msgstr ""
+
+#: admin/templates/evge/support.php:318
+msgid "Disable Recurrence Debug Mode"
+msgstr ""
+
+#: admin/templates/evge/support.php:326
+msgid "Process Queue"
+msgstr ""
+
+#: admin/templates/evge/support.php:332
+msgid "Delete Queue"
+msgstr ""
+
+#: admin/templates/evge/support.php:338
+msgid "Delete Orphaned Events and Series"
+msgstr ""
+
+#: admin/templates/evge/support.php:349
+msgid "Enable Recurrence Debug Mode"
+msgstr ""
+
+#: admin/templates/evge/support.php:370
+msgid "Recurrence Debug Log"
+msgstr ""
+
+#: admin/templates/evge/support.php:372
+msgid "Clear Log"
+msgstr ""
+
+#: admin/templates/evge/support.php:379
+#: admin/templates/evge/support.php:446
+msgid "No log entries found."
+msgstr ""
+
+#: admin/templates/evge/support.php:409
+msgid "System Info"
+msgstr ""
+
+#: admin/templates/evge/support.php:412
+msgid "Copy System Info"
+msgstr ""
+
+#. translators: %s: Link to support ticket page with the text Open a ticket
+#: admin/templates/evge/support.php:418
+msgid "Do you need to contact support? %s and include your system information below."
+msgstr ""
+
+#: admin/templates/evge/support.php:419
+msgid "Open a ticket"
+msgstr ""
+
+#: admin/templates/evge/support.php:436
+msgid "Debug Logs"
+msgstr ""
+
+#: admin/templates/evge/support.php:439
+msgid "Copy Logs"
+msgstr ""
+
+#: admin/templates/evge/support.php:466
+msgid "Series Queue Status"
+msgstr ""
+
+#: admin/templates/evge/support.php:473
+msgid "No items in the queue."
+msgstr ""
+
+#: admin/templates/evge/upsell/modal.php:54
+#: WPEventGenius/Common/Services/UpsellService.php:251
+#: WPEventGenius/Common/Services/UpsellService.php:406
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/templates/evge/upsell/modal.php:64
+#: admin/templates/evge/upsell/modal.php:67
+msgid "And much more!"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:47
+msgid "Add New Registration"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:70
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:34
+#: WPEventGenius/Admin/Page/BasePage.php:302
+#: WPEventGenius/Admin/Page/BasePage.php:366
+#: WPEventGenius/Common/Utils/Utils.php:77
+#: WPEventGenius/Common/Utils/Utils.php:90
+msgid "Status"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:75
+#: admin/templates/registration/partials/edit-registration-form.php:83
+#: admin/templates/registration/partials/event-meta.php:88
+#: admin/templates/registration/partials/event-meta.php:108
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:246
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:162
+#: WPEventGenius/Common/Utils/Formatter.php:205
+msgid "Confirmed"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:76
+#: admin/templates/registration/partials/edit-registration-form.php:84
+#: admin/templates/registration/partials/event-meta.php:91
+#: admin/templates/registration/partials/event-meta.php:111
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:344
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:235
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:126
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:132
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:250
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:233
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:163
+#: WPEventGenius/Common/Utils/Formatter.php:207
+#: WPEventGenius/Common/Utils/Formatter.php:277
+#: WPEventGenius/Common/Utils/Formatter.php:335
+msgid "Pending"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:77
+#: admin/templates/registration/partials/edit-registration-form.php:85
+#: admin/templates/registration/partials/event-meta.php:94
+#: admin/templates/registration/partials/event-meta.php:114
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:254
+#: WPEventGenius/Common/Utils/Formatter.php:209
+msgid "Canceled"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:107
+msgid "Create"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:120
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:67
+msgid "Send Confirmation Email"
+msgstr ""
+
+#: admin/templates/registration/partials/edit-registration-form.php:124
+msgid "Delete Registration"
+msgstr ""
+
+#. translators: %d: number of registration records being deleted
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:12
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:27
+msgid "Number of records to delete: %d"
+msgstr ""
+
+#. translators: %d: number of payment records being deleted
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:21
+msgid "Number of payment records to delete: %d"
+msgstr ""
+
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:55
+msgid "This cannot be undone. Are you sure you want to delete these records?"
+msgstr ""
+
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:67
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:125
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:131
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:644
+#: WPEventGenius/Common/Utils/Defaults.php:187
+msgid "Confirm"
+msgstr ""
+
+#: admin/templates/registration/partials/modal-content/delete-confirmation.php:68
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:2061
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:133
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:411
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:474
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:647
+#: WPEventGenius/Common/Services/ScriptService.php:369
+msgid "Cancel"
+msgstr ""
+
+#: admin/templates/registration/partials/overview/actions.php:9
+#: admin/templates/registration/partials/single/actions.php:7
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:104
+msgid "Edit Recurrences"
+msgstr ""
+
+#: admin/templates/registration/partials/overview/actions.php:34
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:105
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:110
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:100
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:94
+#: WPEventGenius/Admin/Services/DashboardPageService.php:63
+msgid "View"
+msgstr ""
+
+#: admin/templates/registration/partials/overview/card.php:51
+#: admin/templates/registration/partials/registrations-list.php:60
+#: admin/templates/registration/partials/single/more.php:115
+msgid "No registrations yet!"
+msgstr ""
+
+#: admin/templates/registration/partials/overview/card.php:60
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:107
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:112
+msgid "Manage Registrations"
+msgstr ""
+
+#: admin/templates/registration/partials/single/actions.php:36
+msgid "View Post"
+msgstr ""
+
+#: admin/templates/registration/partials/single/more.php:32
+msgid "Select All"
+msgstr ""
+
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:37
+#: WPEventGenius/Admin/Page/AllEvents/AllEventsPage.php:71
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:84
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:27
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:27
+#: WPEventGenius/Common/Services/UpsellService.php:161
+msgid "Add New"
+msgstr ""
+
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:45
+msgid "Export (.csv)"
+msgstr ""
+
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:58
+msgid "Delete Selected"
+msgstr ""
+
+#: admin/templates/registration/partials/single/search-and-filter-bar.php:61
+msgid "More actions"
+msgstr ""
+
+#: admin/templates/registration/partials/single/sub-navigation.php:16
+msgid "Submissions"
+msgstr ""
+
+#: admin/templates/registration/partials/single/sub-navigation.php:28
+#: WPEventGenius/Admin/Page/BasePage.php:232
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:344
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:57
+#: WPEventGenius/Common/Services/UpsellService.php:492
+#: WPEventGenius/Common/Services/UpsellService.php:662
+#: WPEventGenius/Common/Services/UpsellService.php:719
+msgid "Payments"
+msgstr ""
+
+#: admin/templates/registration/partials/single/sub-navigation.php:37
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:33
+#: WPEventGenius/Admin/Page/BasePage.php:317
+#: WPEventGenius/Common/Services/UpsellService.php:673
+msgid "Attendance"
+msgstr ""
+
+#: admin/templates/registration/partials/single/sub-navigation.php:68
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:221
+#: WPEventGenius/Admin/Page/BasePage.php:103
+#: WPEventGenius/Admin/Page/BasePage.php:171
+#: WPEventGenius/Common/Services/UpsellService.php:191
+msgid "Pro"
+msgstr ""
+
+#: blocks/block-theme/event-about-items/render.php:32
+#: blocks/block-theme/event-categories/render.php:30
+#: blocks/block-theme/event-content-heading/render.php:30
+#: blocks/block-theme/event-cta/render.php:31
+#: blocks/block-theme/event-date/render.php:31
+#: blocks/block-theme/event-export/render.php:30
+#: blocks/block-theme/event-featured-image/render.php:30
+#: blocks/block-theme/event-location/render.php:32
+#: blocks/block-theme/event-organizers/render.php:31
+#: blocks/block-theme/event-tags/render.php:30
+#: WPEventGenius/Blocks/EventDate/Block.php:87
+#: WPEventGenius/BlockTheme/Blocks/EventAboutItems/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventCategories/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventContentHeading/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventCta/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventDate/Block.php:50
+#: WPEventGenius/BlockTheme/Blocks/EventExport/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventFeaturedImage/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventLocation/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventOrganizers/Block.php:48
+#: WPEventGenius/BlockTheme/Blocks/EventTags/Block.php:48
+msgid "This block only works with event posts."
+msgstr ""
+
+#: blocks/block-theme/organizer-content/render.php:24
+#: WPEventGenius/BlockTheme/Blocks/OrganizerContent/Block.php:40
+msgid "This block only works with organizer posts."
+msgstr ""
+
+#: blocks/block-theme/series-content/render.php:29
+#: WPEventGenius/BlockTheme/Blocks/SeriesContent/Block.php:45
+msgid "This block only works with series posts."
+msgstr ""
+
+#: blocks/block-theme/venue-content/render.php:24
+#: WPEventGenius/BlockTheme/Blocks/VenueContent/Block.php:40
+msgid "This block only works with venue posts."
+msgstr ""
+
+#: includes/activate-check.php:52
+msgid "Cannot Activate Plugin"
+msgstr ""
+
+#: includes/activate-check.php:53
+msgid "Another tier of Event Genius is currently active. Please deactivate it before activating this tier."
+msgstr ""
+
+#: includes/activate-check.php:54
+msgid "Go to Plugins Page"
+msgstr ""
+
+#: includes/activate-check.php:56
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: includes/init-free.php:67
+msgid "License Key"
+msgstr ""
+
+#: includes/init-free.php:68
+msgid "You're using the free version of EventGenius - no license required! To unlock more advanced features, consider upgrading to a Pro license."
+msgstr ""
+
+#: includes/init-free.php:71
+msgid "Upgrade to %sPro%s"
+msgstr ""
+
+#: templates/event-genius/common/calendar-export.php:30
+msgid "Add to Calendar Options"
+msgstr ""
+
+#: templates/event-genius/common/calendar-export.php:45
+msgid "Calendar Export Options"
+msgstr ""
+
+#: templates/event-genius/common/modal.php:28
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:353
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:498
+msgid "Close"
+msgstr ""
+
+#: templates/event-genius/common/payment-summary.php:35
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:309
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1324
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:99
+msgid "Summary"
+msgstr ""
+
+#: templates/event-genius/common/payment-summary.php:47
+#: templates/event-genius/common/payment-summary.php:61
+msgid "Order Summary"
+msgstr ""
+
+#: templates/event-genius/common/payment-table.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: templates/event-genius/common/payment-table.php:42
+#: WPEventGenius/Common/Utils/Defaults.php:88
+msgid "Fees"
+msgstr ""
+
+#: templates/event-genius/common/payment-table.php:52
+msgid "Total"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:35
+msgid "Month Calendar View"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:37
+msgid "Previous month"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:51
+msgid "Previous year"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:55
+msgid "Next year"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:76
+msgid "Next month"
+msgstr ""
+
+#. translators: 1: Event title, 2: Event start time
+#: templates/event-genius/events/calendars/calendar-month.php:193
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/event-genius/events/calendars/calendar-month.php:216
+msgid "+%s more"
+msgid_plural "+%s more"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/event-genius/events/calendars/calendar.php:44
+msgid "Event Calendar"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:61
+#: templates/event-genius/events/calendars/partials/filter-bar.php:62
+msgid "Search events"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:76
+msgid "Filter by venue"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:77
+msgid "All Venues"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:105
+msgid "All Categories"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:134
+msgid "All Tags"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:155
+msgid "Filter by time"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:160
+msgid "Upcoming"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:163
+msgid "Past"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:170
+msgid "Show more filters"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/filter-bar.php:191
+msgid "Calendar view"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:30
+#: templates/event-genius/events/calendars/partials/none-found.php:49
+msgid "No Events Found"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:33
+msgid "We couldn't find any events matching your search."
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:38
+msgid "Clear Search"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:41
+#: templates/event-genius/events/calendars/partials/none-found.php:60
+msgid "View All Events"
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:52
+msgid "There are no events that fit your filters."
+msgstr ""
+
+#: templates/event-genius/events/calendars/partials/none-found.php:57
+msgid "Clear Filters"
+msgstr ""
+
+#: templates/event-genius/events/common/pagination.php:37
+#: WPEventGenius/Admin/Page/AllEvents/AllEventsPage.php:117
+#: WPEventGenius/Admin/Page/AllEvents/RegistrationOverviewPage.php:106
+msgid "Previous"
+msgstr ""
+
+#: templates/event-genius/events/common/pagination.php:73
+#: WPEventGenius/Admin/Page/AllEvents/AllEventsPage.php:120
+#: WPEventGenius/Admin/Page/AllEvents/RegistrationOverviewPage.php:111
+msgid "Next"
+msgstr ""
+
+#: templates/event-genius/organizers/single/partials/content-after.php:36
+#: templates/event-genius/organizers/single/single-organizer.php:130
+msgid "Past Events"
+msgstr ""
+
+#: templates/event-genius/organizers/single/partials/content-after.php:44
+#: templates/event-genius/organizers/single/single-organizer.php:138
+msgid "No events for this organizer. Check back soon!"
+msgstr ""
+
+#: templates/event-genius/organizers/single/partials/content-before.php:42
+#: templates/event-genius/organizers/single/single-organizer.php:48
+msgid "Contact Info"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/full.php:35
+#: templates/event-genius/registration/attendee-lists/simple.php:35
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:512
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:87
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:235
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:519
+msgid "Attendee List"
+msgstr ""
+
+#. translators: %s: Number of confirmed attendees
+#: templates/event-genius/registration/attendee-lists/full.php:46
+#: templates/event-genius/registration/attendee-lists/simple.php:42
+#: WPEventGenius/Common/Event/EventPost.php:708
+msgid "%s Attendee"
+msgid_plural "%s Attendees"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/event-genius/registration/attendee-lists/full.php:57
+msgid "Show previous columns"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/full.php:63
+msgid "Sort by %s"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/full.php:70
+msgid "Show next columns"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/full.php:103
+#: templates/event-genius/registration/attendee-lists/simple.php:81
+msgid "Show Full List"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/partials/no-attendees.php:37
+msgid "No Attendees Yet"
+msgstr ""
+
+#: templates/event-genius/registration/attendee-lists/partials/no-attendees.php:47
+#: WPEventGenius/Common/Event/EventPost.php:1068
+msgid "Log In to Register"
+msgstr ""
+
+#. translators: %d: Number of days
+#: templates/event-genius/registration/attendee-lists/partials/no-attendees.php:102
+#: WPEventGenius/Common/Event/EventPost.php:667
+#: WPEventGenius/Common/Event/EventPost.php:1180
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: Number of hours
+#: templates/event-genius/registration/attendee-lists/partials/no-attendees.php:106
+#: WPEventGenius/Common/Event/EventPost.php:671
+#: WPEventGenius/Common/Event/EventPost.php:1184
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: Number of minutes
+#: templates/event-genius/registration/attendee-lists/partials/no-attendees.php:110
+#: WPEventGenius/Common/Event/EventPost.php:675
+#: WPEventGenius/Common/Event/EventPost.php:1188
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/event-genius/registration/forms/cancel/already-registered-modal-content.php:42
+msgid "Event Details"
+msgstr ""
+
+#: templates/event-genius/registration/forms/cancel/cancel-input.php:32
+msgid "Cancel Registration Form"
+msgstr ""
+
+#: templates/event-genius/registration/forms/cancel/cancel-request-modal-content.php:45
+msgid "Cancellation Status"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/form.php:25
+msgid "Event Registration Form"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/form.php:32
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:154
+msgid "Event Registration"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/form.php:48
+msgid "Registration Information"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/form.php:69
+#: templates/event-genius/registration/forms/registration/registration-modal-content.php:92
+msgid "Submit Registration"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/registration-modal-content.php:55
+msgid "Back"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/registration-modal-content.php:64
+msgid "Register Attendee"
+msgstr ""
+
+#: templates/event-genius/registration/forms/registration/registration-modal-content.php:68
+msgid "Registration form for the event. Please fill in your details to complete registration."
+msgstr ""
+
+#: templates/event-genius/registration/forms/simple-count/counter.php:42
+msgid "Number of guests"
+msgstr ""
+
+#: templates/event-genius/registration/forms/simple-count/counter.php:46
+msgid "Decrease guests"
+msgstr ""
+
+#: templates/event-genius/registration/forms/simple-count/counter.php:52
+msgid "Increase guests"
+msgstr ""
+
+#: templates/event-genius/venues/single/partials/content-before.php:126
+#: templates/event-genius/venues/single/single-venue.php:138
+msgid "See Full Map"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:115
+msgid "This is a default setting. It will only apply to new events."
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:358
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:14
+msgid "Text"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:362
+msgid "Background"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:366
+msgid "Text Color"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:370
+msgid "Border Color"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:445
+msgid "Main Registration"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:446
+msgid "The identity of the guest (Main Registration, or custom guest label)."
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:453
+msgid "All registration fields in table format"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:454
+msgid "All fields submitted in the registration form displayed in a table."
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:463
+msgid "Value of %s field"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:464
+msgid "The value of the %s field for this guest."
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:478
+msgid "Additional Guest Summary"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:519
+msgid "The setting is currently enabled"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:705
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1678
+msgid "Setting is enabled"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:706
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1679
+msgid "Setting is disabled"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:709
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:417
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:424
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:428
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1715
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1719
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:26
+msgid "Enabled"
+msgstr ""
+
+#: WPEventGenius/Admin/BaseAdminPage.php:710
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:425
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1716
+msgid "Disabled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:58
+msgid "Event Categories"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:73
+msgid "Event Tags"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:91
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:196
+#: WPEventGenius/Admin/Page/BasePage.php:241
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:41
+#: WPEventGenius/Admin/Services/MenusService.php:45
+msgid "Events"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:93
+#: WPEventGenius/Admin/Page/AllEvents/AllEventsPage.php:66
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:26
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:44
+#: WPEventGenius/Admin/Services/MenusService.php:69
+msgid "All Events"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:95
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:96
+msgid "New Event"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:97
+msgid "Edit Event"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:98
+msgid "View Event"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:99
+#: blocks/attendee-list/index.unminified.js:247
+#: blocks/registration-form/index.unminified.js:127
+msgid "Search Events"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:100
+msgid "No events found"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:101
+msgid "No events found in trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:146
+msgid "WP Event Genius - Event Details"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:255
+msgid "Date and Times"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:310
+msgid "A short description of the event. Appears in event listings."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:322
+#: WPEventGenius/Common/Utils/Defaults.php:208
+msgid "Date and Time"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:326
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:90
+#: WPEventGenius/Common/Utils/Defaults.php:210
+msgid "Location"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:345
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:26
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:62
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:22
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:68
+#: WPEventGenius/Admin/Settings/EventSettings.php:77
+msgid "Organizers"
+msgstr ""
+
+#. translators: %s: The word "Organizer"
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:352
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1320
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1378
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:32
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:27
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:673
+#: WPEventGenius/Common/Event/OrganizerPost.php:59
+msgid "Organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:364
+#: WPEventGenius/Admin/Settings/EventSettings.php:106
+msgid "Cost"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:371
+#: WPEventGenius/Admin/Settings/EventSettings.php:123
+msgid "Cost Display"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:372
+msgid "What is displayed for the cost of the event."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:426
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1717
+msgid "Registration is enabled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:427
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1718
+msgid "Registration is disabled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:436
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:48
+msgid "Restrictions"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:443
+#: WPEventGenius/Admin/Settings/EventSettings.php:80
+msgid "Capacity"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:463
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:66
+msgid "Timeline"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:519
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:531
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:94
+msgid "Show Attendee List"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:529
+msgid "Attendee list is shown"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:530
+msgid "Attendee list is hidden"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:540
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:109
+msgid "Who Can See Attendee List?"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:543
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:104
+msgid "Everyone"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:544
+msgid "Logged-in users"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:679
+#: WPEventGenius/Admin/Settings/EventSettings.php:113
+msgid "Currency Symbol"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:686
+msgid "Amount"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:692
+msgid "Display Text"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:693
+msgid "e.g., Free, Donation"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:694
+msgid "Use {symbol} to display the currency symbol and {amount} to display the cost amount. Example: \"{symbol}{amount}\""
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:707
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:55
+msgid "Event Capacity"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:727
+msgid "Capacity is unlimited"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:728
+msgid "Capacity is limited"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:729
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:182
+msgid "Unlimited Capacity"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:802
+msgid "Start"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:815
+msgid "End"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:824
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:496
+msgid "Timezone"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:842
+msgid "All Day Event"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:843
+msgid "All Day Event is enabled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:844
+msgid "All Day Event is disabled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:849
+msgid "This event is a part of the series %s"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:855
+msgid "Repeat"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:860
+msgid "Does not repeat"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:863
+msgid "Daily"
+msgstr ""
+
+#. translators: %s: day of the week (e.g. "Wednesday")
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:867
+msgid "Weekly (every %s)"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:869
+msgid "Weekly"
+msgstr ""
+
+#. translators: %s: day of the month relative to the day of the week, week number (e.g. "3rd Thursday")
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:873
+msgid "Monthly (every %s)"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:875
+msgid "Monthly"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:878
+msgid "Every Weekday (Monday through Friday)"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:886
+msgid "End Repeat"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:920
+msgid "Select"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:931
+msgid "Create New"
+msgstr ""
+
+#. translators: %s: lowercase label of the item type being added (e.g. "ticket", "session")
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:951
+msgid "Add another %s"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:969
+msgid "Registration Opens"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:974
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:220
+msgid "Immediately"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:975
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1017
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:221
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:245
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:287
+msgid "Relative to Event Start"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:976
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1018
+msgid "Custom Date"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:988
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1030
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:230
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:254
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:296
+msgid "Days"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:989
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1031
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:229
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:253
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:295
+msgid "Hours"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:991
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1033
+msgid "before event starts"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1011
+msgid "Registration Closes"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1016
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:246
+msgid "Never"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1070
+msgid "Venue Title"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1073
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1159
+msgid "Street Address"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1077
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1171
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:114
+msgid "City"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1081
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1181
+msgid "State"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1085
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1201
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:132
+msgid "Country"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1089
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1191
+msgid "Postal Code"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1093
+msgid "Venue Phone"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1097
+msgid "Venue Website"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1101
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:139
+msgid "Interactive Map URL"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1108
+msgid "Create New Venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1121
+msgid "Add details below and save your event to create and assign a new venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1128
+msgid "Venue Name"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1139
+msgid "Venue Image"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1145
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1413
+msgid "Upload Image"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1148
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1416
+msgid "Remove Image"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1212
+msgid "Map URL"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1223
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1333
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:31
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:21
+msgid "Phone"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1238
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1342
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:138
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:168
+msgid "Website"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1251
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1347
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:159
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:189
+msgid "Facebook"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1262
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1352
+msgid "Twitter"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1273
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1357
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:171
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:201
+msgid "Instagram"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1284
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1362
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:177
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:207
+msgid "LinkedIn"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1295
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1367
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:183
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:213
+msgid "YouTube"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1337
+msgid "Links"
+msgstr ""
+
+#. translators: %s: The word "Organizer"
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1378
+msgid "Create New %s"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1396
+msgid "Organizer Name"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1407
+msgid "Organizer Image"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:1727
+msgid "Apply this setting to all new events"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:2055
+msgid "Any changes made to this event will be applied to all recurring events in the series."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:2057
+msgid "Registrations for existing recurrences will be reset."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Event.php:2060
+msgid "Continue Save"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:29
+#: WPEventGenius/Admin/Page/BasePage.php:314
+#: WPEventGenius/Admin/Settings/EventSettings.php:71
+msgid "Title"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:101
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:183
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:96
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:117
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:90
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:111
+msgid "Restore"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:102
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:184
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:97
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:118
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:127
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:91
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:112
+msgid "Delete Permanently"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:106
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:111
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:346
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:101
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:236
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:95
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:234
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:67
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:67
+msgid "Trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:185
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:215
+msgid "Empty Trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:189
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:122
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:116
+msgid "Move to Trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:195
+msgid "Publish"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:214
+msgid "Are you sure you want to permanently delete all items from the trash?"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:303
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:174
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:211
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:173
+msgid "Select bulk action"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:305
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:176
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:213
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:175
+msgid "Bulk Actions"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:317
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:188
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:224
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:186
+msgid "Apply"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:341
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:233
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:231
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:57
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:57
+msgid "Published"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:342
+msgid "Scheduled"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/EventsWPListTable.php:343
+#: WPEventGenius/Admin/CustomPostTypes/OrganizersWPListTable.php:234
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:232
+#: WPEventGenius/Admin/Page/AllEvents/OrganizersPage.php:62
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:62
+msgid "Draft"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:28
+msgid "All organizers"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:29
+msgid "Add new organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:30
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:31
+msgid "New organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:32
+msgid "Edit organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:33
+msgid "View organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:34
+msgid "Search organizers"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:35
+msgid "No organizers found"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:36
+msgid "No organizers found in trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:100
+msgid "A short description of the organizer. Appears in event pages."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:112
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:150
+msgid "Contact Information"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:122
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:160
+msgid "Phone Number"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:123
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:161
+msgid "(555) 123-4567"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:126
+msgid "Enter the organizer's primary contact number."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:131
+msgid "contact@example.com"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:134
+msgid "Enter the organizer's primary email address."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:139
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:169
+msgid "https://example.com"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:142
+msgid "Enter the official website of the organizer."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:149
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:179
+msgid "Social Media Links"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Organizer.php:165
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:195
+msgid "Twitter/X"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:32
+msgid "Registration Date"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/RegistrationsWPListTable.php:241
+msgid "Active"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:21
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:22
+#: WPEventGenius/Admin/Page/Settings/Text/TextSettingsPage.php:50
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:137
+#: WPEventGenius/Common/Services/UpsellService.php:448
+msgid "Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:23
+msgid "All Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:24
+msgid "Add New Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:25
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:26
+msgid "New Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:27
+msgid "Edit Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:28
+msgid "View Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:29
+msgid "Search Series"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:30
+msgid "No series found"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Series.php:31
+msgid "No series found in trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:26
+#: WPEventGenius/Admin/Page/AllEvents/VenuesPage.php:22
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:74
+msgid "Venues"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:28
+msgid "All venues"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:29
+msgid "Add new venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:30
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:31
+msgid "New venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:32
+msgid "Edit venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:33
+msgid "View venue"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:34
+msgid "Search venues"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:35
+msgid "No venues found"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:36
+msgid "No venues found in trash"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:62
+msgid "WP Event Genius"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:100
+msgid "Address Line 1"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:101
+msgid "123 Main St"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:107
+msgid "Address Line 2"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:108
+msgid "Suite 500"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:120
+msgid "State/Province"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:126
+msgid "Zip Code"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:135
+msgid "Select the country where this venue is located."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:143
+msgid "Provide a link to an interactive map for directions."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:164
+msgid "Enter the venue's primary contact number."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:172
+msgid "Enter the official website of the venue."
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:464
+msgid "United States"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:465
+msgid "Canada"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/Venue.php:466
+msgid "United Kingdom"
+msgstr ""
+
+#: WPEventGenius/Admin/CustomPostTypes/VenuesWPListTable.php:28
+msgid "Address"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:42
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:50
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:15
+msgid "Calendars"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:152
+msgid "Back to Calendars"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEvents/CalendarsPage.php:192
+#: WPEventGenius/Admin/Page/BasePage.php:224
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:116
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:17
+#: WPEventGenius/Admin/Services/MenusService.php:91
+msgid "Settings"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEvents/EventSinglePage.php:140
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:70
+msgid "Back to Registrations"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEvents/EventSinglePage.php:143
+msgid "Back to Events"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:124
+msgid "No events found that match your filters."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:125
+msgid "Show All Events"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:127
+msgid "Hey there! Get started by creating your first event."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/AllEventsBasePage.php:128
+msgid "Create New Event"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/BasePage.php:201
+msgid "Registration Forms"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/BasePage.php:228
+msgid "More Event"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/BasePage.php:236
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:51
+msgid "Text & Translation"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/BasePage.php:300
+#: WPEventGenius/Admin/Page/BasePage.php:335
+msgid "Identity"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/BasePage.php:318
+msgid "Tools"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/DashboardPage.php:17
+#: WPEventGenius/Admin/Services/MenusService.php:58
+msgid "Dashboard"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:67
+msgid "Back to Forms"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:87
+msgid "Save Form"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:106
+msgid "Builder"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BasePage.php:111
+msgid "Emails"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/BuilderPage.php:19
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:30
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:41
+msgid "Form Builder"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:49
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:53
+msgid "Notification Recipients"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:55
+msgid "For notifications when someone registers or cancels. Enter email addresses separated by commas."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:69
+msgid "This is an email sent to the person registering after they are confirmed."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:75
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:136
+msgid "From Name"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:76
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:137
+msgid "The name that appears as to who sent the email."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:83
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:144
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:192
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:247
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:302
+msgid "Subject"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:84
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:145
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:153
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:193
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:201
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:248
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:256
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:303
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:311
+msgid "The subject line of the email."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:91
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:152
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:200
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:255
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:310
+msgid "Email Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:92
+msgid "The body of the email."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:110
+msgid "Confirmation Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:128
+msgid "Send Notification Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:130
+msgid "This is an email sent to event administrators to notify of a new registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:171
+msgid "Notification Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:219
+msgid "Cancel Request Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:239
+msgid "Send Cancellation Notification Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:241
+msgid "This is an email sent to event admins as a notification that a registrant canceled."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:274
+msgid "Cancel Notification Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:294
+msgid "Send Cancellation Confirmation Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:296
+msgid "This is an email sent to the person canceling to confirm that they are no longer registered."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:329
+msgid "Cancel Confirmation Email"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:363
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:76
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:36
+msgid "General"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:370
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:83
+msgid "Accept Payments"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:384
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:125
+msgid "Messages and Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:391
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:132
+msgid "Confirmed Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/EmailPage.php:413
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:155
+msgid "Pending Approval Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:97
+msgid "Confirmation"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:104
+msgid "When is a registration confirmed?"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:109
+msgid "After registration, automatically"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:110
+msgid "Manual review only"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:112
+msgid "Payment complete: Registrations are confirmed once payment is received. For free events, they’re confirmed as soon as they register. Manual review only: Registrations stay pending until you approve them. Send the confirmation email from the registration when you’re ready."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:179
+msgid "Buttons"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/FormBuilder/SettingsPage.php:186
+msgid "\"Register\" button"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Registrations/SingleRegistrationPage.php:37
+msgid "Single Registration"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/RegistrationsBasePage.php:36
+msgid "Forms"
+msgstr ""
+
+#. translators: %s: Link to LocoTranslate documentation
+#: WPEventGenius/Admin/Page/Settings/Text/TextSettingsPage.php:23
+msgid "Looking to translate more text? Check out our guide on using %sLocoTranslate%s for easy translation management."
+msgstr ""
+
+#. translators: %s: Link to LocoTranslate settings page
+#: WPEventGenius/Admin/Page/Settings/Text/TextSettingsPage.php:27
+msgid "Visit the %sLocoTranslate settings page%s to manage translations for text not available here."
+msgstr ""
+
+#: WPEventGenius/Admin/Page/Settings/Text/TextSettingsPage.php:41
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:46
+#: WPEventGenius/Common/Utils/Placeholders.php:80
+msgid "Registration"
+msgstr ""
+
+#: WPEventGenius/Admin/Page/SettingsBasePage.php:25
+msgid "These settings will only apply to new events and are overwritten by individual event settings. To change these settings for existing events, use the setting inside each event's edit screen."
+msgstr ""
+
+#: WPEventGenius/Admin/Roles/EventManagerRole.php:118
+msgid "Event Manager"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:244
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:286
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:371
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:435
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:70
+#: WPEventGenius/Admin/Services/FormBuilderService.php:525
+#: WPEventGenius/Admin/Services/FormBuilderService.php:585
+#: WPEventGenius/Admin/Services/PageService.php:265
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:294
+msgid "Invalid series or event ID."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:305
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:383
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:448
+msgid "No series found for this event."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:312
+msgid "Template event not found."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:321
+msgid "No events found in this series."
+msgstr ""
+
+#. translators: 1: First name
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:345
+#: WPEventGenius/Common/Event/Event.php:338
+#: WPEventGenius/Common/Registration/Form/Form.php:257
+#: WPEventGenius/Common/Utils/Defaults.php:332
+msgid "Success!"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:346
+msgid "All recurrences have been moved to trash."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:350
+msgid "Edit Template Event"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:376
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:441
+msgid "Invalid event ID."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:391
+#: WPEventGenius/Common/Services/ScriptService.php:364
+msgid "Trash Recurrence"
+msgstr ""
+
+#. translators: %d: total number of events in the series
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:394
+msgid "This event is part of a series with %d total events."
+msgstr ""
+
+#. translators: %d: total number of events in the series
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:399
+msgid "Trashing recurrences will not trash the template event."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:405
+#: WPEventGenius/Common/Services/ScriptService.php:367
+msgid "Trash Single Recurrence"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:408
+#: WPEventGenius/Common/Services/ScriptService.php:368
+msgid "Trash All Recurrences"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:430
+msgid "Invalid nonce."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:454
+msgid "This event is not a template event."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:462
+msgid "Template Event Warning"
+msgstr ""
+
+#. translators: %d: total number of events that will be deleted
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:465
+msgid "This is a template event. Deleting it will delete all %d events in this series. This action cannot be undone."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:471
+msgid "Delete All Events"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:488
+msgid "Processing Recurring Events"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:490
+msgid "Please wait while we process your recurring events."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:495
+msgid "events processed"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/AdminCustomPostTypeService.php:499
+msgid "Delete Recurrences"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:35
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:252
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:314
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:461
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:597
+msgid "Permission denied"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:303
+msgid "Calendar saved successfully"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:319
+msgid "Invalid taxonomy"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:370
+msgid "Cat:"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:370
+msgid "Tag:"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:394
+msgid "Remove filter"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:411
+#: WPEventGenius/Common/Services/UpsellService.php:205
+msgid "Security check failed"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:416
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:421
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:19
+msgid "New Calendar"
+msgstr ""
+
+#. translators: %d: unique ID number of the calendar
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:435
+msgid "Calendar %d"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:466
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:602
+msgid "Invalid calendar ID"
+msgstr ""
+
+#. translators: %s: URL to the events archive page
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:479
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:549
+msgid "The default calendar will display events from the: %s"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:480
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:550
+msgid "Events Archive"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:486
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:556
+msgid "A default calendar, displayed on the events post type archive page, is automatically created when you install the plugin. All of your created events are automatically added to this calendar and available on this page without needing a shortcode or block."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:489
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:559
+msgid "Create a new calendar to display events using a shortcode or block."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:505
+msgid "Or use the calendar block in the block editor."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:522
+#: WPEventGenius/Admin/Services/PageService.php:268
+msgid "Security check failed."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:527
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:688
+msgid "Permission denied."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:539
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:76
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:311
+msgid "Embed Instructions"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:574
+msgid "You can embed a calendar on any page or post using a shortcode."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:575
+msgid "You can embed a calendar on any page or post using either the block editor or a shortcode."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:579
+#: blocks/calendar/index.unminified.js:10
+msgid "Event Genius Calendar"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:581
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:295
+msgid "Shortcode"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:607
+msgid "Calendar not found"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:632
+msgid "This cannot be undone. Are you sure you want to delete this calendar?"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/CalendarBuilderService.php:709
+msgid "Cannot delete the default calendar"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:63
+msgid "Event URL slugs changed"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:64
+msgid "We detected that you might have another events plugin installed that uses the same URL slugs. We added the \"evge-\" prefix to avoid conflicts. You can change or remove these in Settings if you prefer."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:66
+msgid "Go to Settings"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:92
+msgid "Enjoying WP Event Genius?"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:93
+msgid "That's Great!"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:94
+msgid "We are so happy to hear that. Would you mind leaving us a review on WordPress.org?"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:96
+msgid "Yes I'd love to!"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:114
+msgid "I already have"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:119
+msgid "No thanks"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:124
+msgid "Ask me later"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:262
+msgid "Improve Your Email Deliverability"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:263
+msgid "We noticed you haven't set up an SMTP plugin yet. To ensure your event emails reach attendees reliably, we recommend using WP Mail SMTP and a third-party SMTP service. This will help prevent your emails from going to spam folders and improve delivery rates."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:265
+msgid "Install WP Mail SMTP"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:270
+#: WPEventGenius/Common/Utils/Defaults.php:218
+msgid "Learn More"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardNoticeService.php:276
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:658
+msgid "Dismiss"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardPageService.php:49
+msgid "No upcoming events."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardPageService.php:100
+msgid "No recent registrations."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardPageService.php:112
+msgid "Group Member"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/DashboardPageService.php:174
+#: WPEventGenius/Common/Utils/Formatter.php:56
+msgid "Manage"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:103
+#: WPEventGenius/Admin/Services/FormBuilderService.php:126
+msgid "Field saved"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:220
+msgid "Field deleted"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:333
+msgid "Form saved"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:463
+msgid "Create New Form"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:480
+msgid "Enter form name..."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:485
+msgid "Create Form"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:516
+#: WPEventGenius/Admin/Services/FormBuilderService.php:576
+msgid "Invalid form ID"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:520
+#: WPEventGenius/Admin/Services/FormBuilderService.php:580
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:530
+msgid "Cannot delete the default form"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:538
+msgid "Failed to delete form. Please try again."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/FormBuilderService.php:593
+msgid "Failed to duplicate form. Please try again."
+msgstr ""
+
+#. translators: %s: Gateway name (e.g., "Offline", "PayPal Standard")
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:41
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:309
+#: WPEventGenius/Common/Registration/Payment/Gateways/OfflineService.php:31
+#: WPEventGenius/Common/Registration/Payment/Gateways/OfflineService.php:35
+msgid "Offline"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:43
+msgid "Process payments offline. Great for check payments or payments completed at the event itself."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:75
+msgid "Checkout"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:83
+msgid "Payment Option Label"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:96
+msgid "Payment Option Description"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:109
+msgid "Button Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:122
+msgid "Additional Instructions"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:122
+msgid "These instructions will appear in the checkout modal when registrants select the offline payment option, before they submit their registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:124
+msgid "Additional instructions that will be displayed to attendees during the offline payment process."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:148
+msgid "After Payment Selection"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:157
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:313
+msgid "Registration Status"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:157
+msgid "Choose whether registrations should be marked as confirmed or pending when offline payment is selected."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:173
+msgid "Payment Success Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:173
+msgid "This message will appear in the checkout modal after registrants submit their registration with offline payment selected, replacing the payment form."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:175
+msgid "These instructions will appear after the attendee chooses to pay offline."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:200
+msgid "Email Settings"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:208
+msgid "Payment Instruction Email Subject"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:208
+msgid "This email is automatically sent to registrants after they submit their registration with offline payment selected. It can be used to provide instructions on how to complete their payment."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:210
+msgid "The subject line for payment instruction emails."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:221
+msgid "Payment Instruction Email Content"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:223
+msgid "This content will be sent in the payment instruction email when \"Offline\" is chosen as the payment method. Use placeholders to personalize the message."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:248
+msgid "Pending Notification Subject"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:248
+msgid "This email is automatically sent to event administrators and organizers when a registrant submits their registration with offline payment selected. It can be used to help track manual payments."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:250
+msgid "The subject line for offline payment pending notifications."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:261
+msgid "Pending Notification Content"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:263
+msgid "The content for offline payment pending notifications sent to administrators."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:287
+msgid "Payment Instructions Resent Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:287
+msgid "Message that appears when payment instructions have been successfully resent to a registrant."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:289
+msgid "Message displayed when payment instructions are successfully resent."
+msgstr ""
+
+#. translators: %s: Gateway name (e.g., "Offline", "PayPal Standard")
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:309
+msgid "%s Configuration"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/Gateways/OfflineAdmin.php:310
+msgid "How to use offline payments"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PageService.php:228
+msgid "Add and edit payment records is a Pro feature. Upgrade to manage payments from the registrations screen."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PageService.php:273
+msgid "Invalid request data."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PageService.php:279
+msgid "Registration not found."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PageService.php:285
+msgid "Confirmation email sent."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PageService.php:287
+msgid "Failed to send confirmation email."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:25
+msgid "Method"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:27
+msgid "Description"
+msgstr ""
+
+#. translators: %s is the name of the payment method
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:41
+msgid "Move the %s payment method up"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:42
+msgid "Move up"
+msgstr ""
+
+#. translators: %s is the name of the payment method
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:46
+msgid "Move the %s payment method down"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:47
+msgid "Move down"
+msgstr ""
+
+#. translators: %s: name of the payment method
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:65
+#: WPEventGenius/Admin/Settings/EventSettings.php:194
+msgid "The %s payment method is currently enabled"
+msgstr ""
+
+#. translators: %s: name of the payment method
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:70
+#: WPEventGenius/Admin/Settings/EventSettings.php:199
+msgid "The %s payment method is currently disabled"
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:74
+msgid "Configuration needed. Redirecting."
+msgstr ""
+
+#: WPEventGenius/Admin/Services/PaymentMethodAdmin.php:80
+msgid "Configure"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:32
+msgid "Event Display (views)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:38
+msgid "WP Event Genius Template (recommended)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:39
+msgid "Theme Template (add before and after content)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:40
+msgid "Custom (Add customized files to your theme)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:48
+msgid "Event Template"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:48
+msgid "The page template to use for single event pages."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:61
+msgid "Show Export Options"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:61
+msgid "Include the iCal and Google Calendar export options on the single event pages."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:72
+msgid "Featured Image"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:74
+#: WPEventGenius/Common/Utils/Defaults.php:209
+msgid "Locations"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:75
+msgid "Map"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:76
+msgid "About Details"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:84
+msgid "Show in Single Event"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:84
+msgid "What event information to display on single event pages."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:96
+msgid "Color Theme"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:96
+msgid "Use \"Light\" for themes with a light background and \"Dark\" for themes with a dark background."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:113
+msgid "The currency symbol to use for the cost of event registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:123
+msgid "Controls how the cost of event registration is displayed. Use \"{symbol}\" and \"{amount}\" as placeholders."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:135
+msgid "Live Event Updates"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:142
+msgid "Enable live updates"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:142
+msgid "Automatically refresh registration status, attendee counts, and other dynamic content when cached event pages become stale. Recommended when using caching plugins."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:152
+msgid "Staleness Threshold"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:152
+msgid "How many minutes old cached content can be before it is considered stale and refreshed. Default is 3 minutes."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:156
+msgid "minutes"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:165
+msgid "Blog Loop"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:172
+msgid "Include events in main blog loop"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:172
+msgid "Show events with the site's other posts. When enabled, events will appear on the blog homepage and in tag archives. They will also continue to appear on the default events page."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:226
+msgid "Light"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:231
+msgid "Dark"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:258
+msgid "The WP Event Genius template provides a modern, responsive design optimized for events."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:261
+msgid "Your theme template will be used, and details about the event will be added before and after the content."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventSettings.php:264
+msgid "Copy the template files from event-genius/templates/event-genius to your theme directory to customize."
+msgstr ""
+
+#. translators: %1$s: opening link tag, %2$s: closing link tag
+#: WPEventGenius/Admin/Settings/EventSettings.php:280
+msgid "Block theme detected. %1$sEdit the template%2$s by searching for the Single Event Template to customize what sections are displayed."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:35
+msgid "\"Date and Time\" appears as the heading to the section with the start and end date."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:40
+msgid "\"Locations\" appears as the heading that describes the venue or venues for the event."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:45
+msgid "\"About the Event\" appears as the heading to the section with additional event details."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:50
+msgid "\"About the Organizer\" appears as the heading to the section with the event organizer information."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:55
+msgid "\"Tags\" appears as the heading to the section that lists the tags."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:60
+msgid "\"Categories\" appears as the heading to the section that lists the event categories"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:66
+msgid "Single Event Headings"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:78
+msgid "\"Add to Calendar\" appears on the event export button"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:83
+msgid "\"See map\" appears next to the location as a link to reveal a map."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:88
+msgid "\"Learn More\" appears on the button in event listings that links to the full event details page."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/EventTextSettings.php:93
+msgid "Misc"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:33
+msgid "Time & Date"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:39
+msgid "Sunday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:40
+msgid "Monday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:41
+msgid "Tuesday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:42
+msgid "Wednesday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:43
+msgid "Thursday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:44
+msgid "Friday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:45
+msgid "Saturday"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:51
+msgid "Start of the Week"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:51
+msgid "Which day to use as the start of each week in the calendar."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:62
+msgid "Date Format"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:62
+msgid "How dates are displayed throughout the plugin."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:73
+msgid "Post Link Options"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:79
+msgid "Custom Slugs"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:95
+msgid "Email From Address"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:95
+msgid "The email address that any emails sent by the plugin to attendees should be sent from."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:106
+msgid "Data Preservation"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:113
+msgid "Preserve Plugin Data"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:113
+msgid "Whether to keep any plugin data (such as events, calendars, registrations, and settings) after uninstalling the plugin."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:129
+msgid "Single event"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:130
+msgid "Events archive"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:131
+msgid "Single venue"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:132
+msgid "Venues archive"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:133
+msgid "Single organizer"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:134
+msgid "Organizers archive"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:135
+msgid "Event category"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:136
+msgid "Event tag"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:267
+msgid "Customize the URL slugs used for the links to events, venues, organizers, and related archives."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:271
+msgid "Show slug options"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:272
+msgid "Hide slug options"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:275
+msgid "Slug options"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:303
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:306
+msgid "ex: "
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:335
+msgid "Use Custom"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:338
+msgid "Custom From Email Address"
+msgstr ""
+
+#. translators: 1: opening link tag to forms page, 2: closing link tag
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:343
+msgid "Configure emails inside your event registration forms %1$shere%2$s"
+msgstr ""
+
+#. translators: %s: WordPress timezone setting (e.g. "UTC+2")
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:355
+msgid "Your WordPress site's timezone is %s."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:357
+msgid "Go to settings"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:374
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:384
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:391
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:403
+msgid "Custom"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:414
+msgid "Full Date"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:423
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:445
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:466
+msgid "Custom Date Format"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:425
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:447
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:468
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:489
+msgid "Format Guide"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:436
+msgid "Date Summary"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:457
+msgid "Registration Timeline"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:478
+msgid "Time"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:487
+msgid "Custom Time Format"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/GeneralSettings.php:517
+msgid "Disable this option only if you want to completely and permanently delete all plugin data when the plugin is uninstalled."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:37
+msgid "Allow Registration"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:37
+msgid "Allow users to register for events."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:55
+msgid "The maximum number of users who can register for an event."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:66
+msgid "When event registration opens and closes - either immediately after an event is created or a certain amount of time before the event starts."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:77
+msgid "Prevent Duplicate Emails"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:77
+msgid "Prevents people from registering if the email address entered matches an existing registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:94
+msgid "A list of confirmed registrants will appear below the registration form."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:105
+msgid "Logged In Users"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:121
+msgid "Registration Editing"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:128
+msgid "Allow Cancellation"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:128
+msgid "Adds a tool for logged out users to enter an email and receive a cancellation link. With the \"Pro\" version, logged in users will see a button to cancel if that user has already registered."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:138
+msgid "Cancellation Timeline"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:217
+msgid "Registration opens"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:233
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:257
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:299
+msgid "before event start"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:242
+msgid "Registration closes"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:283
+msgid "Cancellation closes"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationSettings.php:286
+msgid "When Registration Closes"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:50
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:226
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:489
+msgid "Registration Form"
+msgstr ""
+
+#. translators: 1: opening link tag to form builder, 2: closing link tag
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:56
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:319
+msgid "Use our %1$sForm Builder%2$s to edit registration form related text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:66
+msgid "Registration Capacity Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:67
+msgid "Text that appears above the register button related to event capacity. Supports placeholders {remaining}, {capacity}, and {count}."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:74
+msgid "Registration Capacity Text (Singular)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:75
+msgid "Text that appears above the register button when there is only 1 spot remaining or 1 registration (placeholder is detected). Supports placeholders {remaining}, {capacity}, and {count}."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:82
+msgid "Registration Capacity Text (Short)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:83
+msgid "Short text for registration capacity display. Supports placeholders {remaining}, {capacity}, and {count}."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:90
+msgid "Registration Not Open Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:91
+msgid "Text that appears instead of the register button when registration has not yet opened. Supports placeholders {open-date}, {open-countdown}"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:98
+msgid "Registration Not Open Text (Short)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:99
+msgid "Short text displayed in event details when registration has not yet opened. Supports placeholders {open-date}, {open-countdown}"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:106
+msgid "Registration Closed Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:107
+msgid "Text that appears instead of the register button when registration has closed."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:114
+msgid "Registration Closed Text (Short)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:115
+msgid "Short text displayed in event details when registration has closed."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:122
+msgid "Registration Filled Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:123
+msgid "Text that appears instead of the register button when registration has filled."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:130
+msgid "Registration Filled Text (Short)"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:131
+msgid "Short text displayed in event details when registration has filled."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:138
+msgid "Registration Available Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:139
+msgid "Text displayed in the registration pill when registration is available for events or series."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:146
+#: WPEventGenius/Common/Utils/Defaults.php:196
+msgid "Already Registered?"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:147
+msgid "Text for the button that appears below the registration button that opens a modal to allow registration changes."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:155
+msgid "Cancel Request Instructions"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:172
+msgid "Cancel Request Field Label"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:173
+msgid "Label for the field that allows the user to enter their email address to request a cancellation."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:181
+msgid "Cancel Request Button Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:182
+msgid "Text for the button that submits the cancellation request."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:190
+msgid "Cancellation Request Success Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:207
+msgid "Registration Cancel Button"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:208
+msgid "Found in the cancellation confirmation email. Text for the button that allows the user to cancel their registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:216
+msgid "Cancel Registration Button Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:217
+msgid "Text for the button that allows logged-in users to cancel their registration in the management modal."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:225
+msgid "Cancellation Success Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:242
+msgid "Confirm Cancellation Button Text"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:243
+msgid "Text for the button that confirms the user wants to cancel their registration."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:251
+msgid "No Cancellation Record Found Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:252
+msgid "Message that appears when no registration is found for the email address entered."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:260
+msgid "Cancellation Confirmation Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:277
+msgid "No Cancellation Results Found Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:278
+msgid "Message that appears when no registration is found after clicking the cancellation confirm button."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:292
+msgid "Confirmation Email Resent Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:293
+msgid "Message that appears when a confirmation email has been successfully resent."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:303
+msgid "Field Not Editable Message"
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:304
+msgid "Message that appears when a field cannot be edited during registration editing."
+msgstr ""
+
+#: WPEventGenius/Admin/Settings/RegistrationTextSettings.php:335
+msgid "Cancellation"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:388
+#: WPEventGenius/Common/Services/BlockThemeTemplateService.php:115
+msgid "Single Event"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:389
+#: WPEventGenius/Common/Services/BlockThemeTemplateService.php:116
+msgid "Template for displaying a single event"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:411
+msgid "Calendar (Events Archive)"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:412
+msgid "Displays the default calendar on /events/"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:434
+msgid "Single Organizer"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:435
+msgid "Template for displaying a single organizer"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:457
+msgid "Single Venue"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:458
+msgid "Template for displaying a single venue"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:485
+msgid "Single Series"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:486
+msgid "Template for displaying a single series"
+msgstr ""
+
+#: WPEventGenius/BlockTheme/Services/BlockThemeTemplateService.php:603
+msgid "Event Genius plugin templates"
+msgstr ""
+
+#: WPEventGenius/Common/CustomPostTypes/Event/EventBase.php:72
+msgid "No event ID(s) provided."
+msgstr ""
+
+#: WPEventGenius/Common/CustomPostTypes/Event/EventBase.php:87
+msgid "You do not have permission to register for this event. Please log in if required."
+msgstr ""
+
+#: WPEventGenius/Common/CustomPostTypes/Event/EventBase.php:99
+msgid "Event ID %d is not visible or accessible."
+msgstr ""
+
+#: WPEventGenius/Common/CustomPostTypes/Event/EventBase.php:142
+msgid "You do not have permission to access this event."
+msgstr ""
+
+#: WPEventGenius/Common/Event/EventPost.php:265
+#: WPEventGenius/Common/Event/EventPost.php:279
+msgid "All Day"
+msgstr ""
+
+#: WPEventGenius/Common/Event/EventPost.php:626
+#: WPEventGenius/Common/Utils/Defaults.php:220
+msgid "Registration Available"
+msgstr ""
+
+#. translators: %s: number of days
+#: WPEventGenius/Common/Event/EventPost.php:768
+msgid "%s day"
+msgstr ""
+
+#. translators: %s: number of days
+#: WPEventGenius/Common/Event/EventPost.php:771
+msgid "%s days"
+msgstr ""
+
+#. translators: 1: number of days, 2: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:776
+msgid "%1$s day %2$s hour"
+msgstr ""
+
+#. translators: 1: number of days, 2: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:779
+msgid "%1$s day %2$s hours"
+msgstr ""
+
+#. translators: 1: number of days, 2: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:784
+msgid "%1$s days %2$s hour"
+msgstr ""
+
+#. translators: 1: number of days, 2: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:787
+msgid "%1$s days %2$s hours"
+msgstr ""
+
+#. translators: %s: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:791
+msgid "%s hour"
+msgstr ""
+
+#. translators: %s: number of hours
+#: WPEventGenius/Common/Event/EventPost.php:794
+msgid "%s hours"
+msgstr ""
+
+#: WPEventGenius/Common/Event/EventPost.php:949
+msgid "Read More"
+msgstr ""
+
+#: WPEventGenius/Common/Event/EventPost.php:1379
+msgid "If you see this, please leave the field blank."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Communicator/CommunicatorAfterCancel.php:146
+#: WPEventGenius/Common/Registration/Form/Form.php:252
+msgid "Your registration has been canceled."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Communicator/CommunicatorAfterError.php:17
+msgid "Our spam prevention was triggered. Did you use a form autofiller? Please try completing the form again."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Communicator/CommunicatorAfterError.php:19
+msgid "There were some errors with your submission. Please check the value of these fields and try again."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/BaseFieldType.php:135
+msgid "Warning: The field \"%s\" was converted from a single value to multiple values. This may cause data loss."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/BaseFieldType.php:141
+#: WPEventGenius/Common/Registration/Field/BaseFieldType.php:151
+msgid "Warning: The field \"%s\" was converted from multiple values to a single value. This may cause data loss."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/BaseFieldType.php:146
+msgid "Warning: The field \"%s\" was converted to a checkbox format. This may cause data loss."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:15
+msgid "Checkbox"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:16
+msgid "Radio"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:17
+msgid "Select (dropdown)"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:18
+msgid "Textarea (paragraph)"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Field/FieldHandler.php:19
+msgid "Single Checkbox"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Form/Form.php:253
+msgid "Your registration is pending. You will receive a confirmation email once your payment is complete."
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Payment/Gateways/Offline.php:73
+#: WPEventGenius/Common/Registration/Payment/Gateways/Offline.php:80
+msgid "Processing Fee"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Payment/Gateways/Offline.php:187
+msgid "Payment Instructions - {event-title}"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Payment/Gateways/OfflineService.php:38
+msgid "Instructions via email"
+msgstr ""
+
+#: WPEventGenius/Common/Registration/Payment/Gateways/OfflineService.php:43
+#: WPEventGenius/Common/Utils/Defaults.php:194
+#: WPEventGenius/Common/Utils/Defaults.php:207
+msgid "Submit"
+msgstr ""
+
+#. translators: 1: Error message, 2: Event ID
+#: WPEventGenius/Common/Services/ActionService.php:73
+msgid "iCal export error: %1$s (Event ID: %2$d)"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:96
+msgid "An error occurred while generating the calendar file. Please try again later."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:97
+msgid "Calendar Export Error"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:234
+#: WPEventGenius/Common/Services/ActionService.php:333
+msgid "Cancellation is not allowed for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:371
+msgid "Cancellation for this event has closed."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:428
+msgid "Invalid event ID"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ActionService.php:445
+msgid "Attende list is for logged-in users only"
+msgstr ""
+
+#: WPEventGenius/Common/Services/AttendeeListService.php:213
+msgid "The attendee list is not available for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/CalendarActionsService.php:221
+msgid "Error: Only visible to admins. The calendar ID you entered does not exist. Please check the calendar ID and try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/DynamicContentService.php:39
+msgid "Event ID is required."
+msgstr ""
+
+#: WPEventGenius/Common/Services/DynamicContentService.php:49
+msgid "Event not found."
+msgstr ""
+
+#: WPEventGenius/Common/Services/DynamicContentService.php:174
+#: WPEventGenius/Common/Services/ScriptService.php:135
+#: WPEventGenius/Common/Utils/Defaults.php:222
+#: WPEventGenius/Common/Utils/Placeholders.php:256
+msgid "Manage Registration"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:169
+msgid "Other Available Blocks"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:171
+msgid "Event Genius includes several other blocks you can use like a registration form, attendee list, calendar, and more. Search for \"Event Genius\" in the block editor to see all available blocks."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:175
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:479
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:654
+msgid "Show More"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:195
+msgid "Block example"
+msgstr ""
+
+#. translators: %s: Link to shortcodes documentation
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:203
+msgid "For more information about shortcodes and blocks, see our %s."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:204
+msgid "shortcodes documentation"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:227
+#: blocks/registration-form/index.unminified.js:11
+msgid "Display a customizable registration form for your events."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:236
+#: blocks/attendee-list/index.unminified.js:12
+msgid "Show a list of registered attendees for your events with customizable display options."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:244
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:16
+msgid "Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:245
+#: blocks/calendar/index.unminified.js:11
+msgid "Display a beautiful calendar of events with filtering and search capabilities."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:254
+msgid "My Registrations"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:255
+msgid "Display a list of events the logged-in user has registered for."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:265
+msgid "Check In"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:266
+msgid "Display an admin check-in interface for events."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:325
+msgid "Using the Block Editor"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:327
+msgid "Edit a page or post and click the + button to add a new block."
+msgstr ""
+
+#. translators: %s: Block title
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:332
+msgid "Search for \"%s\" and select it."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:337
+msgid "The block will be added to your page and will display on the front end."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:340
+msgid "Block Name:"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:346
+msgid "Example of %s block"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:373
+msgid "Available Attributes:"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:415
+msgid "Invalid embed configuration."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:430
+msgid "Blocks and Shortcodes for this Event"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:438
+msgid "Use a block or shortcode to display the registration form or attendee list on another page or post."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:466
+msgid "Use a shortcode to display the registration form or attendee list on another page or post."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:490
+msgid "Display the registration form for this event on any page or post."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:493
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:523
+msgid "Shortcode:"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:510
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:540
+msgid "Block:"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:511
+msgid "Search for \"Registration Form\" in the block editor and select this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:520
+msgid "Display a list of registered attendees for this event on any page or post."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:541
+msgid "Search for \"Attendee List\" in the block editor and select this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:633
+msgid "Event Genius shortcodes are available to embed events, registration forms, calendars, and more."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:635
+msgid "Event Genius blocks are available to embed events, registration forms, calendars, and more. Search for \"Event Genius\" when adding a new block."
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:638
+#: WPEventGenius/Common/Services/FrontEndAdminNoticeService.php:292
+msgid "Dismiss notice"
+msgstr ""
+
+#: WPEventGenius/Common/Services/EmbedInstructionsService.php:662
+msgid "Available Blocks"
+msgstr ""
+
+#: WPEventGenius/Common/Services/PaymentNoticeService.php:57
+msgid "Payment Gateway Configuration Required"
+msgstr ""
+
+#. translators: %s: Event title
+#: WPEventGenius/Common/Services/PaymentNoticeService.php:60
+msgid "One or more of your events has a cost but no payment gateways are configured. Attendees will not be able to pay for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/PaymentNoticeService.php:64
+msgid "Configure Payment Gateways"
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:132
+msgid "Login required to register for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:134
+msgid "Log In"
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:203
+msgid "Sorry, this event has reached capacity and registration is no longer available. Your registration was not submitted."
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:447
+msgid "Invalid input provided."
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:455
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:467
+msgid "This email address has already been used to register for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/RegistrationFormService.php:480
+msgid "Email address is available."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:127
+msgid "Checked in successfully!"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:128
+msgid "Error checking in. Please try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:129
+#: WPEventGenius/Common/Services/ScriptService.php:371
+msgid "Loading..."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:130
+msgid "No registrations found."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:131
+msgid "Attendance Options"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:132
+msgid "Mark as No Show"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:133
+msgid "Mark as Excused"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:134
+msgid "Reset Check In"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:136
+msgid "Status updated successfully."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:137
+msgid "Error updating status. Please try again."
+msgstr ""
+
+#. translators: %s: number of events (placeholder: {num})
+#: WPEventGenius/Common/Services/ScriptService.php:167
+msgid "Register for {num} Events"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:233
+msgid "Dismissing..."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:274
+msgid "Add Media"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:275
+msgid "A network error occurred. Please try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:276
+msgid "Refreshing..."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:277
+msgid "An error occurred"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:278
+msgid "Successfully sent the confirmation email."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:309
+msgid "This cannot be undone."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:310
+msgid "Looks like you have some unsaved changes. Are you sure you want to leave?"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:311
+msgid "You have unsaved changes that will be lost if you leave this page."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:331
+msgid "Title and Featured Image settings are disabled because you chose the content override option. These elements are typically already added to the single event page."
+msgstr ""
+
+#. translators: %d: number of recurring events in the series
+#: WPEventGenius/Common/Services/ScriptService.php:366
+msgid "This event has %d recurrences. What would you like to do?"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:370
+msgid "Error trashing recurrences. Please try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:372
+msgid "Error loading series information. Please try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:416
+msgid "Preview updated"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:417
+msgid "Error updating preview"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:418
+msgid "Calendar saved"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:419
+msgid "Error saving calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:420
+msgid "Please complete all filter fields"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:459
+msgid "Are you sure you want to remove this scheduled email?"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:528
+msgid "Unknown error occurred"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:529
+msgid "Network error occurred. Please try again."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:530
+msgid "Please fill in all required fields and select registrations."
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:531
+msgid "Transfer Registrations"
+msgstr ""
+
+#: WPEventGenius/Common/Services/ScriptService.php:532
+msgid "Copy Registrations"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:210
+msgid "Insufficient permissions"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:218
+msgid "Invalid parameters"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:252
+msgid "This feature is available in Event Genius Pro. Upgrade now to unlock this and many other powerful features!"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:265
+msgid "Multiple Registration Forms"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:266
+msgid "Upgrade to Event Genius Pro to create multiple registration forms"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:270
+msgid "Create unique custom registration forms for each event."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:271
+msgid "Assign forms to specific events, customizing confirmations and notifications for different audiences."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:272
+msgid "Reuse custom form fields across multiple forms for efficiency."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:273
+msgid "Allow for additional guests and bulk event registration."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:279
+msgid "Custom Event Series"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:280
+msgid "Upgrade to Event Genius Pro to create and manage event series"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:284
+msgid "Group related events into series for better organization."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:285
+msgid "Allow attendees to register for the full series or just a single date."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:286
+msgid "Edit each recurrence individually or make bulk changes."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:287
+msgid "Dedicated pages for each series with registration options."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:293
+msgid "Accept Payments & Sell Tickets"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:294
+msgid "Upgrade to Event Genius Pro to accept payments and sell tickets"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:298
+msgid "Stripe and PayPal payment gateways."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:299
+msgid "Flexible offline or manual payment tracking and instructions."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:300
+msgid "Allow attendees to pay for additional guests or multiple events at once."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:301
+msgid "Complete control over payment records."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:302
+msgid "Contact individual attendess as needed."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:308
+msgid "Scheduled Event Messages"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:309
+msgid "Upgrade to Event Genius Pro to send scheduled messages and reminders to your attendees"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:313
+msgid "Automatically send reminder emails before your event to improve attendance."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:314
+msgid "Send follow-up and thank youmessages after events to keep attendees engaged."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:315
+msgid "Schedule relative to the event start and end times or a specific date and time."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:316
+msgid "Automate post event surveys to gather feedback and improve future events."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:322
+msgid "Check-in & Attendance Tracking"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:323
+msgid "Upgrade to Event Genius Pro to track attendance and check-in status for your events"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:327
+msgid "Look up attendees by name, email, or confirmation code and record attendance with a single click."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:328
+msgid "Track attendance status including attended, no-show, and excused."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:329
+msgid "Allow event helpers to check in attendees with a simple interface."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:330
+msgid "Schedule follow up emails based on attendance status."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:336
+msgid "Advanced Form Fields"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:337
+msgid "Upgrade to Event Genius Pro to unlock advanced form field types"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:341
+msgid "File upload fields for documents, images, and other attachments."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:342
+msgid "Date picker fields with customizable date formats and restrictions."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:343
+msgid "Attendee number fields to allow multiple guest registration."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:344
+msgid "Hidden admin fields for storing custom data visible only to administrators."
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:373
+msgid "Accept payments & sell tickets"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:374
+msgid "Multiple registration forms"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:375
+msgid "Check-in & attendance tracking"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:376
+msgid "Event series management"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:377
+msgid "Multiple email templates"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:378
+msgid "Scheduled event reminders"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:379
+msgid "Register multiple guests"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:380
+msgid "List events registered for"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:381
+msgid "Manually email registrants"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:382
+msgid "Priority support"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:383
+msgid "Additional blocks and shortcodes"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:384
+msgid "Multiple event registration"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:385
+msgid "Offline payment tracking"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:503
+msgid "Enable Payments"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:519
+msgid "Scheduled Messages"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:530
+msgid "Enable Scheduled Messages"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:572
+msgid "Payments are disabled - Click to learn more"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:617
+msgid "Scheduled messages are disabled - Click to learn more"
+msgstr ""
+
+#: WPEventGenius/Common/Services/UpsellService.php:770
+msgid "All field types"
+msgstr ""
+
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:17
+msgid "Add New Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:18
+msgid "Edit Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:20
+msgid "View Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:21
+msgid "Search Calendars"
+msgstr ""
+
+#: WPEventGenius/Common/Taxonomies/CalendarTaxonomy.php:22
+msgid "No calendars found"
+msgstr ""
+
+#. translators: 1: Event title
+#: WPEventGenius/Common/Utils/Defaults.php:144
+msgid "New Registration - %1$s"
+msgstr ""
+
+#. translators: 1: Event title
+#: WPEventGenius/Common/Utils/Defaults.php:153
+msgid "Waiting List Promotion - %1$s"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:156
+msgid "Cancellation for {event-title}"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:159
+msgid "Cancellation Confirmed for {event-title}"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:183
+msgid "Your registration was was successfully canceled for the event {event-title} on {start-date}"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:184
+msgid "Please check your email inbox for further instructions."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:185
+msgid "Cancel My Registration"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:186
+msgid "Cancel Registration"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:188
+msgid "No record found. This registration may have already been canceled."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:189
+msgid "Confirm your cancellation for the event {event-title} on {start-date} by clicking the button below."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:190
+msgid "No record found. Please make sure this is the email address you registered with."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:191
+msgid "Enter Email"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:193
+msgid "Register"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:195
+msgid "How many registrations?"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:197
+msgid "{remaining} spots available"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:198
+msgid "{remaining} spot available"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:199
+msgid "{remaining} left"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:200
+msgid "Registration will open on {open-date}."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:201
+msgid "Registration Opens {open-date}"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:202
+msgid "Registration has closed for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:203
+msgid "Registration Closed"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:204
+msgid "Registration has filled for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:205
+msgid "Registration Filled"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:206
+msgid "If you need to cancel your registration, enter the email address you registered with below. You will receive an email with further instructions"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:211
+msgid "About the Event"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:212
+msgid "About the Organizer"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:213
+msgid "About the Organizers"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:216
+msgid "Add to Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:217
+msgid "See Map"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:221
+msgid "You have already registered for this event"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:223
+msgid "Confirmation email resent! Check your email inbox."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:224
+msgid "This field is not editable."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:225
+msgid "Your registration has been updated successfully."
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title, 3: Event start date.
+#: WPEventGenius/Common/Utils/Defaults.php:236
+msgid "The following submission was made for: %1$s at %2$s on %3$s"
+msgstr ""
+
+#. translators: 1: First name
+#: WPEventGenius/Common/Utils/Defaults.php:248
+#: WPEventGenius/Common/Utils/Defaults.php:271
+#: WPEventGenius/Common/Utils/Defaults.php:297
+#: WPEventGenius/Common/Utils/Defaults.php:319
+msgid "Hey %1$s,"
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title
+#: WPEventGenius/Common/Utils/Defaults.php:251
+msgid "You are registered for %1$s at %2$s"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:253
+#: WPEventGenius/Common/Utils/Defaults.php:279
+msgid "The event will be held on this date:"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:257
+#: WPEventGenius/Common/Utils/Defaults.php:283
+msgid "The event will be held at the following location:"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:261
+#: WPEventGenius/Common/Utils/Defaults.php:287
+msgid "{venue-city}, {venue-state} {venue-zip}"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:263
+#: WPEventGenius/Common/Utils/Defaults.php:289
+msgid "See you there!"
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title
+#: WPEventGenius/Common/Utils/Defaults.php:274
+msgid "Great news! A spot has opened up for %1$s at %2$s, and you have been promoted from the waiting list!"
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title
+#: WPEventGenius/Common/Utils/Defaults.php:277
+msgid "You are now registered for %1$s at %2$s"
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title, 3: Event start date.
+#: WPEventGenius/Common/Utils/Defaults.php:300
+msgid "Click the button below to confirm the cancellation of your registration for %1$s at %2$s on %3$s."
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title, 3: Event start date.
+#: WPEventGenius/Common/Utils/Defaults.php:310
+msgid "There has been a cancellation for: %1$s at %2$s on %3$s"
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title, 3: Event start date.
+#: WPEventGenius/Common/Utils/Defaults.php:322
+msgid "You are no longer registered for %1$s at %2$s on %3$s."
+msgstr ""
+
+#. translators: 1: Event title, 2: Venue title, 3: Event start date.
+#: WPEventGenius/Common/Utils/Defaults.php:335
+msgid "Please check your email inbox for a confirmation message."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:347
+msgid "Registration received."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Defaults.php:349
+msgid "We'll review it and email you once it's approved."
+msgstr ""
+
+#. translators: %s: website name
+#: WPEventGenius/Common/Utils/EventExport/iCal.php:81
+msgid "Events for %s"
+msgstr ""
+
+#. translators: %s: Error message
+#: WPEventGenius/Common/Utils/EventExport/iCal.php:264
+msgid "iCal export failed: %s"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/EventExport/Options.php:30
+msgid "iCalendar"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/EventExport/Options.php:37
+msgid "Google Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:117
+#: WPEventGenius/Common/Utils/Formatter.php:211
+#: WPEventGenius/Common/Utils/Formatter.php:231
+msgid "Unknown"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:224
+msgid "Attended"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:226
+msgid "No Show"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:228
+msgid "Excused"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:275
+#: WPEventGenius/Common/Utils/Formatter.php:334
+msgid "Complete"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:279
+#: WPEventGenius/Common/Utils/Formatter.php:336
+msgid "Processing"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:281
+#: WPEventGenius/Common/Utils/Formatter.php:337
+msgid "Offline Pending"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:283
+#: WPEventGenius/Common/Utils/Formatter.php:338
+msgid "Abandoned"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:285
+#: WPEventGenius/Common/Utils/Formatter.php:339
+msgid "Error"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:287
+#: WPEventGenius/Common/Utils/Formatter.php:340
+msgid "Refunded"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:373
+msgid "%s: Payment was successfully processed."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:375
+msgid "%s: The person submitted a registration form but did not complete the payment step."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:377
+msgid "%s: Payment is being actively processed by the payment processor. If the payment record shows a different status in your payment gateway dashboard, there may be an issue with payment notifications from the gateway."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:379
+msgid "%s: The registrant chose the offline payment option when registering. You will need to manually confirm receipt of payment and update the status."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:381
+msgid "%s: A payment was \"pending\" and never completed. The registrant started the payment process but abandoned it before completion."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:383
+msgid "%s: An error occurred. Please check the payment gateway's record of the transaction for more details about what went wrong."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:385
+msgid "%s: Payment was successfully refunded."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Formatter.php:387
+msgid "%s: Unknown payment status. Please check the payment gateway records for more information."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:84
+msgid "Actions"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:88
+msgid "Admin Only"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:106
+msgid "The title of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:112
+msgid "The title of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:118
+msgid "The address of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:124
+msgid "The city of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:130
+msgid "The state of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:136
+msgid "The zip code of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:142
+msgid "The start date of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:148
+msgid "The start time of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:154
+msgid "The end date of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:160
+msgid "The end time of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:166
+msgid "The date summary of the event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:172
+msgid "The duration of the event (e.g., \"2 hours\" or \"1 day 3 hours\")."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:178
+msgid "The cost of the event with currency symbol."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:184
+msgid "The phone number of the venue."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:190
+msgid "The URL to view the event on the website."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:196
+msgid "The name of the event organizer."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:202
+msgid "All fields submitted in the registration form."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:208
+msgid "The button to cancel the registration."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:216
+msgid "+ Google Calendar"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:218
+msgid "\"+ Google Calendar\" link to add this event to Google Calendar."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:226
+msgid "+ iCal"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:228
+msgid "\"+ iCal\" link to download the iCal file for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:234
+msgid "The raw URL to add this event to Google Calendar."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:240
+msgid "The raw URL to download the iCal file for this event."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:258
+msgid "The link to manage the registration in the admin."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:264
+msgid "The confirmation code for this registration."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:295
+msgid "Click the button next to the placeholder to add it to your message."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:318
+msgid "Search placeholders"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Placeholders.php:352
+msgid "Insert"
+msgstr ""
+
+#. translators: %d: total number of placeholders available
+#: WPEventGenius/Common/Utils/Placeholders.php:364
+msgid "Show more"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Text.php:34
+msgid "Show more text"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:78
+msgid "Payment Amount"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:79
+msgid "Invoice #"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:80
+msgid "Payment ID"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:81
+msgid "Gateway"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:82
+msgid "Business"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:83
+msgid "Currency Code"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:89
+msgid "Check In Date"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:91
+msgid "Quantity"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:92
+msgid "Checked In By"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:145
+msgid "No venue"
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:202
+msgid "Error: Only visible to admins. The event is not published or you do not have permission to view it."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:203
+msgid "Error: Only visible to admins. Form submission failed because the event is not published or you do not have permission to access it."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:204
+msgid "Error: Only visible to admins. The calendar contains events that are not published or you do not have permission to view them."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:205
+msgid "Error: Only visible to admins. Event details are not available because the event is not published or you do not have permission to access it."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:206
+msgid "Error: Only visible to admins. The attendee list is not available because the event is not published or you do not have permission to access it."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:207
+msgid "Error: Only visible to admins. Cannot load more attendees because the event is not published or you do not have permission to access it."
+msgstr ""
+
+#: WPEventGenius/Common/Utils/Utils.php:215
+msgid "The attendee list is disabled for this event. Edit the event post to change this."
+msgstr ""
+
+#: WPEventGenius/Main.php:105
+#: WPEventGenius/Main.php:110
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:11
+msgid "Event Genius Attendee List"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:105
+#: blocks/attendee-list/index.unminified.js:235
+#: blocks/registration-form/index.unminified.js:62
+msgid "Auto"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:114
+#: blocks/registration-form/index.unminified.js:71
+msgid "Error loading events"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:227
+msgid "Error loading attendee list preview."
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:236
+msgid "Simple"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:237
+msgid "Full"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:244
+msgid "Attendee List Settings"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:250
+msgid "Search by title or date"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:259
+#: blocks/registration-form/index.unminified.js:133
+msgid "Select Event"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:270
+#: blocks/registration-form/index.unminified.js:144
+msgid "Auto means either the next upcoming event that allows registration or if added to a single event page, that event in context."
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:273
+msgid "Template"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:281
+msgid "Attendee Format"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:294
+msgid "Placeholders:"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:318
+msgid "Display Fields"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:323
+msgid "Loading fields..."
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:350
+msgid "No fields available for this event."
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:356
+msgid "Attendees Per Load"
+msgstr ""
+
+#: blocks/attendee-list/index.unminified.js:368
+msgid "Loading attendee list..."
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:54
+#: blocks/calendar/index.unminified.js:92
+msgid "Default Calendar"
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:83
+msgid "Error loading calendar preview."
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:97
+msgid "Event Calendar Settings"
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:99
+msgid "Select Calendar"
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:119
+msgid "Calendar Content"
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:122
+msgid "Displays the default calendar on the front end."
+msgstr ""
+
+#: blocks/calendar/index.unminified.js:130
+msgid "Loading events..."
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:10
+msgid "Event Genius Registration Form"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:105
+msgid "Error loading registration form preview."
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:115
+msgid "Form Settings"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:117
+msgid "Form Display Type"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:120
+msgid "Inline"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:121
+msgid "Modal Button"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:130
+msgid "Search by title or date (e.g., \"Conference\" or \"2024-03\")"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:153
+msgid "Show Event Info"
+msgstr ""
+
+#: blocks/registration-form/index.unminified.js:164
+msgid "Loading registration form..."
+msgstr ""
+
+#: blocks/block-theme/event-about-items/block.json
+msgctxt "block title"
+msgid "Event About Items"
+msgstr ""
+
+#: blocks/block-theme/event-about-items/block.json
+msgctxt "block description"
+msgid "Displays event about items including cost, capacity, and other details."
+msgstr ""
+
+#: blocks/block-theme/event-categories/block.json
+msgctxt "block title"
+msgid "Event Categories"
+msgstr ""
+
+#: blocks/block-theme/event-categories/block.json
+msgctxt "block description"
+msgid "Displays event categories as pill links with a heading."
+msgstr ""
+
+#: blocks/block-theme/event-content-heading/block.json
+msgctxt "block title"
+msgid "Event Content Heading"
+msgstr ""
+
+#: blocks/block-theme/event-content-heading/block.json
+msgctxt "block description"
+msgid "Displays the 'About the Event' heading above the event content."
+msgstr ""
+
+#: blocks/block-theme/event-cta/block.json
+msgctxt "block title"
+msgid "Event CTA"
+msgstr ""
+
+#: blocks/block-theme/event-cta/block.json
+msgctxt "block description"
+msgid "Displays event cost, remaining spots, and registration button."
+msgstr ""
+
+#: blocks/block-theme/event-date/block.json
+msgctxt "block title"
+msgid "Event Date"
+msgstr ""
+
+#: blocks/block-theme/event-date/block.json
+msgctxt "block description"
+msgid "Displays event date information including recurrence and full date."
+msgstr ""
+
+#: blocks/block-theme/event-export/block.json
+msgctxt "block title"
+msgid "Event Export"
+msgstr ""
+
+#: blocks/block-theme/event-export/block.json
+msgctxt "block description"
+msgid "Displays the 'Add to Calendar' export button with calendar options."
+msgstr ""
+
+#: blocks/block-theme/event-featured-image/block.json
+msgctxt "block title"
+msgid "Event Featured Image"
+msgstr ""
+
+#: blocks/block-theme/event-featured-image/block.json
+msgctxt "block description"
+msgid "Displays the event featured image with blur effect."
+msgstr ""
+
+#: blocks/block-theme/event-location/block.json
+msgctxt "block title"
+msgid "Event Location"
+msgstr ""
+
+#: blocks/block-theme/event-location/block.json
+msgctxt "block description"
+msgid "Displays event location information including venue name and address."
+msgstr ""
+
+#: blocks/block-theme/event-organizers/block.json
+msgctxt "block title"
+msgid "Event Organizers"
+msgstr ""
+
+#: blocks/block-theme/event-organizers/block.json
+msgctxt "block description"
+msgid "Displays event organizer information including avatar, name, and summary."
+msgstr ""
+
+#: blocks/block-theme/event-tags/block.json
+msgctxt "block title"
+msgid "Event Tags"
+msgstr ""
+
+#: blocks/block-theme/event-tags/block.json
+msgctxt "block description"
+msgid "Displays event tags as pill links with a heading."
+msgstr ""
+
+#: blocks/block-theme/organizer-content/block.json
+msgctxt "block title"
+msgid "Organizer Content"
+msgstr ""
+
+#: blocks/block-theme/organizer-content/block.json
+msgctxt "block description"
+msgid "Displays organizer content using the default template."
+msgstr ""
+
+#: blocks/block-theme/series-content/block.json
+msgctxt "block title"
+msgid "Series Content"
+msgstr ""
+
+#: blocks/block-theme/series-content/block.json
+msgctxt "block description"
+msgid "Displays series content using the default template."
+msgstr ""
+
+#: blocks/block-theme/venue-content/block.json
+msgctxt "block title"
+msgid "Venue Content"
+msgstr ""
+
+#: blocks/block-theme/venue-content/block.json
+msgctxt "block description"
+msgid "Displays venue content using the default template."
+msgstr ""

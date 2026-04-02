@@ -1,0 +1,380 @@
+ /*******
+ * Attendee List
+ ******/
+
+ .evge-attendee-list {
+     margin: 20px 0;
+ }
+
+.evge-color-theme-dark {
+    color: #333;
+}
+
+ .evge-attendee-list-simple {
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.15);
+     padding: 0 15px 15px;
+ }
+
+ .evge-attendee-list p {
+     margin: 0 !important;
+     padding: 0 !important;
+ }
+
+ .evge-attendee-count {
+     display: flex;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 0 15px;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+ }
+
+ .evge-attendee-grid {
+     width: 100%;
+ }
+
+ .evge-attendee-list-items-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     gap: 20px;
+     list-style: none;
+     padding: 10px;
+     margin: 0;
+     text-align: center;
+ }
+
+ .evge-attendee-list-items li {
+     padding: 5px 0 0 0;
+     margin: 0;
+ }
+
+ .evge-attendee-list .evge-load-more {
+     display: block;
+ }
+
+ .evge-attendee-list .evge-load-more-link {
+     justify-content: center;
+ }
+
+ .evge-attendee-table {
+     margin: 16px auto;
+ }
+
+/* Full Layout - CSS Grid */
+.evge-attendee-list-full {
+    width: 100%;
+    min-width: 0;
+    flex: 1;
+}
+
+.evge-attendee-list-grid-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.evge-attendee-list-grid-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+ .evge-grid-nav {
+     box-sizing: border-box;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     background: white;
+     padding: 4px 6px;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 20px;
+     height: calc(100% + 2px);
+     z-index: 10;
+     transition: color 0.2s;
+     text-decoration: none;
+     color: #444;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+ }
+
+ .evge-grid-nav svg {
+     height: 16px;
+ }
+
+ .evge-grid-nav-prev {
+     left: -1px;
+ }
+
+ .evge-grid-nav-next {
+     right: -1px;
+ }
+
+ .evge-grid-nav:hover,
+ .evge-grid-nav:focus,
+ .evge-grid-nav:active {
+     color: #000;
+     border-color: rgba(0, 0, 0, 0.2);
+ }
+
+.evge-attendee-list-grid-header-inner {
+    display: grid;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    grid-template-columns: var(--evge-grid-template-columns, repeat(auto-fit, minmax(150px, 1fr)));
+    flex: 1;
+    min-width: 0;
+    /* Allow grid item to shrink below content size */
+}
+
+ .evge-attendee-list-grid-header-inner::-webkit-scrollbar {
+     display: none;
+     /* Chrome, Safari, Opera */
+ }
+
+.evge-grid-header-cell {
+    min-width: 150px;
+    padding: 12px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+ .evge-grid-header-cell:last-child {
+     border-right: none;
+ }
+
+ .evge-grid-header-sort {
+     background: none;
+     border: none;
+     padding: 0;
+     text-decoration: none;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     width: 100%;
+     font-weight: 600;
+     color: inherit;
+     transition: color 0.2s;
+ }
+
+ .evge-grid-header-sort:hover,
+ .evge-grid-header-sort:focus {
+     color: #000;
+     text-decoration: none;
+ }
+
+ .evge-grid-header-sort:focus:not(:focus-visible) {
+     outline: none;
+ }
+
+ .evge-grid-header-label {
+     user-select: none;
+ }
+
+ .evge-grid-header-sort-icon {
+     display: inline-block;
+     width: 0;
+     height: 0;
+     border-left: 4px solid transparent;
+     border-right: 4px solid transparent;
+     border-top: 6px solid currentColor;
+     opacity: 0.3;
+     transition: opacity 0.2s, transform 0.2s;
+ }
+
+ .evge-grid-header-sort[data-sort="asc"] .evge-grid-header-sort-icon {
+     opacity: 1;
+     transform: rotate(180deg);
+ }
+
+ .evge-grid-header-sort[data-sort="desc"] .evge-grid-header-sort-icon {
+     opacity: 1;
+     transform: rotate(0deg);
+ }
+
+.evge-attendee-list-grid-body {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    position: relative;
+}
+
+.evge-attendee-row {
+    display: grid;
+    width: 100%;
+    grid-template-columns: var(--evge-grid-template-columns, repeat(auto-fit, minmax(150px, 1fr)));
+}
+
+ .evge-attendee-row.evge-attendee-hidden {
+     display: none;
+ }
+
+.evge-grid-cell {
+    min-width: 150px;
+    padding: 12px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    box-sizing: border-box;
+}
+
+ .evge-attendee-row:last-child .evge-grid-cell {
+     border-bottom: none;
+ }
+
+ .evge-grid-cell:last-child {
+     border-right: none;
+ }
+
+ /* Responsive: Label-Value Layout for Narrow Screens */
+ /* Applied via JavaScript based on actual container width */
+ .evge-attendee-list-narrow .evge-attendee-list-grid-wrapper {
+     display: block;
+     border: none;
+     background: transparent;
+ }
+
+ .evge-attendee-list-narrow .evge-attendee-list-grid-header {
+     display: none;
+ }
+
+ .evge-attendee-list-narrow .evge-attendee-list-grid-body {
+     display: block;
+     overflow: visible;
+ }
+
+ .evge-attendee-list-narrow .evge-attendee-row {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 0;
+     padding: 12px;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 4px;
+     margin-bottom: 12px;
+     background: #fff;
+ }
+
+ .evge-attendee-list-narrow .evge-attendee-row.evge-attendee-hidden {
+     display: none;
+ }
+
+ .evge-attendee-list-narrow .evge-grid-cell {
+     display: grid;
+     grid-template-columns: 120px 1fr;
+     gap: 12px;
+     min-width: auto;
+     width: auto;
+     max-width: none;
+     flex-shrink: 1;
+     padding: 8px 0;
+     border: none;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+     align-items: start;
+ }
+
+ .evge-attendee-list-narrow .evge-grid-cell:last-child {
+     border-bottom: none;
+ }
+
+ .evge-attendee-list-narrow .evge-grid-cell::before {
+     content: attr(data-field-label);
+     font-weight: 600;
+     color: #666;
+ }
+
+ .evge-attendee-list-narrow .evge-grid-nav {
+     display: none !important;
+ }
+
+
+ .evge-attendee-list-grid-body::-webkit-scrollbar {
+     height: 8px;
+ }
+
+ .evge-attendee-list-grid-body::-webkit-scrollbar-track {
+     background: #f1f1f1;
+ }
+
+ .evge-attendee-list-grid-body::-webkit-scrollbar-thumb {
+     background: #888;
+     border-radius: 4px;
+ }
+
+ .evge-attendee-list-grid-body::-webkit-scrollbar-thumb:hover {
+     background: #555;
+ }
+
+/*******
+ * No Attendees Found
+ ******/
+
+ .evge-no-attendees {
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.evge-no-attendees-message {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.evge-no-attendees-icon {
+    color: #6c757d;
+}
+
+.evge-no-attendees-icon svg {
+    width: 34px;
+    height: 34px;
+}
+
+.evge-no-attendees h3,
+.evge-content .evge-no-attendees h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.evge-no-attendees-description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.evge-no-attendees-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .evge-no-attendees-actions {
+        flex-direction: column;
+    }
+
+    .evge-no-attendees .evge-button {
+        width: 100%;
+    }
+}

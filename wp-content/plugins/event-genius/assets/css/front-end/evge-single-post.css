@@ -1,0 +1,598 @@
+/*******
+ * Event Genius CSS
+ * Main stylesheet for single event display
+ ******/
+
+/*******
+ * Layout & Structure
+ ******/
+.evge-single-event-content-wrapper {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.evge-single-event-content,
+.evge-single-organizer{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.evge-template-theme .evge-single-event-content {
+    padding: 0;
+}
+
+.evge-event-single-col-left {
+    max-width: 100%;
+    flex: 8;
+}
+
+.evge-cta-col {
+    position: relative;
+    min-width: 200px;
+    max-width: 360px;
+}
+.evge-is-small .evge-cta-col {
+    margin: auto;
+}
+.evge-info h3 {
+    margin: 0 0 15px;
+}
+
+.evge .evge-meta p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.evge-meta .evge-event-meta-row {
+    padding: 8px 0 0 0;
+}
+
+.evge-meta .evge-meta-venue-summary:last-child {
+    padding-top: 3px;
+}
+
+.evge-event-tooltip .evge-event-list-summary {
+    padding: 0 0 10px 0;
+    margin: 0;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+.evge .evge-event-list-details h3 {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.evge .evge-event-list-details .evge-event-list-summary {
+    padding: 0 20px 0 0;
+}
+
+.evge-event-list-date {
+    font-weight: bold;
+}
+
+.evge-event-meta-item {
+    display: flex;
+    margin-bottom: 2px;
+    line-height: 1.4;
+    gap: 4px;
+}
+
+.evge-event-list-summary p:last-child {
+    margin-bottom: 10px;
+}
+
+.evge-meta-venue-summary .evge-event-meta-item {
+    display: inline-block;
+}
+
+.evge .evge-event-list-details .evge-event-meta-item {
+    gap: 8px;
+}
+
+.evge .evge-event-list-details svg {
+    height: 18px;
+    position: relative;
+    top: 1px;
+}
+
+.evge-single-event-meta p svg {
+    margin-right: 5px;
+}
+
+.evge-is-small .evge-cols,
+.evge-is-super-narrow .evge-event-item {
+    flex-direction: column;
+}
+/*******
+ * Featured Image
+ ******/
+.evge-single-event-featured-image {
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.evge-single-event-featured-image img {
+    object-fit: contain;
+    object-position: center;
+    max-height: 400px;
+}
+
+.evge-featured-image-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evge-featured-image-blur {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-position: center;
+    background-size: cover;
+    filter: blur(40px);
+    opacity: 1;
+    z-index: 1;
+}
+
+.evge-featured-image-main {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+}
+
+.evge-featured-image-main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*******
+ * Event Details & Content
+ ******/
+.evge-single-event-title {
+    margin: 0 0 20px 0;
+}
+
+.evge-single-event-title h1 {
+    margin: 0;
+}
+
+.evge-single-event-section {
+    margin: 0 0 40px;
+}
+
+.evge-icon-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.evge-multi-line-align {
+    margin-left: 28px;
+}
+
+.evge-single-about-details {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.evge-bold {
+    font-weight: bold;
+}
+
+.evge-about-detail {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 12px 14px 12px 12px;
+    border-radius: 50px;
+    font-size: 0.8em;
+    line-height: 1.2;
+}
+
+.evge-about-detail svg {
+    fill: #0F425E;
+}
+
+/*******
+ * Call to Action (CTA)
+ ******/
+
+.evge-sticky {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: sticky;
+    top: 60px;
+    font-size: 13px;
+}
+
+.evge-single-event-cost {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.evge-cta,
+.evge-single-event-cta .evge-cta,
+.evge a.evge-button.evge-cta {
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.evge-single-event-cta .evge-cta:hover,
+.evge-single-event-cta .evge-cta:active,
+a.evge-button.evge-cta:active,
+a.evge-button.evge-cta:hover,
+.evge-cta:hover,
+.evge-cta:active {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.evge-single-event-cta .evge-status-message {
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+.evge-single-event-capacity,
+.evge-already-registered,
+.evge-no-attendees {
+    text-align: center;
+}
+
+
+/*******
+ * Organizer Section
+ ******/
+.evge-organizer-follow-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 3px 4px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.evge-organizer-follow-row a {
+    height: 16px;
+    display: inline-block;
+    opacity: .7;
+    line-height: 1;
+}
+
+.evge-organizer-follow-row a:hover {
+    opacity: 1;
+}
+
+.evge-single-organizer-wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.evge-organizer-avatar {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.evge-organizer-avatar img.evge-organizer-image {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.evge-organizer-avatar .evge-featured-placeholder-wrap {
+    padding: 0;
+    border-radius: 50px;
+}
+
+.evge-organizer-avatar .evge-featured-placeholder-wrap img {
+    object-fit: unset;
+    box-sizing: unset;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    padding: 15px;
+    border-radius: 0;
+}
+
+/* Placeholder image styles for organizer avatars */
+.evge-organizer-avatar img.evge-placeholder-image {
+    object-fit: contain !important;
+    object-position: center;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.evge-organizer-title {
+    font-weight: 600;
+}
+
+
+
+
+
+/*******
+ * Series Event CTA (for events added via settings)
+ ******/
+.evge-series-event-cta {
+    display: flex;
+    gap: 10px;
+
+}
+
+.evge-series-event-cta .evge-export-list {
+    width: 100%;
+    justify-content: center;
+}
+
+/* CTA positioned below date-detail for recurrence-only series */
+.evge-series-event-cta.evge-cta-below-date {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+    min-width: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.evge-series-event-cta.evge-cta-below-date .evge-export-list {
+    width: auto;
+    flex: 0 0 auto;
+}
+
+/* CTA positioned below content for manually added events (non-recurring) */
+.evge-series-event-cta.evge-cta-below-content {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+    min-width: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.evge-series-event-cta.evge-cta-below-content .evge-export-list {
+    width: auto;
+    flex: 0 0 auto;
+}
+
+.evge-event-item .evge-event-details {
+    flex: 1;
+}
+.evge-event-details h4 {
+    margin: 0 0 5px 0;
+}
+
+/*******
+ * Export List
+ ******/
+.evge-export-list-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.evge-export-options-dropdown {
+    position: absolute;
+    border: 1px solid #CECECE;
+    display: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #F7F5F5;
+}
+
+.evge-export-options-dropdown a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.2;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.evge-export-options-dropdown a:hover {
+    cursor: pointer;
+}
+
+.evge-secondary.evge-export-list,
+.evge-secondary.evge-gray-button,
+.evge-series-event-cta .evge-cta {
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+}
+.evge-secondary.evge-export-list,
+.evge-secondary.evge-gray-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #333;
+}
+
+
+.evge-secondary.evge-export-list:hover,
+.evge-secondary.evge-export-list:active,
+.evge-secondary.evge-export-list:focus,
+.evge-secondary.evge-gray-button:hover,
+.evge-secondary.evge-gray-button:active,
+.evge-secondary.evge-gray-button:focus {
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #333;
+}
+
+
+/*******
+ * Media Queries
+ ******/
+@media all and (max-width: 695px) {
+    .single-evge_event .evge-is-small .evge-sticky {
+        top: unset;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 999997;
+        padding: 10px 20px;
+        background: #fff;
+        box-sizing: border-box;
+        box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+    }
+    .evge-single-event-cost {
+        margin: 0;
+        line-height: 1.2;
+    }
+    .evge-single-event-cta .evge-cta {
+        margin: 8px 0;
+    }
+    .single-evge_event .evge {
+        padding-bottom: 50px;
+    }
+    .single-evge_event .evge-secondary {
+        background: #fff;
+    }
+}
+
+.evge-is-small .evge-profile-content {
+    display: inline-block;
+    padding: 0;
+}
+
+.evge-is-small .evge-left-column {
+    max-width: 400px;
+}
+
+.evge-is-small .evge-featured-image {
+    margin-bottom: 0;
+}
+
+/**
+ * Venue Section
+ ******/
+.evge-single-venue {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.evge-single-venue .evge-profile-content {
+    padding: 20px 0 40px 0;
+    gap: 60px;
+}
+
+.evge-single-venue .evge-hero {
+    margin-bottom: 0;
+}
+
+.evge-single-venue .evge-hero img {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.evge-single-venue .evge-social-links {
+    padding: 10px 0 35px 0;
+}
+
+.evge-single-venue #evge-venue-iframe,
+.evge-single-venue .evge-map-wrap {
+    margin: 0;
+}
+
+.evge-single-venue .evge-venue-details .evge-icon-link {
+    padding: 0;
+}
+
+.evge.evge-single-venue .evge-address {
+    align-items: unset;
+    line-height: 1.3;
+}
+
+.evge-single-venue .evge-address .evge-icon {
+    position: relative;
+    top: 5px;
+}
+
+/** Block Theme Editor Styles
+ ******/
+.block-editor-iframe__body .evge-featured-image-wrapper .evge-featured-image-main {
+    width: 100% !important;
+}
+
+/** Block Theme Frontend Styles
+ ******/
+/* Remove default margin/padding from inner elements */
+.wp-block .evge-event-meta-item,
+.wp-block .evge-event-meta-row,
+.wp-block .evge-single-about-details {
+    margin: 0;
+    padding: 0;
+}
+:root :where(.is-layout-flow) .evge-block-event-date,
+:root :where(.is-layout-flow) .evge-block-event-location,
+:root :where(.is-layout-flow) .evge-block-event-about-items {
+    margin: 0;
+}
+:root :where(.is-layout-flow)> h1,
+:root :where(.is-layout-flow)> h3 {
+    margin-bottom: 20px;
+}
+/* Block theme column widths - override flex-basis with flex ratio */
+.wp-block-columns.evge-cols .wp-block-column.evge-event-single-col-left {
+    flex: 8 !important;
+    max-width: 100%;
+}
+
+.wp-block-columns.evge-cols .wp-block-column.evge-cta-col {
+    position: relative;
+    min-width: 200px;
+    max-width: 360px;
+    flex: 1 1 auto !important;
+}
+.evge .evge-content .wp-block-group .evge-event-meta-row,
+.evge .evge-content .wp-block-group .evge-event-meta-row p {
+    padding: 2px 0;
+}
+.evge .wp-block-group .evge-event-meta-item svg,
+.evge .evge-content .wp-block-group .evge-event-meta-row svg {
+    margin-right: 3px;
+}
+.evge .evge-content .wp-block-group .evge-event-meta-heading {
+    margin-top: 40px;
+}

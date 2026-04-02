@@ -1,0 +1,591 @@
+/*******
+ * Event Genius Registration Form CSS
+ * Styles for registration forms and modals
+ ******/
+
+/*******
+ * Layout & Structure
+ ******/
+
+.evge-registration-form-wrap,
+.evge-management-wrap {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+[role=region].evge-registration-form-fields {
+    position: static;
+}
+.evge-registration-form-wrap h3 {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.evge-field-wrapper {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.evge-form-button-wrapper {
+    padding: 15px 0 0;
+}
+
+#evge-registration-form {
+    width: 100%;
+    background: inherit;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#evge-registration-form label {
+    color: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+#evge-registration-form input,
+#evge-registration-form select,
+#evge-registration-form textarea {
+    margin: inherit;
+}
+
+/*******
+ * Form Fields & Inputs
+ ******/
+.evge-field-wrapper input[type=email],
+.evge-field-wrapper input[type=tel],
+.evge-field-wrapper input[type=text],
+.evge-field-wrapper input[type=file],
+.evge-field-wrapper input[type=date],
+.evge-field-wrapper input[type=file],
+.evge-field-wrapper select,
+.evge-field-wrapper textarea {
+    padding: 6px 10px;
+    height: auto;
+    min-width: auto;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+/*******
+ * Readonly Fields
+ ******/
+.evge-field-wrapper.evge-field-readonly input[readonly],
+.evge-field-wrapper.evge-field-readonly textarea[readonly] {
+    background-color: #f5f5f5;
+    color: #666;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+
+.evge-field-wrapper.evge-field-readonly select[disabled] {
+    background-color: #f5f5f5;
+    color: #666;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+
+.evge-field-wrapper.evge-field-readonly {
+    opacity: 0.8;
+}
+
+.evge-field-wrapper.evge-field-readonly .evge-label-wrapper label {
+    color: #666;
+    font-style: italic;
+}
+
+.evge-field-wrapper-evge_user_comments {
+    display: none;
+}
+
+.evge-registration-form-wrap .evge-field-wrapper * {
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.evge-label-wrapper {
+    padding-bottom: 4px;
+}
+
+.evge-radio-checkbox-input {
+    display: flex;
+    margin: 2px 0;
+    gap: 6px;
+}
+
+.evge-radio-checkbox-input input {
+    margin: 0;
+    line-height: 1;
+}
+
+.evge-registration-form .evge-input-wrapper {
+    display: flex;
+    gap: 5px;
+}
+
+/*******
+ * Terms and Conditions Box
+ ******/
+.evge-single-checkbox-wrapper {
+    width: 100%;
+}
+
+.evge-terms-and-conditions-box {
+    box-sizing: border-box;
+    margin: 10px 0 0 16px;
+    width: calc(100% - 16px);
+    border: 1px solid #ccc;
+    background-color: #fdfdfd;
+    padding: 12px;
+    max-height: 120px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.evge-terms-and-conditions-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.evge-modal .evge-terms-and-conditions-content p,
+.evge-terms-and-conditions-content p {
+    margin: 0 0 10px 0;
+}
+
+.evge-terms-and-conditions-content p:last-child {
+    margin-bottom: 0;
+}
+/*******
+ * Form Validation & Errors
+ ******/
+.evge-field-error {
+    display: none;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.evge-has-error .evge-field-error {
+    display: inline-block !important;
+}
+
+.evge-cancel-form-wrap .evge-has-error .evge-field-error {
+    margin-top: 10px;
+}
+.evge-additional-guests-tabs .evge-guest-tab.evge-has-error {
+    border-color: #DB8E69;
+    background-color: #FFECE4;
+    color: #74371B;
+}
+.evge-additional-guests-tabs .evge-guest-tab.evge-has-error .evge-guest-tab-text {
+    color: #74371B;
+}
+.evge-field-wrapper.evge-has-error {
+    padding: 4px;
+    border: 1px solid #DB8E69;
+    border-radius: 3px;
+    background: #FFECE4;
+    color: #74371B;
+}
+
+.evge-cancel-form-wrap .evge-field-wrapper.evge-has-error {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+/*******
+ * Modal Styles
+ ******/
+.evge-modal h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: inherit;
+}
+.evge-message-default h3 {
+    margin-bottom: 10px;
+}
+.evge-modal .evge-meta p,
+.evge-modal p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.evge-modal .evge-modal-title {
+    font-size: 32px;
+    line-height: 1.1;
+    padding: 5px 0 10px 0;
+}
+
+.evge-modal .evge-meta p svg {
+    margin-right: 3px;
+}
+
+.evge-modal .evge-already-registered-modal {
+    padding: 0 10px;
+}
+
+.evge-modal .evge-already-registered-modal .evge-meta .evge-event-meta-row {
+    padding-top: 2px;
+}
+
+.evge-modal .evge-already-registered-modal .evge-meta .evge-meta-venue-summary:last-child {
+    padding-top: 0;
+}
+
+.evge-modal .evge-field-wrapper input,
+.evge-modal .evge-field-wrapper input[type=email],
+.evge-modal .evge-field-wrapper input[type=tel],
+.evge-modal .evge-field-wrapper input[type=text],
+.evge-modal .evge-field-wrapper select,
+.evge-modal .evge-field-wrapper textarea {
+    color: #555;
+    border: 1px solid #bbb;
+    background: rgba(255,255,255,0.8);
+    transition: all .2s linear;
+}
+
+.evge-modal .evge-field-wrapper input:focus,
+.evge-modal .evge-field-wrapper input[type=email]:focus,
+.evge-modal .evge-field-wrapper input[type=tel]:focus,
+.evge-modal .evge-field-wrapper input[type=text]:focus,
+.evge-modal .evge-field-wrapper select:focus,
+.evge-modal .evge-field-wrapper textarea:focus {
+    color: #222;
+    background-color: rgba(255,255,255,1);
+    border-color: #666;
+    outline: 0;
+}
+
+/*******
+ * Cancel Form
+ ******/
+#evge-cancel-form {
+    display: flex;
+    gap: 10px;
+}
+
+#evge-cancel-form .evge-field-wrapper {
+    width: 100%;
+}
+
+#evge-cancel-form #evge-cancel-submit {
+    padding: 10px 25px;
+    font-size: 14px;
+}
+
+.evge-cancel-form .evge-input-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.evge-cancel-form .evge-label-wrapper label {
+    font-size: 14px;
+}
+
+.evge-cancel-form-wrap {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.evge-cancel-form-wrap .evge-modal-section-heading {
+    font-size: 18px;
+}
+
+.evge-cancel-form-wrap p {
+    margin: 15px 0 25px 0;
+}
+
+.evge-cancel-form-wrap .evge-message-center div {
+    padding: 0;
+    margin: 0;
+}
+
+.evge-cancel-form-wrap .evge-message-center .evge-status-message {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.evge-cancel-form-wrap .evge-alert-icon {
+    width: 36px;
+    height: 36px;
+    background: #D37362;
+}
+
+.evge-cancel-form-wrap .evge-alert-icon svg {
+    width: 16px;
+    fill: #fff;
+}
+
+.evge-cancel-form-wrap .evge-cancel-request-message {
+    text-align: left;
+    font-size: 16px;
+}
+
+/*******
+ * Standalone Registration Form
+ ******/
+.evge-registration-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.evge-registration-header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.evge-registration-header .evge-event-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.evge-registration-header .evge-event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.evge-registration-header .evge-event-venue,
+.evge-registration-header .evge-event-date {
+    margin-bottom: 5px;
+}
+
+.evge-registration-closed,
+.evge-registration-not-open {
+    padding: 20px;
+    width: 100%;
+}
+
+.evge-error-message {
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.evge-registration-form-container .evge-registration-form-fields {
+    padding: 20px;
+}
+
+.evge-standalone-registration-form .evge-form-button-wrapper {
+    padding: 0 0 10px;
+}
+.evge-standalone-registration-form-container-inner .evge-num-registrations,
+.evge-standalone-registration-form-container-inner .evge-additional-guests-button-container,
+.evge-standalone-registration-form-container-inner .evge-additional-guests-tabs {
+    padding: 0 20px;
+}
+
+.evge-standalone-registration-form-container-inner .evge-num-registrations {
+    padding-top: 20px
+}
+
+.evge-standalone-registration-form-container-inner .evge-additional-guests-button-container {
+    padding-bottom: 20px;
+}
+
+.evge-standalone-registration-form-container-inner .evge-additional-guests-tabs {
+    margin: 20px 0 0;
+}
+.evge-standalone-registration-form-container-inner #evge-additional-guests-button {
+    margin-top: 0;
+}
+.evge-registration-form-container .evge-form-button {
+    padding: 12px 25px;
+    background-color: #1A79C1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1.2;
+    transition: background-color 0.3s;
+}
+
+.evge-registration-form-container .evge-form-button:hover {
+    background-color: #156aa8;
+}
+
+/*******
+ * Elementor Fixes
+ ******/
+.evge-registration-form br {
+    display: none !important;
+}
+
+.evge-standalone-registration-form p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*******
+ * Registration Counter
+ ******/
+.evge-num-registrations {
+    font-size: 16px;
+}
+
+.evge-num-registrations strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.evge-num-registrations-counter-wrap {
+    width: auto;
+    display: inline-block;
+}
+
+.evge-num-registrations-counter {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border-radius: 5px;
+    width: auto;
+    font-size: 20px;
+}
+
+.evge-count {
+    text-align: center;
+}
+
+.evge-count-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 30px;
+    line-height: 1;
+    text-align: center;
+    border-top: 1px solid #CEE1EC;
+    border-bottom: 1px solid #CEE1EC;
+}
+
+.evge-counter-button,
+.evge-modal.evge-modal-dark .evge-counter-button {
+    background: #163A5D;
+    color: #fff;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.evge-counter-button svg {
+    height: 20px;
+    opacity: .9
+}
+
+.evge-counter-button:not(.evge-button-disabled):hover svg,
+.evge-counter-button:not(.evge-button-disabled):active svg {
+    fill: #fff;
+    opacity: 1;
+}
+
+.evge-button-disabled {
+    background: #CEE1EC;
+    color: #6D97AD;
+}
+
+.evge-counter-button:not(.evge-button-disabled):hover {
+    cursor: pointer;
+}
+
+.evge-subtract {
+    border-radius: 5px 0 0 5px;
+}
+
+.evge-add {
+    border-radius: 0 5px 5px 0;
+}
+
+/*******
+ * Media Queries
+ ******/
+@media all and (max-width: 600px) {
+    .evge-cancel-form .evge-input-wrapper {
+        display: block;
+    }
+
+    #evge-cancel-form #evge-cancel-submit {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .evge-modal .evge-already-registered-modal .evge-meta .evge-event-meta-row {
+        margin-bottom: 10px;
+    }
+
+    .evge-cancel-form-wrap {
+        padding: 20px 20px;
+    }
+
+    .evge-registration-header .evge-event-meta {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .evge-modal .evge-already-registered-modal {
+        padding: 0 5px;
+    }
+}
+@media all and (max-width: 724px) {
+    /* Add extra bottom padding on mobile for easier scrolling to submit button */
+    .evge-form-button-wrapper,
+    .evge-modal-submit-wrapper {
+        padding-bottom: 100px;
+    }
+}
+@media all and (max-width: 480px) {
+    .evge-cancel-form-wrap {
+        padding: 15px;
+    }
+
+    .evge-modal .evge-already-registered-modal {
+        padding: 0;
+    }
+}
+
+/*******
+ * Registration Form Block Styles
+ ******/
+.evge-registration-form-block h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.evge-registration-form-block p,
+.evge-registration-form-block .evge-single-event-section {
+    margin: 0;
+}
+.evge-registration-form-block .evge-status-message {
+    margin: 20px;
+}
+.evge-registration-form-block .evge-registration-form-block-with-info button.evge-modal-trigger,
+.evge-registration-form-block-with-info button.evge-modal-trigger {
+    margin-top: 20px;
+}
+.evge-registration-form-block .evge-registration-form-block-with-info .evge-status-message,
+.evge-registration-form-block-with-info .evge-status-message {
+    margin-top: 20px;
+}

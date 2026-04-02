@@ -1,0 +1,15 @@
+.faefirework {
+  animation: faeFireworkExplode 700ms ease-out forwards;
+}
+
+@keyframes faeFireworkExplode {
+  from {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translate(var(--x), var(--y)) scale(0.3);
+    opacity: 0;
+  }
+}
+

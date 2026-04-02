@@ -1,0 +1,47 @@
+/* Disabled row styling for event settings */
+.evge-disabled-row {
+	opacity: 0.6;
+}
+
+.evge-disabled-row .evge-settings-toggle-wrap {
+	cursor: not-allowed !important;
+}
+
+.evge-disabled-row .evge-settings-toggle {
+	background-color: #f0f0f0 !important;
+	color: #999 !important;
+	border-color: #ddd !important;
+}
+
+.evge-disabled-row .evge-settings-toggle:hover {
+	background-color: #f0f0f0 !important;
+	color: #999 !important;
+	border-color: #ddd !important;
+}
+
+/* Container styling when it has disabled elements */
+.evge-has-disabled-elements {
+	position: relative;
+}
+
+.evge-has-disabled-elements::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.1);
+	pointer-events: none;
+	border-radius: 4px;
+}
+
+/* Disabled checkbox styling */
+.evge-disabled-row input[type="checkbox"] {
+	cursor: not-allowed !important;
+}
+
+.evge-disabled-row input[type="checkbox"]:checked {
+	background-color: #f0f0f0 !important;
+	border-color: #ddd !important;
+}

@@ -1,0 +1,248 @@
+/**
+ * Front-end Admin Notices CSS
+ * 
+ * Minimal, efficient styling for admin notices on the front-end.
+ * Only loads for users with appropriate capabilities.
+ */
+
+/* Notice Container */
+.evge-frontend-admin-notices {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999999;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Individual Notice */
+.evge-frontend-notice {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 12px;
+    overflow: hidden;
+    animation: evge-notice-slide-in 0.3s ease-out;
+}
+
+/* Notice Content Layout */
+.evge-frontend-notice-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    position: relative;
+}
+
+.evge-frontend-notice-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding-right: 30px; /* Space for dismiss button */
+}
+
+/* Notice Icon */
+.evge-frontend-notice-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evge-frontend-notice-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Notice Text Area */
+.evge-frontend-notice-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.evge-frontend-notice-title {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #333;
+}
+
+.evge-frontend-notice-message {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #666;
+}
+
+/* Notice Actions */
+.evge-frontend-notice-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.evge-frontend-notice-action {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    background: #0073aa;
+    color: #fff;
+    transition: background-color 0.2s ease;
+}
+
+.evge-frontend-notice-action:hover {
+    background: #005a87;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Dismiss Button */
+.evge-frontend-notice-dismiss {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #999;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.evge-frontend-notice-dismiss:hover {
+    background: #f0f0f0;
+    color: #666;
+}
+
+.evge-frontend-notice-dismiss svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Notice Type Variations */
+.evge-frontend-notice-warning {
+    border-left: 4px solid #ffb900;
+}
+
+.evge-frontend-notice-warning .evge-frontend-notice-icon {
+    color: #ffb900;
+}
+
+.evge-frontend-notice-error {
+    border-left: 4px solid #dc3232;
+}
+
+.evge-frontend-notice-error .evge-frontend-notice-icon {
+    color: #dc3232;
+}
+
+.evge-frontend-notice-info {
+    border-left: 4px solid #0073aa;
+}
+
+.evge-frontend-notice-info .evge-frontend-notice-icon {
+    color: #0073aa;
+}
+
+.evge-frontend-notice-success {
+    border-left: 4px solid #46b450;
+}
+
+.evge-frontend-notice-success .evge-frontend-notice-icon {
+    color: #46b450;
+}
+
+/* Animation */
+@keyframes evge-notice-slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Dismiss Animation */
+.evge-frontend-notice.evge-dismissing {
+    animation: evge-notice-slide-out 0.3s ease-in forwards;
+}
+
+@keyframes evge-notice-slide-out {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+	.evge-frontend-admin-notices {
+		top: 10px;
+		right: 10px;
+		left: 10px;
+		max-width: none;
+	}
+	
+	.evge-frontend-notice-content {
+		padding: 12px;
+	}
+	
+	.evge-frontend-notice-top {
+		padding-right: 25px; /* Slightly less space on mobile */
+	}
+	
+	.evge-frontend-notice-dismiss {
+		top: 8px;
+		right: 8px;
+	}
+	
+	.evge-frontend-notice-title {
+		font-size: 13px;
+	}
+	
+	.evge-frontend-notice-message {
+		font-size: 12px;
+	}
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .evge-frontend-notice {
+        border-width: 2px;
+    }
+
+    .evge-frontend-notice-action {
+        border: 1px solid currentColor;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .evge-frontend-notice {
+        animation: none;
+    }
+
+    .evge-frontend-notice.evge-dismissing {
+        animation: none;
+    }
+}

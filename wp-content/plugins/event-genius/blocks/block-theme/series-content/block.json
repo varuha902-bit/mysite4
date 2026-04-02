@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp-event-genius/series-content",
+	"title": "Series Content",
+	"category": "event-genius",
+	"description": "Displays series content using the default template.",
+	"textdomain": "event-genius",
+	"editorScript": "file:./build/index.js",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"usesContext": [ "postId", "postType" ]
+}

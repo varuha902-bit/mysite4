@@ -1,0 +1,88 @@
+{
+    "name": "eventgenius/evge",
+    "description": "WordPress event management plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "WPEventGenius\\": "WPEventGenius/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.4",
+        "spatie/icalendar-generator": "^1.0"
+    },
+    "require-dev": {
+        "humbug/php-scoper": "0.17.5"
+    },
+    "scripts": {
+        "prefix-dependencies": [
+            "rm -rf build",
+            "mkdir -p build/prefixed build/temp",
+            "cp composer.json build/temp/",
+            "composer install --no-dev --optimize-autoloader --no-scripts --prefer-dist --working-dir=build/temp",
+            "cp -r scoper.inc.php build/temp/",
+            "php-scoper add-prefix --output-dir=../prefixed --force --working-dir=build/temp",
+            "echo '{\"autoload\":{\"classmap\":[\"\"]}}' > build/prefixed/composer.json",
+            "cd build/prefixed && composer dump-autoload",
+            "rm -rf build/temp"
+        ],
+        "build": [
+            "@prefix-dependencies"
+        ],
+        "make-dist": [
+            "composer install --no-dev",
+            "@prefix-dependencies",
+            "rm -rf vendor/spatie",
+            "composer dump-autoload",
+            "rm -rf dist",
+            "mkdir -p dist/event-genius",
+            "cp -r WPEventGenius dist/event-genius/",
+            "cp -r admin dist/event-genius/",
+            "cp -r assets dist/event-genius/",
+            "mkdir -p dist/event-genius/blocks/registration-form",
+            "mkdir -p dist/event-genius/blocks/calendar",
+            "mkdir -p dist/event-genius/blocks/attendee-list",
+            "cp -r blocks/registration-form/build/*.js dist/event-genius/blocks/registration-form/",
+            "cp -r blocks/calendar/build/*.js dist/event-genius/blocks/calendar/",
+            "cp -r blocks/attendee-list/build/*.js dist/event-genius/blocks/attendee-list/",
+            "cp blocks/registration-form/src/index.js dist/event-genius/blocks/registration-form/index.unminified.js",
+            "cp blocks/calendar/src/index.js dist/event-genius/blocks/calendar/index.unminified.js",
+            "cp blocks/attendee-list/src/index.js dist/event-genius/blocks/attendee-list/index.unminified.js",
+            "cp -r languages dist/event-genius/",
+            "cp -r templates dist/event-genius/",
+            "cp event-genius.php dist/event-genius/",
+            "cp uninstall.php dist/event-genius/",
+            "cp readme.txt dist/event-genius/",
+            "cp composer.json dist/event-genius/",
+            "mkdir -p dist/event-genius/vendor",
+            "cp -r vendor/composer dist/event-genius/vendor/",
+            "cp -r vendor/autoload.php dist/event-genius/vendor/",
+            "mkdir -p dist/event-genius/build/prefixed",
+            "cp -r build/prefixed/* dist/event-genius/build/prefixed/",
+            "rm -rf dist/event-genius/.git",
+            "rm -rf dist/event-genius/.DS_Store",
+            "rm -rf dist/event-genius/phpcs.xml",
+            "rm -rf dist/event-genius/webpack.config.js",
+            "rm -rf dist/event-genius/package.json",
+            "rm -rf dist/event-genius/README.md",
+            "rm -rf dist/event-genius/docs",
+            "rm -rf dist/event-genius/blocks/*/node_modules",
+            "rm -rf dist/event-genius/blocks/*/.git",
+            "rm -rf dist/event-genius/blocks/*/package.json",
+            "rm -rf dist/event-genius/blocks/*/package-lock.json",
+            "rm -rf dist/event-genius/blocks/*/src",
+            "rm -rf dist/event-genius/blocks/*/.babelrc",
+            "rm -rf dist/event-genius/blocks/*/.eslintrc",
+            "rm -rf dist/event-genius/blocks/*/tsconfig.json",
+            "rm -rf dist/event-genius/blocks/*/webpack.config.js",
+            "cd dist && zip -r event-genius.zip event-genius"
+        ]
+    }
+}

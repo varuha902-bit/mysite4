@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp-event-genius/event-featured-image",
+	"title": "Event Featured Image",
+	"category": "event-genius",
+	"description": "Displays the event featured image with blur effect.",
+	"textdomain": "event-genius",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": [ "evge_common", "evge_single_post" ],
+	"style": [ "evge_common", "evge_single_post" ],
+	"attributes": {
+		"eventId": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}

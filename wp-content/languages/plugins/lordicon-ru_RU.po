@@ -1,0 +1,59 @@
+# Translation of Plugins - Lordicon - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Lordicon - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-03-27 14:51:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Lordicon - Stable (latest release)\n"
+
+#: dist/block.json
+msgctxt "block description"
+msgid "Animated Icon Block."
+msgstr "Блок анимированных значков."
+
+#: dist/block.json
+msgctxt "block title"
+msgid "Lordicon"
+msgstr "Lordicon"
+
+#. translators: %s is the number of Lordicon files
+#: includes/class-plugin.php:233
+msgid "Lordicon File <span class=\"count\">(%s)</span>"
+msgid_plural "Lordicon Files <span class=\"count\">(%s)</span>"
+msgstr[0] "Файлы Lordicon <span class=\"count\">(%s)</span>"
+msgstr[1] "Файлы Lordicon <span class=\"count\">(%s)</span>"
+msgstr[2] "Файлы Lordicon <span class=\"count\">(%s)</span>"
+
+#: includes/class-plugin.php:231
+msgid "Manage Lordicon Files"
+msgstr "Управление файлами Lordicon"
+
+#: includes/class-plugin.php:230
+msgid "Lordicon Files"
+msgstr "Файлы Lordicon"
+
+#. Author URI of the plugin
+#: lordicon.php
+msgid "https://lordicon.com/"
+msgstr "https://lordicon.com/"
+
+#. Description of the plugin
+#: lordicon.php
+msgid "Insert and customize interactive, animated icons."
+msgstr "Вставляйте и настраивайте интерактивные анимированные значки."
+
+#. Plugin URI of the plugin
+#: lordicon.php
+msgid "https://lordicon.com/wordpress-plugin"
+msgstr "https://lordicon.com/wordpress-plugin"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: lordicon.php
+msgid "Lordicon"
+msgstr "Lordicon"

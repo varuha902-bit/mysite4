@@ -1,0 +1,36 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; 
+}
+?>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- END MAIN CONTENT AREA -->
+				</table>
+				<!-- START FOOTER -->
+				<div class="footer" style="clear:both;padding-top:10px;text-align:center;width:100%;">
+					<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;">
+						<tr>
+							<td class="content-block" style="font-family:sans-serif;font-size:14px;vertical-align:top;color:#999999;font-size:12px;text-align:center;">
+								<?php
+								$blog_url = get_bloginfo( 'url' );
+								$email_footer_url = isset( $blog_url ) ? $blog_url : '';
+								$email_footer_text = get_bloginfo( 'name' ) . ', ' . get_bloginfo( 'description' );
+								?>
+								<span class="apple-link" style="color:#999999;font-size:12px;text-align:center;"><a href="<?php echo esc_url( $email_footer_url ); ?>" style="font-size:12px;text-align:center;"><?php echo esc_html( $email_footer_text ); ?></a></span>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- END FOOTER -->
+				<!-- END CENTERED WHITE CONTAINER -->
+			</div>
+		</td>
+		<td style="font-family:sans-serif;font-size:14px;vertical-align:top;">&nbsp;</td>
+	</tr>
+</table>
+</body>
+</html>

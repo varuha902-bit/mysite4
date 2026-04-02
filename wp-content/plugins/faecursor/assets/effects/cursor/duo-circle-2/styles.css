@@ -1,0 +1,29 @@
+.faecircle {
+  position: fixed;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  will-change: transform;
+  transition: opacity 0.3s ease;
+  left: 0;
+  top: 0;
+}
+
+/* Duplicate trailing circle */
+.faeduplicate {
+  position: fixed;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9998;
+  will-change: transform;
+  transition: opacity 0.3s ease;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+}

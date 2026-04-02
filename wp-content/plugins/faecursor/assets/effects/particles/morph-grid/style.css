@@ -1,0 +1,10 @@
+/* FaeCursor Particle Effect - Morph Grid */
+#fae-morph-grid,
+.fae-particle-canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}

@@ -1,0 +1,2735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sitemap by BestWebSoft\n"
+"POT-Creation-Date: 2024-11-08 15:31+0200\n"
+"PO-Revision-Date: 2024-11-08 15:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: google-sitemap-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+# automatic translation
+#: bws_menu/bws_functions.php:95 bws_menu/bws_functions.php:298
+msgid "requires"
+msgstr "kræver"
+
+# automatic translation
+#: bws_menu/bws_functions.php:97
+msgid ""
+"or higher, that is why it has been deactivated! Please upgrade WordPress and "
+"try again."
+msgstr ""
+"eller højere, det er derfor, den er blevet deaktiveret! Opgrader venligst "
+"WordPress og prøv igen."
+
+# automatic translation
+#: bws_menu/bws_functions.php:98
+msgid "Back to the WordPress"
+msgstr "Tilbage til WordPress"
+
+# automatic translation
+#: bws_menu/bws_functions.php:100
+msgid "Plugins page"
+msgstr "Plugins-side"
+
+# automatic translation
+#: bws_menu/bws_functions.php:124
+msgid "Like the plugin?"
+msgstr "Kan du lide plugin'et?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:125
+#, php-format
+msgid "%s reviews"
+msgstr "%s anmeldelser"
+
+# automatic translation
+#: bws_menu/bws_functions.php:126
+msgid "Rate it"
+msgstr "Bedøm det"
+
+# automatic translation
+#: bws_menu/bws_functions.php:135
+msgid "Need help?"
+msgstr "Brug for hjælp?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:136 bws_menu/bws_functions.php:1409
+#: bws_menu/class-bws-settings.php:1207
+msgid "Visit Help Center"
+msgstr "Besøg Help Center"
+
+# automatic translation
+#: bws_menu/bws_functions.php:139
+msgid "Want to support the plugin?"
+msgstr "Vil du støtte plugin'et?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:140 bws_menu/bws_menu.php:708
+msgid "Donate"
+msgstr "Doner"
+
+# automatic translation
+#: bws_menu/bws_functions.php:170
+msgid "WARNING: Illegal use notification"
+msgstr "ADVARSEL: Meddelelse om ulovlig brug"
+
+# automatic translation
+#: bws_menu/bws_functions.php:170
+msgid ""
+"You can use one license of the Pro plugin for one domain only. Please check "
+"and edit your license or domain if necessary using your personal Client "
+"Area. We strongly recommend you to solve the problem within 24 hours, "
+"otherwise the Pro plugin will be deactivated."
+msgstr ""
+"Du kan kun bruge én licens til Pro-plugin'et til ét domæne. Kontroller og "
+"rediger din licens eller dit domæne, hvis det er nødvendigt, ved hjælp af "
+"dit personlige klientområde. Vi anbefaler på det kraftigste, at du løser "
+"problemet inden for 24 timer, ellers bliver Pro-plugin'et deaktiveret."
+
+# automatic translation
+#: bws_menu/bws_functions.php:170 bws_menu/bws_functions.php:262
+#: bws_menu/bws_menu.php:805 bws_menu/class-bws-settings.php:194
+#: google-sitemap-plugin.php:1717 google-sitemap-plugin.php:1735
+#: google-sitemap-plugin.php:1841 google-sitemap-plugin.php:1881
+#: google-sitemap-plugin.php:1911 google-sitemap-plugin.php:1953
+#: includes/class-gglstmp-settings.php:517 includes/pro_banners.php:71
+#: includes/pro_banners.php:141
+msgid "Learn More"
+msgstr "Lær mere"
+
+# automatic translation
+#: bws_menu/bws_functions.php:189
+msgid ""
+"Notice: Your Pro Trial license has expired. To continue using the plugin, "
+"you should buy a Pro license"
+msgstr ""
+"Meddelelse: Din Pro Trial-licens er udløbet. Hvis du vil fortsætte med at "
+"bruge pluginet, skal du købe en Pro-licens"
+
+# automatic translation
+#: bws_menu/bws_functions.php:191
+msgid ""
+"Your license has expired. To continue getting top-priority support and "
+"plugin updates, you should extend it."
+msgstr ""
+"Din licens er udløbet. For fortsat at få support og plugin-opdateringer af "
+"højeste prioritet bør du forlænge den."
+
+# automatic translation
+#: bws_menu/bws_functions.php:191 bws_menu/bws_functions.php:282
+msgid "Learn more"
+msgstr "Lær mere"
+
+# automatic translation
+#: bws_menu/bws_functions.php:211
+#, php-format
+msgid "Notice: You are using the Pro Trial license of %s plugin."
+msgstr "Bemærk: Du bruger Pro Trial-licensen af %s plugin."
+
+# automatic translation
+#: bws_menu/bws_functions.php:213
+msgid "Notice: You are using the Pro Trial license of plugin."
+msgstr "Bemærk: Du bruger Pro Trial-licensen af plugin."
+
+# automatic translation
+#: bws_menu/bws_functions.php:216
+msgid "The Pro Trial license will expire on"
+msgstr "Pro Trial-licensen udløber den"
+
+# automatic translation
+#: bws_menu/bws_functions.php:253 bws_menu/bws_functions.php:278
+#: bws_menu/bws_functions.php:328 bws_menu/bws_functions.php:338
+#: bws_menu/bws_functions.php:387 bws_menu/bws_functions.php:680
+#: bws_menu/bws_functions.php:777
+msgid "Close notice"
+msgstr "Luk meddelelsen"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "It’s time to upgrade your"
+msgstr "Det er tid til at opgradere din"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "to"
+msgstr "til"
+
+# automatic translation
+#: bws_menu/bws_functions.php:258
+msgid "version!"
+msgstr "version!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:259
+msgid "Extend standard plugin functionality with new great options."
+msgstr "Udvid standard plugin-funktionaliteten med nye fantastiske muligheder."
+
+# automatic translation
+#: bws_menu/bws_functions.php:282
+#, php-format
+msgid ""
+"Your license key for %1$s expires on %2$s and you won't be granted TOP-"
+"PRIORITY SUPPORT or UPDATES."
+msgstr ""
+"Din licensnøgle til %1$s udløber den %2$s, og du får ikke TOP-PRIORITY-"
+"SUPPORT eller OPDATERINGER."
+
+# automatic translation
+#: bws_menu/bws_functions.php:300
+msgid ""
+"or higher! We do not guarantee that our plugin will work correctly. Please "
+"upgrade to WordPress latest version."
+msgstr ""
+"eller højere! Vi kan ikke garantere, at vores plugin fungerer korrekt. "
+"Opgrader venligst til den nyeste version af WordPress."
+
+# automatic translation
+#: bws_menu/bws_functions.php:318
+#, php-format
+msgid "Thank you for installing %s plugin!"
+msgstr "Tak, fordi du installerede %s plugin!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:320
+msgid "Let's get started"
+msgstr "Lad os komme i gang"
+
+# automatic translation
+#: bws_menu/bws_functions.php:321 bws_menu/bws_functions.php:354
+#: bws_menu/bws_menu.php:714 bws_menu/bws_menu.php:716
+#: google-sitemap-plugin.php:55 google-sitemap-plugin.php:1575
+#: google-sitemap-plugin.php:2150 google-sitemap-plugin.php:2171
+#: includes/class-gglstmp-settings.php:83
+msgid "Settings"
+msgstr "Indstillinger"
+
+# automatic translation
+#: bws_menu/bws_functions.php:323 bws_menu/bws_menu.php:417
+#: bws_menu/class-bws-settings.php:920 bws_menu/class-bws-settings.php:1210
+#: bws_menu/class-bws-settings.php:1223 bws_menu/deprecated.php:262
+msgid "or"
+msgstr "eller"
+
+# automatic translation
+#: bws_menu/bws_functions.php:324 bws_menu/bws_functions.php:356
+#: google-sitemap-plugin.php:1585
+msgid "Add New"
+msgstr "Tilføj ny"
+
+# automatic translation
+#: bws_menu/bws_functions.php:343
+msgid "Thank you for installing plugins by BestWebSoft!"
+msgstr "Tak, fordi du installerede plugins fra BestWebSoft!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:345
+msgid "More Details"
+msgstr "Flere detajler"
+
+# automatic translation
+#: bws_menu/bws_functions.php:346
+msgid "Less Details"
+msgstr "Færre detaljer"
+
+# automatic translation
+#: bws_menu/bws_functions.php:384
+msgid "Go to Settings"
+msgstr "Gå til indstillinger"
+
+# automatic translation
+#: bws_menu/bws_functions.php:404
+msgid "Deprecated function(-s) is used on the site here:"
+msgstr "Deprecated function(-s) bruges på siden her:"
+
+# automatic translation
+#: bws_menu/bws_functions.php:422
+msgid ""
+"This function(-s) will be removed over time. Please update the product(-s)."
+msgstr ""
+"Denne funktion (-er) vil blive fjernet med tiden. Opdater venligst produktet/"
+"produkterne."
+
+# automatic translation
+#: bws_menu/bws_functions.php:675
+#, php-format
+msgid "Thank you for choosing %s plugin!"
+msgstr "Tak, fordi du valgte %s plugin!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:676
+msgid ""
+"If you have a feature, suggestion or idea you'd like to see in the plugin, "
+"we'd love to hear about it!"
+msgstr ""
+"Hvis du har en funktion, et forslag eller en idé, du gerne vil se i "
+"plugin'et, vil vi meget gerne høre om det!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:677
+msgid "Suggest a Feature"
+msgstr "Foreslå en funktion"
+
+# automatic translation
+#: bws_menu/bws_functions.php:733
+msgid "Upgrade to pro"
+msgstr "Opgrader til pro"
+
+#: bws_menu/bws_functions.php:734
+msgid "30% OFF"
+msgstr "30% RABAT"
+
+#: bws_menu/bws_functions.php:737
+msgid "Get exclusive Pro features and premium support."
+msgstr "Få eksklusive Pro-funktioner og førsteklasses support."
+
+#: bws_menu/bws_functions.php:738
+msgid "Use"
+msgstr "Brug"
+
+#: bws_menu/bws_functions.php:738
+msgid "UPGRADE"
+msgstr "OPGRADER"
+
+#: bws_menu/bws_functions.php:738
+msgid "promo code for instant savings!"
+msgstr "kampagnekode for øjeblikkelig besparelse!"
+
+#: bws_menu/bws_functions.php:740
+msgid "Get PRO NOW"
+msgstr "Få PRO NU"
+
+# automatic translation
+#: bws_menu/bws_functions.php:782
+msgid "Affiliate Program"
+msgstr "Partnerprogram"
+
+# automatic translation
+#: bws_menu/bws_functions.php:783
+#, php-format
+msgid "Get %s"
+msgstr "Hent %s"
+
+# automatic translation
+#: bws_menu/bws_functions.php:784
+msgid "from each BestWebSoft plugin and theme sale you refer"
+msgstr "fra hvert BestWebSoft-plugin- og temasalg, du henviser til"
+
+# automatic translation
+#: bws_menu/bws_functions.php:788
+msgid "Join affiliate program"
+msgstr "Deltag i affiliate-program"
+
+# automatic translation
+#: bws_menu/bws_functions.php:792
+msgid "Promote and sell products"
+msgstr "Promovere og sælge produkter"
+
+# automatic translation
+#: bws_menu/bws_functions.php:796
+msgid "Get commission!"
+msgstr "Få provision!"
+
+# automatic translation
+#: bws_menu/bws_functions.php:801
+msgid "Start Now"
+msgstr "Start nu"
+
+# automatic translation
+#: bws_menu/bws_functions.php:818 bws_menu/class-bws-settings.php:649
+#: bws_menu/class-bws-settings.php:654 bws_menu/class-bws-settings.php:725
+#: bws_menu/class-bws-settings.php:730
+msgid "Notice"
+msgstr "Bemærk"
+
+# automatic translation
+#: bws_menu/bws_functions.php:818
+msgid "The plugin's settings have been changed."
+msgstr "Plugin-indstillingerne er blevet ændret."
+
+# automatic translation
+#: bws_menu/bws_functions.php:819 bws_menu/class-bws-settings.php:240
+#: bws_menu/class-bws-settings.php:268
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+# automatic translation
+#: bws_menu/bws_functions.php:841
+msgid ""
+"You can always look at premium options by checking the \"Pro Options\" in "
+"the \"Misc\" tab."
+msgstr ""
+"Du kan altid se på premium-muligheder ved at markere \"Pro Options\" i fanen "
+"\"Misc\"."
+
+# automatic translation
+#: bws_menu/bws_functions.php:1040
+msgid "Add BWS Shortcode"
+msgstr "Tilføj BWS-kortkode"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1041
+msgid "Add BWS Plugins Shortcode"
+msgstr "Tilføj kortkode til BWS Plugins"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1063
+msgid "Add shortcode"
+msgstr "Tilføj kortkode"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1063
+msgid "Add BestWebSoft plugins' shortcodes using this button."
+msgstr "Tilføj BestWebSoft-plugins' kortkoder ved hjælp af denne knap."
+
+# automatic translation
+#: bws_menu/bws_functions.php:1179 includes/class-gglstmp-settings.php:385
+#: includes/class-gglstmp-settings.php:468
+#: includes/class-gglstmp-settings.php:684 includes/pro_banners.php:26
+msgid "Close"
+msgstr "Luk"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1272
+msgid "Are you sure you want to restore default settings?"
+msgstr "Er du sikker på, at du vil gendanne standardindstillingerne?"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1275
+msgid "Yes, restore all settings"
+msgstr "Ja, gendan alle indstillinger"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1276
+msgid "No, go back to the settings page"
+msgstr "Nej, gå tilbage til indstillingssiden"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1340
+msgid "Plugin"
+msgstr "Plugin"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1349
+msgid "Shortcode settings"
+msgstr "Indstillinger for kortkoder"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1359
+msgid "The shortcode will be inserted"
+msgstr "Kortkoden vil blive indsat"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1414 google-sitemap-plugin.php:2173
+msgid "FAQ"
+msgstr "FAQ"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1420
+msgid "For more information:"
+msgstr "For mere information:"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1421 bws_menu/bws_menu.php:518
+#: bws_menu/class-bws-settings.php:881
+msgid "Documentation"
+msgstr "Dokumentation"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1422 bws_menu/bws_menu.php:520
+#: bws_menu/class-bws-settings.php:883
+msgid "Video Instructions"
+msgstr "Video-instruktioner"
+
+# automatic translation
+#: bws_menu/bws_functions.php:1423
+msgid "Submit a Request"
+msgstr "Indsend en anmodning"
+
+# automatic translation
+#: bws_menu/bws_menu.php:125 bws_menu/class-bws-settings.php:985
+msgid "Wrong license key"
+msgstr "Forkert licensnøgle"
+
+# automatic translation
+#: bws_menu/bws_menu.php:147 bws_menu/class-bws-settings.php:1011
+#: bws_menu/class-bws-settings.php:1088 bws_menu/class-bws-settings.php:1127
+msgid ""
+"Something went wrong. Please try again later. If the error appears again, "
+"please contact us"
+msgstr ""
+"Noget gik galt. Prøv venligst igen senere. Hvis fejlen opstår igen, bedes du "
+"kontakte os"
+
+# automatic translation
+#: bws_menu/bws_menu.php:147 bws_menu/class-bws-settings.php:1011
+#: bws_menu/class-bws-settings.php:1088 bws_menu/class-bws-settings.php:1127
+msgid "We are sorry for inconvenience."
+msgstr "Vi beklager ulejligheden."
+
+# automatic translation
+#: bws_menu/bws_menu.php:154 bws_menu/class-bws-settings.php:1017
+#: bws_menu/class-bws-settings.php:1133
+msgid "Wrong license key."
+msgstr "Forkert licensnøgle."
+
+# automatic translation
+#: bws_menu/bws_menu.php:156
+msgid ""
+"This license key is bound to another site. Change it via personal Client "
+"Area."
+msgstr ""
+"Denne licensnøgle er bundet til et andet sted. Skift den via det personlige "
+"klientområde."
+
+# automatic translation
+#: bws_menu/bws_menu.php:156
+msgid "Log in"
+msgstr "Log ind"
+
+# automatic translation
+#: bws_menu/bws_menu.php:158 bws_menu/bws_menu.php:425
+#: bws_menu/deprecated.php:174
+msgid "Unfortunately, you have exceeded the number of available tries per day."
+msgstr "Du har desværre overskredet antallet af tilgængelige forsøg pr. dag."
+
+# automatic translation
+#: bws_menu/bws_menu.php:160
+#, php-format
+msgid ""
+"Unfortunately, Your license has expired. To continue getting top-priority "
+"support and plugin updates, you should extend it in your %s"
+msgstr ""
+"Din licens er desværre udløbet. For at fortsætte med at få topprioriteret "
+"support og plugin-opdateringer skal du forlænge den i din %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:162 bws_menu/class-bws-settings.php:1141
+msgid ""
+"Unfortunately, the Pro licence was already installed to this domain. The Pro "
+"Trial license can be installed only once."
+msgstr ""
+"Desværre var Pro-licensen allerede installeret på dette domæne. Pro Trial-"
+"licensen kan kun installeres én gang."
+
+# automatic translation
+#: bws_menu/bws_menu.php:168 bws_menu/class-bws-settings.php:1032
+msgid "The license key is valid."
+msgstr "Licensnøglen er gyldig."
+
+# automatic translation
+#: bws_menu/bws_menu.php:170 bws_menu/class-bws-settings.php:1036
+msgid "Your license will expire on"
+msgstr "Din licens udløber den"
+
+# automatic translation
+#: bws_menu/bws_menu.php:173
+msgid "Congratulations! Pro Membership license is activated successfully."
+msgstr ""
+"Vi ønsker dig tillykke! Pro Membership-licensen er aktiveret med succes."
+
+# automatic translation
+#: bws_menu/bws_menu.php:180 bws_menu/class-bws-settings.php:1151
+msgid ""
+"Something went wrong. Try again later or upload the plugin manually. We are "
+"sorry for inconvenience."
+msgstr ""
+"Noget gik galt. Prøv igen senere, eller upload plugin'et manuelt. Vi "
+"beklager ulejligheden."
+
+# automatic translation
+#: bws_menu/bws_menu.php:191
+msgid "Please enter your license key."
+msgstr "Indtast licensnøgle."
+
+# automatic translation
+#: bws_menu/bws_menu.php:203
+msgid "Not set"
+msgstr "Ikke sat"
+
+# automatic translation
+#: bws_menu/bws_menu.php:206
+msgid "On"
+msgstr "Til"
+
+# automatic translation
+#: bws_menu/bws_menu.php:206
+msgid "Off"
+msgstr "Off"
+
+# automatic translation
+#: bws_menu/bws_menu.php:207 bws_menu/bws_menu.php:208
+#: bws_menu/bws_menu.php:209 bws_menu/bws_menu.php:210
+#: bws_menu/bws_menu.php:211 bws_menu/bws_menu.php:212
+#: bws_menu/bws_menu.php:221
+msgid "N/A"
+msgstr "N/A"
+
+# automatic translation
+#: bws_menu/bws_menu.php:212
+msgid "Mb"
+msgstr "Mb"
+
+# automatic translation
+#: bws_menu/bws_menu.php:213 bws_menu/bws_menu.php:214
+#: bws_menu/bws_menu.php:215 bws_menu/bws_menu.php:219
+#: includes/pro_banners.php:165
+msgid "Yes"
+msgstr "Ja"
+
+# automatic translation
+#: bws_menu/bws_menu.php:213 bws_menu/bws_menu.php:214
+#: bws_menu/bws_menu.php:215 bws_menu/bws_menu.php:219
+#: includes/pro_banners.php:173 includes/pro_banners.php:181
+#: includes/pro_banners.php:189 includes/pro_banners.php:197
+msgid "No"
+msgstr "Nej"
+
+# automatic translation
+#: bws_menu/bws_menu.php:226
+msgid "WordPress Environment"
+msgstr "WordPress Miljø"
+
+# automatic translation
+#: bws_menu/bws_menu.php:228
+msgid "Home URL"
+msgstr "Forside URL"
+
+# automatic translation
+#: bws_menu/bws_menu.php:229
+msgid "Website URL"
+msgstr "Hjemmeside URL"
+
+# automatic translation
+#: bws_menu/bws_menu.php:230
+msgid "WP Version"
+msgstr "WP Version"
+
+# automatic translation
+#: bws_menu/bws_menu.php:231
+msgid "WP Multisite"
+msgstr "WP Multiwebsted"
+
+# automatic translation
+#: bws_menu/bws_menu.php:232
+msgid "WP Memory Limit"
+msgstr "WP Memory Limit"
+
+# automatic translation
+#: bws_menu/bws_menu.php:233
+msgid "Active Theme"
+msgstr "Aktiv tema"
+
+# automatic translation
+#: bws_menu/bws_menu.php:233 bws_menu/bws_menu.php:278
+#: bws_menu/bws_menu.php:281
+#, php-format
+msgid "by %s"
+msgstr "af %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:237
+msgid "Server Environment"
+msgstr "Server miljø"
+
+# automatic translation
+#: bws_menu/bws_menu.php:239
+msgid "Operating System"
+msgstr "Operativsystem"
+
+# automatic translation
+#: bws_menu/bws_menu.php:240
+msgid "Server"
+msgstr "Server"
+
+# automatic translation
+#: bws_menu/bws_menu.php:241
+msgid "PHP Version"
+msgstr "PHP Version"
+
+# automatic translation
+#: bws_menu/bws_menu.php:242
+msgid "PHP Allow URL fopen"
+msgstr "PHP Tillad URL-fopen"
+
+# automatic translation
+#: bws_menu/bws_menu.php:243
+msgid "PHP Memory Limit"
+msgstr "PHP Memory Limit"
+
+# automatic translation
+#: bws_menu/bws_menu.php:244
+msgid "Memory Usage"
+msgstr "Hukommelsesforbrug"
+
+# automatic translation
+#: bws_menu/bws_menu.php:245
+msgid "PHP Max Upload Size"
+msgstr "Størrelse på maks. PHP upload"
+
+# automatic translation
+#: bws_menu/bws_menu.php:246
+msgid "PHP Max Post Size"
+msgstr "PHP Max indlægsstørrelse"
+
+# automatic translation
+#: bws_menu/bws_menu.php:247
+msgid "PHP Max Script Execute Time"
+msgstr "PHP Max Script Execute Time"
+
+# automatic translation
+#: bws_menu/bws_menu.php:248
+msgid "PHP Exif support"
+msgstr "PHP Exif-understøttelse"
+
+# automatic translation
+#: bws_menu/bws_menu.php:249
+msgid "PHP IPTC support"
+msgstr "PHP IPTC-understøttelse"
+
+# automatic translation
+#: bws_menu/bws_menu.php:250
+msgid "PHP XML support"
+msgstr "PHP XML-understøttelse"
+
+# automatic translation
+#: bws_menu/bws_menu.php:256
+msgid "Database"
+msgstr "Database"
+
+# automatic translation
+#: bws_menu/bws_menu.php:258
+msgid "WP DB version"
+msgstr "WP DB-version"
+
+# automatic translation
+#: bws_menu/bws_menu.php:259
+msgid "MySQL version"
+msgstr "MySQL version"
+
+# automatic translation
+#: bws_menu/bws_menu.php:260
+msgid "SQL Mode"
+msgstr "SQL-Mode"
+
+# automatic translation
+#: bws_menu/bws_menu.php:264
+msgid "Active Plugins"
+msgstr "Aktive plugins"
+
+# automatic translation
+#: bws_menu/bws_menu.php:269
+msgid "Inactive Plugins"
+msgstr "Inaktive plugins"
+
+# automatic translation
+#: bws_menu/bws_menu.php:290
+msgid "Please enter a valid email address."
+msgstr "Indtast venligst en gyldig E-mail."
+
+# automatic translation
+#: bws_menu/bws_menu.php:292
+#, php-format
+msgid "Email with system info is sent to %s."
+msgstr "E-mail med systeminfo sendes til %s."
+
+# automatic translation
+#: bws_menu/bws_menu.php:296
+msgid "Thank you for contacting us."
+msgstr "Tak, fordi du kontaktede os."
+
+# automatic translation
+#: bws_menu/bws_menu.php:320
+msgid "Sorry, email message could not be delivered."
+msgstr "Beklager, e-mailen kunne ikke leveres."
+
+# automatic translation
+#: bws_menu/bws_menu.php:345 bws_menu/bws_menu.php:376
+#: bws_menu/bws_menu.php:470 bws_menu/deprecated.php:29
+msgid "Plugins"
+msgstr "Plugins"
+
+# automatic translation
+#: bws_menu/bws_menu.php:355 bws_menu/bws_menu.php:387
+#: bws_menu/bws_menu.php:790 bws_menu/deprecated.php:30
+msgid "Themes"
+msgstr "Temaer"
+
+# automatic translation
+#: bws_menu/bws_menu.php:364 bws_menu/bws_menu.php:398
+#: bws_menu/bws_menu.php:826
+msgid "System status"
+msgstr "Systemstatus"
+
+# automatic translation
+#: bws_menu/bws_menu.php:405 google-sitemap-plugin.php:2174
+msgid "Support"
+msgstr "Support"
+
+# automatic translation
+#: bws_menu/bws_menu.php:406
+msgid "Manage purchased licenses & subscriptions"
+msgstr "Administrer købte licenser og abonnementer"
+
+# automatic translation
+#: bws_menu/bws_menu.php:415
+#, php-format
+msgid "Get Access to %s+ Premium Plugins"
+msgstr "Få adgang til %s+ Premium Plugins"
+
+# automatic translation
+#: bws_menu/bws_menu.php:417
+msgid "Subscribe to Pro Membership"
+msgstr "Abonner på Pro-medlemskab"
+
+# automatic translation
+#: bws_menu/bws_menu.php:427 bws_menu/bws_menu.php:450
+#: bws_menu/class-bws-settings.php:937 bws_menu/deprecated.php:135
+msgid "Check license key"
+msgstr "Tjek licensnøgle"
+
+# automatic translation
+#: bws_menu/bws_menu.php:436
+msgid "Enter your license key"
+msgstr "Indtast din licensnøgle"
+
+# automatic translation
+#: bws_menu/bws_menu.php:448 bws_menu/bws_menu.php:722
+#: bws_menu/bws_menu.php:731 bws_menu/class-bws-settings.php:910
+#: bws_menu/deprecated.php:172 bws_menu/deprecated.php:180
+#: bws_menu/deprecated.php:270 bws_menu/deprecated.php:283
+#: includes/class-gglstmp-settings.php:441
+#: includes/class-gglstmp-settings.php:607
+msgid "Activate"
+msgstr "Aktiver"
+
+# automatic translation
+#: bws_menu/bws_menu.php:471
+msgid "Upload Plugin"
+msgstr "Upload-plugin"
+
+# automatic translation
+#: bws_menu/bws_menu.php:476
+#, php-format
+msgid ""
+"The plugin generated %d characters of <strong>unexpected output</strong> "
+"during activation. If you notice &#8220;headers already sent&#8221; "
+"messages, problems with syndication feeds or other issues, try deactivating "
+"or removing this plugin."
+msgstr ""
+"Dette plugin genererede% d tegn af <strong>uventet udgang</strong> under "
+"aktivering. Hvis du bemærker “headers allerede sendt” budskaber, problemer "
+"med syndikering feeds eller andre problemer, skal du prøve at deaktivere "
+"eller fjerne dette plugin."
+
+# automatic translation
+#: bws_menu/bws_menu.php:478
+msgid ""
+"Plugin could not be activated because it triggered a <strong>fatal error</"
+"strong>."
+msgstr ""
+"Plugin kunne ikke aktiveres, fordi det udløste en <strong>fatal fejl</"
+"strong>."
+
+# automatic translation
+#: bws_menu/bws_menu.php:483
+msgid "Plugin <strong>activated</strong>."
+msgstr "Plugin <strong>aktiveret</strong>."
+
+# automatic translation
+#: bws_menu/bws_menu.php:500
+msgid "Download Pro Plugin"
+msgstr "Download Pro Plugin"
+
+# automatic translation
+#: bws_menu/bws_menu.php:502 bws_menu/class-bws-settings.php:864
+msgid "Your Pro plugin is ready"
+msgstr "Dit Pro-plugin er klar"
+
+# automatic translation
+#: bws_menu/bws_menu.php:504 bws_menu/class-bws-settings.php:866
+msgid "Your plugin has been zipped, and now is ready to download."
+msgstr "Dit plugin er blevet zippet og er nu klar til at blive downloadet."
+
+# automatic translation
+#: bws_menu/bws_menu.php:507 bws_menu/class-bws-settings.php:869
+msgid "Download Now"
+msgstr "Download nu"
+
+# automatic translation
+#: bws_menu/bws_menu.php:511 bws_menu/class-bws-settings.php:873
+msgid "Need help installing the plugin?"
+msgstr "Har du brug for hjælp til at installere plugin'et?"
+
+# automatic translation
+#: bws_menu/bws_menu.php:513 bws_menu/class-bws-settings.php:875
+msgid "How to install WordPress plugin from your admin Dashboard (ZIP archive)"
+msgstr ""
+"Sådan installerer du WordPress-plugin fra dit admin-dashboard (ZIP-arkiv)"
+
+# automatic translation
+#: bws_menu/bws_menu.php:516 bws_menu/class-bws-settings.php:879
+msgid "Get Started"
+msgstr "Kom i gang"
+
+# automatic translation
+#: bws_menu/bws_menu.php:522 bws_menu/class-bws-settings.php:885
+msgid "Knowledge Base"
+msgstr "Vidensdatabase"
+
+# automatic translation
+#: bws_menu/bws_menu.php:525
+msgid "Licenses & Domains"
+msgstr "Licenser og domæner"
+
+# automatic translation
+#: bws_menu/bws_menu.php:530
+msgid "Client Area"
+msgstr "Klientområde"
+
+# automatic translation
+#: bws_menu/bws_menu.php:534
+msgid "Return to BestWebSoft Panel"
+msgstr "Gå tilbage til BestWebSoft Panel"
+
+# automatic translation
+#: bws_menu/bws_menu.php:550 bws_menu/bws_menu.php:588
+#: bws_menu/bws_menu.php:764 includes/pro_banners.php:106
+msgid "All"
+msgstr "Alle"
+
+# automatic translation
+#: bws_menu/bws_menu.php:559 bws_menu/bws_menu.php:813
+msgid "Installed"
+msgstr "Installeret"
+
+# automatic translation
+#: bws_menu/bws_menu.php:568
+msgid "Not Installed"
+msgstr "Ikke installeret"
+
+# automatic translation
+#: bws_menu/bws_menu.php:575
+msgid "Filter results"
+msgstr "Filtrer resultater"
+
+# automatic translation
+#: bws_menu/bws_menu.php:578 bws_menu/bws_menu.php:754
+msgid "Category"
+msgstr "Kategori"
+
+# automatic translation
+#: bws_menu/bws_menu.php:674
+msgid "Not installed"
+msgstr "Ikke installeret"
+
+# automatic translation
+#: bws_menu/bws_menu.php:678
+msgid "Renew to get updates"
+msgstr "Forny for at få opdateringer"
+
+# automatic translation
+#: bws_menu/bws_menu.php:681
+#, php-format
+msgid "Update to v %s"
+msgstr "Opdatering til v %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:696 bws_menu/bws_menu.php:725
+msgid "Get Pro"
+msgstr "Få Pro"
+
+# automatic translation
+#: bws_menu/bws_menu.php:702 bws_menu/class-bws-settings.php:207
+#: bws_menu/class-bws-settings.php:1220 google-sitemap-plugin.php:79
+#: includes/pro_banners.php:32
+msgid "Upgrade to Pro"
+msgstr "Opgrader til Pro"
+
+# automatic translation
+#: bws_menu/bws_menu.php:722 bws_menu/bws_menu.php:731
+msgid "Activate this plugin"
+msgstr "Aktiver denne plugin"
+
+# automatic translation
+#: bws_menu/bws_menu.php:736
+msgid "Install this plugin"
+msgstr "Installer dette plugin"
+
+# automatic translation
+#: bws_menu/bws_menu.php:736 includes/class-gglstmp-settings.php:444
+#: includes/class-gglstmp-settings.php:611
+msgid "Install Now"
+msgstr "Installer Nu"
+
+# automatic translation
+#: bws_menu/bws_menu.php:749
+msgid "Nothing found. Try another criteria."
+msgstr "Intet fundet. Prøv et andet kriterium."
+
+# automatic translation
+#: bws_menu/bws_menu.php:802
+#, php-format
+msgid "By %s"
+msgstr "Af %s"
+
+# automatic translation
+#: bws_menu/bws_menu.php:811
+msgid "Already Installed"
+msgstr "Allerede installeret"
+
+# automatic translation
+#: bws_menu/bws_menu.php:823
+msgid "Browse More WordPress Themes"
+msgstr "Gennemse flere WordPress-temaer"
+
+# automatic translation
+#: bws_menu/bws_menu.php:844
+msgid "Send to support"
+msgstr "Send til support"
+
+# automatic translation
+#: bws_menu/bws_menu.php:851
+msgid "Send to custom email &#187;"
+msgstr "Send til brugerdefineret e-mail \""
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:179
+msgid "Information"
+msgstr "Information"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:194
+msgid "Inactive"
+msgstr "Inaktiv"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:202
+msgid "Expired"
+msgstr "Udløbet"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:205
+#, php-format
+msgid "%s day(-s) left"
+msgstr "%s dag(-s) venstre"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:211
+#, php-format
+msgid "Expired on %s"
+msgstr "Udløbet den %s"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:211
+msgid "Renew Now"
+msgstr "Forny nu"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:213
+msgid "Active"
+msgstr "Aktiv"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:219
+msgid "License"
+msgstr "Licens"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:222 google-sitemap-plugin.php:1671
+#: google-sitemap-plugin.php:1675 google-sitemap-plugin.php:1776
+#: google-sitemap-plugin.php:1792 google-sitemap-plugin.php:1822
+#: google-sitemap-plugin.php:1836
+msgid "Status"
+msgstr "Status"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:226
+msgid "Version"
+msgstr "Version"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:373
+msgid "All plugin settings were restored."
+msgstr "Alle plugin-indstillinger blev gendannet."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:538
+msgid "Custom Code"
+msgstr "Brugerdefineret kode"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:544
+msgid ""
+"The ability to add custom code is available in the Pro version. If the Pro "
+"version is not available please contact us via Help Center"
+msgstr ""
+"Muligheden for at tilføje brugerdefineret kode er tilgængelig i Pro-"
+"versionen. Hvis Pro-versionen ikke er tilgængelig, bedes du kontakte os via "
+"Help Center"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:555
+msgid "You do not have sufficient permissions to edit plugins for this site."
+msgstr ""
+"Du har ikke tilstrækkelige tilladelser til at redigere plugins til dette "
+"websted."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:561
+msgid "These styles will be added to the header on all pages of your site."
+msgstr "Disse stilarter føjes til overskriften på alle sider på dit websted."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:565
+#, php-format
+msgid ""
+"This PHP code will be hooked to the %s Action and will be printed on front "
+"end only."
+msgstr ""
+"Denne PHP-kode vil blive koblet til %s-handlingen og vil kun blive udskrevet "
+"på forsiden."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:569
+msgid "These code will be added to the header on all pages of your site."
+msgstr ""
+"Disse koder vil blive tilføjet til headeren på alle sider på dit website."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:581
+msgid "Browsing"
+msgstr "Gennemsøgning"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:595
+#, php-format
+msgid "Activate custom %s code."
+msgstr "Aktivér brugerdefineret %s-kode."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:606
+#, php-format
+msgid "Learn more about %s"
+msgstr "Få mere at vide om %s"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:638
+msgid "Miscellaneous Settings"
+msgstr "Diverse indstillinger"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:649 bws_menu/class-bws-settings.php:725
+#, php-format
+msgid ""
+"It is prohibited to change %1$s settings on this site in the %2$s network "
+"settings."
+msgstr ""
+"Det er forbudt at ændre %1$s indstillinger på dette websted i %2$s "
+"netværksindstillingerne."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:654 bws_menu/class-bws-settings.php:730
+#, php-format
+msgid ""
+"It is prohibited to view %1$s settings on this site in the %2$s network "
+"settings."
+msgstr ""
+"Det er forbudt at se %1$s indstillinger på dette websted i %2$s "
+"netværksindstillingerne."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:665
+msgid "Pro Options"
+msgstr "Pro-indstillinger"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:675
+msgid "Enable to display plugin Pro options."
+msgstr "Aktiver for at vise plugin Pro-indstillinger."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:681
+msgid "Track Usage"
+msgstr "Brug af spor"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:691
+msgid ""
+"Enable to allow tracking plugin usage anonymously in order to make it better."
+msgstr ""
+"Aktivér for at tillade anonym sporing af plugin-brug for at gøre det bedre."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:696
+msgid "Default Settings"
+msgstr "Standardindstillinger"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:698
+msgid "Restore Settings"
+msgstr "Indstillinger for gendannelse"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:699
+msgid "This will restore plugin settings to defaults."
+msgstr "Dette vil gendanne plugin-indstillingerne til standardindstillingerne."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:714
+msgid "Import / Export"
+msgstr "Import / Eksport"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:848 includes/class-gglstmp-settings.php:87
+msgid "License Key"
+msgstr "Licensnøgle"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:913
+#, php-format
+msgid "Enter your license key to activate %s and get premium plugin features."
+msgstr ""
+"Indtast din licensnøgle for at aktivere %s og få premium plugin-funktioner."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:916 bws_menu/class-bws-settings.php:1137
+#: bws_menu/deprecated.php:277
+msgid ""
+"Unfortunately, you have exceeded the number of available tries per day. "
+"Please, upload the plugin manually."
+msgstr ""
+"Du har desværre overskredet antallet af tilgængelige forsøg pr. dag. Upload "
+"venligst plugin'et manuelt."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:920 bws_menu/deprecated.php:262
+#, php-format
+msgid "Start Your Free %s-Day Trial Now"
+msgstr "Start din gratis %s-dages prøveperiode nu"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:939
+msgid ""
+"If necessary, you can check if the license key is correct or reenter it in "
+"the field below."
+msgstr ""
+"Hvis det er nødvendigt, kan du kontrollere, om licensnøglen er korrekt, "
+"eller indtaste den igen i feltet nedenfor."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:950
+msgid "Manage License Settings"
+msgstr "Administrer licensindstillinger"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:952
+msgid "Login to Client Area"
+msgstr "Log ind på klientområdet"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:954
+msgid ""
+"Manage active licenses, download BWS products, and view your payment history "
+"using BestWebSoft Client Area."
+msgstr ""
+"Administrer aktive licenser, download BWS-produkter, og se din "
+"betalingshistorik ved hjælp af BestWebSoft Client Area."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:978
+msgid "Security check"
+msgstr "Sikkerhedstjek"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1019 bws_menu/class-bws-settings.php:1135
+msgid "This license key is bound to another site."
+msgstr "Denne licensnøgle er bundet til et andet sted."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1021
+msgid ""
+"This license key is valid, but Your license has expired. If you want to "
+"update our plugin in future, you should extend the license."
+msgstr ""
+"Denne licensnøgle er gyldig, men din licens er udløbet. Hvis du vil opdatere "
+"vores plugin i fremtiden, skal du forlænge licensen."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1023
+msgid "Unfortunately, you have exceeded the number of available tries."
+msgstr "Du har desværre overskredet antallet af tilgængelige forsøg."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1025
+msgid ""
+"Unfortunately, the Pro Trial licence was already installed to this domain. "
+"The Pro Trial license can be installed only once."
+msgstr ""
+"Desværre var Pro Trial-licensen allerede installeret på dette domæne. Pro "
+"Trial-licensen kan kun installeres én gang."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1030
+msgid "The Pro Trial license key is valid."
+msgstr "Pro Trial-licensnøglen er gyldig."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1043 bws_menu/deprecated.php:157
+#, php-format
+msgid ""
+"In order to continue using the plugin it is necessary to buy a %s license."
+msgstr ""
+"For at kunne fortsætte med at bruge pluginet er det nødvendigt at købe en %s-"
+"licens."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1139
+#, php-format
+msgid ""
+"Unfortunately, Your license has expired. To continue getting top-priority "
+"support and plugin updates, you should extend it in your %s."
+msgstr ""
+"Din licens er desværre udløbet. For fortsat at få support og plugin-"
+"opdateringer af højeste prioritet bør du forlænge den i din %s."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1188
+msgid "Please, enter Your license key"
+msgstr "Indtast venligst din licensnøgle"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1203
+msgid "Need Help?"
+msgstr "Brug for hjælp?"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1205
+msgid "Read the Instruction"
+msgstr "Læs instruktionen"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1210
+msgid "Watch the Video"
+msgstr "Se videoen"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1224
+msgid "Start Your Free Trial"
+msgstr "Start din gratis prøveperiode"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1262
+msgid "Request a Feature"
+msgstr "Anmod om en funktion"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1268
+#, php-format
+msgid "How can we improve %s?"
+msgstr "Hvordan kan vi forbedre %s?"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1270
+msgid "We look forward to hear your ideas."
+msgstr "Vi ser frem til at høre dine ideer."
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1272
+msgid "Describe your idea"
+msgstr "Beskriv din idé"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1275 bws_menu/deactivation-form.php:124
+msgid "Send website data and allow to contact me back"
+msgstr "Send webstedsdata, og giv mulighed for at kontakte mig tilbage"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1280
+msgid "Submit"
+msgstr "Send"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1281 bws_menu/deactivation-form.php:131
+msgid "Processing"
+msgstr "Behandler"
+
+# automatic translation
+#: bws_menu/class-bws-settings.php:1282
+msgid "Thank you!"
+msgstr "Tak!"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:26
+msgid "Need help? We are ready to answer your questions."
+msgstr "Har du brug for hjælp? Vi er klar til at besvare dine spørgsmål."
+
+# automatic translation
+#: bws_menu/deactivation-form.php:26
+msgid "Contact Support"
+msgstr "Kontakt support"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:31
+msgid "The plugin is not working"
+msgstr "Plugin’net virker ikke"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:33
+msgid "Kindly share what didn't work so we can fix it in future updates..."
+msgstr ""
+"Fortæl gerne, hvad der ikke virkede, så vi kan rette det i fremtidige "
+"opdateringer ..."
+
+# automatic translation
+#: bws_menu/deactivation-form.php:37
+msgid "The plugin didn't work as expected"
+msgstr "Plugin'et virkede ikke som forventet"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:39
+msgid "What did you expect?"
+msgstr "Hvad havde du forventet?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:43
+msgid "The plugin suddenly stopped working"
+msgstr "Plugin pludselig holdt op med at arbejde"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:50
+msgid "The plugin broke my site"
+msgstr "Pluginnet ødelagde mit websted"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:57
+msgid "I couldn't understand how to get it work"
+msgstr "Jeg kunne ikke forstå, hvordan jeg skulle få det til at virke"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:64
+msgid "I found a better plugin"
+msgstr "Jeg fandt et bedre plugin"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:66
+msgid "What's the plugin name?"
+msgstr "Hvad er navnet på pluginet?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:70
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Pluginnet er dejligt, men jeg har brug for en specifik feature du ikke har"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:72
+msgid "What feature?"
+msgstr "Hvilken funktion?"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:76
+msgid "I no longer need the plugin"
+msgstr "Jeg behøver ikke længere dette plugin"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:82
+msgid "It's a temporary deactivation, I'm just debugging an issue"
+msgstr "Det er en midlertidig deaktivering, jeg fejlsøger bare et problem"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:88
+msgid "Other"
+msgstr "Andet"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:97
+msgid "Quick Feedback"
+msgstr "Hurtig feedback"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:99
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr ""
+"Hvis du har et øjeblik, så lad os venligst vide, hvorfor du deaktiverer"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:129
+msgid "Submit and Deactivate"
+msgstr "Bekræft og deaktiver"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:130
+msgid "Skip and Deactivate"
+msgstr "Spring over og deaktiver"
+
+# automatic translation
+#: bws_menu/deactivation-form.php:276
+msgid "Please tell us the reason so we can improve it."
+msgstr "Fortæl os venligst årsagen, så vi kan forbedre den."
+
+# automatic translation
+#: bws_menu/deprecated.php:31
+msgid "System Status"
+msgstr "System status"
+
+# automatic translation
+#: bws_menu/deprecated.php:131
+msgid ""
+"If necessary, you can check if the license key is correct or reenter it in "
+"the field below. You can find your license key on your personal page - "
+"Client Area - on our website"
+msgstr ""
+"Hvis det er nødvendigt, kan du kontrollere, om licensnøglen er korrekt, "
+"eller indtaste den igen i feltet nedenfor. Du kan finde din licensnøgle på "
+"din personlige side - Client Area - på vores hjemmeside"
+
+# automatic translation
+#: bws_menu/deprecated.php:131
+msgid ""
+"(your username is the email address specified during the purchase). If "
+"necessary, please submit \"Lost your password?\" request."
+msgstr ""
+"(dit brugernavn er den e-mailadresse, der er angivet under købet). Hvis det "
+"er nødvendigt, bedes du indsende anmodningen \"Har du mistet din adgangskode?"
+"\"."
+
+# automatic translation
+#: bws_menu/deprecated.php:157
+msgid "After that, you can activate it by entering your license key."
+msgstr "Derefter kan du aktivere den ved at indtaste din licensnøgle."
+
+# automatic translation
+#: bws_menu/deprecated.php:160 bws_menu/deprecated.php:255
+msgid "License key can be found in the"
+msgstr "Licensnøglen kan findes i"
+
+# automatic translation
+#: bws_menu/deprecated.php:162 bws_menu/deprecated.php:257
+msgid "(your username is the email address specified during the purchase)."
+msgstr "(dit brugernavn er den e-mailadresse, der blev angivet under købet)."
+
+# automatic translation
+#: bws_menu/deprecated.php:189
+msgid ""
+"Congratulations! The Pro license of the plugin is activated successfully."
+msgstr ""
+"Vi ønsker dig tillykke! Pro-licensen til pluginet er aktiveret med succes."
+
+# automatic translation
+#: bws_menu/deprecated.php:191 bws_menu/deprecated.php:235
+msgid "Please, go to"
+msgstr "Gå venligst til"
+
+# automatic translation
+#: bws_menu/deprecated.php:191 bws_menu/deprecated.php:235
+msgid "the setting page"
+msgstr "indstillingssiden"
+
+# automatic translation
+#: bws_menu/deprecated.php:209
+msgid "Restore all plugin settings to defaults"
+msgstr "Gendan alle plugin-indstillinger til standard"
+
+# automatic translation
+#: bws_menu/deprecated.php:211
+msgid "Restore settings"
+msgstr "Gendan indstillinger"
+
+# automatic translation
+#: bws_menu/deprecated.php:233
+msgid ""
+"Congratulations! Pro version of the plugin is  installed and activated "
+"successfully."
+msgstr ""
+"Vi ønsker dig tillykke! Pro-versionen af pluginet er installeret og "
+"aktiveret med succes."
+
+# automatic translation
+#: bws_menu/deprecated.php:244
+msgid "Show Pro features"
+msgstr "Vis Pro-funktioner"
+
+# automatic translation
+#: bws_menu/deprecated.php:251
+msgid "Enter your license key to install and activate"
+msgstr "Indtast din licensnøgle for at installere og aktivere"
+
+# automatic translation
+#: bws_menu/deprecated.php:253
+msgid "version of the plugin."
+msgstr "version af plugin'et."
+
+# automatic translation
+#: bws_menu/product_list.php:13
+msgid "Admin Tools"
+msgstr "Admin værktøjer"
+
+# automatic translation
+#: bws_menu/product_list.php:14
+msgid "Content"
+msgstr "Indhold"
+
+# automatic translation
+#: bws_menu/product_list.php:15
+msgid "eCommerce"
+msgstr "e-handel"
+
+# automatic translation
+#: bws_menu/product_list.php:16
+msgid "Marketing"
+msgstr "Marketing"
+
+# automatic translation
+#: bws_menu/product_list.php:17
+msgid "Navigation"
+msgstr "Navigation"
+
+# automatic translation
+#: bws_menu/product_list.php:18
+msgid "Recommended"
+msgstr "Anbefalet"
+
+# automatic translation
+#: bws_menu/product_list.php:19
+msgid "Security"
+msgstr "Sikkerhed"
+
+# automatic translation
+#: bws_menu/product_list.php:20
+msgid "SEO"
+msgstr "SEO"
+
+# automatic translation
+#: bws_menu/product_list.php:21
+msgid "SMM"
+msgstr "SMM"
+
+# automatic translation
+#: bws_menu/product_list.php:28
+msgid "Give a birth for your bike rental and booking WordPress website."
+msgstr "Giv din WordPress-hjemmeside til cykeludlejning og -booking en fødsel."
+
+# automatic translation
+#: bws_menu/product_list.php:40
+msgid "Best secure captcha plugin to protect your WordPress forms."
+msgstr "Bedste sikre captcha-plugin til at beskytte dine WordPress-formularer."
+
+# automatic translation
+#: bws_menu/product_list.php:50
+msgid "Create your own rental website for car renting and booking."
+msgstr "Opret dit eget udlejningswebsted til biludlejning og -booking."
+
+# automatic translation
+#: bws_menu/product_list.php:62
+msgid ""
+"Add columns with custom content to WordPress website pages, posts, widgets, "
+"etc."
+msgstr ""
+"Tilføj kolonner med tilpasset indhold til WordPress-websider, indlæg, "
+"widgets osv."
+
+# automatic translation
+#: bws_menu/product_list.php:69
+msgid ""
+"Allow customers to reach you using secure contact form plugin any website "
+"must have."
+msgstr ""
+"Giv kunderne mulighed for at kontakte dig ved hjælp af et sikkert "
+"kontaktformular-plugin, som ethvert website skal have."
+
+# automatic translation
+#: bws_menu/product_list.php:79
+msgid "Add unlimited number of contact forms to WordPress website."
+msgstr ""
+"Tilføj et ubegrænset antal kontaktformularer til din WordPress-hjemmeside."
+
+# automatic translation
+#: bws_menu/product_list.php:89
+msgid "Save and manage Contact Form messages. Never lose important data."
+msgstr ""
+"Gem og administrer meddelelser i kontaktformularen. Mist aldrig vigtige data."
+
+# automatic translation
+#: bws_menu/product_list.php:99
+msgid "Add unlimited custom pages to WordPress admin dashboard."
+msgstr ""
+"Tilføj et ubegrænset antal brugerdefinerede sider til WordPress' admin-"
+"dashboard."
+
+# automatic translation
+#: bws_menu/product_list.php:109
+msgid ""
+"Add custom post types and taxonomies to WordPress website search results."
+msgstr ""
+"Tilføj tilpassede indlægstyper og taksonomier til søgeresultater på "
+"WordPress-hjemmesider."
+
+# automatic translation
+#: bws_menu/product_list.php:119
+msgid "Add PayPal and 2CO donate buttons to receive charity payments."
+msgstr ""
+"Tilføj PayPal- og 2CO-donationsknapper for at modtage velgørenhedsbetalinger."
+
+# automatic translation
+#: bws_menu/product_list.php:126
+msgid ""
+"Get latest error log messages to diagnose website problems. Define and fix "
+"issues faster."
+msgstr ""
+"Få de seneste fejllogmeddelelser til at diagnosticere problemer på "
+"hjemmesiden. Definer og løs problemer hurtigere."
+
+# automatic translation
+#: bws_menu/product_list.php:133
+msgid ""
+"Add Facebook Follow, Like, and Share buttons to WordPress posts, pages, and "
+"widgets."
+msgstr ""
+"Tilføj Facebook Follow-, Like- og Share-knapper til WordPress-indlæg, -sider "
+"og -widgets."
+
+# automatic translation
+#: bws_menu/product_list.php:143
+msgid ""
+"Add beautiful galleries, albums & images to your WordPress website in a few "
+"clicks."
+msgstr ""
+"Tilføj smukke gallerier, album og billeder til din WordPress-hjemmeside med "
+"et par klik."
+
+# automatic translation
+#: bws_menu/product_list.php:153
+msgid ""
+"Stronger security solution which protects your WordPress website from hacks "
+"and unauthorized login attempts."
+msgstr ""
+"Stærkere sikkerhedsløsning, som beskytter din WordPress-hjemmeside mod hacks "
+"og uautoriserede loginforsøg."
+
+# automatic translation
+#: bws_menu/product_list.php:163
+msgid ""
+"Add Adsense ads to WordPress website pages, posts, custom posts, search "
+"results, categories, tags, and widgets."
+msgstr ""
+"Føj Adsense-annoncer til WordPress-websider, indlæg, brugerdefinerede "
+"indlæg, søgeresultater, kategorier, tags og widgets."
+
+# automatic translation
+#: bws_menu/product_list.php:173
+msgid "Add Google Analytics code to WordPress website and track basic stats."
+msgstr ""
+"Tilføj Google Analytics-kode til WordPress-hjemmesiden og spor grundlæggende "
+"statistik."
+
+# automatic translation
+#: bws_menu/product_list.php:183
+msgid "Protect WordPress website forms from spam entries with reCaptcha."
+msgstr "Beskyt WordPress-hjemmesideformularer mod spam med reCaptcha."
+
+# automatic translation
+#: bws_menu/product_list.php:193
+msgid "Add customized Google maps to WordPress posts, pages and widgets."
+msgstr "Føj tilpassede Google maps til WordPress-indlæg, -sider og -widgets."
+
+# automatic translation
+#. Description of the plugin/theme
+#: bws_menu/product_list.php:203
+msgid ""
+"Generate and add XML sitemap to WordPress website. Help search engines index "
+"your blog."
+msgstr ""
+"Generer og tilføj XML-sitemap til WordPress-hjemmeside. Hjælp søgemaskiner "
+"med at indeksere din blog."
+
+# automatic translation
+#: bws_menu/product_list.php:213
+msgid ""
+"Replace external WordPress website links with Google shortlinks and track "
+"click stats."
+msgstr ""
+"Erstat eksterne WordPress-webstedslinks med Google-kortlinks, og følg "
+"klikstatistikken."
+
+#: bws_menu/product_list.php:220
+msgid "Create Content with GPT."
+msgstr "Skab indhold med GPT."
+
+# automatic translation
+#: bws_menu/product_list.php:231
+msgid ""
+"Protect WordPress website – allow and deny access for certain IP addresses, "
+"hostnames, etc."
+msgstr ""
+"Beskyt WordPress-webstedet - tillad og nægt adgang for bestemte IP-adresser, "
+"værtsnavne osv."
+
+# automatic translation
+#: bws_menu/product_list.php:241
+msgid ""
+"Create your personal job board and listing WordPress website. Search jobs, "
+"submit CV/resumes, choose candidates."
+msgstr ""
+"Opret din personlige jobtavle og liste over WordPress-websteder. Søg jobs, "
+"indsend CV'er, vælg kandidater."
+
+# automatic translation
+#: bws_menu/product_list.php:248
+msgid ""
+"Protect WordPress website against brute force attacks. Limit rate of login "
+"attempts."
+msgstr ""
+"Beskyt WordPress-hjemmesiden mod brute force-angreb. Begræns antallet af "
+"login-forsøg."
+
+# automatic translation
+#: bws_menu/product_list.php:258
+msgid ""
+"Add LinkedIn Share and Follow buttons to WordPress posts, pages and widgets. "
+"5 plugins included – profile, insider, etc."
+msgstr ""
+"Føj LinkedIn Share- og Follow-knapper til WordPress-indlæg, -sider og -"
+"widgets. 5 plugins inkluderet - profil, insider osv."
+
+# automatic translation
+#: bws_menu/product_list.php:268
+msgid ""
+"Translate WordPress website content to other languages manually. Create "
+"multilingual pages, posts, widgets, menus, etc."
+msgstr ""
+"Oversæt WordPress-hjemmesideindhold til andre sprog manuelt. Opret "
+"flersprogede sider, indlæg, widgets, menuer osv."
+
+# automatic translation
+#: bws_menu/product_list.php:278
+msgid ""
+"Add customizable pagination to WordPress website. Split long content to "
+"multiple pages for better navigation."
+msgstr ""
+"Tilføj tilpassede sider til WordPress-hjemmesider. Opdel langt indhold på "
+"flere sider for bedre navigation."
+
+# automatic translation
+#: bws_menu/product_list.php:288
+msgid ""
+"Generate PDF files and print WordPress posts/pages. Customize document "
+"header/footer styles and appearance."
+msgstr ""
+"Generer PDF-filer og udskriv WordPress-indlæg/sider. Tilpas dokumentets "
+"header/footer-stil og udseende."
+
+# automatic translation
+#: bws_menu/product_list.php:298
+msgid ""
+"Add Pinterest Follow, Pin It buttons and profile widgets (Pin, Board, "
+"Profile) to WordPress posts, pages and widgets."
+msgstr ""
+"Tilføj Pinterest Follow, Pin It-knapper og profilwidgets (Pin, Board, "
+"Profile) til WordPress-indlæg, -sider og -widgets."
+
+# automatic translation
+#: bws_menu/product_list.php:308
+msgid ""
+"Create your personal portfolio WordPress website. Manage and showcase past "
+"projects to get more clients."
+msgstr ""
+"Opret dit personlige portfolio WordPress-websted. Administrer og fremvis "
+"tidligere projekter for at få flere kunder."
+
+# automatic translation
+#: bws_menu/product_list.php:318
+msgid "Export WordPress posts to CSV file format easily. Configure data order."
+msgstr ""
+"Eksporter nemt WordPress-indlæg til CSV-filformat. Konfigurer "
+"datarækkefølgen."
+
+# automatic translation
+#: bws_menu/product_list.php:328
+msgid ""
+"Add extra fields to default WordPress user profile. The easiest way to "
+"create and manage additional custom values."
+msgstr ""
+"Tilføj ekstra felter til standard WordPress-brugerprofilen. Den nemmeste "
+"måde at oprette og administrere ekstra brugerdefinerede værdier på."
+
+# automatic translation
+#: bws_menu/product_list.php:338
+msgid ""
+"Add and display HTML advertisement banner on WordPress website. Customize "
+"bar styles and appearance."
+msgstr ""
+"Tilføj og vis HTML-reklamebannere på WordPress-hjemmesider. Tilpas barens "
+"stilarter og udseende."
+
+# automatic translation
+#: bws_menu/product_list.php:348
+msgid ""
+"Add customizable quotes and tips blocks to WordPress posts, pages and "
+"widgets."
+msgstr ""
+"Føj tilpassede citater og tipsblokke til WordPress-indlæg, sider og widgets."
+
+# automatic translation
+#: bws_menu/product_list.php:355
+msgid ""
+"Add rating plugin to your WordPress website to receive feedback from your "
+"customers."
+msgstr ""
+"Tilføj rating-plugin til dit WordPress-websted for at modtage feedback fra "
+"dine kunder."
+
+# automatic translation
+#: bws_menu/product_list.php:365
+msgid ""
+"Create your personal real estate WordPress website. Sell, rent and buy "
+"properties. Add, search and browse listings easily."
+msgstr ""
+"Opret dit personlige WordPress-websted for fast ejendom. Sælg, udlej og køb "
+"ejendomme. Tilføj, søg og gennemse lister nemt."
+
+# automatic translation
+#: bws_menu/product_list.php:375
+msgid ""
+"Add related, featured, latest, and popular posts to your WordPress website. "
+"Connect your blog readers with a relevant content."
+msgstr ""
+"Tilføj relaterede, fremhævede, seneste og populære indlæg til din WordPress-"
+"hjemmeside. Forbind dine bloglæsere med relevant indhold."
+
+# automatic translation
+#: bws_menu/product_list.php:382
+msgid ""
+"Send bulk email messages to WordPress users. Custom templates, advanced "
+"settings and detailed reports."
+msgstr ""
+"Send masse-e-mails til WordPress-brugere. Brugerdefinerede skabeloner, "
+"avancerede indstillinger og detaljerede rapporter."
+
+# automatic translation
+#: bws_menu/product_list.php:392
+msgid ""
+"The best responsive slider plugin for your WordPress website. Create "
+"beautifully animated slides just in a few clicks."
+msgstr ""
+"Det bedste responsive slider-plugin til din WordPress-hjemmeside. Opret "
+"smukt animerede slides med nogle få klik."
+
+# automatic translation
+#: bws_menu/product_list.php:399
+msgid ""
+"Configure SMTP server to receive email messages from WordPress to Gmail, "
+"Yahoo, Hotmail and other services."
+msgstr ""
+"Konfigurer SMTP-serveren til at modtage e-mail-beskeder fra WordPress til "
+"Gmail, Yahoo, Hotmail og andre tjenester."
+
+# automatic translation
+#: bws_menu/product_list.php:406
+msgid ""
+"Add social media buttons and widgets to WordPress posts, pages and widgets. "
+"FB, Twitter, Pinterest, LinkedIn."
+msgstr ""
+"Føj knapper og widgets til sociale medier til WordPress-indlæg, -sider og -"
+"widgets. FB, Twitter, Pinterest, LinkedIn."
+
+# automatic translation
+#: bws_menu/product_list.php:416
+msgid ""
+"Add social media login, registration, and commenting to your WordPress "
+"website."
+msgstr ""
+"Tilføj login, registrering og kommentering på sociale medier til din "
+"WordPress-hjemmeside."
+
+# automatic translation
+#: bws_menu/product_list.php:423
+msgid ""
+"Add email newsletter sign up form to WordPress posts, pages and widgets. "
+"Collect data and subscribe your users."
+msgstr ""
+"Tilføj tilmeldingsformular til nyhedsbrev til WordPress-indlæg, sider og "
+"widgets. Indsaml data og tilmeld dine brugere."
+
+# automatic translation
+#: bws_menu/product_list.php:433
+msgid ""
+"Add testimonials and feedbacks from your customers to WordPress website "
+"posts, pages, and widgets."
+msgstr ""
+"Tilføj udtalelser og feedback fra dine kunder til indlæg, sider og widgets "
+"på dit WordPress-websted."
+
+# automatic translation
+#: bws_menu/product_list.php:443
+msgid ""
+"Best timesheet plugin for WordPress. Track employee time, streamline "
+"attendance and generate reports."
+msgstr ""
+"Bedste timeseddel-plugin til WordPress. Spor medarbejdernes tid, strømlin "
+"fremmøde og generer rapporter."
+
+# automatic translation
+#: bws_menu/product_list.php:453
+msgid ""
+"Add Twitter Follow, Tweet, Hashtag, and Mention buttons to WordPress posts "
+"and pages."
+msgstr ""
+"Tilføj Twitter Follow-, Tweet-, Hashtag- og Mention-knapper til WordPress-"
+"indlæg og -sider."
+
+# automatic translation
+#: bws_menu/product_list.php:463
+msgid ""
+"Automatically check and update WordPress website core with all installed "
+"plugins and themes to the latest versions."
+msgstr ""
+"Kontroller og opdater automatisk WordPress-webstedets kerne med alle "
+"installerede plugins og temaer til de nyeste versioner."
+
+# automatic translation
+#: bws_menu/product_list.php:473
+msgid ""
+"Powerful user role management plugin for WordPress website. Create, edit, "
+"copy, and delete user roles."
+msgstr ""
+"Kraftfuldt plugin til styring af brugerroller på WordPress-hjemmesider. "
+"Opret, rediger, kopier og slet brugerroller."
+
+# automatic translation
+#: bws_menu/product_list.php:483
+msgid ""
+"Display live count of online visitors who are currently browsing your "
+"WordPress website."
+msgstr ""
+"Vis live-tælling af onlinebesøgende, der i øjeblikket surfer på din "
+"WordPress-hjemmeside."
+
+# automatic translation
+#: bws_menu/product_list.php:493
+msgid ""
+"Backup and export Zendesk Help Center content automatically to your "
+"WordPress website database."
+msgstr ""
+"Sikkerhedskopier og eksporter Zendesk Help Center-indhold automatisk til din "
+"WordPress-webstedsdatabase."
+
+# automatic translation
+#: google-sitemap-plugin.php:44 google-sitemap-plugin.php:54
+#: includes/class-gglstmp-settings.php:343
+msgid "Sitemap Settings"
+msgstr "Sitemap-indstillinger"
+
+# automatic translation
+#: google-sitemap-plugin.php:62 google-sitemap-plugin.php:63
+#: google-sitemap-plugin.php:1584
+msgid "Custom Links"
+msgstr "Brugerdefinerede links"
+
+# automatic translation
+#: google-sitemap-plugin.php:470
+msgid "Post categories"
+msgstr "Indlægskategorier"
+
+# automatic translation
+#: google-sitemap-plugin.php:471
+msgid "Post tags"
+msgstr "Indlægstags"
+
+# automatic translation
+#: google-sitemap-plugin.php:1577
+msgid "Please enable JavaScript in your browser."
+msgstr "Aktivér venligst JavaScript i din browser."
+
+# automatic translation
+#: google-sitemap-plugin.php:1660 google-sitemap-plugin.php:1755
+#: google-sitemap-plugin.php:1818
+msgid "Website"
+msgstr "Hjemmeside"
+
+# automatic translation
+#: google-sitemap-plugin.php:1672 google-sitemap-plugin.php:1706
+#: google-sitemap-plugin.php:1793
+msgid "Not added"
+msgstr "Ikke tilføjet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1676 google-sitemap-plugin.php:1709
+#: google-sitemap-plugin.php:1823 google-sitemap-plugin.php:1937
+msgid "Added"
+msgstr "Tilføjet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1678 google-sitemap-plugin.php:1880
+#: google-sitemap-plugin.php:1892 google-sitemap-plugin.php:1906
+msgid "Verification Status"
+msgstr "Verifikationsstatus"
+
+# automatic translation
+#: google-sitemap-plugin.php:1680 google-sitemap-plugin.php:1893
+msgid "Verified"
+msgstr "Verificeret"
+
+# automatic translation
+#: google-sitemap-plugin.php:1682
+msgid "Not verified"
+msgstr "Ikke bekræftet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1691 google-sitemap-plugin.php:1914
+msgid "Sitemap Status"
+msgstr "Sitemap-status"
+
+# automatic translation
+#: google-sitemap-plugin.php:1711
+msgid "Added with errors."
+msgstr "Tilføjet med fejl."
+
+# automatic translation
+#: google-sitemap-plugin.php:1711
+msgid "View errors in Google Webmaster Tools"
+msgstr "Se fejl i Google Webmaster Tools"
+
+# automatic translation
+#: google-sitemap-plugin.php:1714
+msgid "Sitemap URL"
+msgstr "Sitemap-URL"
+
+# automatic translation
+#: google-sitemap-plugin.php:1717 google-sitemap-plugin.php:1733
+#: google-sitemap-plugin.php:1795 google-sitemap-plugin.php:1838
+#: google-sitemap-plugin.php:1877 google-sitemap-plugin.php:1908
+#: google-sitemap-plugin.php:1950 google-sitemap-plugin.php:1970
+#: includes/class-gglstmp-settings.php:782
+msgid "Error"
+msgstr "Fejl"
+
+# automatic translation
+#: google-sitemap-plugin.php:1717
+msgid "Please check the sitemap file manually."
+msgstr "Tjek venligst sitemap-filen manuelt."
+
+# automatic translation
+#: google-sitemap-plugin.php:1722 google-sitemap-plugin.php:1783
+#: google-sitemap-plugin.php:1826 google-sitemap-plugin.php:1865
+#: google-sitemap-plugin.php:1896 google-sitemap-plugin.php:1940
+msgid "Unexpected error"
+msgstr "Uventet fejl"
+
+# automatic translation
+#: google-sitemap-plugin.php:1735 google-sitemap-plugin.php:1841
+#: google-sitemap-plugin.php:1911
+msgid "Manual verification required."
+msgstr "Manuel bekræftelse påkrævet."
+
+# automatic translation
+#: google-sitemap-plugin.php:1777
+msgid "Deleted"
+msgstr "Slettet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1857 google-sitemap-plugin.php:1860
+#: google-sitemap-plugin.php:1876
+msgid "Verification Code"
+msgstr "Verifikationskode"
+
+# automatic translation
+#: google-sitemap-plugin.php:1858
+msgid "Received and added to the site"
+msgstr "Modtaget og tilføjet til webstedet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1861
+msgid "Received, but has not been added to the site"
+msgstr "Modtaget, men er ikke blevet tilføjet til webstedet"
+
+# automatic translation
+#: google-sitemap-plugin.php:1953
+msgid "Please add the sitemap file manually."
+msgstr "Tilføj venligst sitemap-filen manuelt."
+
+# automatic translation
+#: google-sitemap-plugin.php:1958
+msgid "Error 404"
+msgstr "Fejl 404"
+
+# automatic translation
+#: google-sitemap-plugin.php:1960
+#, php-format
+msgid "The sitemap file %s not found."
+msgstr "Sitemap-filen %s blev ikke fundet."
+
+# automatic translation
+#: google-sitemap-plugin.php:1970
+msgid "The sitemap file not found."
+msgstr "Sitemap-filen blev ikke fundet."
+
+# automatic translation
+#: google-sitemap-plugin.php:2085 google-sitemap-plugin.php:2094
+msgid "Sitemap plugin"
+msgstr "Sitemap-plugin"
+
+# automatic translation
+#: google-sitemap-plugin.php:2127
+msgid "Canonical Url"
+msgstr "Kanonisk url"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:84
+msgid "Structure"
+msgstr "Struktur"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:85
+msgid "Misc"
+msgstr "Div"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:153
+msgid "Post category"
+msgstr "Kategori af indlæg"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:154
+msgid "Post tag"
+msgstr "Tag til indlæg"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:332
+msgid "Settings saved."
+msgstr "Indstillinger gemt."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:358
+msgid "Yoast Sitemap"
+msgstr "Yoast Sitemap"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:361
+msgid "Enable to activate the sitemap (Yoast sitemap will be deactivated)."
+msgstr "Aktivér for at aktivere sitemap (Yoast-sitemap deaktiveres)."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:372
+#, php-format
+msgctxt "%robots.txt file link%"
+msgid "Enable to add a sitemap file path to the %s file."
+msgstr "Gør det muligt at tilføje en sitemap-filsti til %s-filen."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:389
+msgid "Sitemap Filename"
+msgstr "Sitemap filnavn"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:392
+msgid ""
+"The default name is sitemap.xml. For multisite the default name is "
+"sitemap_blog_id.xml"
+msgstr ""
+"Standardnavnet er sitemap.xml. For multisite er standardnavnet "
+"sitemap_blog_id.xml"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:402
+msgid "Disable automatic canonical tag"
+msgstr "Deaktiver automatisk kanonisk tag"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:405
+msgid "Enable to remove automatic canonical tag with standart WP url"
+msgstr "Gør det muligt at fjerne automatisk kanonisk tag med standard-WP-url"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:409
+msgid "Disable all canonical tag"
+msgstr "Deaktiver alle kanoniske tags"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:412
+msgid "Enable to remove all canonical tag from plugin"
+msgstr "Gør det muligt at fjerne alle kanoniske tags fra plugin"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:416
+msgid "Media Sitemap"
+msgstr "Sitemap for medier"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:419
+msgid "Enable to create separate sitemap files for images and videos."
+msgstr ""
+"Gør det muligt at oprette separate sitemap-filer til billeder og videoer."
+
+#: includes/class-gglstmp-settings.php:423
+msgid "Images quality"
+msgstr "Billedernes kvalitet"
+
+#: includes/class-gglstmp-settings.php:426
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/class-gglstmp-settings.php:427
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/class-gglstmp-settings.php:428
+msgid "Large"
+msgstr "Stor"
+
+#: includes/class-gglstmp-settings.php:429
+msgid "Full"
+msgstr "Fuld"
+
+#: includes/class-gglstmp-settings.php:431
+msgid ""
+"Choosing the quality of images in the sitemap. If there is no image of the "
+"required size, a full-size image will be used."
+msgstr ""
+"Valg af kvaliteten af billeder i sitemap. Hvis der ikke findes et billede i "
+"den ønskede størrelse, bruges et billede i fuld størrelse."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:438
+msgid "This option will be applied to all websites in the network."
+msgstr "Denne indstilling vil blive anvendt på alle hjemmesider i netværket."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:451
+#, php-format
+msgid "%s Plugin"
+msgstr "%s Plugin"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:454
+#, php-format
+msgid "Enable to allow XML files access using %s plugin."
+msgstr "Aktivér for at tillade adgang til XML-filer ved hjælp af %s plugin."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:455
+msgid "The following string will be added to your .htaccess file"
+msgstr "Følgende streng vil blive tilføjet til din .htaccess-fil"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:479
+msgid "Split Sitemap"
+msgstr "Opdelt sitemap"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:482
+msgid ""
+"Create a main sitemap with separate child sitemaps for post, pages, "
+"categories"
+msgstr ""
+"Opret et hoved-sitemap med separate underordnede sitemaps for indlæg, sider "
+"og kategorier"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:486
+msgid "Split Sitemap Items"
+msgstr "Opdel sitemap-elementer"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:498
+msgid "Enable the items on the Structure tab to make them available."
+msgstr "Aktivér elementerne på fanen Struktur for at gøre dem tilgængelige."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:502
+msgid "Items Limit"
+msgstr "Begrænsning af varer"
+
+#: includes/class-gglstmp-settings.php:505
+msgid ""
+"The number of rows from the database when executing a request to build a "
+"sitemap"
+msgstr ""
+"Antallet af rækker fra databasen, når der udføres en anmodning om at opbygge "
+"et sitemap"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:509
+msgid "URLs Limit"
+msgstr "Grænse for webadresser"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:514
+msgid ""
+"A sitemap file can't contain more than 50,000 URLs and must be no larger "
+"than 50 MB uncompressed."
+msgstr ""
+"En sitemap-fil kan ikke indeholde mere end 50.000 URL'er og må ikke være "
+"større end 50 MB ukomprimeret."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:518
+msgid "Decrease the limit if your sitemap exceeds file size limit."
+msgstr "Reducer grænsen, hvis dit sitemap overskrider filstørrelsesgrænsen."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:519
+msgid ""
+"When the limit is reached, the sitemap will be splitted into multiple files."
+msgstr "Når grænsen er nået, bliver sitemap'et delt op i flere filer."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:524
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:528
+msgid ""
+"This hosting does not support сURL, so you cannot add a sitemap file "
+"automatically."
+msgstr ""
+"Denne hosting understøtter ikke сURL, så du kan ikke tilføje en sitemap-fil "
+"automatisk."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:532
+msgid "Logout"
+msgstr "Log ud"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:536
+msgid "Manage Website with Google Search Console"
+msgstr "Administrer hjemmeside med Google Search Console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:538
+msgid "Add"
+msgstr "Tilføj"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:539 includes/pro_banners.php:162
+msgid "Delete"
+msgstr "Slet"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:540
+msgid "Get Info"
+msgstr "Få info"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:542
+msgid ""
+"Add, delete or get info about this website using your Google Search Console "
+"account."
+msgstr ""
+"Tilføj, slet eller få oplysninger om dette websted ved hjælp af din Google "
+"Search Console-konto."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:552
+msgid "Client ID"
+msgstr "Client ID"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:562
+msgid "Client Secret"
+msgstr "Client Secret"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:582
+msgid "Open the Google Search Console"
+msgstr "Åbn Google Search Console"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:583
+msgid "Remove Console Access"
+msgstr "Fjern konsoladgang"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:585
+msgid "Invalid authorization code. Please try again."
+msgstr "Ugyldig autorisationskode. Prøv venligst igen."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:593
+msgid "You can also add your sitemap to Google Search Console manually."
+msgstr "Du kan også tilføje dit sitemap til Google Search Console manuelt."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:594
+msgid "Read the instruction"
+msgstr "Læs instruktionen"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:599
+msgid "Alternate Language Pages"
+msgstr "Sider på alternative sprog"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:620
+msgid "Enable to add alternate language pages using Multilanguage plugin."
+msgstr ""
+"Gør det muligt at tilføje sider på alternative sprog ved hjælp af "
+"Multilanguage-plugin."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:633
+msgid "Sitemap Structure"
+msgstr "Sitemap-struktur"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:638
+msgid "Post Types"
+msgstr "Indholdstyper"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:654
+msgid "Enable to add post type links to the sitemap."
+msgstr "Gør det muligt at tilføje links til indlægstyper til sitemap."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:658
+msgid "Taxonomies"
+msgstr "Taksonomier"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:673
+msgid "Enable to taxonomy links to the sitemap."
+msgstr "Aktivér taksonomi-links til sitemap."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:755
+#, php-format
+msgid "Sitemap File: %s"
+msgstr "Sitemap-fil: %s"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:785
+#, php-format
+msgid ""
+"Can't access XML files. Try to add the following rule %1$s to your %2$s file "
+"which is located in the root of your website to resolve this error. Find the "
+"following line %3$s and paste the code just after it."
+msgstr ""
+"Kan ikke få adgang til XML-filer. Prøv at tilføje følgende regel %1$s til "
+"din %2$s-fil, som ligger i roden af dit website, for at løse denne fejl. "
+"Find følgende linje %3$s, og indsæt koden lige efter den."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:803
+msgid "Note"
+msgstr "Note"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:804
+msgid ""
+"Another plugin is providing Google Client functionality and may interrupt "
+"proper plugin work."
+msgstr ""
+"Et andet plugin leverer Google Client-funktionalitet og kan forstyrre "
+"korrekt plugin-arbejde."
+
+#: includes/class-gglstmp-settings.php:820
+#, php-format
+msgctxt "%reading settings page link%"
+msgid ""
+"The “Robots.txt” option is enabled. You should disable the “Search Engine "
+"Visibility\" option on the %s."
+msgstr ""
+"Indstillingen \"Robots.txt\" er aktiveret. Du bør deaktivere indstillingen "
+"\"Synlighed for søgemaskiner\" på %s."
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:824
+msgctxt "...on the reading settings page."
+msgid "Reading Settings page"
+msgstr "Side med læseindstillinger"
+
+# automatic translation
+#: includes/class-gglstmp-settings.php:828
+msgid ""
+"Also, please add the following code to the beginning of your \".htaccess\" "
+"file:"
+msgstr "Tilføj også følgende kode til begyndelsen af din \".htaccess\"-fil:"
+
+# automatic translation
+#: includes/pro_banners.php:23
+msgid "This option is available in Pro version of plugin"
+msgstr "Denne mulighed er tilgængelig i Pro-versionen af plugin"
+
+# automatic translation
+#: includes/pro_banners.php:38
+msgid "This tab contains Pro options only."
+msgstr "Denne fane indeholder kun Pro-indstillinger."
+
+# automatic translation
+#: includes/pro_banners.php:40
+#, php-format
+msgid "%1$sChange the settings%2$s to view the Pro options."
+msgstr "%1$sSkift indstillinger%2$s for at se Pro-indstillingerne."
+
+# automatic translation
+#: includes/pro_banners.php:59
+msgid "Title and Meta Description"
+msgstr "Titel og metabeskrivelse"
+
+# automatic translation
+#: includes/pro_banners.php:62
+msgid "Enable to change title and meta description."
+msgstr "Gør det muligt at ændre titel og metabeskrivelse."
+
+# automatic translation
+#: includes/pro_banners.php:66 includes/pro_banners.php:130
+#: includes/pro_banners.php:209
+msgid "Change Frequency"
+msgstr "Ændre frekvens"
+
+# automatic translation
+#: includes/pro_banners.php:69 includes/pro_banners.php:167
+#: includes/pro_banners.php:175 includes/pro_banners.php:183
+#: includes/pro_banners.php:191 includes/pro_banners.php:199
+msgid "Monthly"
+msgstr "Månedlig"
+
+# automatic translation
+#: includes/pro_banners.php:71
+msgid ""
+"This value provides general information to search engines and tell them how "
+"frequently the page is likely to change. It may not correlate exactly to how "
+"often they crawl the website."
+msgstr ""
+"Denne værdi giver generel information til søgemaskinerne og fortæller dem, "
+"hvor ofte siden sandsynligvis vil blive ændret. Den korrelerer ikke "
+"nødvendigvis med, hvor ofte de gennemsøger hjemmesiden."
+
+# automatic translation
+#: includes/pro_banners.php:75
+msgid "External Sitemap Update Frequency"
+msgstr "Hyppighed af opdatering af eksternt sitemap"
+
+# automatic translation
+#: includes/pro_banners.php:77
+msgid "day(-s)"
+msgstr "dag(-s)"
+
+# automatic translation
+#: includes/pro_banners.php:79
+msgid ""
+"This option sets how often the external index sitemap files should be "
+"checked for updates."
+msgstr ""
+"Denne indstilling angiver, hvor ofte de eksterne index sitemap-filer skal "
+"tjekkes for opdateringer."
+
+# automatic translation
+#: includes/pro_banners.php:93
+msgid "Example of site pages' tree"
+msgstr "Eksempel på træ til websider"
+
+# automatic translation
+#: includes/pro_banners.php:107
+msgid "Enabled"
+msgstr "Aktiveret"
+
+# automatic translation
+#: includes/pro_banners.php:108
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+# automatic translation
+#: includes/pro_banners.php:112
+msgid "Search"
+msgstr "Søg"
+
+# automatic translation
+#: includes/pro_banners.php:117
+msgid "Bulk Actions"
+msgstr "Massehandling"
+
+# automatic translation
+#: includes/pro_banners.php:119
+msgid "Apply"
+msgstr "Anvend"
+
+# automatic translation
+#: includes/pro_banners.php:121
+msgid "items"
+msgstr "varer"
+
+# automatic translation
+#: includes/pro_banners.php:129 includes/pro_banners.php:208
+msgid "Priority"
+msgstr "Prioitet"
+
+# automatic translation
+#: includes/pro_banners.php:131 includes/pro_banners.php:210
+msgid "Last Changed"
+msgstr "Sidst rettet"
+
+# automatic translation
+#: includes/pro_banners.php:140
+msgid "Please note"
+msgstr "Bemærk"
+
+# automatic translation
+#: includes/pro_banners.php:141
+msgid ""
+"All URLs listed in the sitemap.xml must use the same protocol (HTTP or "
+"HTTPS) and must be located on the same host as the sitemap.xml."
+msgstr ""
+"Alle URL'er i sitemap.xml skal bruge den samme protokol (HTTP eller HTTPS) "
+"og skal være placeret på den samme host som sitemap.xml."
+
+# automatic translation
+#: includes/pro_banners.php:141
+msgid "You can also add multiple URLs at once."
+msgstr "Du kan også tilføje flere URL'er på én gang."
+
+# automatic translation
+#: includes/pro_banners.php:148
+msgid "Always"
+msgstr "Altid"
+
+# automatic translation
+#: includes/pro_banners.php:152
+msgid "Save"
+msgstr "Gem"
+
+# automatic translation
+#: includes/pro_banners.php:160
+msgid "Edit"
+msgstr "Rediger"
+
+# automatic translation
+#: includes/pro_banners.php:161
+msgid "Disable"
+msgstr "Deaktiver"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+msgid "Sitemap by BestWebSoft"
+msgstr "Sitemap af BestWebSoft"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+msgid "https://bestwebsoft.com/products/wordpress/plugins/google-sitemap/"
+msgstr "https://bestwebsoft.com/products/wordpress/plugins/google-sitemap/"
+
+# automatic translation
+#. Author of the plugin/theme
+msgid "BestWebSoft"
+msgstr "BestWebSoft"
+
+# automatic translation
+#. Author URI of the plugin/theme
+msgid "https://bestwebsoft.com/"
+msgstr "https://bestwebsoft.com/"

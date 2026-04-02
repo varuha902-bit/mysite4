@@ -1,0 +1,33 @@
+@-webkit-keyframes faedropAndGrow {
+  0% {
+    -webkit-transform: translateY(0) scale(0.5);
+    transform: translateY(0) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-100px) scale(1);
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes faedropAndGrow {
+  0% {
+    -webkit-transform: translateY(0) scale(0.5);
+    transform: translateY(0) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-100px) scale(1);
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+
+.faestar {
+  position: absolute;
+  pointer-events: none;
+  -webkit-animation: faedropAndGrow 1s ease-out forwards;
+  animation: faedropAndGrow 1s ease-out forwards;
+  opacity: 1;
+  will-change: transform, opacity;
+}

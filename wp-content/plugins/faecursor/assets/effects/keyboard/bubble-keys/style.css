@@ -1,0 +1,32 @@
+/* Bubble Keys - Keyboard letter bubbles rising from bottom */
+
+.fae-bubble-key {
+  position: fixed;
+  font-size: 26px;
+  padding: 10px;
+  background: rgba(0, 150, 255, 0.3);
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  z-index: 999999;
+  animation: fae-bubble-up 1.4s ease-out forwards;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 46px;
+  min-height: 46px;
+}
+
+@keyframes fae-bubble-up {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-160px) scale(1.4);
+    opacity: 0;
+  }
+}
+

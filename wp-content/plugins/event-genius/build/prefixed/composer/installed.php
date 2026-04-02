@@ -1,0 +1,5 @@
+<?php
+
+namespace WPEventGenius_Vendor;
+
+return array('root' => array('pretty_version' => 'dev-master', 'version' => 'dev-master', 'type' => 'wordpress-plugin', 'install_path' => __DIR__ . '/../../', 'aliases' => array(), 'reference' => '22cdacfb90c70412eeb7eb641929a464b9959728', 'name' => 'eventgenius/evge', 'dev' => \false), 'versions' => array('eventgenius/evge' => array('pretty_version' => 'dev-master', 'version' => 'dev-master', 'type' => 'wordpress-plugin', 'install_path' => __DIR__ . '/../../', 'aliases' => array(), 'reference' => '22cdacfb90c70412eeb7eb641929a464b9959728', 'dev_requirement' => \false), 'spatie/enum' => array('pretty_version' => '2.3.8', 'version' => '2.3.8.0', 'type' => 'library', 'install_path' => __DIR__ . '/../spatie/enum', 'aliases' => array(), 'reference' => '49bd478efff2552df50ef42b9d70c32178b953bd', 'dev_requirement' => \false), 'spatie/icalendar-generator' => array('pretty_version' => '1.0.6', 'version' => '1.0.6.0', 'type' => 'library', 'install_path' => __DIR__ . '/../spatie/icalendar-generator', 'aliases' => array(), 'reference' => 'fd8f50cd2d365ff953275b726f7784f565c58fb1', 'dev_requirement' => \false)));

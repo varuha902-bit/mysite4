@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gslider-blocks/image-slider",
+  "version": "1.0.0",
+  "title": "Image Slider",
+  "category": "gslider-blocks",
+  "description": "Scrollable carousel for client/brand images.",
+  "keywords": [
+    "image",
+    "images",
+    "client image",
+    "brand",
+    "brand image",
+    "partner",
+    "carousel",
+    "slider",
+    "image slider"
+  ],
+  "example": {
+    "attributes": {
+      "preview": true
+    },
+    "viewportWidth": 410
+  },
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "customClassName": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gslider-blocks",
+  "editorScript": [
+    "file:./index.js",
+    "gslider-blocks-swiper-script",
+    "gslider-blocks-fslightbox-script"
+  ],
+  "editorStyle": [
+    "file:./index.css",
+    "gslider-blocks-swiper-style"
+  ],
+  "style": [
+    "file:./style-index.css",
+    "gslider-blocks-swiper-style"
+  ],
+  "viewScript": [
+    "file:./view.js",
+    "gslider-blocks-swiper-script",
+    "gslider-blocks-fslightbox-script"
+  ]
+}
